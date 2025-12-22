@@ -11,8 +11,8 @@ sudo chmod a+r /usr/share/keyrings/NexusSfan.pgp
 cat <<EOF | sudo tee /etc/apt/sources.list.d/xlibre-debian.sources
 Types: deb
 URIs: https://xlibre-debian.github.io/debian/
-Suites: main
-Components: stable
+Suites: stable
+Components: main
 Architectures: amd64
 Signed-By: /usr/share/keyrings/NexusSfan.pgp
 EOF
