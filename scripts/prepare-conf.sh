@@ -1,4 +1,4 @@
-# Sourced by update-repo.sh and update-repo-clean.sh.
+# Sourced by update-repo.sh (working directory = repo root).
 # Requires components.env to be sourced first (SUITE, ARCHS, COMPONENTS).
 
 # Ensure required directory structure and cache exist
@@ -10,8 +10,8 @@ for c in $COMPONENTS; do
 done
 mkdir -p .cache
 
-# Write apt-ftparchive configs
-cat > generate.conf <<EOF
+# Write apt-ftparchive configs (kept in .cache, which is gitignored)
+cat > .cache/generate.conf <<EOF
 Dir {
   ArchiveDir ".";
   CacheDir "./.cache";
@@ -32,7 +32,7 @@ Tree "dists/$SUITE" {
 };
 EOF
 
-cat > release.conf <<EOF
+cat > .cache/release.conf <<EOF
 APT::FTPArchive::Release::Origin "dev-jam";
 APT::FTPArchive::Release::Label "dev-jam";
 APT::FTPArchive::Release::Suite "$SUITE";

@@ -16,8 +16,8 @@ for arg in "$@"; do
   esac
 done
 
-# Change directory to the repository root where this script is located
-cd "$(dirname "$0")"
+# Change directory to the repository root (this script lives in scripts/)
+cd "$(dirname "$0")/.."
 
 # -------------------------------------------------------------------
 # File size check (GitHub hard limit = 100 MB)
@@ -49,17 +49,17 @@ fi
 
 KEY="debian@bobrosbag.nl"
 
-source ./components.env
-source ./prepare-conf.sh
+source scripts/components.env
+source scripts/prepare-conf.sh
 
 # Generate Packages indices for all components
 echo "Generating Packages indices..."
-apt-ftparchive generate generate.conf
+apt-ftparchive generate .cache/generate.conf
 echo
 
 # Generate and sign the Release files
 echo "Generating and signing Release files..."
-apt-ftparchive -c release.conf release "dists/$SUITE" > "dists/$SUITE/Release"
+apt-ftparchive -c .cache/release.conf release "dists/$SUITE" > "dists/$SUITE/Release"
 gpg --yes --default-key "$KEY" -abs -o "dists/$SUITE/Release.gpg" "dists/$SUITE/Release"
 gpg --yes --default-key "$KEY" --clearsign -o "dists/$SUITE/InRelease" "dists/$SUITE/Release"
 echo
