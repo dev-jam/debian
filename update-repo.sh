@@ -1,6 +1,21 @@
 #!/bin/bash
 set -e
 
+usage() {
+  echo "Usage: $0 [--clean]"
+  echo "  (no flag)  commit changes on main and push"
+  echo "  --clean    replace history with one orphan snapshot, force push and run gc"
+}
+
+CLEAN=0
+for arg in "$@"; do
+  case "$arg" in
+    --clean)   CLEAN=1 ;;
+    -h|--help) usage; exit 0 ;;
+    *)         echo "Unknown option: $arg" >&2; usage >&2; exit 1 ;;
+  esac
+done
+
 # Change directory to the repository root where this script is located
 cd "$(dirname "$0")"
 
@@ -32,21 +47,39 @@ fi
 
 KEY="debian@bobrosbag.nl"
 
-# Ensure required directory structure and cache exist
-mkdir -p dists/trixie/{main,tools,science,test}/binary-amd64
-mkdir -p .cache
+source ./components.env
+source ./prepare-conf.sh
 
 # Generate Packages indices for all components
 apt-ftparchive generate generate.conf
 
 # Generate and sign the Release files
-apt-ftparchive -c release.conf release dists/trixie > dists/trixie/Release
-gpg --yes --default-key "$KEY" -abs -o dists/trixie/Release.gpg dists/trixie/Release
-gpg --yes --default-key "$KEY" --clearsign -o dists/trixie/InRelease dists/trixie/Release
+apt-ftparchive -c release.conf release "dists/$SUITE" > "dists/$SUITE/Release"
+gpg --yes --default-key "$KEY" -abs -o "dists/$SUITE/Release.gpg" "dists/$SUITE/Release"
+gpg --yes --default-key "$KEY" --clearsign -o "dists/$SUITE/InRelease" "dists/$SUITE/Release"
 
-# Commit and push changes to GitHub
-git add -A
-git commit -m "Repository update $(date -Iseconds)"
-git push origin main
+# Show size of objects
+git count-objects -vH
+
+if [ "$CLEAN" -eq 1 ]; then
+  # Create fresh orphan snapshot and force push
+  git checkout --orphan publish-tmp
+  git add -A
+  git commit -qm "Repository snapshot $(date -I)"
+  git branch -M main
+  git push --force origin main
+
+  # Local garbage collection to free disk space
+  git reflog expire --expire=now --all
+  git gc --prune=now --aggressive
+else
+  # Commit and push changes to GitHub
+  git add -A
+  git commit -m "Repository update $(date -Iseconds)"
+  git push origin main
+fi
+
+# Show size of objects
+git count-objects -vH
 
 echo "Repository successfully updated and pushed."
