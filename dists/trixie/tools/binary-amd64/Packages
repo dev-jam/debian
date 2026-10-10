@@ -1,0 +1,1309 @@
+Package: audacity-data
+Architecture: all
+Version: 3.7.8+dfsg-1~bpo13+2
+Multi-Arch: foreign
+Priority: optional
+Section: sound
+Source: audacity
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 16462
+Recommends: audacity
+Filename: pool/tools/audacity-data_3.7.8+dfsg-1~bpo13+2_all.deb
+Size: 2588832
+MD5sum: 1858fb87a3a5dba209f4a85c1ad09c1a
+SHA1: 76b0b7b2cc7856893e12e6724334d6e49bf85da0
+SHA256: c2a07454282bbc4d18d1af4d99a125bfbdd2c08bd525773c3d711a03cddf96df
+SHA512: 74fa8151beb544e35a75fd359c5903252371a41cbce395585beb5e03d096c62fd12d2d1183276beb8b9fa66156b9be33aa33733971a9dd27eba3d6903b9ef145
+Homepage: https://www.audacityteam.org/
+Description: fast, cross-platform audio editor (data)
+ Audacity is a multi-track audio editor for Linux/Unix, MacOS and
+ Windows.  It is designed for easy recording, playing and editing of
+ digital audio.  Audacity features digital effects and spectrum
+ analysis tools.  Editing is very fast and provides unlimited
+ undo/redo.
+ .
+ This package contains the architecture-independent data files.
+
+Package: audacity
+Architecture: amd64
+Version: 3.7.8+dfsg-1~bpo13+2
+Priority: optional
+Section: sound
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 32564
+Depends: audacity-data (= 3.7.8+dfsg-1~bpo13+2), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libexpat1 (>= 2.0.1), libflac++11 (>= 1.5.0), libflac14 (>= 1.5.0), libgcc-s1 (>= 4.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk-3-0t64 (>= 3.9.10), libid3tag0 (>= 0.15.1b), liblilv-0-0 (>= 0.24.0~dfsg0), libmpg123-0t64 (>= 1.28.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), libopusfile0 (>= 0.5), libportaudio2 (>= 19+svn20101113), libportmidi0, libportsmf0t64 (>= 0.1~svn20101010), libsbsms10 (>= 2.3.0), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libsoxr0 (>= 0.1.0), libsqlite3-0 (>= 3.20.0), libstdc++6 (>= 14), libsuil-0-0 (>= 0.8.0~dfsg0), libtwolame0 (>= 0.3.6), libuuid1 (>= 2.16), libvamp-hostsdk3t64 (>= 2.10.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libwavpack1 (>= 5.2.0), libwxbase3.2-1t64 (>= 3.2.8+dfsg), libwxgtk3.2-1t64 (>= 3.2.8+dfsg)
+Suggests: ladspa-plugin
+Filename: pool/tools/audacity_3.7.8+dfsg-1~bpo13+2_amd64.deb
+Size: 9970120
+MD5sum: 5ed3a48e505810a650306cac1c71b326
+SHA1: 979b6855d59a19e7dff23b9a4363c9a98ba59c56
+SHA256: dd6c11a7c43ebefb89d9039c34de1330169c523c421c31f90d94b0e2cedbfaae
+SHA512: 76278c3ad1903ee43ed408a84391683b46567df71bc46141f98e74db124b337e696dec50d25ffd1fb1f4c1fc8f77c91eb254abed86127373315ab5c4c1148588
+Homepage: https://www.audacityteam.org/
+Description: fast, cross-platform audio editor
+ Audacity is a multi-track audio editor for Linux/Unix, MacOS and
+ Windows.  It is designed for easy recording, playing and editing of
+ digital audio.  Audacity features digital effects and spectrum
+ analysis tools.  Editing is very fast and provides unlimited
+ undo/redo.
+ .
+ Supported file formats include Ogg Vorbis, MP2, MP3, WAV, AIFF, and AU.
+Commands: audacity
+
+Package: birdtray
+Architecture: amd64
+Version: 1.11.4+ds-0.1~mx25
+Multi-Arch: foreign
+Priority: optional
+Section: mail
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Original-Maintainer: Adam Borowski <kilobyte@angband.pl>
+Installed-Size: 1276
+Depends: thunderbird, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6
+Filename: pool/tools/birdtray_1.11.4+ds-0.1~mx25_amd64.deb
+Size: 378280
+MD5sum: a36df700ee036f8d6aac7cbcea128445
+SHA1: 701ec730628e9cbc28ad5101922a80e18861d099
+SHA256: b3df2e3af1877ba996aa900b9c82663935ef06c5cd8015767b488b7d16c361ea
+SHA512: da6312b21c264f24c6da81d5259ca211e4063f34bcfc4cbdf8ba9a8893b55417b419a8d1a4f212b4cd95a1e805aee62e5fca53d972d15feb1dd3aaebde6e2925
+Homepage: https://github.com/gyunaev/birdtray
+Description: system tray notifications for Thunderbird
+ Birdtray provides systray notifications for Thunderbird.  It displays the
+ count of unread mail, hides the Thunderbird window when not in use, and
+ restores it on clicking the tray icon.  It also provides a context menu
+ with commands such as starting composing a new mail.
+ .
+ It is a nasty hack -- an external process looking at Thunderbird's
+ insides, it suffers from problems like noticing new mails only after a
+ delay, having to restart Thunderbird just to hide its window, etc --
+ you'd want to use an extension like firetray instead -- but, it is
+ likely that support for Thunderbird XUL extensions will be dropped soon,
+ possibly by the time you read these words.
+
+Package: bleachbit
+Architecture: all
+Version: 6.0.4-1~bpo13+2
+Priority: optional
+Section: admin
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 3801
+Depends: gir1.2-gtk-3.0, gir1.2-notify-0.7, gir1.2-pango-1.0, pkexec, python3-gi, python3-psutil, python3-requests, python3-urllib3, python3:any
+Filename: pool/tools/bleachbit_6.0.4-1~bpo13+2_all.deb
+Size: 611904
+MD5sum: c5d3f66a71b5aabf3ef9c7c8301f30ef
+SHA1: bc06420ea6b2ef42a8f966fcd3268673816386c3
+SHA256: c71051bb365b8762b2ee5a7e9f48c7a3ea9b55c9f2bff8d52f7f6f113aac89b2
+SHA512: 5ff36e00950a107f1bb36d97e518703b6432f8bda2dd84120b5897e41982d328a1831e3e205a34010aa2d956d4d272354210f430cbb69369da723dafcb3226d5
+Homepage: https://www.bleachbit.org/
+Description: delete unnecessary files from the system
+ BleachBit deletes unnecessary files to free valuable disk space, maintain
+ privacy, and remove junk. It removes cache, Internet history, temporary files,
+ cookies, and broken shortcuts.
+ .
+ It handles cleaning of Adobe Reader, Bash, Beagle, Epiphany, Firefox, Flash,
+ GIMP, Google Earth, Java, KDE, OpenOffice.org, Opera, RealPlayer, rpmbuild,
+ Second Life Viewer, VIM, XChat, and more.
+ .
+ Beyond simply erasing junk files, BleachBit wipes free disk space (to hide
+ previously deleted files for privacy and to improve compression of images),
+ vacuums Firefox databases (to improve performance without deleting data), and
+ securely shreds arbitrary files.
+
+Package: ccd2iso
+Architecture: amd64
+Version: 0.3-8~bpo13+2
+Priority: optional
+Section: otherosfs
+Maintainer: Package Salvaging Team <team+salvage@tracker.debian.org>
+Installed-Size: 33
+Depends: libc6 (>= 2.34)
+Filename: pool/tools/ccd2iso_0.3-8~bpo13+2_amd64.deb
+Size: 7540
+MD5sum: df493a4057fca97c18698607ddeab439
+SHA1: 61aec5ae74a895be68df2a90a8b4d4281b5401ff
+SHA256: 81b6d717d21f13b1021b24fef62d7f807f8a9a45b79e05d4fd3c0fd6ad980983
+SHA512: be5ac59f2573c251973d75ed7ea6cb18361dd1c1b0b8355bc2976156e40677e4bd7410b1a88c462106bdc54749fccf7bbb69207ead6c833d8a5a5c1c964b70e5
+Homepage: https://sourceforge.net/projects/ccd2iso/
+Description: Converter from CloneCD disc image format to standard ISO
+ This converts CD backup files created using the non-free CloneCD program to a
+ format understood by most Free Software CD writing programs.
+
+Package: clementine
+Architecture: amd64
+Version: 1.4.1-106-ga4b3599ec~trixie
+Priority: optional
+Section: sound
+Maintainer: David Sansome <me@davidsansome.com>
+Installed-Size: 19906
+Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgpod4t64 (>= 0.6.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), liblastfm5-1 (>= 1.0.7), libmtp9t64 (>= 1.1.0), libmygpo-qt5-1 (>= 1.0.9), libprotobuf32t64 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt5concurrent5t64 (>= 5.6.0~rc), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5t64 (>= 5.15.1), libqt5opengl5t64 (>= 5.0.2), libqt5sql5t64 (>= 5.3.0), libqt5widgets5t64 (>= 5.14.1), libqt5x11extras5 (>= 5.7.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 13.1), libtag2 (>= 2.0), libx11-6, zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-alsa, gstreamer1.0-pulseaudio, libprojectm-data | projectm-data
+Filename: pool/tools/clementine_1.4.1-106-ga4b3599ec.trixie_amd64.deb
+Size: 4548116
+MD5sum: 076198b97db72d4af900bd2c76fa798a
+SHA1: 3178fb1764f1283bed0b8ecad6133097ed5feb5c
+SHA256: 31a29cf57f56c69276876b2c76dfe9828ae00aa15ae8c0be5daf5df48c4ad67d
+SHA512: 1b78538d574d6cb460e483a068f7cd3df1a6d4af28026a752dcbcf4ec785ea1799b1a0badc753bc2b1601f06d3e605ece71ed6bb9bc6900cb013b60fd79ef31c
+Homepage: http://www.clementine-player.org/
+Description: Modern music player and library organiser inspired by Amarok 1.4
+ Clementine focuses on a fast and easy-to-use interface for searching and
+ playing your music.
+ .
+ Features include:
+   * Search and play your local music library
+   * Listen to internet radio from Last.fm, SomaFM, IntergalacticFM, Magnatune,
+     Jamendo and Icecast
+   * Create smart playlists and dynamic playlists
+   * Tabbed playlists, import and export M3U, XSPF, PLS, ASX and CUE
+   * Visualisations from projectM
+   * Lyrics and artist biographies and photos
+   * Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC
+   * Edit tags on MP3 and OGG files, organise your music
+   * Download missing album cover art from Last.fm
+   * Cross-platform - works on Windows, Mac OS X and Linux
+   * Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)
+   * Remote control using a Wii Remote, MPRIS or the command-line
+   * Copy music to your iPod, iPhone, MTP or mass-storage USB player
+   * Queue manager
+
+Package: digikam-data
+Architecture: all
+Version: 4:9.1.0-1~bpo13+2
+Multi-Arch: foreign
+Priority: optional
+Section: graphics
+Source: digikam
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 68074
+Depends: opencv-data
+Filename: pool/tools/digikam-data_9.1.0-1~bpo13+2_all.deb
+Size: 19718884
+MD5sum: 40378055c29d6d4cff1849104ffe3ded
+SHA1: df00d995f9d83e504c3cfa59a1b3cdc73a634be4
+SHA256: 2fb893ffc239cf41e77ba41cf415f8c93f7e265cb9b6a4a097209286f868dd03
+SHA512: 2a85ae06d54b6584f04c1dd6f5307f04d4792b9e495ac777f1ea91bd4e7347aa2e83adc935b25b454284bad462df3356de8a5d710d18cbaf49342e3d3c1389b0
+Homepage: http://www.digikam.org
+Description: digiKam architecture-independant data
+ Contains the significant amount of architecture-independent data that is
+ shipped with digiKam.
+ .
+ It has been placed in an architecture all file to reduce space on the
+ archives, rather than one copy for each architecture.
+
+Package: digikam-private-libs
+Architecture: amd64
+Version: 4:9.1.0-1~bpo13+2
+Priority: optional
+Section: libs
+Source: digikam
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 55960
+Depends: kio6, libavcodec61 (>= 7:7.1.5), libavfilter10 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libc6 (>= 2.38), libexiv2-28 (>= 0.28.0), libexpat1 (>= 2.0.1), libgcc-s1 (>= 12), libglib2.0-0t64 (>= 2.24.0), libgomp1 (>= 6), libgphoto2-6t64 (>= 2.5.10), libgphoto2-port12t64 (>= 2.5.10), libheif1 (>= 1.13.0), libjpeg62-turbo (>= 1.3.1), libjxl0.11 (>= 0.7.0), libkf6calendarcore6 (>= 6.0.0), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6filemetadata3 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.0.0), libkf6kiowidgets6 (>= 6.0.0), libkf6notifications6 (>= 6.0.0), libkf6notifyconfig6 (>= 6.0.0), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.0.0), libkf6sonnetcore6 (>= 6.0.0), libkf6sonnetui6 (>= 6.0.0), libkf6threadweaver6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6xmlgui6 (>= 6.13.0), libksanewidgets6-6 (>= 24.05.2), liblcms2-2 (>= 2.2+git20110628), liblensfun1 (>= 0.3.4), libmagick++-7.q16-5 (>= 8:7.1.1.21), libmagickcore-7.q16-10 (>= 8:7.1.1.21), libopencv-core410 (>= 4.10.0+dfsg), libopencv-dnn410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-ml410 (>= 4.10.0+dfsg), libopencv-objdetect410 (>= 4.10.0+dfsg), libopengl0, libpng16-16t64 (>= 1.6.46), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6multimedia6 (>= 6.6.1), libqt6multimediawidgets6 (>= 6.6.1), libqt6network6 (>= 6.7.2), libqt6networkauth6 (>= 6.6.1), libqt6opengl6 (>= 6.1.2), libqt6openglwidgets6 (>= 6.1.2), libqt6printsupport6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6statemachine6 (>= 6.6.1), libqt6svg6 (>= 6.6.0), libqt6svgwidgets6 (>= 6.6.0), libqt6webenginecore6 (>= 6.6.0), libqt6webenginecore6-bin (>= 6.6.0), libqt6webenginewidgets6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.5), libtiff6 (>= 4.0.3), libx11-6, libx265-215 (>= 4.1), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Filename: pool/tools/digikam-private-libs_9.1.0-1~bpo13+2_amd64.deb
+Size: 13777980
+MD5sum: 2839d32134c38cfdde7608fd8444d08b
+SHA1: 0032e35f604a21675fd34eaec9990f2cd2fc8ce3
+SHA256: fc5742fa759348bf45b1cfe7d5f7bd291bcdf14f4fc3c2db08ddc56e38de0601
+SHA512: cf8c80c1678dff479a240e99c2971ef8416c72c6969ed74e55c199b44c56739f686781041ea4dbf2c69c7bf94cb0ab82fb16e5e1f8757b944993487b0a724546
+Homepage: http://www.digikam.org
+Description: private libraries for digiKam plugins
+ This package contains private libraries to be used by digikam.
+ .
+ This has no use for anything else than digikam, since the libraries are
+ installed in a private library path.
+
+Package: digikam
+Architecture: amd64
+Version: 4:9.1.0-1~bpo13+2
+Priority: optional
+Section: graphics
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 324
+Depends: digikam-private-libs (= 4:9.1.0-1~bpo13+2), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libmagick++-7.q16-5 (>= 8:7.1.1.21), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), perl:any, libqt6sql6-sqlite, libqt6sql6-mysql, digikam-data (= 4:9.1.0-1~bpo13+2)
+Recommends: www-browser, ffmpegthumbs
+Suggests: libimage-exiftool-perl, breeze-icon-theme, systemsettings
+Filename: pool/tools/digikam_9.1.0-1~bpo13+2_amd64.deb
+Size: 101884
+MD5sum: 0a9e06aaaa23a917aeaa9fd7dfd9b6e7
+SHA1: 04bb64eee54eba002a6cf1ab6de0be8988d7b7a4
+SHA256: 20159b96e5648a19bae941adbce4b3c62c4e678254f5be1b246714391d92686e
+SHA512: 24a1c85180d312029f97f9d8ad195d8d7e8b2133cc1412cc2cc565d28343fd84c8594537fa9da64df60362db47a401b8b987c63a7d2a3578bedde1a41b33cd6c
+Homepage: http://www.digikam.org
+Description: digital photo management application for KDE
+ Digital photo management program designed to import, organize, enhance, search
+ and export your digital images to and from your computer.
+ .
+ It provides a simple interface which makes importing and organizing digital
+ photographs a "snap". digiKam enables you to manage large numbers of
+ digital photographs in albums and to organize these photographs for easy
+ retrieval using tags (keywords), captions, collections, dates, geolocation
+ and searches. It has many features for viewing, organizing, processing and
+ sharing your images. Thus, digiKam is a formidable digital asset management
+ (DAM) software including powerful image editing functions.
+ .
+ An easy-to-use camera interface is provided, that will connect to your
+ digital camera and download photographs directly into digiKam albums.
+ More than 1000 digital cameras are supported by the gphoto2 library.
+ Of course, any media or card reader supported by your operating system
+ will interface with digiKam.
+ .
+ digiKam incorporates a fast Image Editor with many image editing tools.
+ You can use the Image Editor to view your photographs, comment and rate
+ them, correct, enhance and alter them. The editing power can be easily
+ extended by a set of plugins, the KDE Image Plugins Interface (manual)
+ .
+ While digiKam remains easy to use, it provides professional level features
+ by the dozens. It is fully 16 bit enabled including all available plugins,
+ supports RAW format conversion through libraw, DNG export and ICC color
+ management work flow.
+
+Package: fastfetch
+Architecture: amd64
+Version: 2.68.1
+Priority: optional
+Section: devel
+Maintainer: Carter Li <zhangsongcui@live.cn>
+Installed-Size: 19354
+Depends: libc6 (>= 2.35)
+Filename: pool/tools/fastfetch_2.68.1-1_amd64.deb
+Size: 7083552
+MD5sum: 6c43ebf9432a65fd1116f7634ed3770e
+SHA1: 81b81ef623375fc714f1f0c43843e7caa170a8c2
+SHA256: 33b046a620b4f15fb6d0f9b3ef2491e6147ae15e40d699a6eef13555634a1b28
+SHA512: e82f1e3fb5f4b8afb5bc775713cc75eaf6b314b8f8bfaea7ed2ff0b1a59f86563ce183828cdedaeff9f5d7739b9297be01006255216a9a344eedfbb937a4d600
+Homepage: https://github.com/fastfetch-cli/fastfetch
+Description: Fast neofetch-like system information tool
+ fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
+
+Package: gprename
+Architecture: all
+Version: 20210415-1+bsr2
+Priority: optional
+Section: utils
+Maintainer: Thiago Pezzo <pezzo@protonmail.com>
+Installed-Size: 213
+Depends: libglib-perl, libgtk3-perl, libintl-perl, liblocale-gettext-perl, libpango-perl, perl:any
+Filename: pool/tools/gprename_20210415-1+bsr2_all.deb
+Size: 47532
+MD5sum: 1d1a52900c416dcb63fa98c8de640280
+SHA1: 49786bbc914dde03b4a51603cdae4c10eeb7ac57
+SHA256: fd9eb0d33f3f9faa16df5f08adbf38d01f7b9c57db0c6d14e3b1168f779c8ca7
+SHA512: 10fb99794637f2e8f2f9e15cdb9349f38fd9085ec4bd470b6b09d833e6bb74dcb994ab250c0435293c6a36eeec263d15350b5df12756bfe834bb41b4f4fccc9b
+Homepage: http://gprename.sourceforge.net
+Description: complete batch renamer for Linux
+ GPRename is a complete batch renamer for files and directories.
+ It can easily replace, remove, insert, delete, and number
+ consecutively files and directories using a graphical interface (GUI).
+
+Package: kdiskmark
+Architecture: amd64
+Version: 3.3.0+ds-2~bpo13+2
+Priority: optional
+Section: utils
+Maintainer: Dmitry Ilyich Sidorov <jonmagon@gmail.com>
+Installed-Size: 687
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), fio
+Filename: pool/tools/kdiskmark_3.3.0+ds-2~bpo13+2_amd64.deb
+Size: 220168
+MD5sum: a603d22ed0eff25ef8eb8bcd90fbd58e
+SHA1: 5a2017724759c8659232f7dc5d4c467fcb08600f
+SHA256: 01b2897be7d2d044c26713ba2a492bfd1164c05234d99a137744e4fa0ec7c161
+SHA512: 2debe9c837ea39b4c3aa10f812b9e5c25a06c330de04d459c6ab481d0413bd9aec30c88122dd524f34b78a713b0f4c3deaa39f3d06433849fba084488243fe65
+Homepage: https://github.com/JonMagon/KDiskMark
+Description: simple disk benchmark tool
+ This is an HDD and SSD benchmark tool with a very friendly
+ graphical user interface. KDiskMark with its presets and powerful
+ GUI calls Flexible I/O Tester and handles the output to provide an
+ easy to view and interpret comprehensive benchmark result.
+
+Package: kwin-common
+Architecture: amd64
+Version: 4:6.3.6-1+bsr3
+Priority: optional
+Section: kde
+Source: kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 5528
+Depends: kglobalacceld, kwin-data (= 4:6.3.6-1+bsr3), plasma-desktoptheme, pnp.ids, qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick, qml6-module-qtquick-window, libc6 (>= 2.38), libeis1 (>= 1.0.0), libepoxy0 (>= 1.0), libkdecorations3-6 (>= 4:6.3.4~), libkdecorations3private2 (>= 4:6.3.4~), libkf6authcore6 (>= 6.10.0~), libkf6colorscheme6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6kcmutils6 (>= 6.10.0~), libkf6kcmutilscore6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6newstuffcore6 (>= 6.10.0~), libkf6newstuffwidgets6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkf6xmlgui6 (>= 6.10.0), libkwin6 (>= 4:6.3.6), libpipewire-0.3-0t64 (>= 0.3.29), libplasmaactivities6 (>= 6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6uitools6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 11), libwayland-client0 (>= 1.22~), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2)
+Recommends: plasma-desktop (>= 4:6.2.90~)
+Suggests: kwin-addons (>= 4:6.2.90~)
+Breaks: kwin-data (<< 4:6.1.4-1)
+Replaces: kwin-data (<< 4:6.1.4-1)
+Filename: pool/tools/kwin-common_6.3.6-1+bsr3_amd64.deb
+Size: 960004
+MD5sum: 39f3bf72d6bd75e1b35de32b9d17fa3e
+SHA1: bca20d3f1882cd10b7ce74d7bb5f2090d52e6e91
+SHA256: 4ef47083a736840da5004c8f89869e1997dc47188e886b54d431c87c2cbe1800
+SHA512: c283c0867f43509b0090ef40562c60d5dc49908cecc46dc965b2eed156900d69d5e09ca9e8064a4230a9ab5f930ec1b5c87685a4f4477f94517c500939eb0f3b
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager, common files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-data
+Architecture: all
+Version: 4:6.3.6-1+bsr3
+Multi-Arch: foreign
+Priority: optional
+Section: kde
+Source: kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 16348
+Recommends: plasma-desktoptheme, qml6-module-org-kde-kirigami, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-kquickcontrolsaddons, qml6-module-org-kde-ksvg, qml6-module-org-kde-quickcharts, qml6-module-qt5compat-graphicaleffects, qml6-module-qtmultimedia, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, systemsettings
+Breaks: kwin-addons (<< 4:6.0.0~)
+Replaces: kwin-addons (<< 4:6.0.0~)
+Filename: pool/tools/kwin-data_6.3.6-1+bsr3_all.deb
+Size: 6742856
+MD5sum: 2f756ef63aa45702168e8967a7d57159
+SHA1: 1215a8b30180c6c3c90c14135e16ba510db99cf1
+SHA256: d4024fd2f0f6ae8d6f10b80d6c55c5979f17e43958ff83b3ccf32cc388a5ae60
+SHA512: 5fb349f89d2220cf7558b8f766ab27ee001894656b279881b6ef1617af7efdd2fb5afa684587a9d451760897ddfec78c0abbc135aed9b6a4a6ea59a6437e57a6
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager data files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package contains the data files
+
+Package: kwin-dev
+Architecture: amd64
+Version: 4:6.3.6-1+bsr3
+Priority: optional
+Section: libdevel
+Source: kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1615
+Depends: kwin-common (= 4:6.3.6-1+bsr3), libepoxy-dev (>= 1.3), libkf6config-dev (>= 6.10.0~), libkf6coreaddons-dev (>= 6.10.0~), libkf6windowsystem-dev (>= 6.10.0~), libkwin6 (= 4:6.3.6-1+bsr3), qt6-base-dev (>= 6.7.0~), qt6-declarative-dev (>= 6.7.0~)
+Filename: pool/tools/kwin-dev_6.3.6-1+bsr3_amd64.deb
+Size: 240028
+MD5sum: 78e3ca437d5e34ba28719d0e64c1e591
+SHA1: a8cadd28508e804a92584e8a1de37f5c83dbb28d
+SHA256: 3aff0c05ae77f4976798138146758dcae441bbc8937d08c8ea644c77779634fc
+SHA512: 05390e49ab2638fadb1487004670650a1777691bab9095155223c67f14acd81b7d5d82a5dff9619024c68ccee80799f9aa4b62ce2fae3e5d4b07dbe6c0a1b7c6
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager - devel files
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: kwin-wayland
+Architecture: amd64
+Version: 4:6.3.6-1+bsr3
+Priority: optional
+Section: kde
+Source: kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1795
+Provides: kwin
+Depends: libcap2-bin, xwayland, libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libkdecorations3-6 (>= 4:6.3.4~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6dbusaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6idletime6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkglobalacceld0 (>= 6.3.4~), libkwin6 (>= 4:6.3.6), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libsystemd0 (>= 214), libxcb-composite0, libxcb-randr0 (>= 1.3), libxcb-xfixes0, libxcb1 (>= 1.8), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2)
+Recommends: xwaylandvideobridge
+Filename: pool/tools/kwin-wayland_6.3.6-1+bsr3_amd64.deb
+Size: 467116
+MD5sum: 272e870b46025db6d611d3e3151ad8ac
+SHA1: 26b2ae917a035903993ad2c7fa32faaf0a59f781
+SHA256: f354a7f73795c26f37cc636e89d6bacf17bae07d8349dc642f3f7bdde27268f0
+SHA512: 3b117d62a9ed494153e786e91b0d623007f0a58217940797833684704a1282a87d8b7134ccde0032a952f15874eb235098e6fc0a81e7b2d3299b887fc491288e
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager, Wayland version
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package provides the wayland version, which is still a work in progress
+ project, and is available as a PREVIEW release. Don't expect the same
+ stability as with the x11 version.
+
+Package: kwin-x11
+Architecture: amd64
+Version: 4:6.3.6-1+bsr3
+Priority: optional
+Section: kde
+Source: kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 1684
+Provides: kwin, x-window-manager
+Depends: libc6 (>= 2.38), libcanberra0 (>= 0.2), libepoxy0 (>= 1.0), libgcc-s1 (>= 3.4), libkdecorations3-6 (>= 4:6.3.4~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configwidgets6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkwin6 (>= 4:6.3.6), libqaccessibilityclient-qt6-0 (>= 0.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.7.0~), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libx11-6, libxcb-composite0, libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.3), libxcb-render0, libxcb-shape0, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.7.0~), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2)
+Filename: pool/tools/kwin-x11_6.3.6-1+bsr3_amd64.deb
+Size: 453960
+MD5sum: 451e14392d38bfaa1d46521b036560a6
+SHA1: dc3f727d7ce6409ecb3032be55e2dc35476760a9
+SHA256: 238c60f92ade807bb99a82eeebc80e800a7897087b0debb892365757a30c7cdd
+SHA512: e14b4838e23e3cb0b7161c305b229c0030903048083ae77061ab85ec868cc6e5833cad3d34aa3102fee1cb3354083919daea1707ceea3840f20e7f81573323f1
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager, X11 version
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libkwin6
+Architecture: amd64
+Version: 4:6.3.6-1+bsr3
+Priority: optional
+Section: libs
+Source: kwin
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 9569
+Depends: libc6 (>= 2.38), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.116), libepoxy0 (>= 1.3), libgbm1 (>= 21.1.0), libinput10 (>= 1.27.1), libkdecorations3-6 (>= 4:6.3.4~), libkdecorations3private2 (>= 4:6.3.4~), libkf6colorscheme6 (>= 6.10.0~), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configqml6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6crash6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nqml6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6service-bin, libkf6service6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libkglobalacceld0 (>= 6.3.4~), libkscreenlocker6 (>= 6.3.4~), libkwaylandclient6 (>= 4:6.3.4~), liblcms2-2 (>= 2.4), libplasmaactivities6 (>= 6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.7.2), libqt6opengl6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6sensors6 (>= 6.7.0~), libqt6svg6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 13.1), libudev1 (>= 183), libwayland-client0 (>= 1.22~), libwayland-server0 (>= 1.23.0), libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-dri3-0 (>= 1.13), libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-keysyms1 (>= 0.4.1), libxcb-present0, libxcb-randr0 (>= 1.12), libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-sync1, libxcb-xfixes0, libxcb1 (>= 1.6), libxcvt0 (>= 0.1.0), libxkbcommon0 (>= 0.7.0), qt6-base-private-abi (= 6.8.2)
+Filename: pool/tools/libkwin6_6.3.6-1+bsr3_amd64.deb
+Size: 2169196
+MD5sum: 73f761f759485fd96e0b44823cbbd3a5
+SHA1: daee007d275ffecffbbaa8bfae3af85e9ab7b455
+SHA256: 0d930a64886a8d32d4caedb41cce04212bfcc017134610ddc86671cfa25de710
+SHA512: 04e11363f002c8a46ad7714bfafa582af5e9f0e7fc6bde053e6efd6b262129c973dc731d78242816746166f4435e80d675cea0764b11bdc699f95019b4238ff4
+Homepage: https://projects.kde.org/projects/kde/workspace/kwin
+Description: KDE window manager library
+ KWin (pronounced as one syllable "kwin") is the window
+ manager for the KDE Plasma Desktop. It gives you complete
+ control over your windows, making sure they're not in the way
+ but aid you in your task. It paints the window decoration,
+ the bar on top of every window with (configurable) buttons
+ like close, maximize and minimize. It also handles placing
+ of windows and switching between them.
+ .
+ This package is part of the KDE base workspace module.
+
+Package: libmpv-dev
+Architecture: amd64
+Version: 0.41.0-2~bpo13+2
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: mpv
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 170
+Depends: libmpv2 (= 0.41.0-2~bpo13+2), libarchive-dev (>= 3.4), libasound2-dev, libass-dev, libavcodec-dev (>= 7:7.0), libavdevice-dev (>= 7:7.0), libavfilter-dev (>= 7:7.0), libavformat-dev (>= 7:7.0), libavutil-dev (>= 7:7.0), libbluray-dev, libcdio-dev, libcdio-paranoia-dev, libdisplay-info-dev, libdrm-dev (>= 2.4.75), libdvdnav-dev, libegl-dev, libffmpeg-nvenc-dev, libgbm-dev, libgl-dev, libjack-dev, libjpeg-dev, liblcms2-dev (>= 2.6~), liblua5.2-dev, libmujs-dev, libpipewire-0.3-dev, libplacebo-dev (>= 6.338), libpulse-dev, librubberband-dev, libsixel-dev, libsndio-dev, libswscale-dev (>= 7:7.0), libuchardet-dev, libva-dev, libvdpau-dev, libvulkan-dev, libwayland-dev (>= 1.15.0), libx11-dev, libxinerama-dev, libxkbcommon-dev, libxpresent-dev, libxrandr-dev, libxss-dev, libxv-dev, libzimg-dev, wayland-protocols
+Filename: pool/tools/libmpv-dev_0.41.0-2~bpo13+2_amd64.deb
+Size: 45588
+MD5sum: 8c662cf9ce9f1fcf7e7cb2baa3770562
+SHA1: 4b3187c641576b26fe9224b6339bfb0623667a24
+SHA256: 5f1868ac0ac21ea4a1dfe1e7ba905de45f4fa4c9206b1999ccc371c914e2458f
+SHA512: 88f189b7879a66c40922a175984bfb8b2576c405152d10ee290a5d27b3556a8d4159d0048755a35e20d7e579e6d253fe8af055f6cfa672a8253d57609fc741e0
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2 (client library dev files)
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ This package provides development files for libmpv.
+
+Package: libmpv2
+Architecture: amd64
+Version: 0.41.0-2~bpo13+2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: mpv
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 3025
+Depends: libarchive13t64 (>= 3.4.0), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.15.0), libavcodec61 (>= 7:7.1.5), libavdevice61 (>= 7:7.1.5), libavfilter10 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libbluray2 (>= 1:0.5.0), libc6 (>= 2.38), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.105), libdvdnav4 (>= 4.1.3), libegl1, libgbm1 (>= 17.1.0~rc2), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), liblua5.2-0 (>= 5.2.4), libmujs3 (>= 1.0.7), libpipewire-0.3-0t64 (>= 1.0.4), libplacebo349 (>= 7.349.0), libpulse0 (>= 0.99.4), librubberband2 (>= 3.3.0+dfsg), libsixel1 (>= 1.10.5), libsndio7.0 (>= 1.9.0), libswresample5 (>= 7:7.1.5), libswscale8 (>= 7:7.1.5), libuchardet0 (>= 0.0.1), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libvdpau1 (>= 0.2), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.15.0), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.4.0), libxss1, libxv1, libzimg2 (>= 0.3.1), zlib1g (>= 1:1.1.4)
+Recommends: yt-dlp
+Filename: pool/tools/libmpv2_0.41.0-2~bpo13+2_amd64.deb
+Size: 1009464
+MD5sum: dc68f84bdb44d58c3046fd8d95fbe0f7
+SHA1: 3e9ceab52c00c97c3aed9f63a703cebb4b76c1cf
+SHA256: cf54c196c549897a6447f7ef302377bfeb90b09bdef347db6851532f43f4ce86
+SHA512: ec66112384db2f21ff6ae1009f4828231b244f6154b329e3daac99aa0e8dd0a98a9f543d6d04a665296a04d334b6f47b8afeadd99ce5fd8ea8b1a081a217f411
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2 (client library)
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ This package provides a client library that can be used to embed mpv in other
+ applications.
+
+Package: lindiskinfo
+Architecture: amd64
+Version: 1.0.4-2
+Priority: optional
+Section: utils
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/tools/lindiskinfo_1.0.4-2_amd64.deb
+Size: 11348168
+MD5sum: 4d2b506fd7294b281d5817771910cde2
+SHA1: 04609fbc3e37de0679938d7d4a03f16f12abeb5f
+SHA256: 304be7d84736f1878af15af64bad664f15cc5a1b471a32d68fc03d7195fd9661
+SHA512: 143ee6962da08857ac4e03b481b8bbddffdcc1c7bf22ba2d1a4ab2ccb5fe0e7a04259f7d63963d26c4b3eb69cce88930e1a534fac104eddd631faf6887b77c74
+Description: Qt-based S.M.A.R.T. and NVMe health monitor for Linux
+
+Package: memtest86+
+Architecture: amd64
+Version: 8.10-2~bpo13+2
+Priority: optional
+Section: misc
+Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
+Installed-Size: 12483
+Depends: grub-common
+Suggests: grub-efi | grub-pc, memtester, mtools
+Filename: pool/tools/memtest86+_8.10-2~bpo13+2_amd64.deb
+Size: 142388
+MD5sum: 96702063f61e8a6bec7c2dd540bd9d52
+SHA1: a64307335ef838b8eff172a691068851f5ce9204
+SHA256: 6142147c016cb920ec8a203c7bf94d9b0ee7ad8da5dc7ce37242f1c5a2664762
+SHA512: c91317969ad298e9b0fa8b9c8aba816cd6fa812f67acf0c6a1f175401f9dfe39d7c6d8032728ed7ad18fd26ef483748f1211d2553bea145c72c73864584a06d0
+Homepage: https://www.memtest.org/
+Description: stand-alone memory tester for x86, x86-64 and LoongArch64
+ Memtest86+ provides a more thorough memory check than
+ that provided by BIOS memory tests. Can be loaded and run either
+ directly by a PC BIOS (legacy or UEFI) or via an intermediate
+ bootloader.
+ .
+ This tester runs independently of any OS - it is run at computer
+ boot-up, so that it can test *all* of your memory.  You may want to
+ look at `memtester', which allows one to test your memory within Linux,
+ but this one won't be able to test your whole RAM.
+ .
+ It can output a list of bad RAM regions usable by the BadRAM kernel
+ patch, so that you can still use your old RAM with one or two bad bits.
+
+Package: mpv
+Architecture: amd64
+Version: 0.41.0-2~bpo13+2
+Multi-Arch: foreign
+Priority: optional
+Section: video
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 3512
+Depends: libarchive13t64 (>= 3.4.0), libasound2t64 (>= 1.0.27), libass9 (>= 1:0.15.0), libavcodec61 (>= 7:7.1.5), libavdevice61 (>= 7:7.1.5), libavfilter10 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libbluray2 (>= 1:0.5.0), libc6 (>= 2.38), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libcdio19t64 (>= 2.1.0), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.105), libdvdnav4 (>= 4.1.3), libegl1, libgbm1 (>= 17.1.0~rc2), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.6), liblua5.2-0 (>= 5.2.4), libmujs3 (>= 1.0.7), libpipewire-0.3-0t64 (>= 1.0.4), libplacebo349 (>= 7.349.0), libpulse0 (>= 0.99.4), librubberband2 (>= 3.3.0+dfsg), libsixel1 (>= 1.10.5), libsndio7.0 (>= 1.9.0), libswresample5 (>= 7:7.1.5), libswscale8 (>= 7:7.1.5), libuchardet0 (>= 0.0.1), libva-drm2 (>= 1.1.0), libva-wayland2 (>= 1.3.0), libva-x11-2 (>= 1.0.3), libva2 (>= 2.2.0), libvdpau1 (>= 0.2), libvulkan1 (>= 1.2.131.2), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.15.0), libwayland-egl1 (>= 1.15.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxpresent1 (>= 1.0.1), libxrandr2 (>= 2:1.4.0), libxss1, libxv1, libzimg2 (>= 0.3.1), zlib1g (>= 1:1.1.4)
+Recommends: xdg-utils, yt-dlp
+Suggests: libcuda1
+Filename: pool/tools/mpv_0.41.0-2~bpo13+2_amd64.deb
+Size: 1362336
+MD5sum: 13224da66985e654653d55c0d793a73f
+SHA1: 2d1dfd633e89c5ec695b2a32b27e0c2249600e94
+SHA256: 0a8d8398149d91a367600540acb33cba2762494a39dbbe2a79fb7122a2151531
+SHA512: 1179598bcf8a6c707c099be5ecf5ad8e6ec37a391b22f3d0bd5dab32619de3e1f59841bac2dc37d1171917a0344f6cb999f511a09f7678d83adacfa7b33c7e5c
+Homepage: https://mpv.io/
+Description: video player based on MPlayer/mplayer2
+ mpv is a movie player based on MPlayer and mplayer2. It supports a wide
+ variety of video file formats, audio and video codecs, and subtitle types.
+ .
+ Changes from mplayer2 to mpv include:
+  * Removal of lots of unneeded code to encourage developer activity
+  * Better OSD rendering
+  * Cleaned up terminal output
+  * Improved OpenGL output
+  * Encoding functionality (replacement for mencoder)
+  * Wayland support
+  * Support for playing URLs of popular streaming sites
+  * Screenshot improvements
+  * ...
+ See mpv(1) for more info regarding changes between MPlayer, mplayer2 and mpv.
+
+Package: par2-turbo
+Architecture: amd64
+Version: 1.5.0-1~bpo13+2
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: par2cmdline-turbo
+Maintainer: Jeroen Ploemen <jcfp@debian.org>
+Installed-Size: 1004
+Provides: par2
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
+Conflicts: par2
+Filename: pool/tools/par2-turbo_1.5.0-1~bpo13+2_amd64.deb
+Size: 330876
+MD5sum: 9c8c9c988e8aa326ad87fe0888b15986
+SHA1: bcbd22ed27b524b0eb2c1152a068253918be6189
+SHA256: ded3da58b4ffc64cafe79c0da2565c267b5a5a69b2cbf0287760ef75ef754ef9
+SHA512: d4a0ad6be163ed4cfa2eb0794a4d54bea14f8fb57d00ce85591638c8dee822b98ba6f5a0cae3f681ad16010b6c5d49da0b691c94052b502d28c69f1ce14f17ac
+Homepage: https://github.com/animetosho/par2cmdline-turbo
+Description: PAR 2.0 compatible file verification and repair tool (turbo)
+ Par2-turbo is a fork of par2cmdline which replaces core computation
+ routines with ParPar’s processing backend, improving par2cmdline’s
+ performance on x86/ARM platforms.
+ .
+ Par2cmdline-turbo aims to keep close with its upstream and mostly differs in
+ the following areas related to performance:
+  * GF16, MD5 and CRC32 computation, using ParPar’s implementation;
+  * ParPar’s internal checksumming to detect RAM errors during GF16
+    computation;
+  * ParPar’s stitched hashing approach;
+  * C++11 threads in place of par2cmdline's OpenMP dependency.
+ .
+ The package provides the par2 command line utility for creating andusing
+ PAR2 files to detect and repair damage in data files. It is most commonly
+ used as part of backup systems as well as on Usenet. In case files in a
+ recovery set get damaged (e.g. while transmitted over a network or stored
+ on a faulty disk) the program can read the damaged files and the (possibly
+ damaged) PAR2 files, and regenerate the original input files.
+
+Package: plasma-applet-appgrid
+Architecture: amd64
+Version: 1.2.1-1debian13
+Priority: optional
+Section: kde
+Maintainer: Jason Scurtu <jscurtu@gmail.com>
+Depends: plasma-workspace, libkf6service6, libkf6i18n6
+Filename: pool/tools/plasma-applet-appgrid_1.2.1-1debian13_trixie_amd64.deb
+Size: 129356
+MD5sum: 84a824a2d683d0e39c1891bfe0f7a32a
+SHA1: d7e648254e86cbd0a76bf5d065e2db21791c47f0
+SHA256: aab9488db4c6312ab9ec43aac54ad1458e531576227e6092aa333a11e807ae19
+SHA512: 737f1f065c4976522b4b96572231bf61a7ec114266ad5775c331bb9618eea1491b4a54e61890d32174a9cab4b31dfe7f327aba5e857a8e363790b7092132c494
+Homepage: https://github.com/xarbit/plasma6-applet-appgrid
+Description: A modern fullscreen application launcher for KDE Plasma
+ A modern fullscreen application launcher for KDE Plasma,
+ inspired by macOS Launchpad and COSMIC.
+
+Package: profile-sync-daemon
+Architecture: all
+Version: 7.04-1+bsr2
+Priority: optional
+Section: utils
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 117
+Depends: libglib2.0-bin, procps, rsync, fuse-overlayfs, init-system-helpers (>= 1.66~)
+Suggests: libpam-systemd, systemd-sysv
+Filename: pool/tools/profile-sync-daemon_7.04-1+bsr2_all.deb
+Size: 21756
+MD5sum: cb4cc2f49c0ca459a67732e0f2b5bce8
+SHA1: a22e70da2d9a595c41333f4a1ec29122d3abfc10
+SHA256: 7e3edaa0ba629f86e4fc1a26396619087324e60c0e37d331f561244c3cf7200d
+SHA512: a6af1ce72ffa1e6b3e67b65ebac6500934935592598cf8c9b8c38847a83f549a7e73beac63f8de9825913627071a0e273c00d6a9fbbd1e1dbad4ec6a82bc8cf2
+Homepage: https://github.com/graysky2/profile-sync-daemon
+Description: Symlink and sync browser profile directories into RAM
+ Profile-sync-daemon (psd) is a tiny pseudo-daemon designed
+ to manage your browsers profile in tmpfs and periodically
+ sync it back to disk.
+ .
+ This is accomplished by symlinking and the innovative use
+ of rsync to maintain a backup and synchronization between
+ tmpfs and disk. One of the major design goals of psd is a
+ completely transparent user experience.
+Commands: profile-sync-daemon, psd, psd-suspend-sync
+
+Package: psensor-common
+Architecture: all
+Version: 1.2.1-4~bpo13+1
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: psensor
+Maintainer: xiao sheng wen <atzlinux@sina.com>
+Installed-Size: 252
+Filename: pool/tools/psensor-common_1.2.1-4~bpo13+1_all.deb
+Size: 56980
+MD5sum: 665535e7dc786e6c40011bb686534f8b
+SHA1: d942a142ba482353b7d5e33b006c6e3cb3b172cb
+SHA256: ba163196b685e99cf30d0e1269725c2b84e4b16346e1b01f56af615470e131bc
+SHA512: 62a08a5cadea112310ad4c67492b135246aefbae80d86ef30952f3aa9058ba95367d5b316598eb0af45be505116cbab0b1810bc8ae75f1d1236e4e3f45e45fe5
+Homepage: https://wpitchoune.net/psensor
+Description: common files for Psensor and Psensor server
+ It contains:
+  * the languages packs,
+  * the README,
+  * and the FAQ.
+ This package is required by psensor and psensor-server packages.
+
+Package: psensor-server
+Architecture: amd64
+Version: 1.2.1-4~bpo13+1
+Priority: optional
+Section: utils
+Source: psensor
+Maintainer: xiao sheng wen <atzlinux@sina.com>
+Installed-Size: 588
+Depends: libjs-jquery, psensor-common (= 1.2.1-4~bpo13+1), libatasmart4 (>= 0.13), libc6 (>= 2.34), libglib2.0-0t64 (>= 2.12.0), libgtop-2.0-11 (>= 2.22.3), libjson-c5 (>= 0.15), libmicrohttpd12t64 (>= 0.9.50), libsensors5 (>= 1:3.5.0)
+Filename: pool/tools/psensor-server_1.2.1-4~bpo13+1_amd64.deb
+Size: 107532
+MD5sum: 5d16fa99bd08bc7917b270899d812f56
+SHA1: 627372641ae3dea88436e777f2fe805b768ad3dd
+SHA256: a5869c281b097e9b68df4e409938b242423099c3e09f5b1c93cc10883de3ad29
+SHA512: 56714c0efbc1458d48cd7bef0db29348a9224cf07f9bec43bff395bfd38f549e083034f9fc05b14b295ab92b031569e4a81d8db754d1d9c68504bb9554298d21
+Homepage: https://wpitchoune.net/psensor
+Description: Psensor server for monitoring hardware sensors remotely
+ Psensor server is an HTTP server providing a JSON Web service which can be
+ used by Psensor GTK+ Application to monitor remotely the hardware sensors
+ of a computer.
+ .
+ It can provide information about:
+  * the temperature of the motherboard and CPU sensors (using lm-sensors).
+  * the temperature of the NVidia GPUs (using XNVCtrl).
+  * the temperature of the Hard Disk Drives .
+  * the rotation speed of the fans (using lm-sensors).
+ .
+ It is also possible to connect to Psensor server with a browser, a simple
+ Web page is displaying the information.
+
+Package: psensor
+Architecture: amd64
+Version: 1.2.1-4~bpo13+1
+Priority: optional
+Section: utils
+Maintainer: xiao sheng wen <atzlinux@sina.com>
+Installed-Size: 378
+Depends: psensor-common (= 1.2.1-4~bpo13+1), dconf-gsettings-backend | gsettings-backend, libatasmart4 (>= 0.13), libayatana-appindicator3-1 (>= 0.2.92), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libcurl3t64-gnutls (>= 7.16.2), libglib2.0-0t64 (>= 2.30.0), libgtk-3-0t64 (>= 3.3.16), libgtop-2.0-11 (>= 2.22.3), libjson-c5 (>= 0.15), libnotify4 (>= 0.7.0), libsensors5 (>= 1:3.5.0), libudisks2-0 (>= 2.0.0), libx11-6, libxnvctrl0
+Filename: pool/tools/psensor_1.2.1-4~bpo13+1_amd64.deb
+Size: 77308
+MD5sum: 046a5720a7ced297275de20177e7a41e
+SHA1: 84c79eb2e74445d485a8a9bedf3a2d8d4a07da4e
+SHA256: 8091d530a66d7214747b90c046ea74864dcee1b218a6b5fb01256f15d85d7056
+SHA512: 32a6c0e216637503ec40bd794f07eb103d6798a386a5db4695af8871b1074b3c3f9464ea51afca36262d271c239510029a0442355656c561a33912ac0db814fc
+Homepage: https://wpitchoune.net/psensor
+Description: display graphs for monitoring hardware temperature
+ Psensor is a GTK+ application for monitoring hardware sensors,
+ including temperatures and fan speeds.
+ .
+ It displays a curve for each sensor, alerts user using Desktop Notification
+ and Application Indicator when a temperature is too high.
+ .
+ It can monitor:
+  * the temperature of the motherboard and CPU sensors (using lm-sensors).
+  * the temperature of the NVidia GPUs (using XNVCtrl).
+  * the temperature of the Hard Disk Drives (using atasmart lib).
+  * the rotation speed of the fans (using lm-sensors).
+  * the sensors of a remote computer (using psensor-server).
+
+Package: s-tui
+Architecture: all
+Version: 1.5.0-1~bpo13+2
+Priority: optional
+Section: utils
+Maintainer: Jonathan Carter <jcc@debian.org>
+Installed-Size: 236
+Depends: python3-psutil, python3-urwid, python3:any
+Suggests: stress-ng | stress
+Filename: pool/tools/s-tui_1.5.0-1~bpo13+2_all.deb
+Size: 48716
+MD5sum: 85fe0406821bd7ce1f99780e70bf423f
+SHA1: 3bfda73488829b076f7a2ebf0213fd0b029e504a
+SHA256: acfa643ff54e0ee9fbb1b67d8cf7ce0ee88cde9862b01b85279c98def7073d38
+SHA512: 5c45640b52dc0c4a69610972c666f72e7f8521c5a5e2f84c58d7a08e5017d519027f306cf7ba6f23cfd3c0de33a69a7498f7d6cbeb5586f83fccba0214192f93
+Homepage: https://github.com/amanusk/s-tui
+Description: terminal UI for monitoring your computer
+ s-tui allows monitoring of CPU temperature, frequency,
+ power and utilization in a graphical way from the terminal.
+ .
+ It requires no X server and has built-in integration with
+ stress/stress-ng.
+
+Package: showfoto
+Architecture: amd64
+Version: 4:9.1.0-1~bpo13+2
+Priority: optional
+Section: graphics
+Source: digikam
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 1456
+Depends: digikam-private-libs (= 4:9.1.0-1~bpo13+2), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.0.0), libkf6i18n6 (>= 6.0.0), libkf6iconthemes6 (>= 6.3.0), libkf6iconwidgets6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libmagick++-7.q16-5 (>= 8:7.1.1.21), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), digikam-data (= 4:9.1.0-1~bpo13+2)
+Recommends: dolphin
+Filename: pool/tools/showfoto_9.1.0-1~bpo13+2_amd64.deb
+Size: 608436
+MD5sum: fc3b2636d81dc787863e2047fca79021
+SHA1: 7dbd659a09090b88b121d04ec41b535979e923ea
+SHA256: c9c7357520fcc67efb99575767816a339cc29f9004dab75297ade498d4ecbc8f
+SHA512: 64d1424ed76e2c2700be4076592c0b78644a087f1b21e40907bb5f7c71374a98517607da8698d256a7656b70625c35fb7442a2ceb9011db0db825fff9d730e6c
+Homepage: http://www.digikam.org
+Description: image viewer/editor for KDE
+ showFoto is the standalone image editor of the digiKam project.
+ .
+ It runs without digiKam images database support, but provides all Image Editor
+ functions.
+
+Package: simplescreenrecorder-lib
+Architecture: amd64
+Version: 0.4.4-8+bsr1~bpo13+1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: simplescreenrecorder
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 99
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libglu1-mesa | libglu1, libglx0, libopengl0, libstdc++6 (>= 13.1), libx11-6, libxfixes3
+Filename: pool/tools/simplescreenrecorder-lib_0.4.4-8+bsr1~bpo13+1_amd64.deb
+Size: 32636
+MD5sum: f8670a0b705118f6a044737ecd6f3263
+SHA1: 0b4a1c5019ff8ac068a506144cae8087c060de9a
+SHA256: 5c80f1014ba67ceea23a009ce8caece40c9b85ec9db6476dd492cf8bab30d7c6
+SHA512: b877c79291edfcd3164019792b3cdeb23b472fdcf36ea1ed1d545f59959db8bd190b6b768d77404c737951c700daed480606d424517ada1473afdf4648e4c336
+Homepage: https://www.maartenbaert.be/simplescreenrecorder/
+Description: feature-rich screen recorder that supports X11 and OpenGL - GLInject library
+ SimpleScreenRecorder is a feature-rich screen recorder that supports X11 and
+ OpenGL. It has a Qt-based graphical user interface. It can record the entire
+ screen or part of it, or record OpenGL applications directly. The recording
+ can be paused and resumed at any time. Many different file formats and codecs
+ are supported.
+ .
+ This package contains the GLInject library.
+
+Package: simplescreenrecorder
+Architecture: amd64
+Version: 0.4.4-8+bsr1~bpo13+1
+Priority: optional
+Section: video
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 3786
+Depends: libasound2t64 (>= 1.0.16), libavcodec61 (>= 7:7.1.5), libavformat61 (>= 7:7.1.5), libavutil59 (>= 7:7.1.5), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libpulse0 (>= 0.99.1), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.15.1), libqt5x11extras5 (>= 5.7.0), libstdc++6 (>= 14), libswscale8 (>= 7:7.1.5), libv4l-0t64 (>= 0.5.0), libx11-6 (>= 2:1.2.99.901), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), simplescreenrecorder-lib
+Filename: pool/tools/simplescreenrecorder_0.4.4-8+bsr1~bpo13+1_amd64.deb
+Size: 1344284
+MD5sum: bf86281b3440ca08657e5975f84d857e
+SHA1: bd2b33abb76f0aaa23c16afb959835046e0cbbd1
+SHA256: a6b772f31548f6b213858e5141937bd2a05daa6738452637db1938153cb9d734
+SHA512: 5302c83467b1b76daf30d9d5070a0edb2dddd0b8ac44ae2e425e89c73b4606d70d458cfddc1d68b199b1501ba749eb9ed784db73175d67d5642aaa0d4e6b5363
+Homepage: https://www.maartenbaert.be/simplescreenrecorder/
+Description: Feature-rich screen recorder for X11 and OpenGL
+ Simple Screen Recorder is, despite its name, an actually feature-rich screen
+ recorder. The name reflects the fact that it is simple to use unlike many
+ other free screen recording applications available. It can be easily
+ configured to start recording from an intuitive wizard-like interface.
+ .
+ It can record the entire screen or part of it directly.  The recording can be
+ paused and resumed at any time. Many different file formats and codecs are
+ supported. To perform an X11 recording, all it takes is selecting an area on
+ the root window with the mouse, choosing an output file and pressing record,
+ either by using the mouse or using a hotkey.
+ .
+ It has a Qt-based graphical user interface.
+ .
+ Its complexity becomes apparent in its powerful features. It allows one
+ to record X11 screen areas and fullscreen OpenGL applications including sound
+ supporting both ALSA, PulseAudio, JACK and OSS. It uses libavformat to encode
+ the recorded material into a variety of video formats. Scaling the recorded
+ video is possible as well as configuring the encoding quality for the codec
+ chosen directly from the user interface.
+ .
+ This package contains the main program.
+
+Package: smplayer-l10n
+Architecture: all
+Version: 26.8.29-0.1mx25
+Priority: optional
+Section: localization
+Source: smplayer
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 11344
+Depends: smplayer (>= 26.8.29-0.1mx25)
+Breaks: smplayer-translations (<< 14.3.0)
+Replaces: smplayer-translations (<< 14.3.0)
+Filename: pool/tools/smplayer-l10n_26.8.29-0.1mx25_all.deb
+Size: 1380552
+MD5sum: 3c39827bf9f350518fa57f152683605b
+SHA1: 111c08c89bbc1ab29fe5c1f4a273ff420235ae5f
+SHA256: 3f58e2321ae7f92880acb828769fdd97c4b9631b969f86bf68fb0c8868722ba5
+SHA512: 122bf386627fefc74e2dbaaa051e9fee69f78020fd5927f104f093b5f68f513a6769acd75fc1cd898e313ce87fc604fccb2d922591b8f8f97359c92ef6703f2c
+Homepage: https://smplayer.sourceforge.net/
+Description: Complete front-end for MPlayer and mpv - translation files
+ Qt5 front-end for mplayer and forks, with basic features like playing
+ videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the most interesting features
+ of SMPlayer: it remembers the settings of all files you play.
+ So you start to watch a movie but you have to leave... don't
+ worry, when you open that movie again it will resume at the same
+ point you left it, and with the same settings: audio track,
+ subtitles, volume...
+ .
+ This package contains translation files.
+
+Package: smplayer
+Architecture: amd64
+Version: 26.8.29-0.1mx25
+Priority: optional
+Section: video
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 5173
+Depends: mpv | mplayer, smplayer-l10n, smplayer-themes, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5t64 (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5widgets5t64 (>= 5.15.1), libqt5xml5t64 (>= 5.0.2), libstdc++6 (>= 14), libx11-6, zlib1g (>= 1:1.1.4)
+Filename: pool/tools/smplayer_26.8.29-0.1mx25_amd64.deb
+Size: 2121380
+MD5sum: f01e1245e7126ad4dfc1d986468ce091
+SHA1: cda3b164580f4090f5993c04f9187a3d495a190f
+SHA256: 8eec7ef273b555721ac6de59b2ba208b5040c2dbf2060fc9ac10e625e0ac8a6b
+SHA512: 7159fbe48efde11bdc85111b224271859d2ea22204c08f8a83504372c7e32e59ba294ec1d8cca96d831303ca8d74d65439210781e354b302039213439b53a562
+Homepage: https://smplayer.sourceforge.net/
+Description: Complete front-end for MPlayer and mpv
+ Qt5 front-end for mplayer and forks, with basic features like playing
+ videos, DVDs, and VCDs to more advanced features like support
+ for MPlayer filters and more. One of the most interesting features
+ of SMPlayer: it remembers the settings of all files you play.
+ So you start to watch a movie but you have to leave... don't
+ worry, when you open that movie again it will resume at the same
+ point you left it, and with the same settings: audio track,
+ subtitles, volume...
+
+Package: solaar
+Architecture: all
+Version: 1.1.20-2~bpo13+1
+Priority: optional
+Section: misc
+Maintainer: Stephen Kitt <skitt@debian.org>
+Installed-Size: 2850
+Depends: debconf (>= 0.5) | debconf-2.0, udev, passwd | adduser, gir1.2-ayatanaappindicator3-0.1, gir1.2-gtk-3.0, gir1.2-notify-0.7, python3-cairo, python3-dbus, python3-evdev, python3-gi, python3-psutil, python3-pyudev, python3-typing-extensions, python3-xlib, python3-yaml, python3:any
+Recommends: upower
+Filename: pool/tools/solaar_1.1.20-2~bpo13+1_all.deb
+Size: 511400
+MD5sum: 17309b14e1500b9716eea01c9316e145
+SHA1: 12cd19be4cf2c497773ac9e0d4c44c9635960463
+SHA256: 137ba8c69e2de9ec5b41c3bdb5c2c22b00405c156e160ee4d234cd8e74e9f5b6
+SHA512: b6f44ee577a173b49ac9f7c0d223ca61c2e58d74cf0695bdd023ad34a55b3024a1c0c062bf0a21ac3dbc2905479353723f1d269af108ad75708e6fc691ba39fa
+Homepage: https://pwr-solaar.github.io/Solaar/
+Description: Logitech Unifying Receiver peripherals manager for Linux
+ Solaar is a Linux device manager for Logitech's Unifying Receiver wireless
+ peripherals. It is able to pair/unpair devices to the receiver, and for
+ some devices to read battery status.
+
+Package: strawberry
+Architecture: amd64
+Version: 1.2.30-1~bpo13+2
+Priority: optional
+Section: sound
+Maintainer: Peter Blackman <peterb@debian.org>
+Installed-Size: 20103
+Depends: gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libqt6sql6-sqlite, qt6-qpa-plugins, sqlite3, libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.83.0), libgpod4t64 (>= 0.7.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.6.0), libicu76 (>= 76.1-1~), libkdsingleapplication-qt6-1.0 (>= 1.1.0), libmtp9t64 (>= 1.1.0), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.7.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.7.2), libsqlite3-0 (>= 3.6.11), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6
+Recommends: gstreamer1.0-alsa, gstreamer1.0-pulseaudio
+Suggests: gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, qt6ct
+Filename: pool/tools/strawberry_1.2.30-1~bpo13+2_amd64.deb
+Size: 6260464
+MD5sum: 15de31a5a5e3bf00ce5ced23c5bda25f
+SHA1: 2f1bdb89b8855b7066b40701416a670ee4c6ab32
+SHA256: e04c64ed2c0bee7237f39a9df35320997337a6ad53480e0c2cbaaebdb31e0497
+SHA512: c06b108a6548ac91b48f1ed9b769af0639b45517e3dabeae7ae3d32119bdd064a8eab50e6fa5d379cd1bdf16778d451d3ca78eef3a6323046a32d21d6ebdd31e
+Homepage: https://strawberrymusicplayer.org
+Description: audio player and music collection organizer
+ Strawberry is a music player aimed at music collectors and audiophiles.
+ It is a fork of Clementine. The name is inspired by the band Strawbs.
+ .
+ Features:
+  - Play and organize music
+  - Supports WAV, FLAC, WavPack, Ogg Vorbis, Speex, MPC, TrueAudio,
+  -   AIFF, MP4, MP3 and ASF
+  - Audio CD playback
+  - Native desktop notifications
+  - Playlist management
+  - Playlists in multiple formats
+  - Advanced audio and device configuration for bit-perfect playback on Linux
+  - Edit tags on audio files
+  - Automatically retrieve tags from MusicBrainz
+  - Album cover art from Last.fm, Musicbrainz, Discogs, Musixmatch, Deezer,
+  -   Tidal, Qobuz and Spotify
+  - Lyrics from multiple sources
+  - Audio analyzer
+  - Audio equalizer
+  - Transfer music to mass-storage USB players, MTP compatible devices
+  -   and iPod Nano/Classic
+  - Scrobbler with support for Last.fm and ListenBrainz
+  - Streaming support for Subsonic-compatible servers
+  - Unofficial streaming support for Tidal and Qobuz
+
+Package: win32-loader
+Architecture: all
+Version: 0.10.6~bpo13+2
+Built-Using: grub2 (= 2.12-9+deb13u2)
+Priority: optional
+Section: utils
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Installed-Size: 569
+Suggests: wine
+Filename: pool/tools/win32-loader_0.10.6~bpo13+2_all.deb
+Size: 500196
+MD5sum: 8a0293117702c440738d7dda93b13b70
+SHA1: 547f6c46233edea55f297e2e9c3a8cb06366badd
+SHA256: 5b5bbbd4956cc6c885441794ebf0d52df98873993afb42108fdbcdf0ccca535e
+SHA512: e48c4751e3e051c9beb819af07f43f90012607d4892696e11634edab63c2484bb7841ccdf30fba2e9c049f371034394fe7c3836595574cc2238bc11fd3f8121f
+Description: Debian-Installer loader for win32
+ This package provides a win32 program that can be used as a loader for
+ Debian Installer, acting as a more user-friendly boot mechanism than
+ traditional BIOS-based boot.
+ .
+ This package contains the cdrom/usb-disk add-on that starts a media-based
+ install.
+
+Package: xlibre-server-source
+Architecture: all
+Version: 3:25.1.9-2
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 2988
+Provides: xorg-server-source (= 3:25.1.9-2)
+Conflicts: xorg-server-source
+Filename: pool/tools/xlibre-server-source_25.1.9-2_all.deb
+Size: 2966600
+MD5sum: 69d7be0e50c234c54c73d1c24b747bf1
+SHA1: 0c6ea12458bf11eebaa6dfc046fc20e699133e3b
+SHA256: 7ac743ab33da8541fea264969640026309f3e71a5a23b68ab89046d20c3dd5d7
+SHA512: 1f0076fb5028effc3a5afca77f75dde39c8d59ed6635c1308869b7815a02dabc1cc8eda2cc6a955b664112f2bec1f3591e6fb44a82b8e02c5cb5536a3311b7e6
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the XLibre ('XLibre')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xlibre and/or xserver-xlibre-core instead.
+
+Package: xserver-xlibre-common
+Architecture: all
+Version: 3:25.1.9-2
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 150
+Provides: xserver-common (= 3:25.1.9-2)
+Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Conflicts: xserver-common
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: pool/tools/xserver-xlibre-common_25.1.9-2_all.deb
+Size: 30872
+MD5sum: 9cd58c555f3e8c3ff9f801e92efefae0
+SHA1: 3717d31ceed187b02ec1696da2acf65b20755787
+SHA256: ad0cca2e34221cf8df73741f8031bccb2b79abed9e7fe9908fa59dd1950bf3ce
+SHA512: 6bdf69ba5b492a154fe42fcb1dd0c640ccfb96b3f0e4469a5a93333b1932e859e75f6c4d3bb29fe9fdb446fbcb5f339cb8681aecf3b019cc44e49ea747598fd0
+Homepage: https://github.com/X11Libre
+Description: common files used by various X servers
+ This package provides files necessary for all XLibre based X servers.
+
+Package: xserver-xlibre-core
+Architecture: amd64
+Version: 3:25.1.9-2
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 4187
+Provides: xorg-input-abi-26, xorg-video-abi-25, xorg-video-abi-28, xserver-xorg-core (= 2:21.98), xserver-xorg-video-modesetting
+Depends: xserver-xlibre-common (>= 3:25.1.9-2), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.3.0~rc1), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xorg-core, xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
+Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Filename: pool/tools/xserver-xlibre-core_25.1.9-2_amd64.deb
+Size: 1430152
+MD5sum: 805f7502b3ac8f8b898122663aa0c640
+SHA1: a4f05c60db55fa947ed94a941836eec836cf2875
+SHA256: e4a3a9e63b6553c588196cbc2794bc56ed01bb141ece471d3388f268def6fd43
+SHA512: eac7feac6251c80548cd6d3bbd67c013a40354d0bd5cd160252311ee558ceaca0e88def8fd9e3e5abcfe5ecc890e992afa8efe62876cbfbf9366fd766407d2ba
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - core server
+ The XLibre X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The XLibre server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-dev
+Architecture: amd64
+Version: 3:25.1.9-2
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 1106
+Provides: xserver-xorg-dev (= 3:25.1.9-2)
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2025.1), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Conflicts: xserver-xorg-dev
+Filename: pool/tools/xserver-xlibre-dev_25.1.9-2_amd64.deb
+Size: 169376
+MD5sum: ba0f966fa50d347c54d92d76f460d017
+SHA1: 8a959ead537edbfdbbdf1736e60c5ab11dc0a77f
+SHA256: b511169f64dca294c6089c0e1a8e0981796cab3ebc83d7dfc0af6b22e4bfc263
+SHA512: b8f23349c164ab8ba44d262e312dff4b4dbeb4bd12ffd9f1ea18a7610f656aafaebc11f19935f2fcc328689e891971d15d1e5fa4297a14cae74d6cacd131e5a3
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - development files
+ This package provides development files for the XLibre ('XLibre') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xlibre and/or xserver-xlibre-core instead.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-legacy
+Architecture: amd64
+Version: 3:25.1.9-2
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 180
+Provides: xserver-xorg-legacy (= 3:25.1.9-2)
+Depends: xserver-xlibre-common (>= 3:25.1.9-2), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Conflicts: xserver-xorg-legacy
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Filename: pool/tools/xserver-xlibre-legacy_25.1.9-2_amd64.deb
+Size: 36512
+MD5sum: 36aa3a2828f2fe57f6edf7c3b71616ca
+SHA1: a3355fcf4dda5e56a4eb35e02c3c170cc2c75211
+SHA256: 78e4dfaad811b2eba372f6d08e4d52e6206467e39fe50b1f9d17e0696228f4e2
+SHA512: 44777042de0f71530081e9fd3b2d20a443260d610412b6371d9a94cdd8281b4e5e5833d715bd13025c5c87eef2a7f5dc7d2d3dcb00890df7dbca933f42767e3e
+Homepage: https://github.com/X11Libre
+Description: setuid root XLibre server wrapper
+ This package provides a wrapper for the XLibre X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+
+Package: xserver-xlibre-xephyr
+Architecture: amd64
+Version: 3:25.1.9-2
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 2578
+Provides: xserver, xserver-xephyr (= 3:25.1.9-2)
+Depends: xserver-xlibre-common (>= 3:25.1.9-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libepoxy0 (>= 1.5.2), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xserver-xephyr
+Filename: pool/tools/xserver-xlibre-xephyr_25.1.9-2_amd64.deb
+Size: 962288
+MD5sum: ab00852d998ecb23b0ad2f0da8972e17
+SHA1: dc673b8197aa1da675d520b51ddee908939c091b
+SHA256: 851c5edb004ac55eb4f131db99f2b9d883556bce6994d1315e8770966eab01d8
+SHA512: b2bdb6c4f744334b74d6de57a50ca6399e72ace3c01c7f4bf00f4ce904f5c90cb3e3e6cfa308fe68b806ebc53a5c9cd24ee761576166a7f2a51e3845716ff2a7
+Homepage: https://github.com/X11Libre
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-xfbdev
+Architecture: amd64
+Version: 3:25.1.9-2
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 2237
+Provides: xserver, xserver-xfbdev (= 3:25.1.9-2)
+Depends: xserver-xlibre-common (>= 3:25.1.9-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xserver-xfbdev
+Filename: pool/tools/xserver-xlibre-xfbdev_25.1.9-2_amd64.deb
+Size: 832324
+MD5sum: 39f17d6e422c2ed0c9f7c7bae8099b43
+SHA1: 50043f9277ece41bd39910f9020c73aafcbd7146
+SHA256: cf825e99971325c03e2bd3432aee77ad49cb09f8229551c514e846b16e86e9f4
+SHA512: 89773740b23a4873a1e58a7af1e1ed820860b57d189264e542c72ee73065bfc68dc57a6822791c8e76cdfd329c33e41c9eeb56d67a4a57b537d203ad7b241bf3
+Homepage: https://github.com/X11Libre
+Description: Linux framebuffer device tiny X server
+ Xfbdev is a Linux framebuffer device tiny X server based on
+ the kdrive X server.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-xnest
+Architecture: amd64
+Version: 3:25.1.9-2
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 1731
+Provides: xnest (= 3:25.1.9-2), xserver
+Depends: xserver-xlibre-common (>= 3:25.1.9-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xnest
+Filename: pool/tools/xserver-xlibre-xnest_25.1.9-2_amd64.deb
+Size: 669252
+MD5sum: a1ecf825d524554d7b813d9335635a9f
+SHA1: 6b18cb6b33ff9793e856b4c7ab99c83cce534bd3
+SHA256: 9096c35d16188cd72955db300f34c632fc1936855d14bf768a6f4e1889a2d5b3
+SHA512: 233bbfbf2a1661b8f22ee7d62feefa7511ed2a16a5251395e55b342d9128d6864f05509bb02ab98dd38b1741b98e9fdd6115b91bd3fd2a9fa8e9955bc2e4d6cb
+Homepage: https://github.com/X11Libre
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-xvfb
+Architecture: amd64
+Version: 3:25.1.9-2
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 2173
+Provides: xserver, xvfb (= 3:25.1.9-2)
+Depends: xserver-xlibre-common (>= 3:25.1.9-2), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: xauth
+Conflicts: xvfb
+Filename: pool/tools/xserver-xlibre-xvfb_25.1.9-2_amd64.deb
+Size: 808840
+MD5sum: 52afddb1f8cde602311a2d88ca4687b7
+SHA1: f6cfdad95fc1ca80305804633338ffd86981d625
+SHA256: cfcf47878a4e1e750c25406aead3d848dd4bfd521326d7d8e026acb101315fac
+SHA512: 099746c7f97c3579cd5c66bd3b30b97a1f0d3fecf299c74c66ead634eb4a51795caaabe690891547d3d0fa85f58727a8117b0bc08fab7073d9bcda4ff19df8e2
+Homepage: https://github.com/X11Libre
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+

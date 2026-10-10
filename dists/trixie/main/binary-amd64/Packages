@@ -1,0 +1,1513 @@
+Package: android-tools
+Architecture: amd64
+Version: 37.0.1-15733141
+Priority: optional
+Section: base
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/android-tools_37.0.1-15733141_amd64.deb
+Size: 5826896
+MD5sum: d7645954fb6cd19b25774732cf771dac
+SHA1: 597577ba9b21296f2e05ad9805ebd42a9bd5cb4c
+SHA256: 8b336199cb519667000b39f08acf8b467fb52eac9874a4e4f2a1e02a80fd665d
+SHA512: a4137c997a93590e3570c3440cb157d682e0551b94e6e5956cb3224d0ef7959cea3d8b2d4f0b2ce90870f4affcfa24b2242624f5f923da1a75a243b9ddc132c6
+Description: android tools for Debian
+
+Package: apt-cleaner
+Architecture: all
+Version: 1.0-2
+Priority: optional
+Section: admin
+Maintainer: Local Administrator <admin@localhost>
+Depends: apt, sudo
+Filename: pool/main/apt-cleaner_1.0-2_all.deb
+Size: 1796
+MD5sum: 403dc9b7f2255b3eb4d3fcd466c47679
+SHA1: 93e56405bb96c65083c394a10f68fd8b7486bdcd
+SHA256: 2fdf19670613100a192b4cbc28443e53ac6d1aa9633fcc763472a0647d02af84
+SHA512: df5b6d0748a3ddcc00362fa978919c6c2f5456d7485ea03c3462f90f1f355752630f2c39e0d15368b1386d28753b1f9da3561df30a3c3a858b3b41f7abc37af2
+Description: APT package cleanup tool for KDE Plasma
+ Opens a terminal window to run apt-get autoremove --purge and apt-get clean,
+ displays a completion status message, and waits for user interaction before exiting.
+
+Package: brave-flags-wrapper
+Architecture: all
+Version: 2.2.0-3
+Priority: optional
+Section: web
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: bash
+Filename: pool/main/brave-flags-wrapper_2.2.0-3_all.deb
+Size: 3160
+MD5sum: 214e0b4433521bbc13931b033cc63174
+SHA1: e9658e940fd7c2e6812d9034322afaf02bdf3964
+SHA256: 3417b47269fa2798a4338f19a268e51517f120bea78aba56fdabdb62ff8a30cf
+SHA512: da48599c00677a4ae7ac2f5f956c251715f27024773087bc376dd73034eaf479f95b13b9ac7016be0b203497555cc9f26f44d22c6abcdf6299f30f574402110a
+Description: Wrapper that applies persistent command-line flags to Brave and Brave Origin
+ Diverts the launchers /usr/bin/brave-browser-stable and /usr/bin/brave-origin-stable
+ and wraps them so flags from ~/.config/brave-flags.conf are applied, or, if
+ that file does not exist, from /etc/brave/brave-flags.conf. The flag files
+ themselves are not part of this package. Works whether or not the browsers
+ are installed.
+
+Package: deadbeef-static
+Architecture: amd64
+Version: 1.10.3-1
+Priority: optional
+Section: sound
+Maintainer: Oleksiy Yakovenko <waker@users.sf.net>
+Installed-Size: 27906
+Depends: libasound2 (>> 1.0.16), libc6 (>= 2.7-1), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.12.0), libx11-6
+Recommends: libpulse0, libdbus-1-3
+Filename: pool/main/deadbeef-static_1.10.3-1_amd64.deb
+Size: 11856668
+MD5sum: a48e25de74d40786247f77c3303f408c
+SHA1: 70dbc9b700b688f02ccd7d449c9c204de6dd29c3
+SHA256: 1e7e1568862c0109a3d5dd65f3221dae5a45a303fb13c01d66e64909d967b654
+SHA512: 383a75e396e92c13f9352082093ed351984af13aee46793d8df20b381af474fc32b3314fa4b72713e800ac43b7f1bfb48c034dde182c00318ea05b823a90d727
+Homepage: http://deadbeef.sourceforge.net/
+Description: The Ultimate Music Player
+ DeaDBeeF (as in 0xDEADBEEF) is a cross-platform audio player
+ .
+ Features:
+ .
+  * mp3, ogg vorbis, flac, ape, wv, wav
+  * ID3v1, ID3v2.2, ID3v2.3, ID3v2.4, APEv2, xing/info tags support
+  * character set detection for non-unicode ID3 tags - supports cp1251
+    and iso8859-1
+  * unicode tags are fully supported as well (both utf8 and ucs2)
+  * cuesheet support for mp3, ogg, flac, ape
+  * autodetection of utf8/cp1251/iso8859-1 charsets in cuesheets
+  * sid and some popular chiptune formats like nsf
+  * tracker modules like mod, s3m, it, xm, etc
+  * HVSC song length database support for sid
+  * gtk2 interface with custom highly speed/memory optimized widgets
+  * no GNOME or KDE dependencies - just gtk2 and several small libraries
+  * minimize to tray, with scrollwheel volume control
+  * drag and drop, both inside of playlist, and from filemanagers and such
+  * control playback from command line (allows global hotkeys using xbindkeys)
+  * seeking works in all supported formats
+  * plugin support; ships with several standard plugins, such as global hotkeys
+    and last.fm scrobbler; sdk is included
+  * duration calculation is as precise as possible for vbr mp3
+    files (with and without xing/info tags)
+
+Package: devjam-archive-keyring-legacy
+Architecture: all
+Version: 1.42-1
+Priority: optional
+Section: misc
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-archive-keyring-legacy_1.42-1_all.deb
+Size: 6120
+MD5sum: 8556dbf1dc7315dbabb21707ee4bb82e
+SHA1: 741514ee03b0485f9a1703a4181b5064b9c3783b
+SHA256: e4dd31fcf7962af84f096b916faeb38f3ae70a801c68f83e2f9ffe585898f615
+SHA512: 75af23e6e7aa8380aa1f0653cf0811c85d9faa0417e0313b9bf88ec9aca02f5c8b0eb1e88a96752a4894ca7be89740c84c5725f2dbd60bb70ee7abb903b0189f
+Description: Signing key for the dev-jam apt repository (legacy)
+
+Package: devjam-archive-keyring
+Architecture: all
+Version: 1.42-1
+Priority: optional
+Section: misc
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-archive-keyring_1.42-1_all.deb
+Size: 6072
+MD5sum: da007d17f36579d233eea6b3cfcbf1a5
+SHA1: 1be745a6508c3b2fb037a946b5f960146d073d77
+SHA256: df162ae4958c3377751553d10d1899f31ec74398beb7767bc562281f6796675a
+SHA512: 73eff06e54a4bd021b0dfa4c06a0e1cdb63694ffe3bec438565464d49cafb855c6d281c09b13d3940f668888733ce091efe1b36ed7a990ff4b66ea263d0bbdcb
+Description: Signing key for the dev-jam apt repository
+
+Package: devjam-conky-system-monitor
+Architecture: all
+Version: 1.16-3
+Priority: optional
+Section: utils
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: jq, procps
+Recommends: conky-std, lm-sensors, devjam-cpu-powercap
+Filename: pool/main/devjam-conky-system-monitor_1.16-3_all.deb
+Size: 7448
+MD5sum: 18ee4fbebc2e582458f713fd8eef30a6
+SHA1: 6a491076310bfe3d221dfc6bb0fbae6cbca54650
+SHA256: f7970090035953d3dc3e2f026e14ea8183b592e44abe855a676798421c475a75
+SHA512: 9bfbc0b0ecc75a0618c00df49e4a860092ca6799eebf2683ba501a0053536b22029927356a4f8ad9e9fdd6cb8aba4efe6a19f0fa3328cd828886a53b4e3a696d
+Description: conky theme
+
+Package: devjam-cpu-powercap
+Architecture: all
+Version: 1.5-2
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-cpu-powercap_1.5-2_all.deb
+Size: 1740
+MD5sum: 0ace4e63f0f1475f964ff339f29c15ac
+SHA1: f44202036cf663f4a519d16c46ec49c1a28a1859
+SHA256: 2959c99ef0becfa416eae6959d988ab67bbcfec64b9f62109ab19b868368fe26
+SHA512: 2b3d21cdd57cd8ececc1888598a5ab4d5e9d434574ecbe6c40a8818a84e446cad2db7189b435644fccc5af5e278b321c7459e8c6c9847b3ff26025037740cbb2
+Description: powercap permissions
+
+Package: devjam-desktop-kernel-hardening
+Architecture: all
+Version: 1.0-3
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-desktop-kernel-hardening_1.0-3_all.deb
+Size: 2356
+MD5sum: 114736783b221d4fff215ef87975e9ce
+SHA1: 202b3284295c204f8dd6636a5737141f25cd21c4
+SHA256: 4ceb5f853e00447b9e1755aec30e5fb54e77c4df9b6594d5ae9a6e895490c515
+SHA512: 247a72d232a96c91f756ba4c836df9e0117e285facdc98d54a3bb15c5bbf3ffe402882ae2f98216cfdb66cbecb0b5a23c7c8045d7a2d2f0681cfa5fb5a64a09b
+Description: Desktop kernel hardening
+
+Package: devjam-external-keyring-legacy
+Architecture: all
+Version: 1.0-2
+Priority: optional
+Section: misc
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-external-keyring-legacy_1.0-2_all.deb
+Size: 32308
+MD5sum: 5cd37f5ea77e0a08f79a8990369a5cca
+SHA1: 7e81fb970ac73c6d2a775dcb3b5950a674abebc7
+SHA256: 0e68a30547050a89c74658292806395c4b9d0174a4b083e6151a5302174a500d
+SHA512: 7b3b7cded07f0780c710a7401d98aee6a99998a877a1f3824ca7d397a03f298a7c678ad2846c6e7c1eb81f8486205810f55995af4e6c14cab4fb9d4f6a958754
+Description: external repo keys for Debian (legacy)
+
+Package: devjam-external-keyring
+Architecture: all
+Version: 1.1-1
+Priority: optional
+Section: misc
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-external-keyring_1.1-1_all.deb
+Size: 43436
+MD5sum: 5cfab8bc06212fdfb5e0e4c13652aaba
+SHA1: 2e7f6ebe6475e97a7543bafff5536d609684099f
+SHA256: 9ee4669339aa448e49b9e60814595b8b55a05a30e79fd7a90fe743cb2f20f9bf
+SHA512: e7183d7984f7802306d6ca1c62e6d106d0c1a0c8b4d6ee30f6767869978a1070edf6db808525b9e74d58d6c09d7935483d26ebaefdc3d753a68dc502c831b6e5
+Description: external repo keys for Debian
+
+Package: devjam-gpu-brave-config
+Architecture: all
+Version: 1.5-3
+Priority: optional
+Section: web
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: brave-flags-wrapper
+Suggests: brave-origin | brave-browser
+Filename: pool/main/devjam-gpu-brave-config_1.5-3_all.deb
+Size: 1904
+MD5sum: 4c0c9f92c9949412b8b5142e6e7a37d3
+SHA1: 4cf6c51ef1e24159f23c6bec3500a8020abff4be
+SHA256: b6c338cca4e8e27b1a6e390d2c3a3801d8b9c79e90aa39bd33b3fcdd5cbb9750
+SHA512: 542b83e8399a03a6f60d2586cfeba386ff64cfda656c2aabfdbf066f17e30fab3a80660196a93786445ba4da11798a52c891e74344f447d3065b3c6943c94985
+Description: GPU Optimizations for brave-browser such as video decoding, compositing and rendering.
+
+Package: devjam-gpu-chromium-config
+Architecture: all
+Version: 1.3-3
+Priority: optional
+Section: web
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: chromium
+Filename: pool/main/devjam-gpu-chromium-config_1.3-3_all.deb
+Size: 1920
+MD5sum: 631d2650a8a4c52868185e7bee2f05dd
+SHA1: 01975750cee59d8544f3c1ea6efba3224b53e711
+SHA256: c1e9a9cd274b65a174ab69e63683c6f8be00ac061d74c42dcc49f83d5ca925ff
+SHA512: bb10b3db8b755d6fa0afbdc043af2493d8fbb9e496375cb56f18522d0088770cb28812414d5bed13ea12a1d4fe752a82610b44f7719a57eaf961152142210202
+Description: GPU Optimizations for chromium such as video decoding, compositing and rendering.
+
+Package: devjam-gpu-intel-config
+Architecture: all
+Version: 1.0-8
+Priority: optional
+Section: graphics
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-gpu-intel-config_1.0-8_all.deb
+Size: 1392
+MD5sum: 7ef223a4aef5b4affefae987c6f6a176
+SHA1: a6f18947b92f8f07a36af570080f8ad90f401c12
+SHA256: 3af7357a699cd6ea0dfa2cb555eb65d1373b06e64563d7fe0435d9341c73563d
+SHA512: a3e9277733ef44b6f98ba910f1ebe6550208e3fc778a8e7e64a71e1ea43ff8c4461c7c853ba1a42a3aacfc44ac0c97c56592a7551b6e6cf5d0717a3ff18bfd84
+Description: Optimizations for the i915 Intel driver
+
+Package: devjam-gpu-mesa-config
+Architecture: all
+Version: 1.1-3
+Priority: optional
+Section: graphics
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-gpu-mesa-config_1.1-3_all.deb
+Size: 1660
+MD5sum: 1b511343e618ba2416aa40a615c94b2f
+SHA1: 49ee68ed2f19088741e79c95e1bc5108e8e785d5
+SHA256: 275b1962d80cf080b44d72e32642cb11c575f08313eff356cff379bbd32bb6e8
+SHA512: c863f3abf7510153d91aec6ac2fab64b49ae6be219f1c515ca0696fa1ea93007c8e6d0a9c4c55467c2dc4a77dfc5ba25abb450b3e0b444b1ddc23dccf523fdeb
+Description: Mesa optimizations for gl threads, DRI and video decoding/encoding
+
+Package: devjam-gpu-x11-gtk4-vulkan
+Architecture: all
+Version: 1.0-3
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-gpu-x11-gtk4-vulkan_1.0-3_all.deb
+Size: 1320
+MD5sum: 470413192b59890421a11533a51c97f8
+SHA1: d3d6c0709cf0521352d3bb603b5f40d3ae3d6854
+SHA256: 767e83fc20af1d4ce8759928822fbbba398a58266a613f50776757aa01e83a2d
+SHA512: 824e23cad301e51a2ccb950da45612b572cba96e304dad26cda63d6d4866ca209b0ae27f500d2ffd2f3ddb37ebbc40c1b54ca1755d0db62d0b94221a1df15a1b
+Description: Switch from OpenGL to Vulkan for GTK4.
+
+Package: devjam-gpu-x11-synaptics-config
+Architecture: all
+Version: 1.0-3
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xserver-xlibre-input-synaptics | xserver-xorg-input-synaptics
+Filename: pool/main/devjam-gpu-x11-synaptics-config_1.0-3_all.deb
+Size: 2388
+MD5sum: 4b2a9c27924dd94f6a381fc093955681
+SHA1: 112e94412d341ec0dedb204327c260266bfce634
+SHA256: 46ea4c51cad59dae946354d09c9d69c1c9b905219830d0ea9867744002e7522b
+SHA512: b51314519fcdc1750315a263abff2a5e43e8f443db79f128da8c680a20bdff4621d54aa403443cd047c1b543ec34a49dd7f62c67da1478acf99e0ea61e6ac8f3
+Description: Inertial scrolling (aka kinetic scrolling) for synaptics
+
+Package: devjam-gpu-x11-xlibre-tearfree-amdgpu
+Architecture: all
+Version: 1.5-3
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre
+Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-amdgpu_1.5-3_all.deb
+Size: 1576
+MD5sum: b6e68c50585bc3dcda35381b458431cb
+SHA1: 92027dc74ca9dad983ae7704c7e295a6e18ac38f
+SHA256: 9289f1f8c791b4c8cc8489fbdc320b0e1d9c68c62989c9641d52ed88803594ff
+SHA512: 9661a4b3c829939e6f25a9279b300c577a072020421a252e4785fdbd6ac92c6390442531ed1804ad7711e9d5c0d3c67cc550b50306a1b8013f07a9a6ab05fca6
+Description: Tearfree improvements to the amdgpu driver
+
+Package: devjam-gpu-x11-xlibre-tearfree-modesetting
+Architecture: all
+Version: 1.6-3
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre
+Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-modesetting_1.6-3_all.deb
+Size: 1584
+MD5sum: 749fdb4496a31f7d52bcaae138f29cc9
+SHA1: a36e05b473039e483262961a3417ae91f9d2e2a6
+SHA256: d3d6715a12b34123296aa0954fc2ee5600c315d592239cff6690b6ffd623345b
+SHA512: 0da099adee2c5846086811cc2244c8f002b84fad6b45560a1929632abfcd9c1b1d5586333de8bbbc46701e6862a200f2f45bd470f5f6d2a5fce3f8a1f58adfeb
+Description: Tearfree improvements to the modesetting driver
+
+Package: devjam-gpu-x11-xlibre-tearfree-plasma-egl
+Architecture: all
+Version: 1.4-3
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre,devjam-gpu-x11-xlibre-tearfree-plasma
+Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-plasma-egl_1.4-3_all.deb
+Size: 1472
+MD5sum: 98a54f9a0023a083337df1a7b9f5391c
+SHA1: c705e4f9c1b6a3bc27d3a079e78999861485b835
+SHA256: 9229342a361c553f328574c45fa92a70cd698d230ab549a78b93415a8ca455b0
+SHA512: 794f3721fc4d3ba577c0ff74ed77cb5cf14117d19399d78056f180b016cc94149c5152fd0bb005d58fd789e09efc3732227dbcc78d4f3b055faae89e7d2d9ade
+Description: Switch from glx to EGL for Kwin/Qt.
+
+Package: devjam-gpu-x11-xlibre-tearfree-plasma
+Architecture: all
+Version: 1.4-3
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre
+Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-plasma_1.4-3_all.deb
+Size: 1680
+MD5sum: c04909a1726cc061139c67ad6c89e681
+SHA1: 3eadb3ac13b334f1a32734ee6eff17a5c8b29898
+SHA256: e36b98f6f5fe861fe7618718ebc4c968153751286b72615d451fb5c0d5597f13
+SHA512: 5edfbe1c86a5d7144f1781f2f38b95b92b31a635c4c911ad6b8c6b0bc09680450908bc847f6da45d45455617083871e9d4e16604ed39bd6296d7e3fc7c74e4c2
+Description: Disable sync to vblank at kwin, let modesetting handle vsync/tearfree. Applies to the modesetting driver from XLibre or latest unreleased Xorg.
+
+Package: devjam-grub-theme
+Architecture: all
+Version: 1.1-5
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-grub-theme_1.1-5_all.deb
+Size: 163888
+MD5sum: 4d4cebc9548b5e604d5d4e616f7f3b2d
+SHA1: 04d66a6e9e38672cba4c4e000a1944cf4eeb34b3
+SHA256: e61601a75d25ff3ac12cfcf590636000537b5fbd5fc22dffb8c1f18befd85ddc
+SHA512: b255e5ad96dc55cfd691bddc5b762892578b88c5c8cb7ed8c9b3e6216dfecb23212c4cb17984f2e039b6570d0fe9cc7f20c3e4029bc724cae9028344a9d618a3
+Description: Grub boot theme by devjam
+
+Package: devjam-grub-tools
+Architecture: all
+Version: 1.27-3
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-grub-tools_1.27-3_all.deb
+Size: 8886984
+MD5sum: 571137bbe1927f1202a40732a5c93402
+SHA1: a82f5f90c1db9b4e0b499cd166351db416c7f0e3
+SHA256: d9353386397340517f2f431097220c1fcdcff7a0a4e6a5db4fee4a2efe2c1524
+SHA512: 55eeff0a1611f0b9416d848c5fbe6ba7db39f1ca310806a6f412f2911095692c3ace7cbdf2af46d89cc77d5b9d6606c619f5d5316114867a221dd10ee147caf9
+Description: Grub boot items by devjam
+
+Package: devjam-kde-servicemenus
+Architecture: all
+Version: 1.35-1
+Priority: optional
+Section: kde
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: meld, imagemagick, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, genisoimage, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
+Filename: pool/main/devjam-kde-servicemenus_1.35-1_all.deb
+Size: 5734
+MD5sum: 435642ad89e7ca89cc73a88fe777ebe6
+SHA1: 0b8d538a717ebe3507fedbb5130051a76a0ccadd
+SHA256: 730c175a795785e454fd5a1372342ea6148e6d28e0610a3dc25c60aba97a5a3b
+SHA512: 832b27578b54d11550246d66497924c6e5cb543769fe20c46b7f628f7034c28a5f0b64aecf93842c2867066df1b051b534948c8a107a95af85e61e0c980fc4ed
+Description: KDE Service Menu items collection by devjam
+
+Package: devjam-live-boot-hooks
+Architecture: all
+Version: 1.18-3
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-live-boot-hooks_1.18-3_all.deb
+Size: 2804
+MD5sum: 2d23dcc721d7c6202a715f2501e5ad38
+SHA1: b17fd41a17c94f81b1619675bd7eea813519a48a
+SHA256: 7ca595ed9efb247d13b2db8216b907968e9e4addd731d6662f516148571a21ff
+SHA512: f00de4a76c7316ad07821d1586144a17c81e5a2f5eb4494776c2aaa491ebcda3aedbf1607330aa664bee696bffdcb3504afb119b376ea7a7fad5cd8f16fbb04f
+Description: Grub boot items by devjam
+
+Package: devjam-mpv-config
+Architecture: all
+Version: 1.1-3
+Priority: optional
+Section: video
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: mpv
+Filename: pool/main/devjam-mpv-config_1.1-3_all.deb
+Size: 3112
+MD5sum: 38ec91d59ba3bee6f3dd63d795773951
+SHA1: 89d2e48566291b2cb833080ae6f1e4e8512feb19
+SHA256: e26d85ab66eed4dd90111b1bfcbd7bfe752c678f403434401a8e5296c263317b
+SHA512: d43e41a739039739f0589055c6c77b2636b88853c615d3995be05b88f93d76d97e2ef21a699733448ec604ff308f8f088bc374a99feedb4431efeaeecd7d6ad5
+Description: mpv configs for the CLS lab monitors
+
+Package: devjam-pipewire-scripts
+Architecture: all
+Version: 1.1-3
+Priority: optional
+Section: sound
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-pipewire-scripts_1.1-3_all.deb
+Size: 2132
+MD5sum: 4254181e16c748d30dd8419b23c69680
+SHA1: db60c7ed4529def7f3e89a13eb3147ef3cb7bfd3
+SHA256: d5dddf3b8b146d49b709e2940eea08ca8dce069bdc4a80b2ceced91420c0cc74
+SHA512: 8c875bb401e64013881c9975e5e420cd18f7802f1c0e73a1f84daa8f9cbec83e9eec6cdd455ed6a39b677534d6c1048801770dfa7d1f92c99dc8d7b87ab29368
+Description: Scripts to enable and disable Pulse, Pipewire and ALSA
+
+Package: devjam-science-experiment-mode-rtirq
+Architecture: all
+Version: 1.44-3
+Priority: optional
+Section: science
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: rtirq
+Filename: pool/main/devjam-science-experiment-mode-rtirq_1.44-3_all.deb
+Size: 10644
+MD5sum: ba2709fa0b36a326300a56eb19e9e1a0
+SHA1: 2c3b61fc1714a8ea0b35c01d77fce97bc8e24d4b
+SHA256: 3cdb9ff1dd4f5cbe1a6f967a61e9a275b7f8e6e8138dcd6261f5bcfc8bc860ae
+SHA512: a7722eefeb1a43a4d1d12afa514a82d85abf509ae87fd371f678a97c353dfc7ba471580abd9dcfd21fa2adc7302b3a4329ba57f84476b81e4a32ce27c789c743
+Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
+
+Package: devjam-science-opensesame-psychopy
+Architecture: all
+Version: 1.5-4
+Priority: optional
+Section: science
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science-tools
+Filename: pool/main/devjam-science-opensesame-psychopy_1.5-4_all.deb
+Size: 4616
+MD5sum: 11d26239d067fc5d13987abad621a155
+SHA1: db7f4c332c704272a200639add2600d8b4053d3c
+SHA256: 9730d5af3d77dcb4f05bd08859a27474a1d1f8274b25718ceec7f520d076751b
+SHA512: bfa6dece98d3e324352c318f0e73633e538190adb1d328336239099f60eada25da4de8d91785cc61917b6bea2953b4689adba06246e4cabddd30488720bca85b
+Description: OpenSesame Launcher with PsychoPy
+
+Package: devjam-science-tools
+Architecture: all
+Version: 1.75-3
+Priority: optional
+Section: science
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
+Filename: pool/main/devjam-science-tools_1.75-3_all.deb
+Size: 1998788
+MD5sum: f2df45435df961f7fa6e0555d24684c7
+SHA1: 5c4d4663fe0a9ddd877b806de40eb13c8b0e1dc7
+SHA256: 4e4bfcb471628ee9d78944186dc761a6d05b904203175ace029818c51bde6d1d
+SHA512: dc53501b6ae861825e31ab8530a89cc33798ba44b38e71cfa7b97fc094b390aeeaafd016e793b807e26e298d65e3ad4c08083de3de73818380a5a635761c65e4
+Description: science tools
+
+Package: devjam-sensors-asus-z790-plus-wifi
+Architecture: all
+Version: 1.0-3
+Priority: optional
+Section: utils
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: lm-sensors
+Filename: pool/main/devjam-sensors-asus-z790-plus-wifi_1.0-3_all.deb
+Size: 2572
+MD5sum: 18cae80d6f9593558943c4c15bbf2477
+SHA1: 3a929c1363324dd7982cdfac3e55322f1d2eb6fd
+SHA256: b25ec88286a1fa3195952e57520110689b2890200da819e029aa0829a9e750fb
+SHA512: 872d19d6f483dbb8c817e17399b5349d74e496a6a9681780210b91473980783273fa6da609b56e01b13fc7821f3bb84afa74ec863827e0f4717867c282a4ab55
+Description: lm-sensor config for the ASUS TUF Gaming Z790-Plus WiFi mainboard
+
+Package: devjam-system-config-lowlatency
+Architecture: all
+Version: 1.28-2
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: devjam-tools
+Filename: pool/main/devjam-system-config-lowlatency_1.28-2_all.deb
+Size: 2776
+MD5sum: 60c169b139bc0a18f525e56878664bba
+SHA1: 92850e53d29a450f761f26d865fdb33909412753
+SHA256: 7caa1ae231ca88b0959f3848384f6be497c68476e2c937a62800e27bb2827265
+SHA512: 06a0307a433f37a0c0d3735df8061b26d2c06c9ffca82f6945a9e187631f90be6c6735fc6bdaed2cb590500e4895ef2f8fc58075a68e4576673a67ab3c790500
+Description: Low latency tools and settings for Debian
+
+Package: devjam-system-config
+Architecture: all
+Version: 1.23-3
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-system-config_1.23-3_all.deb
+Size: 4240
+MD5sum: 5bf2a3920316aabd9a95fab9eb3b3f27
+SHA1: 77d4240ff4316a96167428fdc1bc9bebbaf9aac9
+SHA256: f722bd00ce7edc58d5000347361679888f8806bba73bb439f2d4c91e41dbb984
+SHA512: 55d72dff8c77d773ab9cf9078484014d665b26ef5473a92c091b43d037d4d0a8f0c9f7d72d1406389596c586cf0f4bf779fee1e3063c4dbd5d05483d0bce61e5
+Description: Generic configs by devjam
+
+Package: devjam-thunar-actions
+Architecture: all
+Version: 3.5-5
+Priority: optional
+Section: xfce
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, gnupg, gnupg2, baobab, inotify-tools, pacpl, meld, genisoimage, mkvtoolnix, coreutils, cfourcc, mediainfo, ffmpeg, devjam-tools, fclones, zstd, devjam-tools
+Filename: pool/main/devjam-thunar-actions_3.5-5_all.deb
+Size: 5200
+MD5sum: 155c8e73ed1437c0408be641cff33818
+SHA1: d27f48854fcafd8f2fec0f93ca74cfb888d63143
+SHA256: 1f94c7556ffd528ba7cfb78efec9fd3543af511205345fac31b213c111420ecc
+SHA512: 0c4565832bded319417e033cbcaa9276c438e15e9842fd9c07680276fa06206e47eb6dc8b4abec901586afcc118b30bdd64750e89407ba17bbd4aae3a3b1ce86
+Description: Thunar custom actions collection
+
+Package: devjam-tools
+Architecture: all
+Version: 1.87-1
+Priority: optional
+Section: utils
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: sox,
+ flac,
+ wl-clipboard,
+ packaging-dev,
+ debian-keyring,
+ devscripts,
+ equivs,
+ cfourcc,
+ jdupes,
+ fclones,
+ live-build,
+ ffmpeg,
+ imagemagick,
+ mediainfo,
+ mkvtoolnix,
+ rsync,
+ perl,
+ tar,
+ linux-cpupower,
+ dkms,
+ util-linux,
+ debsecan,
+ genisoimage,
+ csvtool,
+ libevtx-utils,
+ systemd-container
+Filename: pool/main/devjam-tools_1.87-1_all.deb
+Size: 25023560
+MD5sum: 96bac8a29d5743b3069ae7d4a59c3464
+SHA1: 551a1cd5af2bb9eace043f316cc07c233c0ad8c8
+SHA256: 7db1f6c3c2c3ab472ccd5cf0dcf88bad9cb88b34ef48188afb6651a4ba0bb4df
+SHA512: 07655175b492fb6c44ed06489af55885d8c39d7eff348fd7c7bb9aa49ff6f9f58fb4ffe8e4b88b1a6c3bad06dc482c4b7e0b1160fdde3017441173911f2af1b7
+Description: personal tools for Debian
+
+Package: devjam-x11-monitor-config
+Architecture: all
+Version: 1.1-3
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-x11-monitor-config_1.1-3_all.deb
+Size: 2876
+MD5sum: 814a4fdb388eb667b266f6bfb6ea4a4f
+SHA1: f2295e1ffb5c52b13823b07a89379f66f2839d44
+SHA256: 9bc80c58721e7f95ebec9ddf9eca91cfc0eb83737f91b5330d891f0b58869787
+SHA512: 3aa8911786aa686fc9bf764574aae9ebe58aa508f2dd10aa3323e65ca7cf83b6a24f76b4418814b86fbad1b289d0f07ab8726d7794481709bfcb6c9009924045
+Description: X11 display size confs for the CLS lab monitors
+
+Package: e1000e-dkms
+Architecture: all
+Version: 3.8.7
+Priority: optional
+Section: kernel
+Maintainer: Kolja Hildebrand <kolja.hildebrand@gmail.com>
+Depends: dkms (>= 1.95)
+Filename: pool/main/e1000e-dkms_3.8.7_all.deb
+Size: 241548
+MD5sum: 9eed0400f409bf0ed262edbd31084703
+SHA1: 672b51755d57914f466f4ade75eee79eb6757596
+SHA256: 7c055d7d73094a5447a3d385b349cbbc8907c8b137be442fd3370ad6b12dd816
+SHA512: 6770e5c4d90293a1d102566489fd9212e3d717ab873ddb79e06914a05d59709f14a5c8795cdfaa7ca972e6d076d74d6a2e3e0f806f7f486e2f65ab29bcca283d
+Homepage: http://sourceforge.net/projects/e1000/
+Description: Intel e1000e Ethernet adapter driver (DKMS version)
+
+Package: fclones-gui-launcher
+Architecture: all
+Version: 1.1-3
+Priority: optional
+Section: utils
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/fclones-gui-launcher_1.1-3_all.deb
+Size: 24418
+MD5sum: 8f40dd0911a58e9b42246414d74d5b03
+SHA1: 311e63eee4cad44b4c09dd5d3cf95c859d2a11f1
+SHA256: 064fcbc2ad9b2c9572b2c8dba6f7de0c3a1f0b6962195a42c1dfc05524294a71
+SHA512: 82b3737e0386371e45fe0cea283bb6386bc49b1a4d7e6a7dcab5303bfcca3fffb1a0d0c2566c78deb9b4a62c53986bc552badf9002c96f6f1797e7367621912b
+Description: Desktop launcher for fclones-gui
+
+Package: fclones-gui
+Architecture: amd64
+Version: 0.2.0
+Priority: optional
+Maintainer: Piotr Kołaczkowski <pkolaczk@gmail.com>
+Installed-Size: 3759
+Depends: libc6 (>= 2.34), libpango-1.0-0 (>= 1.14.0), libgtk-4-1 (>= 4.0.0), libadwaita-1-0 (>= 1.0.1), libglib2.0-0 (>= 2.53.1)
+Filename: pool/main/fclones-gui_0.2.0_amd64.deb
+Size: 1132012
+MD5sum: 23880964c016791d7fc0fe44db581c27
+SHA1: ee5c5563cdb44587c951315a0b388d2d84b0dba9
+SHA256: db6c00d9d053bea06fcf95b759c8065d81571d768bc61ecdad1051f721ce91e8
+SHA512: 274495ab5c6fa206d1fb6ea99f9a1380cb21bcc5640381f94ed62f29e99a73e5b0a2c586c1422a7613f428c4dad5f4dce967024d995c0b60e2ecf771d53fe977
+Homepage: https://github.com/pkolaczk/fclones-gui
+Description: Interactive duplicate file remover
+ GUI for [fclones](https://github.com/pkolaczk/fclones)
+ =======================
+ **Fast interactive duplicate file finder and remover**
+ .
+ [![CircleCI](https://circleci.com/gh/pkolaczk/fclones-gui.svg?style=shield)](https://circleci.com/gh/pkolaczk/fclones-gui)
+ [![crates.io](https://img.shields.io/crates/v/fclones-gui.svg)](https://crates.io/crates/fclones-gui)
+ [![fclones-gui](https://snapcraft.io/fclones-gui/badge.svg)](https://snapcraft.io/fclones-gui)
+ [![License:
+ MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ ---
+ .
+ Warning: This is a very early preview version.
+ Not all features of fclones are exposed.
+ This hasn't been thoroughly tested.
+ .
+ ![](screenshots/input.png)
+ ![](screenshots/duplicates.png)
+ .
+ ## Features
+ .
+ * Identifying groups of identical files
+   - finding duplicate files
+   - finding files with more than N replicas
+   - scanning multiple directory roots
+   - filtering names and paths by extended UNIX globs
+   - filtering by min/max file size
+   - proper handling of symlinks and hardlinks   
+   - optional ignoring of files specified in `.gitignore`
+ .
+ * Removing redundant data 
+   - removing, moving or replacing selected files with soft or hard links 
+   - removing redundant file data using native copy-on-write (reflink) support
+ on some file systems 
+   - bulk selection of files to remove 
+   - prioritizing files to remove by creation, modification, last access time or
+ nesting level
+ .
+ * High performance 
+   - parallel processing capability in all I/O and CPU heavy stages 
+   - automatic tuning of parallelism and access strategy based on device type
+ (SSD vs HDD)
+   - low memory footprint thanks to heavily optimized path representation 
+   - doesn't push data out of the page-cache 
+   - accurate progress reporting 
+   - uses modern GTK4 list controls that can display hundreds thousands file
+ items
+ .
+ ## Installation
+ ### Packages
+ .
+ Fclones is available in Snap Store:
+ .
+ ```shell
+ snap install fclones-gui
+ ```
+ .
+ There are also binary packages attached to each
+ [release](https://github.com/pkolaczk/fclones-gui/releases/latest).
+ .
+ ### Building from Source
+ Assuming you have Rust toolchain, run the following commands:
+ .
+ ```shell
+ sudo apt install libgtk-4-dev libadwaita-1-dev
+ cargo install fclones-gui
+ ```
+ .
+ ## Usage
+ Should be self-explanatory. If it is not, then let me know by opening issues.
+ ;)
+ .
+ Nevertheless, the workflow is as follows:
+ .
+ 1. Select / add the directories you want to scan for duplicates.
+ 2. Adjust options if needed.
+ 3. Press the "Find duplicates" button. 
+ 4. After search is complete, a list of file groups will be displayed.
+ 5. Select files you want to get rid of. 
+ 6. Select how you want to get rid of them, using the dropdown at the red
+ button. 
+ 7. Press the red button (warning: this *is* a destructive action).
+ .
+ You can remove duplicates many times without rerunning the search.
+ You can also go back to the input page and modify your scan settings.
+ .
+ ## Reporting issues
+ Please report issues in GitHub Issues.
+ Don't forget to specify your OS and GTK4 version.
+ I've run into several GTK4 bugs while working with this project.
+Vcs-Browser: https://github.com/pkolaczk/fclones-gui
+Vcs-Git: https://github.com/pkolaczk/fclones-gui
+
+Package: fclones
+Architecture: amd64
+Version: 0.35.0-4
+Priority: optional
+Section: utils
+Maintainer: Script Builder <builder@localhost>
+Installed-Size: 4716
+Filename: pool/main/fclones_0.35.0-4_amd64.deb
+Size: 1430932
+MD5sum: fa62be2e7ec37ad62aef438dab3b864d
+SHA1: 1b0e97d6b20919c285a74614aac0267b566ff991
+SHA256: 418da559fd053a32ac0ca6d7d25525d35a81cb7d21e5cef0dff4d8f5966f4f9c
+SHA512: 88ab8eacae21c4bac52d06d25896cd4a11557b579984fbf22efff00ec2269a15e5d859adf56552913decea611bf9f69c5146b815aaadf12c6c1cb605f1070e4a
+Homepage: https://github.com/pkolaczk/fclones
+Description: Efficient duplicate file finder
+ Fast duplicate file finder and remover written in Rust.
+
+Package: geteduroam-cli
+Architecture: amd64
+Version: 0.14.0+git-1
+Priority: optional
+Maintainer: Jeroen Wijenbergh
+Installed-Size: 14088
+Depends: network-manager
+Filename: pool/main/geteduroam-cli_0.14_amd64.deb
+Size: 6062728
+MD5sum: fa8428b3436b7b2b33dcb7c77ced37ff
+SHA1: e70b3deb81c90fcf80754cf3c15514523619c0bb
+SHA256: 7a1560a56087e631f69532f386d260a1d4b413011e5c459f5e0e14460ca73acb
+SHA512: f371a207795b8bfa9c805ec495114f1203cf405c158aee356247997e51cd90e7d646d32cb5b644244fdee6abdd11f27c301b08a610aad56059963f3e6b4bc317
+Homepage: https://geteduroam.org/
+Description: Geteduroam CLI client for Linux distributions.
+
+Package: geteduroam-gui
+Architecture: amd64
+Version: 0.14.0+git-1
+Priority: optional
+Maintainer: Jeroen Wijenbergh
+Installed-Size: 22088
+Depends: network-manager, libgtk-4-1, libadwaita-1-0, libnotify-bin
+Filename: pool/main/geteduroam-gui_0.14_amd64.deb
+Size: 7853772
+MD5sum: ad54a3dfe24024787bf76a85c17f50d8
+SHA1: da5bf6a588cc0bfd44fe002a3f3ec7afbad665e9
+SHA256: 66cbc82f8ca883b2d70d888d589976002f42494e938905fe35cf29f7d6322241
+SHA512: 6f9827a4a34723615da9bcc9b05c44836e27be83a0d7afa60f8c18ed2aa882cb9bf404cfdede8e70c596244f64c6c984f7a71b97a739f90489926f74223c7ad6
+Homepage: https://geteduroam.org/
+Description: Geteduroam GUI client for Linux distributions.
+
+Package: grafito
+Architecture: amd64
+Version: 1.6.0-4
+Priority: optional
+Section: web
+Maintainer: Script Builder <builder@localhost>
+Installed-Size: 10384
+Filename: pool/main/grafito_1.6.0-4_amd64.deb
+Size: 3464432
+MD5sum: fbd420332828f9698ede7ecc38370176
+SHA1: 1d356a016cac9684233aca46feb0f5c69de16b1e
+SHA256: d9852804a31797369cdf5f229416dee6060eda4635425f3ce908c6000eb763ed
+SHA512: f6a3704a289e088dbc1cac2c78a1d060a6e8dcb9d9bbadca83f7dde4ff152c2e29b1b1194508739c0b9cecde4f3d7da552123731c9225c5efce3cb3c2ef7b3a8
+Homepage: https://github.com/ralsina/grafito
+Description: Simple, nice journald web frontend
+ Grafito is a simple, self-contained web-based log viewer for journalctl.
+
+Package: inxi-gui
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: system
+Maintainer: Kevin Kim <root@hamonikr.org>
+Installed-Size: 32
+Depends: yad, policykit-1
+Filename: pool/main/inxi-gui_1.0.0_all.deb
+Size: 5632
+MD5sum: 1125cf91b8e0797abf1e7500e1342402
+SHA1: d717538001d21338ec81f9f2dd668c7660336731
+SHA256: 6cdf910ebc27e0e3d842f02deb8192e68e89d0a528646b48d0b84f0acc0238ca
+SHA512: 15ba525c0ed5cdb46d96f20f137ae77e3d36e0f2ca45a8ff69a3ee5e8f29b676786ef5e103a34e62db7090da4e9dc5c984c4906544842c91a5cc94d0a32b4a9b
+Homepage: https://hamonikr.org
+Description: Simple gui front end to inxi.
+
+Package: kde-servicemenu-kim5
+Architecture: all
+Version: 0.9.6.1-1mx23+1
+Priority: optional
+Section: kde
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 154
+Depends: dolphin | konqueror, imagemagick, ffmpeg, x11-apps
+Conflicts: kde-servicemenu-kim4
+Replaces: kde-servicemenu-kim4
+Filename: pool/main/kde-servicemenu-kim5_0.9.6.1-1mx23+1_all.deb
+Size: 54416
+MD5sum: 76e087510633c661bbee5e0994208518
+SHA1: 918239fb9e8d100fd6a3d2f202b0310f66445287
+SHA256: da635a57fc5190c8675bc44eeaea10de31a8918f946293a0be805cdd70c57c58
+SHA512: 60cfc960ac2b469dd770aa1364c9e879453b8b772084c9286e6a28915183058e202494e2baf61368cf501778e9ea9631b9aa3aa4bdbc994a09f7aada39e74fd8
+Homepage: https://github.com/caco3/kim5
+Description: image service menu for KDE file managers
+ Kim (KDE Image Menu) is an image service menu for KDE file managers which
+  allows a user to:
+ - compress images,
+ - resize images,
+ - convert images,
+ - rotate images,
+ - rename images,
+ - resize and send by mail images,
+ - and many other actions!
+
+Package: kde-servicemenu-reimage
+Architecture: all
+Version: 2.7.2+bsr1
+Priority: optional
+Section: kde
+Maintainer: Giuseppe Benigno <giuseppe.benigno@gmail.com>
+Depends: dolphin (>= 6) | konqueror (>= 6), imagemagick, jhead, webp, kdialog, qdbus-qt6
+Filename: pool/main/kde-servicemenu-reimage_2.7.2+bsr1_all.deb
+Size: 39964
+MD5sum: c31ffc175e917c956aeae20d5cc61c02
+SHA1: b7841fa3203a97d7597ba061ccef5463259f3f1b
+SHA256: 5f424946fe66e9744abc9b4678faa257e5fc72845cd67459954c82dbd6f1b6a5
+SHA512: 99ce6e9d3443c532109cb3371d5b2e72f81084d0761f5e5de7a0ba651809aad31e0cf90ddd7e44930a4daa1e326fa18ad76acc0fdb5140ac55af9f2977c12bcc
+Homepage: https://github.com/giuseppebenigno/kde-service-menu-reimage
+Description: Manipulate images and their metadata.
+ A powerful and comprehensive KDE Plasma 6 Service Menu for advanced image manipulation and metadata management directly from Dolphin or Konqueror.
+ .
+ Features
+ .
+ Image Manipulation
+ Resize: Scaled by percentage or specific dimensions (including Social OG 1200x630).
+ Convert: Transform to any format supported by ImageMagick (WebP, PNG, JPG, etc.).
+ Rotate & Flip: Auto-orient using Exif, custom angle, flip, or flop.
+ Filters: Add borders, drop shadows, or sepia effect.
+ Optimization: Advanced auto-optimization for web (strip data, interlace, progressive, etc.).
+ .
+ Metadata Management (Exif/IPTC/XMP)
+ Rename: Rename files based on Exif/File date and time.
+ Sync: Set file date from Exif, or Exif date from file date/name.
+ Edit: Add, view, or delete comments and metadata sections.
+ Strip: Remove all metadata for "pure" images.
+ .
+ Advanced Tools
+ Animated GIF: Create animations from multiple selected images.
+ Favicons: Generate a complete set of web favicons.
+ Montage: Append/Montage pictures together.
+ Base64: Convert images to Base64 strings for web embedding.
+ .
+ Copyright (C) 2018-2026 Giuseppe Benigno <giuseppe.benigno@gmail.com>
+
+Package: live-build
+Architecture: all
+Version: 1:20260827+bsr
+Priority: optional
+Section: misc
+Maintainer: Debian Live <debian-live@lists.debian.org>
+Installed-Size: 811
+Depends: cpio, debootstrap
+Recommends: apt-utils, bzip2, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
+Suggests: e2fsprogs, eatmydata, git, mtd-utils, parted
+Filename: pool/main/live-build_20260827+bsr_all.deb
+Size: 198068
+MD5sum: 5dcfe5e19a7e154d346bb7d8888e3f65
+SHA1: ff9ac57ce5fa4b994dadcf0f4b3a0d3342fbda04
+SHA256: f40967932dc782faa074864a29463038c647f1fdeac13bdc12a2177f224a34cc
+SHA512: 6eb4917e647755c86856e064cccbc31f8e1f376b12d3aaef50ba4862127f1a1ff5fcde8343bed135c17b646f7ba7d5773106c4a15916a1a871b7e6ccefd4ea3a
+Homepage: https://wiki.debian.org/DebianLive
+Description: Live System Build Components
+ The Debian Live project maintains the components to build Debian based Live
+ systems and the official Debian Live images themselves.
+ .
+ live-build contains the components to build a live system from a configuration
+ directory.
+
+Package: modulejail
+Architecture: all
+Version: 1.6.2
+Priority: optional
+Section: admin
+Maintainer: Jasper Nuyens <jnuyens@linuxbe.com>
+Depends: coreutils, findutils, awk | mawk | gawk | original-awk
+Recommends: curl | wget
+Filename: pool/main/modulejail_1.6.2_all.deb
+Size: 59008
+MD5sum: e6cb01c0ee81ee16dea2abed7f9b2bb3
+SHA1: b7ee03008767412a5570989f74659724bebfbd87
+SHA256: 9c868f8f668cd892c43641d6620b56f2a29f55af13838c0a19ae441a8bff64ef
+SHA512: 913bfe326a804d044b86952dacb3f0e4f67afdc23d3bf0b37b6677ef60cf4e87ac78abd2bfbc6ae54bc82da0a82e78103f824ac46c8bd1e113922546023387d7
+Homepage: https://modulejail.com
+Description: Shrink Linux kernel-module attack surface
+ ModuleJail snapshots the set of currently loaded modules and writes a
+ modprobe.d blacklist for every kernel module not currently in use,
+ minus a built-in baseline and an optional sysadmin-supplied whitelist.
+ .
+ Aimed at Linux fleet operators who need to harden many servers against
+ the wave of AI-assisted kernel privilege-escalation discoveries. Every
+ additional loaded module is additional latent attack surface for the
+ next disclosed CVE.
+ .
+ No daemon, no continuous monitoring, no AI inside the tool. One shell
+ script, run once on a steady-state host, that writes one modprobe.d
+ blacklist file.
+
+Package: mx23-archive-keyring
+Architecture: all
+Version: 2023.6.6
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 63
+Depends: gpgv
+Recommends: gnupg
+Breaks: apt (<< 0.7.25.1)
+Filename: pool/main/mx23-archive-keyring_2023.6.6_all.deb
+Size: 18580
+MD5sum: 207a437606a4f4e2ad5eb6ba056f8edc
+SHA1: 07334c5d62afefe3b50ea66e5280cc52a55b2cf5
+SHA256: 64fe94f8387c132be8ffef1f98c73403acb8d35716b37600465ecf8fa473a5f4
+SHA512: 44cea38fef10387961cc323ab31a8fcc969c7b9bf47b68e73a107ff246b5d4fc3be4c68f593a3ec5fe19da03bfc66c868295031dcf51af565bc9f9f2274bbe0c
+Description: GnuPG archive keys of the MX-21 Linux archive
+ The MX Linux project digitally signs its repository Release files.
+ This package contains the archive keys used for that.
+
+Package: mx25-archive-keyring
+Architecture: all
+Version: 2025.03
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Maintainer: Timothy E. Harris <maintainer@mxrepo.com>
+Installed-Size: 66
+Depends: gpgv
+Recommends: gnupg
+Breaks: apt (<< 0.7.25.1)
+Filename: pool/main/mx25-archive-keyring_2025.03_all.deb
+Size: 20700
+MD5sum: 7a62e39b8053954f60140be9c9ed174e
+SHA1: f7642810dc028db609a054fef008ddedd29bb240
+SHA256: c490bc3fa24b8fe1c3850c0f5175b1e7f595c379369c08890db5044e26385bee
+SHA512: 114faeda3b0beff8efaf9cc633d8845aa42b96a7b4261b4631618977096e6ce2bb4bf6fad259738a553ca55d6d47e9f9b355ef3472184b983523e97a92a3e9ea
+Description: GnuPG archive keys of the MX-25 Linux archive
+ The MX Linux project digitally signs its repository Release files.
+ This package contains the archive keys used for that.
+
+Package: navidrome
+Architecture: amd64
+Architecture-Variant: amd64v1
+Version: 0.64.2
+Priority: optional
+Maintainer: Deluan Quintão <deluan at navidrome.org>
+Installed-Size: 71534
+Depends: ffmpeg
+Suggests: mpv
+Filename: pool/main/navidrome_0.64.2_linux_amd64.deb
+Size: 24701478
+MD5sum: 177d4d32527c3c9e12ab166809a9be0c
+SHA1: a4d34e12c3d41a8258bfad6ea26b5edbea2592b1
+SHA256: b9ecb35eb6e042d6b019d504c0df40fa676f9a5a18db6513f551e124af7085e3
+SHA512: 7b4eb23c6677c9d44f22cfbe845809bcd200c60f0e8bb51aa648243340fe9d0321e4155daba999151d17995579db288b3a7d9c467f895a37cea99497eaafc210
+Homepage: https://navidrome.org
+Description: 🎧☁ Your Personal Streaming Service
+
+Package: nordvpn-release
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: https://nordvpn.com/
+Installed-Size: 36
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Filename: pool/main/nordvpn-release_1.0.0_all.deb
+Size: 5056
+MD5sum: e229fa715be1684e6bd9a0427bbd5b65
+SHA1: 37f93b511eaa918e4ae434c864ee617041b57ac0
+SHA256: 16a05919b7259e679e4483aa39f61ef9bc9c07cbe040276e04884b5f9d7f933d
+SHA512: f0d4f356b203e1ef743875eb62b6b4d2039313df45e8ecffb33399cd27cec6bfd8790ac212f272063393e36c237eadd2cbbf30d718f8827c756e09d16ab03de8
+Homepage: https://nordvpn.com/
+Description: Package to install NordVPN GPG key and APT repo
+
+Package: opensesame-toolbox
+Architecture: all
+Version: 2.8-1
+Priority: extra
+Section: science
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 1255
+Depends: python3 (>= 3.2), python3-pyqt5, python3-pyqt5.qtwebkit, python3-numpy, python3-configobj
+Recommends: opensesame
+Filename: pool/main/opensesame-toolbox_2.8-1_all.deb
+Size: 358792
+MD5sum: d296f32c6e2c2a142417f36bb989276d
+SHA1: 666e7d19d1ce626755545ee5d774335b3ba45b77
+SHA256: 6b8d871100788044518fb4a2186d68cb56dd9312401de3c57c0ed18a9ff58440
+SHA512: d247408db3eefdd661eda07becc13ad4b201d5bf20bf3952a83f32698fbf4400bb61633499b405da6b0d70557883fc445cc35206a5fe3ea98334dcc84b618ea3
+Homepage: https://github.com/dev-jam/opensesame-toolbox
+Description: OpenSesame Experiment Manager and OpenSesame Questionnaire Processor
+ OpenSesame Toolbox offers two applications to supplement OpenSesame.
+ OpenSesame Experiment Manager can manage, order and execute OpenSesame Experiments and create OpenSesame Questionnaires.
+ OpenSesame Questionnaire Processor can process OpenSesame multiple choice questionnaires by giving a summary of the scores.
+
+Package: oss-linux
+Architecture: amd64
+Version: 4.2-2020
+Priority: optional
+Section: sound
+Maintainer: 4Front Technologies <support@opensound.com>
+Installed-Size: 7352
+Provides: oss
+Depends: binutils, gcc, libc6, libgtk2.0-0, sed (>= 1.0.0)
+Suggests: libsdl1.2debian-oss | libsdl1.2debian-all, libesd0, libwine-oss, libsox-fmt-oss, mpg123, gstreamer0.10-plugins-bad (>= 0.10.7), libasound2-plugins
+Conflicts: libflashsupport
+Filename: pool/main/oss-linux_4.2-2020_amd64.deb
+Size: 2633446
+MD5sum: 5bff42067d7e40acbc6f0fe555e2a5a8
+SHA1: e559ec3009fa6192fcb20dd192342802975b2f4b
+SHA256: 373ff90a885dc534d4589d48554bdcf22f100b10e702a43d072cbaa3e8e819f5
+SHA512: 43135225580cc3aaf29779d04bddb48bd2b3a100f8562428ddfe245ff0477683d42e81fd455dd22cf11157fc46ebcb61e0957a61be9e813f6eb1cd2355d0521e
+Description: Open Sound System (http://www.opensound.com)
+ OSS provides libraries and necessary drivers for practically all sound
+  cards on the market including PnP and many PCI ones which enable you
+  to play sound files, compose music, use MIDI (only included in the
+  testing releases) and adjust your sound card using various user space
+  programs.
+Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
+
+Package: payload-dumper-go
+Architecture: amd64
+Version: 2.1.0-4
+Priority: optional
+Section: utils
+Maintainer: Script Builder <builder@localhost>
+Installed-Size: 9152
+Filename: pool/main/payload-dumper-go_2.1.0-4_amd64.deb
+Size: 3081388
+MD5sum: 15337adc0f35863cfe19ee195d2e4336
+SHA1: 5ca19773b7918f532d265a6f33392052759261b8
+SHA256: 8ae6447ecb0878da13a06fd59df7d8b9d9e786fca652dfffcf58b4d22e23c331
+SHA512: 26ef862d322fa02cb1f2da050c6da2851be56dbf21f3118cc475f745b506144a74a91bdd616f52a06489b3e86ef183760d207e026ca17210334670d82c2bae22
+Homepage: https://github.com/ssut/payload-dumper-go
+Description: Android OTA payload dumper written in Go
+ Features incredibly fast decompression and incremental OTA payload support.
+
+Package: phoronix-test-suite
+Architecture: all
+Version: 10.8.4
+Priority: optional
+Section: Utilities
+Maintainer: Phoronix Media <trondheim-pts@phoronix-test-suite.com>
+Installed-Size: 45332
+Depends: php-cli|php5-cli,php5-cli|php-xml
+Recommends: build-essential, php-gd|php5-gd
+Filename: pool/main/phoronix-test-suite_10.8.4_all.deb
+Size: 2352160
+MD5sum: 9317ce5a8d40406a54d9e17a8df6d10b
+SHA1: ab4b51a2802619cebdf22ae0baec3fe69f52f861
+SHA256: be81f71fc0382a7725dc88f4a18f013d1c3f6939d440629231d392a11816feca
+SHA512: 0e783e912c1856253fbc01ad6f629eff978ef3cdc5b42f3bbd1ccdaf261982a14ab8e658b44cd18d19a6fd6cd7c7a4ba26f9ff59a01a321b4135ba5e846360a0
+Homepage: http://www.phoronix-test-suite.com/
+Description: An Automated, Open-Source Testing Framework
+ The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
+
+Package: pipeweaver
+Architecture: amd64
+Version: 0.1.9-1
+Priority: optional
+Section: sound
+Maintainer: Craig McLure <craig@mclure.net>
+Installed-Size: 18575
+Depends: libqt6webenginewidgets6 (>= 6.2.0), pipewire (>=1.0.5), qml6-module-qtqml-workerscript (>= 6.2.0), qml6-module-qtquick (>= 6.2.0), qml6-module-qtquick-controls (>= 6.2.0), qml6-module-qtquick-templates (>= 6.2.0), qml6-module-qtquick-window (>= 6.2.0), qml6-module-qtwebengine (>= 6.2.0)
+Conflicts: pipeweaver-app
+Filename: pool/main/pipeweaver_0.1.9-1_amd64.deb
+Size: 4860620
+MD5sum: c74dc0a9a36f932916416e68fb8bca1f
+SHA1: 1f43cf5d2f4426826642e6c35ce6b4f7a824906f
+SHA256: 8f0df036a07fb22193f1330e4b83121acd3d6b9e101f1ffb020517bf21b59791
+SHA512: 109d60b26b9e680463ccba2c0574fa33c6eee50cbf96818293999504a6a4f28b4b007a88e7d3749559c92f774f4dd68bb36c38a6fc0c42f636bc71cc127ae3a9
+Homepage: https://pipeweaver.github.io/
+Description: A tool for audio control and routing via Pipewire
+ A tool for audio control and routing via Pipewire
+
+Package: python3-betteradbsync
+Architecture: all
+Version: 0:1.4.0-2~w2d0
+Priority: optional
+Section: python
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 135
+Depends: python3:any
+Filename: pool/main/python3-betteradbsync_1.4.0-2~w2d0_all.deb
+Size: 19052
+MD5sum: 01d59c53b8d92d8198834af43f1db3df
+SHA1: 900fe240a3d7a198740d8af2c483be19e07a3260
+SHA256: 51bb81141a71e158bec5c6485538e9ad7fdb3e14e960b2316bd0c81411697364
+SHA512: 3fe41ca966585a90d1cd47fa3f1d39ce379e8ea0bd8657f0983c173f36b763d89a91604e9df35b4e79b2afbd9fb85228671bb1946294b5d83a42c88e28fda8d2
+Description: Better version of adb-sync for Python3
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-dirsync
+Architecture: all
+Version: 0:2.2.6-2~w2d0
+Priority: optional
+Section: python
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 62
+Depends: python3:any
+Filename: pool/main/python3-dirsync_2.2.6-2~w2d0_all.deb
+Size: 11304
+MD5sum: 46912c4851c447b50a2526d1a21741bb
+SHA1: 04815180cf92ae5f7cc0abe9187735c77c901c9e
+SHA256: 30bd25d32627778f1c94c619ddeb34624b3e313e68795631dad3f6a6448dbb85
+SHA512: 9d7324635a549b5b64d2b06fc41353e7cd0235046ee70b76d5009c0b32db465ed9b4a44814e59fb9e5bda65171db18dfb1da8947c1277abc5335b72b67cb5843
+Homepage: https://github.com/tkhyn/dirsync/
+Description: Advanced directory tree synchronisation tool
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-dr14-tmeter
+Architecture: all
+Version: 2.0.1-1
+Priority: optional
+Section: python
+Source: dr14-tmeter
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 212
+Depends: python3:any
+Filename: pool/main/python3-dr14-tmeter_2.0.1-1_all.deb
+Size: 32332
+MD5sum: 581e1910c3fb7182bb41dbe94de0a7cd
+SHA1: 6b3835e210b3481e6b1e80a746d468dd8b1169d1
+SHA256: e982bc4b7a269663a596fde3baf0a8eb95946a084ee98e6233a6c443a01189ae
+SHA512: c9d670728b3e5f89825f5f5d0871c0a315bc99640c2bf1d48420b5c9e269528d1c05e2e283ca8e27bf88d15296ae3b22a887f9e47db12386e28d02f21a3c2ea8
+Homepage: http://simon-r.github.com/dr14_t.meter
+Description: Compute the DR14 value of the given audio files
+ Compute the DR14 value of the given audio files according to the algorithm decribed by the Pleasurize Music Foundation
+
+Package: python3-freesimplegui
+Architecture: all
+Version: 0:5.2.0.post1-2~w2d0
+Priority: optional
+Section: python
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 2140
+Depends: python3 (>= 3.7~), python3:any
+Filename: pool/main/python3-freesimplegui_5.2.0.post1-2~w2d0_all.deb
+Size: 608808
+MD5sum: 452d0903a983300e5e8c2576647df74b
+SHA1: c5d18988008654b3cbde3b8eba0f14f7123bd7c5
+SHA256: 4ffe621968d7c5256d5027229324365a0a9155cd589b1ce5f1459afefdbeec2b
+SHA512: 15f1f9339d5e86273f6bc84681a4fbe302a70b689dbd65a5ca88bc0e0e36997bf84a5a6fa597451d617f6681c783f1acef78e9b7f7c1e3b614383bbf55eabe19
+Description: The free-forever Python GUI framework.
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-ps-mem
+Architecture: all
+Version: 0:3.14-2~w2d0
+Priority: optional
+Section: python
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 99
+Depends: python3:any
+Filename: pool/main/python3-ps-mem_3.14-2~w2d0_all.deb
+Size: 19724
+MD5sum: c230cdbb977fb731a49af8fd2f553f10
+SHA1: 1f6babe6f8ca3248b97c1f8b9e5ae777b74f026d
+SHA256: 4a8925b76c313ac6f930f26182effd4efffcbe1d488f01c6ef33dd423e7bc6b9
+SHA512: 713873859e5e3f3d4b36acfa72093cc4816085db6ebe219af25d7bd10076183f5abfdf386ab59fb217fbdb153505888f717701feac2cfb5ad0c7152e4e788f34
+Homepage: http://github.com/pixelb/ps_mem
+Description: A utility to report core memory usage per program
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-repolib
+Architecture: all
+Version: 0:1.5.1-2~w2d0
+Priority: optional
+Section: python
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 227
+Depends: python3:any
+Filename: pool/main/python3-repolib_1.5.1-2~w2d0_all.deb
+Size: 40376
+MD5sum: 660cb4121e05b01f7f3c3ac78e3ea8ab
+SHA1: 2e55a1a9643db0e33a04c7f7c03e782d130b69f5
+SHA256: 619b3a327134be3895ab832886b1a32a2b2c144fd2ea9202b38fecccdd697ce8
+SHA512: f56ad20df98f5ca40986740be542f160cee0e1adf8b6721fcfa7aee8300c8c31e39369566f5641273d4eae800bbab2688818fe3fc7093a601ad2917ff5b916fe
+Homepage: https://github.com/pop-os/repolib
+Description: Easily manage software sources
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-rtcqs
+Architecture: all
+Version: 0:0.6.7-2~w2d0
+Priority: optional
+Section: python
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 79
+Depends: python3-freesimplegui, python3:any
+Filename: pool/main/python3-rtcqs_0.6.7-2~w2d0_all.deb
+Size: 23700
+MD5sum: a684dded542c36497639662532b669e0
+SHA1: 002ba7467bad4d20365235975f7a842c647f75a4
+SHA256: 027316dbb06c6a7dcd81f1143d657fe1f59f0a7c4969339b019eae14ed728cb0
+SHA512: 92970a6b9ccbb7158627d63e930cf7feebb662fa1348a9c474b187a8bd26ef326306d337ac665e05116c64661975e6990d6ddac557b2f9dc00aae3566d3453b8
+Description: Linux audio performance analyzer
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: python3-tartube
+Architecture: all
+Version: 2.5.231-1
+Priority: optional
+Section: python
+Source: tartube
+Maintainer: A S Lewis <aslewis@cpan.org>
+Installed-Size: 13103
+Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
+Filename: pool/main/python3-tartube_2.5.231-STRICT_all.deb
+Size: 3059208
+MD5sum: a59ff799e73c5a6af144398debf3d09d
+SHA1: fbfbf7f7e77b566ea77af325a4c950f0862c810d
+SHA256: d4f7f96fa1c724c8b811e9b18eb0b0f3be3d5812407173635e33a8ff25ba4d9c
+SHA512: 3ca79a28988aa6b704938b1fd1bb22975fec5593f95b399db13730fea3f31ce8773fd0ec0140d3b2eee2c51b5d8a3c22be9610a6506089ea39b7fbf1903835ec
+Homepage: https://tartube.sourceforge.io
+Description: GUI front-end for youtube-dl and yt-dlp
+ Tartube is a GUI front-end for youtube-dl, yt-dlp and other compatible video
+ downloaders.
+ .
+  - You can fetch a list of videos from your favourite channels and playlists on
+  YouTube, BitChute, and hundreds of other websites
+  - In buffering is an issue, you can download a temporary copy of a video
+  before automatically opening it in your favourite media player
+  - Tartube will organise your videos into convenient folders (if that's what
+  you want)
+  - Tartube can alert you when livestreams and debut videos are starting
+  (YouTube only)
+  - If you think the censors will remove a video, against the wishes of its
+  creators and before you've had a chance to watch it, Tartube can make an
+  archive copy
+  - Tartube won't manipulate search results, unsubscribe you from your favourite
+  channels or deliberately conceal videos
+  - Tartube is free and open-source software
+
+Package: rescuezilla
+Architecture: all
+Version: 2.6.2-1
+Priority: optional
+Section: admin
+Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
+Installed-Size: 3293
+Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdmainutils
+Recommends: partimage, ecryptfs-utils, nbdkit, python3-whichcraft
+Filename: pool/main/rescuezilla_2.6.2-1_all.deb
+Size: 571846
+MD5sum: 50a6e536edcdc6aaec538c492e1f5f35
+SHA1: a30ca42625c46a749d3418ffcd48eed4a49ab619
+SHA256: 5a97b79660f644662f6a16080743ec1f5e3ae80aa8a6a602377aa22982c1842b
+SHA512: 0f0434b1236537f347033d2074538a7ae7194a25ad8e68e657aae4a2ea48c7fad21429944d40dc2f3f4eb05108918fc8c060f7d3910ad13c4af63a3a1fe17072
+Homepage: https://rescuezilla.com
+Description: Graphical hard drive backup and restore
+ Rescuezilla is an easy-to-use disk cloning and imaging application that's
+ fully compatible with Clonezilla — the industry-standard trusted by tens
+ of millions. For many people, the alternative open-source tools such as
+ Clonezilla are intimidating and difficult to use, so Rescuezilla provides
+ an easy-to-use graphical environment like the leading commercial tools,
+ Acronis True Image and Macrium Reflect.
+
+Package: rtirq
+Architecture: all
+Version: 20240905-48.1
+Priority: optional
+Section: misc
+Maintainer: Rui Nuno Capela <rncbc@rncbc.org>
+Installed-Size: 46
+Replaces: rtirq-init (<= 20240905-48.1)
+Filename: pool/main/rtirq_20240905-48.1_all.deb
+Size: 15296
+MD5sum: 5df761f6e2207605c450959a4f50f235
+SHA1: e5cead9e73a09fad21aee4bd648bfd1070180990
+SHA256: 6392cd8a3fe9472de33d924a98f9cbd8fd9f50d9067d275911a032d15f87d549
+SHA512: 554def90bef556cad9093fd8a9f09fb79bde4a91c39cea033b5f7633e8575410ab13b5a2cf6cb83b361e75aa478f8cf96e371d7b017657a1e576e1c290954da9
+Homepage: https://www.rncbc.org/archive/#rtirq
+Description: Realtime IRQ thread system tunning
+  Startup scripts for tunning the realtime scheduling policy and priority
+  of relevant IRQ service threads, featured for a PREEMPT_RT / threadirqs
+  enabled kernel configuration.
+
+Package: sedutil
+Architecture: amd64
+Version: 2:1.16.1-1
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/sedutil_1.16.1-1_amd64.deb
+Size: 44474342
+MD5sum: d55936cca8e81ef2001e9cbdc22839bd
+SHA1: ee1ca439a8addd247e55575aee0c479bbe351c21
+SHA256: f55a6ae109ae67aa8bf3ea3dcd211fff2ee4f561ed20ccf176810ec4761ea7be
+SHA512: a6dd808308aaa36d8a05c6ab8e867d1122a4d4e0863bac26e1d7a50c58a56b8e3fb5f57cdfc90b9c894642603babd89215690613e2f6be9689ffcb25feccaad2
+Description: sedutil ladar for Debian
+
+Package: systemctl-tui
+Architecture: amd64
+Version: 0.8.0-1
+Priority: optional
+Section: admin
+Maintainer: Reilly Wood
+Installed-Size: 5184
+Depends:
+Filename: pool/main/systemctl-tui_0.8.0-1_amd64.deb
+Size: 1477696
+MD5sum: 24a6896bc84f0122f83dcb8aecd83781
+SHA1: c0dc95ffcb72ba3510e667613d25aa98def27723
+SHA256: ac5de860f054748fd6441884857d237630e413a711b7b99a21d6bf84ca653fa8
+SHA512: da00a43e25aef9198f5388eb26296e3cf0b1b1d0218ec548dfda7b553d5fafaf7a21fc4a637fdcfebb17fdcf39bd0174724c0f0350156c6fc2cc2ab9c2a519a5
+Homepage: https://github.com/rgwood/systemctl-tui
+Description: A simple TUI for interacting with systemd services and their logs
+ systemctl-tui is a fast, simple terminal user interface for interacting with
+ systemd services and their logs. It can quickly browse service status and logs,
+ and start/stop/restart/reload services.
+
+Package: systemd-manager-tui
+Architecture: amd64
+Version: 1.2.5-1
+Priority: optional
+Maintainer: Matheus-git <mathiew0@gmail.com>
+Installed-Size: 7873
+Depends:
+Filename: pool/main/systemd-manager-tui_1.2.5_amd64.deb
+Size: 2131504
+MD5sum: d012f1cdd40495b6f36664befae873d3
+SHA1: d51d8378162f65c85c3faad1c5cd905b32a1e707
+SHA256: 26843579634740fb04f2b5fc018101bd46aa1fe50e97b03c40775f6663210565
+SHA512: 0cc93f5e9c59cfd75b13b3818831da1f8978113556a15ee7cfadda7b16df09ecd5e893b047d00977ea40903247f32b617120884eb32a6204e5552323f6f1136c
+Homepage: https://github.com/matheus-git/systemd-manager-tui
+Description: TUI for managing systemd services
+ # Systemd manager tui
+ .
+ ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+ .
+ A TUI application for managing systemd services.
+ .
+ This tool allows you to manage systemd services with ease. You can view logs,
+ list services, view properties, edit unit files, and control their lifecycle:
+ start, stop, restart, mask, unmask, enable, and disable using the D-Bus API. It
+ also supports Vim-like navigation. It is possible to navigate between system
+ and user units and choose to list only running services or all units.
+ .
+ ## Quick Preview
+ .
+ ![screenshot_list](https://raw.githubusercontent.com/matheus-git/systemd-manager-tui/main/assets/systemd-manager-tui.gif)
+ .
+ View
+ [screenshots](https://github.com/matheus-git/systemd-manager-tui/blob/main/docs/screenshots.md)
+ .
+ ## Usage
+ .
+ ```bash
+ systemd-manager-tui
+ .
+ # With a filter
+ systemd-manager-tui -f docker
+ ```
+ .
+ ## Install
+ .
+ After installation, you can create an `alias` to make it easier to use.
+ .
+ ### Ubuntu (recommended)
+ .
+     sudo dpkg -i ./systemd-manager-tui_x.x.x-x_amd64.deb 
+ .
+ Download the .deb file from
+ [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
+ .
+ ### Fedora (recommended)
+ .
+     sudo dnf install ./systemd-manager-tui_x.x.x-x_x86_64.rpm
+ .
+ Download the .rpm file from
+ [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
+ .
+ ### Arch linux
+ .
+     yay -S systemd-manager-tui
+ .
+ https://aur.archlinux.org/packages/systemd-manager-tui
+ .
+ ### NixOS
+     nix run github:matheus-git/systemd-manager-tui
+ .
+ NixOS with flakes [Read here](docs/flakes.md)
+ ### Binary
+ .
+     chmod +x systemd-manager-tui
+     ./systemd-manager-tui
+ Download binary from
+ [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
+ .
+ ### Cargo
+ .
+     cargo install --locked systemd-manager-tui
+ .
+ ## Main libraries
+ .
+ - ratatui - 0.29.0
+ - zbus - 5.5.0
+ .
+ ## Contributing
+ .
+ Contributions are welcome! Please open an issue or submit a pull request for
+ any improvements or bug fixes.
+ .
+ ## 📝 License
+ .
+ This project is open-source under the MIT License.
+
+Package: ventoy-bin
+Architecture: amd64
+Version: 1.1.18+bsr1
+Priority: optional
+Section: utils
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Original-Maintainer: Fatih Altun <fatih.altun@pardus.org.tr>
+Installed-Size: 23629
+Filename: pool/main/ventoy-bin_1.1.18+bsr1_amd64.deb
+Size: 19023928
+MD5sum: 2c06a579fc7da8f52a803eb8b389c2da
+SHA1: ef457065ca413a87025cda871b243927de8a2e48
+SHA256: 1d7542e4776b5f0585cca7e67cc4ff955cf6960a997aab8ee1926e5c5850fbb7
+SHA512: 6068070903d9ac11abf91cbac1b1bd38cc0e0a20ba5b5890b4dedabce68731fac53fd80a1b2960cb52a80b82e57cf7b9cbd83d240ea80f660aa5d5c016d770e2
+Homepage: https://www.pardus.org.tr
+Description: A New Bootable USB Solution
+ Ventoy is an open source tool to create bootable USB drives
+ for ISO/WIM/IMG/VHD(x)/EFI files. With Ventoy, you don't
+ need to format the disk over and over, you just need to copy
+ the ISO/WIM/IMG/VHD(x)/EFI files to the USB drive
+ and boot them directly.
+
+Package: wheel2deb
+Architecture: all
+Version: 0:0.9.5+bsr-1~w2d0
+Priority: optional
+Section: python
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 88
+Depends: python3 (>= 3.10~), python3-attr (>= 20.1), python3-colorama, python3-dirsync, python3-jinja2 (<< 4), python3-jinja2 (>= 3), python3-packaging, python3-pkginfo, python3-rich, python3-typer (>= 0.6.1), python3-wheel, python3-yaml, python3:any
+Filename: pool/main/wheel2deb_0.9.5+bsr-1~w2d0_all.deb
+Size: 18876
+MD5sum: c9fb663b32b96114c5e86127fbb9e074
+SHA1: 1b0dbd6413e73750d5a8b23ca58275a74b0ad700
+SHA256: 36799b74a0996c13c1cd420d421df092c150b76c42e55846f3d4224cba45b45a
+SHA512: ff2542751e5aee54f52cff5b4e556c19debf6b74250745a2dc40c33438fee607304cbb2f7eaac1d8a42aa3a002b22f45c51f47a46c4db709836ce95cb9e9f17b
+Homepage: https://github.com/upciti/wheel2deb
+Description: Python wheel to debian package converter
+ This package was automatically generated from the upstream wheel by wheel2deb.
+
+Package: yserver
+Architecture: amd64
+Version: 1.7.1-1
+Priority: optional
+Section: x11
+Maintainer: Jos Dehaes <jos.dehaes@gmail.com>
+Installed-Size: 8363
+Depends: libc6 (>= 2.39), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libinput10 (>= 1.19.1), libudev1 (>= 183), libxkbcommon0 (>= 0.6.1), libxshmfence1, libvulkan1, xauth, xkb-data
+Recommends: mesa-vulkan-drivers, xfonts-base
+Suggests: lightdm
+Filename: pool/main/yserver_1.7.1-1_amd64.deb
+Size: 2591420
+MD5sum: 5adfa18ee16245e9c9904e66ec4e40ee
+SHA1: cdfcca8a8fd1135880d31d76b580901d3ec2f867
+SHA256: c01c3cbe67ab9234faebbd3512c3d0fa237a8e2361bd2bb399827afb6ac50141
+SHA512: f63450b53836fbc8de471e07d2d1ed2bcca4910ed5e69e2e654c8ae1d3d12b6157f257c0647fb9d90ff48d674842490be23379833267f0b03867b115ad4f7158
+Homepage: https://github.com/joske/yserver
+Description: modern X11 server written from scratch in Rust (DRM/KMS + Vulkan)
+ yserver is a modern X11 server written from scratch in Rust. The goal is not
+ to clone Xorg but to provide a practical X11 server that runs real desktop
+ environments, window managers and applications on modern Linux while dropping
+ legacy baggage (multiple screens, non-TrueColor visuals, indirect GLX, the
+ DDX driver ABI, endian-swapped clients, and so on).
+ .
+ It drives the GPU directly through atomic DRM/KMS and composites with Vulkan.
+ There is no seat manager: it opens /dev/dri and /dev/input directly, so the
+ user running it needs access to both (see /usr/share/doc/yserver/setup.md).
+ It runs full MATE/XFCE/Cinnamon/Plasma desktops and window managers such as
+ FVWM3, e16 and wmaker, and implements a broad set of extensions (Composite,
+ DAMAGE, DRI3, GLX, Present, RANDR, RENDER, SHAPE, SYNC, XFIXES, XInput, and
+ more).
+ .
+ This package provides the standalone DRM/KMS server (yserver) and starty(1),
+ a startx-style launcher for running it from a console.
+
