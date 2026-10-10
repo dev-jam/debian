@@ -16,8 +16,9 @@ for arg in "$@"; do
   esac
 done
 
-# Change directory to the repository root (this script lives in scripts/)
-cd "$(dirname "$0")/.."
+# Change directory to the repository root (this script lives in scripts/;
+# readlink -f resolves symlinks, so calling it via a symlink works too)
+cd "$(dirname "$(readlink -f "$0")")/.."
 
 # -------------------------------------------------------------------
 # File size check (GitHub hard limit = 100 MB)
