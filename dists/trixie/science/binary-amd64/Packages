@@ -30,17 +30,17 @@ Description: OpenSesame Launcher with PsychoPy
 
 Package: devjam-science-tools
 Architecture: all
-Version: 1.76-1
+Version: 1.77-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: pool/science/devjam-science-tools_1.76-1_all.deb
-Size: 374912
-MD5sum: 3105281f61f49454bd80e8c5b4ffe778
-SHA1: 7082804eeb3e604be565081059c2c0858771efa6
-SHA256: 4b4ad1c99a923d9f8b5bccfc4557c853d12feb62eb03c46d136853b4ec63f535
-SHA512: f09585efb54dfdf6bca4e96b64b8a6ce9149d2dbcd9e13461e54d3aba838d701d7ba69ebafbc41019c1f6e26bedbbcb46493f8ef058696391b524c8c59a784b3
+Filename: pool/science/devjam-science-tools_1.77-1_all.deb
+Size: 374924
+MD5sum: 32de55cdc105b6e55d4a519c37e94bb6
+SHA1: d05853d3c90ff3d4cffd2f646c70d3a344f76b45
+SHA256: a1ce8f2142c72db370900010f9cd0c94cfc3984c4c38d37d4000a1c40fa44826
+SHA512: 7efb696e581d58f0507d6a3582442938591bee4a36c3bc26e6b23f53f648d1f32e1116082b74edbddab28ffd4e511c56bc20703e4936ba06a18682e25c6c9ef0
 Description: science tools
 
 Package: devjam-science-wallpapers
@@ -435,23 +435,6 @@ SHA1: cdbbdaccf206aaa7d99f0bac8a0e236e201f923e
 SHA256: 7eb06a89b4160d9a2186366c298513b4ba2750e017e4170ea2ee9e52af83ff86
 SHA512: 492d234cce6190e3fc9a318222bd98e54914513004859b7ab0135cf522d3d42a3874ca9066bcce2612e23b63f81f9b7f7c357c074b7196f9b264ebb36d0b90df
 Description: An OpenSesame Plug-in for playing and recording audio files with low latency on Linux
- This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: python3-opensesame-plugin-experiment-manager
-Architecture: all
-Version: 0:3.2.0-1~w2d0
-Priority: optional
-Section: python
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 67
-Depends: python3 (>= 3.7~), python3:any
-Filename: pool/science/python3-opensesame-plugin-experiment-manager_3.2.0-1~w2d0_all.deb
-Size: 18676
-MD5sum: 52db1cb94511ae70be65b7e2ee937e03
-SHA1: 40f549b70a7ba48f0a1c1a5591f79aea89d42fdb
-SHA256: abea3cb1c9b18f753f8c89883934d18f50623c9fecc44e15a23ed10cccc1dea8
-SHA512: 36f097ac779d7fbbf96d21f021580024f4371eac8325050562f6c6f3df5cebf0105483de7fcb83ee23b173bab387774e2f1f3efc8f6916071ec1c7991e1cf58e
-Description: An OpenSesame Plug-in for managing/executing multiple OpenSesame experiments.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-opensesame-plugin-eyelink

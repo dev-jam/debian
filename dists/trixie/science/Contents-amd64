@@ -109,11 +109,6 @@ usr/lib/python3/dist-packages/opensesame_plugin_audio_low_latency-11.0.1.dist-in
 usr/lib/python3/dist-packages/opensesame_plugin_audio_low_latency-11.0.1.dist-info/METADATA python/python3-opensesame-plugin-audio-low-latency
 usr/lib/python3/dist-packages/opensesame_plugin_audio_low_latency-11.0.1.dist-info/RECORD python/python3-opensesame-plugin-audio-low-latency
 usr/lib/python3/dist-packages/opensesame_plugin_audio_low_latency-11.0.1.dist-info/WHEEL python/python3-opensesame-plugin-audio-low-latency
-usr/lib/python3/dist-packages/opensesame_plugin_experiment_manager-3.2.0.dist-info/COPYING python/python3-opensesame-plugin-experiment-manager
-usr/lib/python3/dist-packages/opensesame_plugin_experiment_manager-3.2.0.dist-info/LICENSE.md python/python3-opensesame-plugin-experiment-manager
-usr/lib/python3/dist-packages/opensesame_plugin_experiment_manager-3.2.0.dist-info/METADATA python/python3-opensesame-plugin-experiment-manager
-usr/lib/python3/dist-packages/opensesame_plugin_experiment_manager-3.2.0.dist-info/RECORD python/python3-opensesame-plugin-experiment-manager
-usr/lib/python3/dist-packages/opensesame_plugin_experiment_manager-3.2.0.dist-info/WHEEL python/python3-opensesame-plugin-experiment-manager
 usr/lib/python3/dist-packages/opensesame_plugin_eyelink-2.2.592.0.dist-info/METADATA python/python3-opensesame-plugin-eyelink
 usr/lib/python3/dist-packages/opensesame_plugin_eyelink-2.2.592.0.dist-info/RECORD python/python3-opensesame-plugin-eyelink
 usr/lib/python3/dist-packages/opensesame_plugin_eyelink-2.2.592.0.dist-info/WHEEL python/python3-opensesame-plugin-eyelink
@@ -194,11 +189,6 @@ usr/lib/python3/dist-packages/opensesame_plugins/audio_low_latency/audio_low_lat
 usr/lib/python3/dist-packages/opensesame_plugins/audio_low_latency/audio_low_latency_record_wait/audio_low_latency_record_wait.png python/python3-opensesame-plugin-audio-low-latency
 usr/lib/python3/dist-packages/opensesame_plugins/audio_low_latency/audio_low_latency_record_wait/audio_low_latency_record_wait.py python/python3-opensesame-plugin-audio-low-latency
 usr/lib/python3/dist-packages/opensesame_plugins/audio_low_latency/audio_low_latency_record_wait/audio_low_latency_record_wait_large.png python/python3-opensesame-plugin-audio-low-latency
-usr/lib/python3/dist-packages/opensesame_plugins/experiment_manager/__init__.py python/python3-opensesame-plugin-experiment-manager
-usr/lib/python3/dist-packages/opensesame_plugins/experiment_manager/experiment_manager/__init__.py python/python3-opensesame-plugin-experiment-manager
-usr/lib/python3/dist-packages/opensesame_plugins/experiment_manager/experiment_manager/experiment_manager.png python/python3-opensesame-plugin-experiment-manager
-usr/lib/python3/dist-packages/opensesame_plugins/experiment_manager/experiment_manager/experiment_manager.py python/python3-opensesame-plugin-experiment-manager
-usr/lib/python3/dist-packages/opensesame_plugins/experiment_manager/experiment_manager/experiment_manager_large.png python/python3-opensesame-plugin-experiment-manager
 usr/lib/python3/dist-packages/opensesame_plugins/eyelink/README.md python/python3-opensesame-plugin-eyelink
 usr/lib/python3/dist-packages/opensesame_plugins/eyelink/__init__.py python/python3-opensesame-plugin-eyelink
 usr/lib/python3/dist-packages/opensesame_plugins/eyelink/el_camera_setup/__init__.py python/python3-opensesame-plugin-eyelink
@@ -572,8 +562,6 @@ usr/share/doc/python3-i2mc/copyright			    python/python3-i2mc
 usr/share/doc/python3-opensesame-eyelink-coregraphics/changelog.Debian.gz python/python3-opensesame-eyelink-coregraphics
 usr/share/doc/python3-opensesame-eyelink-coregraphics/copyright python/python3-opensesame-eyelink-coregraphics
 usr/share/doc/python3-opensesame-plugin-audio-low-latency/changelog.Debian.gz python/python3-opensesame-plugin-audio-low-latency
-usr/share/doc/python3-opensesame-plugin-experiment-manager/changelog.Debian.gz python/python3-opensesame-plugin-experiment-manager
-usr/share/doc/python3-opensesame-plugin-experiment-manager/copyright python/python3-opensesame-plugin-experiment-manager
 usr/share/doc/python3-opensesame-plugin-eyelink/changelog.Debian.gz python/python3-opensesame-plugin-eyelink
 usr/share/doc/python3-opensesame-plugin-eyelink/copyright   python/python3-opensesame-plugin-eyelink
 usr/share/doc/python3-opensesame-plugin-parallel-port-trigger/changelog.Debian.gz python/python3-opensesame-plugin-parallel-port-trigger
