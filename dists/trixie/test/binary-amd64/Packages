@@ -1,0 +1,170 @@
+Package: artcraft-launcher
+Architecture: amd64
+Version: 0.4.1-1
+Priority: optional
+Section: utils
+Maintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>
+Installed-Size: 27356
+Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1
+Recommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal
+Filename: pool/test/artcraft-launcher_0.4.1-1_amd64.deb
+Size: 12679400
+MD5sum: d719f6662c797f96e288d38b00640893
+SHA1: 55b0a35bf56272b04d96f078b67c122908085a0b
+SHA256: 18e50d2a0f06c25f420526a41c4c68f98706bf251deda6a42e69e9e764260907
+SHA512: 914afea51cfedf1e25771d4c4dd5e3c4c8d8f096e3842f73fe16d399cda66e63280e8cdf288dcbe3c22a63a3babe446315e522f7673c86fcdc9dff8c97b99ff4
+Homepage: https://github.com/storytold/craft-launcher
+Description: Install, update and launch the Craft App Suite.
+ ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,
+ VectorCraft, PdfCraft, EffectCraft, WordCraft, DeckCraft, GridCraft, CADCraft,
+ SoundCraft and FigCraft, installs the right build for this computer and keeps
+ them up to date from GitHub releases. It can live in the system tray.
+
+Package: deckcraft
+Architecture: amd64
+Version: 0.7.0-1
+Priority: optional
+Section: editors
+Maintainer: DeckCraft maintainers <deckcraft@storyteller.ai>
+Installed-Size: 152111
+Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libasound2 | libasound2t64, libvulkan1 | libegl1
+Recommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal
+Filename: pool/test/deckcraft_0.7.0-1_amd64.deb
+Size: 77374392
+MD5sum: c08a77f71b43322ef97c07c606c0630a
+SHA1: 06d15d06a8de3e44e5d1ed00f562fd1f2d3e97b5
+SHA256: b498230acaff5b0e9659cd92b39ad5cfecf9691077ddb9c15a2f20b731272cc7
+SHA512: 0834e73d9c43bea5ab47b020e2065b6357283b63b3fd7be76af3782a6a440611189c4e6af2cf5c0d3112705c56a1b3d17b1f2b796b03c3e9e80d05a1f6ca7027
+Homepage: https://getartcraft.com/apps/deckcraft
+Description: Open-source, native presentation app that works the way PowerPoint users
+ expect. Themes, layouts, shapes, pictures, tables, charts, transitions and
+ animations; opens and saves PowerPoint (.pptx) files; full-screen slide show
+ with presenter view; GPU rendering (wgpu).
+ Includes deckcraft-cli, a headless renderer and command runner.
+
+Package: filmcraft
+Architecture: amd64
+Version: 0.8.0-1
+Priority: optional
+Section: video
+Maintainer: FilmCraft maintainers <filmcraft@storyteller.ai>
+Installed-Size: 141612
+Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1, libasound2 | libasound2t64
+Recommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal
+Filename: pool/test/filmcraft_0.8.0-1_amd64.deb
+Size: 70643548
+MD5sum: f3d4a4fa60280daacc28190cf75ab99a
+SHA1: 16716dc8169aa515264c8f2eed0dbcf1ebb012ca
+SHA256: 767485a55f2f566b623a9a7dbae72ebe30464022785a013f5150e9e83f97f32f
+SHA512: 21f436f8b507f7e6428b26907f0567624656cbe823e20d85d38f783569eb696defa24b23130a4a62da06beef65a4506a2d9c82b94464454c11dc4b46af8739d8
+Homepage: https://getartcraft.com/apps/filmcraft
+Description: Open-source, native video editor: edit video, color and sound.
+ Timeline editing with source and program monitors, color grading and scopes,
+ effects and keyframes, titles and captions, audio mixing with loudness meters,
+ and export; GPU compositing (wgpu).
+ Includes filmcraft-cli, a headless command runner, MCP server and exporter.
+
+Package: gridcraft
+Architecture: amd64
+Version: 0.7.0-1
+Priority: optional
+Section: misc
+Maintainer: GridCraft maintainers <gridcraft@storyteller.ai>
+Installed-Size: 47235
+Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1
+Recommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal
+Filename: pool/test/gridcraft_0.7.0-1_amd64.deb
+Size: 20370952
+MD5sum: d60c4da2c77aa4f29c203fdb3c4044bd
+SHA1: 08dd114a07096e17d6a11ff71cca6e35f3f448ba
+SHA256: 07b57541e33666f0ea5ae9c02c30f3b259e6b2161a359476907835529c600282
+SHA512: 8b098ac29074d79aef00c391fd2b31eb4cb6b9b2695985b2d1d32dfb48f856232631d3eea97335400543e794d72ffc0b650ce98bb8dede0f85ba8c316356cb06
+Homepage: https://getartcraft.com/apps/gridcraft
+Description: Open-source, native spreadsheet that works the way Excel users expect.
+ Opens and saves .xlsx workbooks and CSV/TSV files; hundreds of worksheet
+ functions; formatting, sorting, filtering and charts.
+ Includes gridcraft-cli, a headless evaluator, converter and command runner.
+
+Package: pdfcraft
+Architecture: amd64
+Version: 0.8.0-1
+Priority: optional
+Section: graphics
+Maintainer: PdfCraft maintainers <pdfcraft@storyteller.ai>
+Installed-Size: 162185
+Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1
+Recommends: cups-client, libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal
+Filename: pool/test/pdfcraft_0.8.0-1_amd64.deb
+Size: 85958402
+MD5sum: 66a546090bc4db68ee26bc155a0a3a08
+SHA1: d8cd52b97836dca33a021fe3bb9b5da361fb02ff
+SHA256: 55645edc074f7cc958e1f076aae8da2da5c63f72fdc3ff332e728a1e04498921
+SHA512: b0d7f6c1b95d092e5e022b562d5db2c4eb48a4ff85cca9116932a156d899842d53aece32df63778ea94a6deaed6f12e3492c49b6ab855560379b087c828e855c
+Homepage: https://getartcraft.com/apps/pdfcraft
+Description: Open-source, native PDF workbench: read, comment, fill and sign forms,
+ organize, combine, split, edit, redact, protect and export PDFs.
+ Includes pdfcraft-cli, a headless command runner and opt-in MCP server.
+
+Package: photocraft
+Architecture: amd64
+Version: 0.9.0-1
+Priority: optional
+Section: graphics
+Maintainer: PhotoCraft maintainers <photocraft@storyteller.ai>
+Installed-Size: 158839
+Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1
+Recommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal
+Filename: pool/test/photocraft_0.9.0-1_amd64.deb
+Size: 82784576
+MD5sum: afae4f323973a812b47117a12fa6198b
+SHA1: b7b427f91e3a162b98ad75ca30a42c47c71616da
+SHA256: 18598fd17711b2618396c859426ef3e8ed7902f0d99c5e8c0657847ebfc740df
+SHA512: affe46d013f61a86a19012e7da1ae4a8fdc0efac0aad0cc4bc19e709eb67689a3e4f9215294c58cd94c62e486494760d271b90957eae25a95a5a14f854e2be30
+Homepage: https://getartcraft.com/apps/photocraft
+Description: Open-source, native image editor with familiar, professional tools.
+ Layers, masks, adjustment layers, layer styles, type and brushes; opens and
+ saves layered PSD/PSB files; 8/16/32-bit documents; GPU compositing (wgpu).
+ Includes photocraft-cli, a headless converter and command runner.
+
+Package: soundcraft
+Architecture: amd64
+Version: 0.7.0-1
+Priority: optional
+Section: sound
+Maintainer: SoundCraft maintainers <soundcraft@storyteller.ai>
+Installed-Size: 39519
+Depends: libc6 (>= 2.35), libgcc-s1, libasound2 | libasound2t64, libxkbcommon0, libvulkan1 | libegl1
+Recommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal, pipewire-alsa | pulseaudio
+Filename: pool/test/soundcraft_0.7.0-1_amd64.deb
+Size: 16770784
+MD5sum: dc2ea237c3f61e55efca6e85d6ba7862
+SHA1: a16621eb22c31594c3cc4f828b7d47d884418ea0
+SHA256: be53aae385772b74deff397c235342081ffbbe62f6926265ac99a85f5d07c6ab
+SHA512: 8b0c2b0c3947f19843808dc45372fe8c73ee7049e06f2a58f13b22e44e38dce1c7de4c78443edb679b4ff7403031a80b81c41a5a5bd6cf30b313bb6150d94587
+Homepage: https://getartcraft.com/apps/soundcraft
+Description: Open-source, native digital audio workstation. Record, edit and mix
+ multitrack audio and MIDI in Edit and Mix windows; built-in EQ, dynamics,
+ reverb, delay and instruments; imports WAV, AIFF, FLAC, MP3 and MIDI.
+ Includes soundcraft-cli, a headless editor, bounce tool and MCP server.
+
+Package: wordcraft
+Architecture: amd64
+Version: 0.7.0-1
+Priority: optional
+Section: graphics
+Maintainer: WordCraft maintainers <wordcraft@storyteller.ai>
+Installed-Size: 174590
+Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libvulkan1 | libegl1
+Recommends: libwayland-client0, libx11-6, libx11-xcb1, libxcursor1, libxi6, libxrandr2, mesa-vulkan-drivers, xdg-desktop-portal
+Filename: pool/test/wordcraft_0.7.0-1_amd64.deb
+Size: 98624900
+MD5sum: 557d395069c8cd1963063bc2096d132a
+SHA1: 2f8c9603b9798517106bd71540485b53d7fb1b9b
+SHA256: 8ff1e2557956a279f56f7d79ee15aa5403aaac26197b1868ea3dc0b61a23344c
+SHA512: aa69f046ce87517d52821bf50eb77ec668a2d4e24bcce4bf0c8f66f2377ab3d2b2baec72a70ff779dd1697db0b921fca5f6e4fa9b01a5f7e078004727a03d5a7
+Homepage: https://getartcraft.com/apps/wordcraft
+Description: Open-source, native word processor that works the way Word users expect.
+ The ribbon, styles, tables, track changes, references and mail merge; reads
+ and writes .docx, opens .odt, .rtf, .html, .md and .txt, and exports PDF.
+ Includes wordcraft-cli, a headless converter and command runner.
+
