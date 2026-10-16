@@ -30,17 +30,17 @@ Description: OpenSesame Launcher with PsychoPy
 
 Package: devjam-science-tools
 Architecture: all
-Version: 1.77-1
+Version: 1.78-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: pool/science/devjam-science-tools_1.77-1_all.deb
+Filename: pool/science/devjam-science-tools_1.78-1_all.deb
 Size: 374924
-MD5sum: 32de55cdc105b6e55d4a519c37e94bb6
-SHA1: d05853d3c90ff3d4cffd2f646c70d3a344f76b45
-SHA256: a1ce8f2142c72db370900010f9cd0c94cfc3984c4c38d37d4000a1c40fa44826
-SHA512: 7efb696e581d58f0507d6a3582442938591bee4a36c3bc26e6b23f53f648d1f32e1116082b74edbddab28ffd4e511c56bc20703e4936ba06a18682e25c6c9ef0
+MD5sum: f6885c75678250345abc67bed514d205
+SHA1: 3846f8934aa2c4e17c949fed9007aa5bd3efc93c
+SHA256: e0633d87c85602e119a943c5b67e495aab6c28ac1d16ca9c6e12066a7d3ff3d1
+SHA512: 7d59801c5eda63b4351b467fabc6a87d0437d9affd4d3f812c88e2bb68812d28988af5ce57b0022d828fc84a08945a06dc55025d8a954e576dfcc8192dd1cb9a
 Description: science tools
 
 Package: devjam-science-wallpapers
