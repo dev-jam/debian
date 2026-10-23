@@ -1,0 +1,8 @@
+X-Repolib-Name: dev-jam
+Enabled: yes
+Types: deb
+URIs: https://dev-jam.github.io/debian/
+Suites: trixie
+Components: main tools science
+Architectures: amd64
+Signed-By: /usr/share/keyrings/dev-jam.asc
