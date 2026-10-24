@@ -422,18 +422,18 @@ Description: Implementation of the EyeLink core graphics set of handlers for Ope
 
 Package: python3-opensesame-plugin-audio-low-latency
 Architecture: all
-Version: 0:12.0.1-1~w2d0
+Version: 0:12.0.2-1~w2d0
 Priority: optional
 Section: python
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 322
+Installed-Size: 327
 Depends: python3 (>= 3.10~), python3-alsaaudio (>= 0.8.4), python3-pyaudio, python3-pygame (>= 2.0.0), python3-sounddevice, python3:any
-Filename: pool/science/python3-opensesame-plugin-audio-low-latency_12.0.1-1~w2d0_all.deb
-Size: 88664
-MD5sum: 1dcd11b4788f58f28437b3f0cb89e9b8
-SHA1: 8ee16b808ac0a8ef276718f69dbf1a58deb34aca
-SHA256: ce5bef62823d2110db5f547ac7e944e4c0b7dccfff8292795664eae347f70079
-SHA512: 2585a6de51e658e700567c78accf15ede5def58af1942f1c1962671ba823bd3e1741c3fa7e1ebf78c3026b24401e613878913f418f79c4222875c9fd4dfe62cf
+Filename: pool/science/python3-opensesame-plugin-audio-low-latency_12.0.2-1~w2d0_all.deb
+Size: 90076
+MD5sum: f93709435426c800c1a19b9698cc1a5d
+SHA1: c38c492c01a52745024a2b5686b7fa3c7c69e8bb
+SHA256: ea31df038492859d26ed8459d5e6bf57274504a836f7055334ce284a82bab27c
+SHA512: 84161447be5c8bf4ec5c4238035201a06190e21388a908a2f95c941f004b3c37cff7d41123e9e1807b6b8775ed80ccb0c030e0ffda1a1416a5d8ba3b6a65757b
 Description: An OpenSesame Plug-in for playing and recording audio files with low latency on Linux
  This package was automatically generated from the upstream wheel by wheel2deb.
 
@@ -490,18 +490,18 @@ Description: An OpenSesame Plug-in for sending stimulus synchronization triggers
 
 Package: python3-opensesame-plugin-radboudbox
 Architecture: all
-Version: 0:5.1.1-1~w2d0
+Version: 0:5.1.2-1~w2d0
 Priority: optional
 Section: python
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 136
+Installed-Size: 137
 Depends: python3 (>= 3.10~), python3-rusocsci, python3-serial, python3:any
-Filename: pool/science/python3-opensesame-plugin-radboudbox_5.1.1-1~w2d0_all.deb
-Size: 39476
-MD5sum: 6931f304a73fb69706e44486c1478de8
-SHA1: 5b02a194f9854898ee337205ecf11dcef706317b
-SHA256: 91e615adc3b6f12755115c6a989c829ae0ea7fa6a3d640081eb534e9ea437474
-SHA512: e08e1e4ffc405dd6778e3ae231678ab85048217ba17f817f6c1a7978ff1e1ea1f054e0792d7081773ea6c9b6b4e07a3dccec5a16ef857b4a1ad3233a9ffdb7e2
+Filename: pool/science/python3-opensesame-plugin-radboudbox_5.1.2-1~w2d0_all.deb
+Size: 39720
+MD5sum: a44a6cacffdfca1d36a955c4f696d505
+SHA1: de18056b7795418d15d871c8e89728cc48f042b0
+SHA256: b85eadce27149f52fbf0090f066c70ede968dbe1c3391d3c1d92f4887d77b965
+SHA512: 12075f75a0e916cc648e68e6f2458a1dea6531c10f80a9567f5552147db50274a1976f82277417a8a63611f7a1544d072e602a5287cbea7a0313280557ef6085
 Description: An OpenSesame Plug-in for collecting button responses, audio detection, voice key and sending stimulus synchronization triggers with the Radboud Buttonbox to data acquisition systems
  This package was automatically generated from the upstream wheel by wheel2deb.
 

@@ -813,17 +813,17 @@ Description: Geteduroam GUI client for Linux distributions.
 
 Package: grafito
 Architecture: amd64
-Version: 1.6.0-6
+Version: 1.7.0-1
 Priority: optional
 Section: web
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 10364
-Filename: pool/main/grafito_1.6.0-6_amd64.deb
-Size: 3465756
-MD5sum: 50985213103dcdff1b6ef3b518751181
-SHA1: 65f777ca668fc52b256f33339f75f3e16feff459
-SHA256: 27463c91a66ad28be02f34c064218621cc7b66e48d44f37b4825fdf44a4f7537
-SHA512: bc4c63535d77376b11b2792d3bd62681c7e4b8a1a0d851af0176138f7cca056d2cc0445fdcf54a89daab42047250fbdf1958f4b8c19b2df0538a37b02891b255
+Installed-Size: 11012
+Filename: pool/main/grafito_1.7.0-1_amd64.deb
+Size: 3666772
+MD5sum: 8a9c8c831117d838bb4172dc5be6841a
+SHA1: ee3f1b21d2f7350174cb6dda580d1a1be6df50f8
+SHA256: 6bdd3940b2264a37c20e67d1e616b05ad2ba78c1a4f953d3f04fd8b173c05441
+SHA512: 881b9c93474027b59df4f970fcce56ed1459ee6354d6f6941f0c0b22f43cccd6937244129783aba38d08a5c9cf55d01c2c13b36f4161a727288be701c206721b
 Homepage: https://github.com/ralsina/grafito
 Description: Simple, nice journald web frontend
  Grafito is a simple, self-contained web-based log viewer for journalctl.
@@ -1364,19 +1364,19 @@ Description: sedutil ladar for Debian
 
 Package: strata
 Architecture: amd64
-Version: 1.0.0-6
+Version: 1.1.0-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 41388
+Installed-Size: 45812
 Depends: libc6 (>= 2.39), libgtk-4-1 (>= 4.12), libgtksourceview-5-0, libpoppler-glib8t64, libgraphene-1.0-0, libgstreamer1.0-0, libgstreamer-plugins-base1.0-0, libfontconfig1, libpango-1.0-0, libpangocairo-1.0-0, libgdk-pixbuf-2.0-0, libcairo2, libglib2.0-0t64, libstdc++6, libgcc-s1, bubblewrap
 Recommends: gvfs-daemons, gvfs-backends, ffmpegthumbnailer, gstreamer1.0-libav, gstreamer1.0-plugins-good
-Filename: pool/main/strata_1.0.0-6_amd64.deb
-Size: 14039972
-MD5sum: ecb5a45c10fc58fd66f81483fbf22ae3
-SHA1: d1262aa18cbb1a285245cfa25a72df0d6bbe2773
-SHA256: 569dcbab0c4d7a586666cb6d2216ddbabf42cdb6058b680f55a88c46a242e61c
-SHA512: fa59c3c75acc231c418974475ec321be1beb7a7c0163e096237a1b61ea10ef21f3b6ed4a61de23ce3ffde175a704f2316721987c349e98df5323720e1ead5bd6
+Filename: pool/main/strata_1.1.0-1_amd64.deb
+Size: 15349400
+MD5sum: f9064e025f4e99204072d844d7c86798
+SHA1: dff97146c4946801b239bbdb79d8ebbbc82614c4
+SHA256: d3aaa68feb0075728c37203a1d45793984b15b75a50fe0937c5152bfd6b3e4c5
+SHA512: 9467f37eea87ab040962ce2004fa2fe0f3d7e551427800d17501de6639ea9198f07f899c42943eda28d83ab21df39407d7df086078ee1960f157071e9656e5fc
 Homepage: https://github.com/lgse/strata
 Description: Fast, keyboard-first file manager
  Strata is a GTK4 file manager for Linux with rich previews, tabs and keyboard navigation.
