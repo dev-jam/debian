@@ -107,19 +107,19 @@ Description: Open-source, native PDF workbench: read, comment, fill and sign for
 
 Package: photocraft
 Architecture: amd64
-Version: 0.14.0-1
+Version: 0.15.1-1
 Priority: optional
 Section: graphics
 Maintainer: PhotoCraft maintainers <photocraft@storyteller.ai>
-Installed-Size: 167594
+Installed-Size: 168165
 Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1
 Recommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal
-Filename: pool/test/photocraft_0.14.0-1_amd64.deb
-Size: 86828466
-MD5sum: 29341406dd71c5bfb38c7ee87a339f7e
-SHA1: 28898c7595e61824a93b8691104617d8cbc969c2
-SHA256: 5717da29ed89ddd8790816b084aae83176cd4ec72e2330553c5390af46740524
-SHA512: 547d95ab0a34d5255250b2866c50d54016919210a011ce1eef8c23d310345eefb6277d4da6d7785cefa5ace95e62abcad32328f5f1313b75fd3b0c0d437b2456
+Filename: pool/test/photocraft_0.15.1-1_amd64.deb
+Size: 87087774
+MD5sum: 9dcf0166dd5e0a83cd168d139d3ae74c
+SHA1: 615334dd8968404b340ca104bff682e2142889e3
+SHA256: 28eb2b4133240374a96184f983e51b9759656f6ba467cbef528e999b701fd8f3
+SHA512: 8269b20cf5997d26cb7d0b64e735b0a4c3ae5c63ab4e567ed6ca2eb9677728ff309d4c3ae21399e5f8f3f415522f40660d1a0f85ee349fb0cc0f49e491d0d6cf
 Homepage: https://getartcraft.com/apps/photocraft
 Description: Open-source, native image editor with familiar, professional tools.
  Layers, masks, adjustment layers, layer styles, type and brushes; opens and
