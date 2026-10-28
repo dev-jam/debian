@@ -563,11 +563,17 @@ Description: Thunar custom actions collection
 
 Package: devjam-tools
 Architecture: all
-Version: 1.91-1
+Version: 1.92-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: sox,
+Depends: curl,
+ jq,
+ ca-certificates,
+ mawk | gawk
+Recommends: sudo,
+ gh,
+ sox,
  flac,
  wl-clipboard,
  packaging-dev,
@@ -584,21 +590,19 @@ Recommends: sox,
  mkvtoolnix,
  rsync,
  perl,
- tar,
  linux-cpupower,
  dkms,
- util-linux,
  debsecan,
  genisoimage,
  csvtool,
  libevtx-utils,
  systemd-container
-Filename: pool/main/devjam-tools_1.91-1_all.deb
-Size: 24700684
-MD5sum: c5d2abc8dec38b10f080c199051e6bc6
-SHA1: 74db3b7981195887249b8fad48ac1b9a6685e7c0
-SHA256: 6a46360a6977c45ebe2170939c145d56c000d696fc29bf41db160c4b0d238d91
-SHA512: 7deca4b9d6d99fbfba38da90c15c36e91b9f14179da5dfc0e5fa02cc5628c0ca5df04057856e0ab49a1a8620f64feeabd556c8349d9b23f94211774e16470b0a
+Filename: pool/main/devjam-tools_1.92-1_all.deb
+Size: 24705468
+MD5sum: 5bf2df89cf9714b6e942bfb8af062a60
+SHA1: f6cefa5a23a801597d9405d1891bbdd82b3f5c83
+SHA256: 72517cac98a403170ec5dcc9a332bdf7de88ee5ab26ea0155ba1c508c32adcb6
+SHA512: c604ab9e29799fcde3b209e0b8d357b8b443848862210049f1c470c97125a2b0aa8d6a1bf18b584ca2d1b7f0a1047fbceec7662788c266453b7009fb82735fec
 Description: personal tools for Debian
 
 Package: devjam-wallpapers
@@ -803,33 +807,33 @@ Description: Efficient duplicate file finder
 
 Package: geteduroam-cli
 Architecture: amd64
-Version: 0.14.0+git-1
+Version: 0.15.0+git-1
 Priority: optional
 Maintainer: Jeroen Wijenbergh
 Installed-Size: 14088
 Depends: network-manager
-Filename: pool/main/geteduroam-cli_0.14_amd64.deb
-Size: 6062728
-MD5sum: fa8428b3436b7b2b33dcb7c77ced37ff
-SHA1: e70b3deb81c90fcf80754cf3c15514523619c0bb
-SHA256: 7a1560a56087e631f69532f386d260a1d4b413011e5c459f5e0e14460ca73acb
-SHA512: f371a207795b8bfa9c805ec495114f1203cf405c158aee356247997e51cd90e7d646d32cb5b644244fdee6abdd11f27c301b08a610aad56059963f3e6b4bc317
+Filename: pool/main/geteduroam-cli_0.15.0+git-1_amd64.deb
+Size: 6026154
+MD5sum: 8a7c43ca2db48f73be468c0beac85982
+SHA1: 14ccd9e5a29a35d867d3eea3b518fca0820c34d6
+SHA256: 7d9690808494b38608c986be79d394f4b126f2435b21320074a2f035facd5998
+SHA512: 9ee6b13b5f47cb0491b88fa94c3f1d656f981d7c46a281c040abafd9e03ac3f5cede11aae4c36f006b8c8128b08028deda33e666f286b9cff5c38d4ce21452fd
 Homepage: https://geteduroam.org/
 Description: Geteduroam CLI client for Linux distributions.
 
 Package: geteduroam-gui
 Architecture: amd64
-Version: 0.14.0+git-1
+Version: 0.15.0+git-1
 Priority: optional
 Maintainer: Jeroen Wijenbergh
-Installed-Size: 22088
+Installed-Size: 22092
 Depends: network-manager, libgtk-4-1, libadwaita-1-0, libnotify-bin
-Filename: pool/main/geteduroam-gui_0.14_amd64.deb
-Size: 7853772
-MD5sum: ad54a3dfe24024787bf76a85c17f50d8
-SHA1: da5bf6a588cc0bfd44fe002a3f3ec7afbad665e9
-SHA256: 66cbc82f8ca883b2d70d888d589976002f42494e938905fe35cf29f7d6322241
-SHA512: 6f9827a4a34723615da9bcc9b05c44836e27be83a0d7afa60f8c18ed2aa882cb9bf404cfdede8e70c596244f64c6c984f7a71b97a739f90489926f74223c7ad6
+Filename: pool/main/geteduroam-gui_0.15.0+git-1_amd64.deb
+Size: 7818790
+MD5sum: 00ffa9021bc873f9cc048d4e54367970
+SHA1: a7240e2e8953704073f8ad3c88bef5ab933bc33f
+SHA256: 178db949ac6629318cf3f936eceb2a8377aeedce0b763181a936cdd8163987fe
+SHA512: d3c9c4fa48131fb5414506811c992f2cee06e3badcb0ada33ee742e3ab40ed11607afbc87efc2b6ae515a3895d7143458ee30039ff7a059f954f71956060c1a1
 Homepage: https://geteduroam.org/
 Description: Geteduroam GUI client for Linux distributions.
 

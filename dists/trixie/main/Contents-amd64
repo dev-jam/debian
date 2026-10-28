@@ -1377,6 +1377,8 @@ usr/bin/tar-all-files					    utils/devjam-tools
 usr/bin/tartube						    python/python3-tartube
 usr/bin/testx						    utils/devjam-tools
 usr/bin/thunar						    xfce/devjam-thunar-actions
+usr/bin/update-artcraft-repo				    utils/devjam-tools
+usr/bin/update-local-debs				    utils/devjam-tools
 usr/bin/vid-convert-codec				    utils/devjam-tools
 usr/bin/vid-convert-container				    utils/devjam-tools
 usr/bin/wheel2deb					    python/wheel2deb
