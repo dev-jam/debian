@@ -44,17 +44,27 @@ Description: matlab tools
 
 Package: devjam-science-tools
 Architecture: all
-Version: 1.82-1
+Version: 1.83-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme
-Filename: pool/science/devjam-science-tools_1.82-1_all.deb
-Size: 327788
-MD5sum: 0f6ff17684b82447b7bd24c292834c93
-SHA1: 8c170b5faa87098dc28e462263920ac809131ade
-SHA256: 18cd27489e78fc8568334d85ef87e006a909f5a507dd3cc4e03d27eb7ccbaae9
-SHA512: 332486a961eaac518fdf81ad3a9e986afe20221203dc4024e3ac754ddef04edca3d48df0a572c0972647b0b593a2d875991966c3384b4ad60bef319ff19c04f5
+Depends: inxi,
+ hardinfo2,
+ fastfetch,
+ udev,
+ shared-mime-info,
+ desktop-file-utils,
+ hicolor-icon-theme,
+ curl,
+ ca-certificates,
+ mawk | gawk
+Recommends: sudo
+Filename: pool/science/devjam-science-tools_1.83-1_all.deb
+Size: 330264
+MD5sum: 7ff2068aeb65a7b43e12f80af492bb91
+SHA1: 7b418f2cf651a882f31351cd5949f16dcb4b6370
+SHA256: 69abc4eeb08a896935b2d98fa482f8b08d6959127813b0fea737bbfad952d568
+SHA512: 942726110dfe09350d23db1cfeb2857d379fcc39cffd182f6093edde8eaf4050f5f8f5bed9bc10f1b397b332681367275bace66567b5f8e36844d4abdbef6e19
 Description: science tools
 
 Package: devjam-science-wallpapers

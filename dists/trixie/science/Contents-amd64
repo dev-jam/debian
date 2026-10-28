@@ -18,6 +18,7 @@ usr/bin/ptb3-matlab					    non-free/science/matlab-psychtoolbox-3
 usr/bin/setup-user-links				    science/devjam-science-tools
 usr/bin/sigmund-analyst-psychopy-launch			    science/devjam-science-opensesame-psychopy
 usr/bin/update-psychopy-installer			    science/devjam-science-tools
+usr/bin/update-tobii-etm				    science/devjam-science-tools
 usr/bin/usb-affinity					    science/devjam-science-experiment-mode-rtirq
 usr/bin/verify-rtirq					    science/devjam-science-experiment-mode-rtirq
 usr/include/jerror.h					    libdevel/libjpeg8-dev
