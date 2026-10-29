@@ -514,18 +514,18 @@ Description: An OpenSesame Plug-in for sending stimulus synchronization triggers
 
 Package: python3-opensesame-plugin-radboudbox
 Architecture: all
-Version: 0:5.1.2-1~w2d0
+Version: 0:5.3.0-1~w2d0
 Priority: optional
 Section: python
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 137
+Installed-Size: 156
 Depends: python3 (>= 3.10~), python3-rusocsci, python3-serial, python3:any
-Filename: pool/science/python3-opensesame-plugin-radboudbox_5.1.2-1~w2d0_all.deb
-Size: 39720
-MD5sum: a44a6cacffdfca1d36a955c4f696d505
-SHA1: de18056b7795418d15d871c8e89728cc48f042b0
-SHA256: b85eadce27149f52fbf0090f066c70ede968dbe1c3391d3c1d92f4887d77b965
-SHA512: 12075f75a0e916cc648e68e6f2458a1dea6531c10f80a9567f5552147db50274a1976f82277417a8a63611f7a1544d072e602a5287cbea7a0313280557ef6085
+Filename: pool/science/python3-opensesame-plugin-radboudbox_5.3.0-1~w2d0_all.deb
+Size: 44216
+MD5sum: ce28c57c4f12633bc4e28c20c145ef40
+SHA1: 68c640a23ac51bc8567a946cf5053bb54c6c3558
+SHA256: 38db313f9869dea10fcc5c419810ad4bb4ceafc6a55d11c158ad954cc43d177c
+SHA512: 3db4c831dea4410126bb8e028e9883f5b6140a6de3eb20d36d02540149de921e3b5d61e79a00d1081f2d9949802d90b5dec64162c75b59558a4ea4003a4e80a8
 Description: An OpenSesame Plug-in for collecting button responses, audio detection, voice key and sending stimulus synchronization triggers with the Radboud Buttonbox to data acquisition systems
  This package was automatically generated from the upstream wheel by wheel2deb.
 
