@@ -31,19 +31,19 @@ Description: APT package cleanup tool for KDE Plasma
 
 Package: artcraft-launcher
 Architecture: amd64
-Version: 0.9.0-1
+Version: 0.10.0-1
 Priority: optional
 Section: utils
 Maintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>
-Installed-Size: 29664
+Installed-Size: 29857
 Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1
 Recommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal
-Filename: pool/main/artcraft-launcher_0.9.0-1_amd64.deb
-Size: 13587396
-MD5sum: 6ca80a721cc1302d399651d55dcd8ba5
-SHA1: 1fcdae403ac523f3a6fc744de91d03e1c0392df1
-SHA256: 94e7e8c30ec9d50e7c2cf6df32f47dbb9f2863edde923d4ae9e8bbc54da47eb0
-SHA512: 6fc2e51e2e584976ca442e9ca6f239e790c62d6471cf538c663b1626a1e221b4708bb5da6d7131e7a32e1d5aa7b2803d2a8d03e246593d626fe6df7b7540da54
+Filename: pool/main/artcraft-launcher_0.10.0-1_amd64.deb
+Size: 13674062
+MD5sum: 4f6592ac51f2a0a3685691ffa723f3c6
+SHA1: 1eb04db451e4ce07c70016d83eb08455137324d9
+SHA256: ff52f7ed06a9e873152f2114e5bd5565cb583637f4ff8a142e253a1b5dce16e3
+SHA512: 329d8d6846f951076e9336fef13cc74596995b36876b62a64b4f3ad3e1b4b4a5b46397700cdc758aa0e50cb38e95b5def7179628a7fb9979b43ca72942ed8431
 Homepage: https://github.com/storytold/craft-launcher
 Description: Install, update and launch the Craft App Suite.
  ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,
