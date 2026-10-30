@@ -13,6 +13,22 @@ SHA256: 5ad3c48fdbc9b25872b08c99b42b763a1fa030ce7f881030ab46a9ecbb756c7f
 SHA512: 9ae19e97b794fee29046d0a92935b589fc318f7e7e59745a006d0dec23aa4d6e6cae27dcbf14c43c479a42a533741047d2ce9d1efeb1e133c82dc152126cb944
 Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
 
+Package: devjam-science-kde-servicemenus
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: kde
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-science-tools
+Recommends: dolphin, krusader
+Filename: pool/science/devjam-science-kde-servicemenus_1.0-1_all.deb
+Size: 1476
+MD5sum: a4a826300753b20beb79eb85f405e72d
+SHA1: 173f1bc0d9716ff0f87dc10c8f708b1f50706ca0
+SHA256: f332c348c48d40dd5d156ab29497276b9015238bdbece2c0c52b6e8a148bf40d
+SHA512: 7f9d46d8ecc7a8bcd5925606879d2c55e2b5218773bf66c881b584ea62ebe9cabe508ba895080d726757954767778f69af1cdef57487e19f6af4c6238d28fb5f
+Description: KDE Service Menu items for science by devjam
+
 Package: devjam-science-opensesame-psychopy
 Architecture: all
 Version: 1.6-1
@@ -44,7 +60,7 @@ Description: matlab tools
 
 Package: devjam-science-tools
 Architecture: all
-Version: 1.85-1
+Version: 1.86-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
@@ -59,12 +75,12 @@ Depends: inxi,
  ca-certificates,
  mawk | gawk
 Recommends: sudo
-Filename: pool/science/devjam-science-tools_1.85-1_all.deb
-Size: 330328
-MD5sum: f97a2bffe3822efbcd55c1e7c2432823
-SHA1: f26b69a28479f95f52e38d6922f822726818ec38
-SHA256: 17509df332409486aba63eb6a6786e58c09f8cb5ce4cbdea51948943605097d8
-SHA512: 599162fb03793875e8fdc693d9e0820b140a7288777c9e47140543656022e4dd3df984c187f5224eb15084c3171d60020f925c29fae3b6206f0c9e2f0463c2dd
+Filename: pool/science/devjam-science-tools_1.86-1_all.deb
+Size: 331252
+MD5sum: 1e284448d7030fd170e8c036947ddb2d
+SHA1: df8b849d3d64713422555c68e75747f19f2dcadb
+SHA256: f172f15f2a99154f6cfab45a8ebd1331fa270859a1d1ea623963fc149c72f45f
+SHA512: dedba595e1da068b5577c4d286a68c6d7a97e80203b07ba49adcd06aadb37f27905ce1b19b4ff5712820b955d92442193e439de59059b02803d78f0c3f6e47b2
 Description: science tools
 
 Package: devjam-science-wallpapers

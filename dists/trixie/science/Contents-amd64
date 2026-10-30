@@ -9,6 +9,7 @@ usr/bin/auto-pin-audio-irq				    science/devjam-science-experiment-mode-rtirq
 usr/bin/check-isolation					    science/devjam-science-experiment-mode-rtirq
 usr/bin/check-rt-processes				    science/devjam-science-experiment-mode-rtirq
 usr/bin/install-psychopy-opensesame			    science/devjam-science-tools
+usr/bin/make-osexp					    science/devjam-science-tools
 usr/bin/manage-opensesame-affinity			    science/devjam-science-opensesame-psychopy
 usr/bin/matlab-run-cli-bg				    science/devjam-science-tools-matlab
 usr/bin/matlab-run-cli-exp				    science/devjam-science-tools-matlab
@@ -470,6 +471,7 @@ usr/share/devjam/rtirq/experiment_mode.conf		    science/devjam-science-experime
 usr/share/devjam/rtirq/rtirq.conf			    science/devjam-science-experiment-mode-rtirq
 usr/share/doc-base/python-sounddevice-doc.python-sounddevice doc/python-sounddevice-doc
 usr/share/doc/devjam-science-experiment-mode-rtirq/copyright science/devjam-science-experiment-mode-rtirq
+usr/share/doc/devjam-science-kde-servicemenus/copyright	    kde/devjam-science-kde-servicemenus
 usr/share/doc/devjam-science-opensesame-psychopy/copyright  science/devjam-science-opensesame-psychopy
 usr/share/doc/devjam-science-tools-matlab/copyright	    science/devjam-science-tools-matlab
 usr/share/doc/devjam-science-tools/copyright		    science/devjam-science-tools
@@ -607,6 +609,7 @@ usr/share/icons/psychopy.png				    science/devjam-science-tools
 usr/share/icons/psychopy_studio.png			    science/devjam-science-tools
 usr/share/icons/sigmund-analyst.png			    science/devjam-science-tools
 usr/share/keyrings/neurodebian-archive-keyring.gpg	    science/neurodebian-archive-keyring
+usr/share/kio/servicemenus/make-osexp.desktop		    kde/devjam-science-kde-servicemenus
 usr/share/kio/servicemenus/matlab-background.desktop	    science/devjam-science-tools-matlab
 usr/share/kio/servicemenus/matlab-experiment-terminal.desktop science/devjam-science-tools-matlab
 usr/share/matlab/site/m/psychtoolbox-3			    non-free/science/matlab-psychtoolbox-3
