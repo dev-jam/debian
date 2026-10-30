@@ -15,17 +15,17 @@ Description: Experiment mode with IRQ priority order optimized for deterministic
 
 Package: devjam-science-opensesame-psychopy
 Architecture: all
-Version: 1.5-4
+Version: 1.6-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science-tools
-Filename: pool/science/devjam-science-opensesame-psychopy_1.5-4_all.deb
-Size: 4616
-MD5sum: 11d26239d067fc5d13987abad621a155
-SHA1: db7f4c332c704272a200639add2600d8b4053d3c
-SHA256: 9730d5af3d77dcb4f05bd08859a27474a1d1f8274b25718ceec7f520d076751b
-SHA512: bfa6dece98d3e324352c318f0e73633e538190adb1d328336239099f60eada25da4de8d91785cc61917b6bea2953b4689adba06246e4cabddd30488720bca85b
+Filename: pool/science/devjam-science-opensesame-psychopy_1.6-1_all.deb
+Size: 4568
+MD5sum: b92a82317138f308499aeb6a4ba29b26
+SHA1: 32065968fbc5fc466dcbeaf3646397c0953cc408
+SHA256: a262482a8f90d6eff100a59e2345067ae6e7553271d9958454284c16ad589dac
+SHA512: e0f9053b4146589d3f8a78834373cd70d9824313b2e0636b178695c21a40b8f5e988a10194938d2f028bbcc88ada391fa504b250902bc064122cb4307cca0d27
 Description: OpenSesame Launcher with PsychoPy
 
 Package: devjam-science-tools-matlab
@@ -44,7 +44,7 @@ Description: matlab tools
 
 Package: devjam-science-tools
 Architecture: all
-Version: 1.84-1
+Version: 1.85-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
@@ -59,12 +59,12 @@ Depends: inxi,
  ca-certificates,
  mawk | gawk
 Recommends: sudo
-Filename: pool/science/devjam-science-tools_1.84-1_all.deb
-Size: 330316
-MD5sum: 0f4fe02242a88a60aa09f070eb8cb007
-SHA1: 6a738db724da08ef5cbd519c513ebf768c7e4a1d
-SHA256: 8730db74b0985e7664051785c55f108ce362649b8fd8aa361438bda316b5464b
-SHA512: 856dccc8420b2cd65e6fbb546dfea798020bcaca8e3160c0022f44772b68eae4fd714392bc8734febe1413803bca65f94d570de075a3623bc01e26faa00d8a57
+Filename: pool/science/devjam-science-tools_1.85-1_all.deb
+Size: 330328
+MD5sum: f97a2bffe3822efbcd55c1e7c2432823
+SHA1: f26b69a28479f95f52e38d6922f822726818ec38
+SHA256: 17509df332409486aba63eb6a6786e58c09f8cb5ce4cbdea51948943605097d8
+SHA512: 599162fb03793875e8fdc693d9e0820b140a7288777c9e47140543656022e4dd3df984c187f5224eb15084c3171d60020f925c29fae3b6206f0c9e2f0463c2dd
 Description: science tools
 
 Package: devjam-science-wallpapers
