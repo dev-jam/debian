@@ -44,7 +44,7 @@ Description: matlab tools
 
 Package: devjam-science-tools
 Architecture: all
-Version: 1.83-1
+Version: 1.84-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
@@ -59,12 +59,12 @@ Depends: inxi,
  ca-certificates,
  mawk | gawk
 Recommends: sudo
-Filename: pool/science/devjam-science-tools_1.83-1_all.deb
-Size: 330264
-MD5sum: 7ff2068aeb65a7b43e12f80af492bb91
-SHA1: 7b418f2cf651a882f31351cd5949f16dcb4b6370
-SHA256: 69abc4eeb08a896935b2d98fa482f8b08d6959127813b0fea737bbfad952d568
-SHA512: 942726110dfe09350d23db1cfeb2857d379fcc39cffd182f6093edde8eaf4050f5f8f5bed9bc10f1b397b332681367275bace66567b5f8e36844d4abdbef6e19
+Filename: pool/science/devjam-science-tools_1.84-1_all.deb
+Size: 330316
+MD5sum: 0f4fe02242a88a60aa09f070eb8cb007
+SHA1: 6a738db724da08ef5cbd519c513ebf768c7e4a1d
+SHA256: 8730db74b0985e7664051785c55f108ce362649b8fd8aa361438bda316b5464b
+SHA512: 856dccc8420b2cd65e6fbb546dfea798020bcaca8e3160c0022f44772b68eae4fd714392bc8734febe1413803bca65f94d570de075a3623bc01e26faa00d8a57
 Description: science tools
 
 Package: devjam-science-wallpapers
