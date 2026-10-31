@@ -807,33 +807,33 @@ Description: Efficient duplicate file finder
 
 Package: geteduroam-cli
 Architecture: amd64
-Version: 0.15.0+git-1
+Version: 0.16.0+git-1
 Priority: optional
 Maintainer: Jeroen Wijenbergh
-Installed-Size: 14088
+Installed-Size: 14372
 Depends: network-manager
-Filename: pool/main/geteduroam-cli_0.15.0+git-1_amd64.deb
-Size: 6026154
-MD5sum: 8a7c43ca2db48f73be468c0beac85982
-SHA1: 14ccd9e5a29a35d867d3eea3b518fca0820c34d6
-SHA256: 7d9690808494b38608c986be79d394f4b126f2435b21320074a2f035facd5998
-SHA512: 9ee6b13b5f47cb0491b88fa94c3f1d656f981d7c46a281c040abafd9e03ac3f5cede11aae4c36f006b8c8128b08028deda33e666f286b9cff5c38d4ce21452fd
+Filename: pool/main/geteduroam-cli_0.16.0+git-1_amd64.deb
+Size: 6147414
+MD5sum: a6e142e2de7b34e4bd7a7bf9c178815e
+SHA1: 90705b67cb41042fb60fc09e7bfaba312b49b789
+SHA256: 1871276c9a30b4f1a3a767548d10d6edb64f56f0757edc1746178b39bbc959dd
+SHA512: 2886818138965ca84a53b19562bacac808b28bb83dacf56ab32bc6ab35f9752c5ea6235ff0f5a9b2633bfd10080f81f6a8aa4c6a4456b302eb6220205411abaf
 Homepage: https://geteduroam.org/
 Description: Geteduroam CLI client for Linux distributions.
 
 Package: geteduroam-gui
 Architecture: amd64
-Version: 0.15.0+git-1
+Version: 0.16.0+git-1
 Priority: optional
 Maintainer: Jeroen Wijenbergh
-Installed-Size: 22092
+Installed-Size: 22180
 Depends: network-manager, libgtk-4-1, libadwaita-1-0, libnotify-bin
-Filename: pool/main/geteduroam-gui_0.15.0+git-1_amd64.deb
-Size: 7818790
-MD5sum: 00ffa9021bc873f9cc048d4e54367970
-SHA1: a7240e2e8953704073f8ad3c88bef5ab933bc33f
-SHA256: 178db949ac6629318cf3f936eceb2a8377aeedce0b763181a936cdd8163987fe
-SHA512: d3c9c4fa48131fb5414506811c992f2cee06e3badcb0ada33ee742e3ab40ed11607afbc87efc2b6ae515a3895d7143458ee30039ff7a059f954f71956060c1a1
+Filename: pool/main/geteduroam-gui_0.16.0+git-1_amd64.deb
+Size: 7929814
+MD5sum: 96cf68408808bf5fca7c5b72055ccabd
+SHA1: 485df764e17633c6ff021f05f3851ea8b6aed57b
+SHA256: 9f342d41598b08fa47b1035eee6d2a08a99819acd925a90d5e19de0a4eaa3380
+SHA512: 15ed47ab81cadf27faec89b0dde84589f142187a1a47802053b9331776cd1d405430cd4d4d10ef3b6edec18803fe9d1f4473ac7ddd26b0e2b8830c0656e84c82
 Homepage: https://geteduroam.org/
 Description: Geteduroam GUI client for Linux distributions.
 
