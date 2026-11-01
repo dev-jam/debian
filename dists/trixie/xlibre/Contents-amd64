@@ -603,6 +603,7 @@ usr/share/doc/xserver-xlibre-xvfb/changelog.gz		    x11/xserver-xlibre-xvfb
 usr/share/doc/xserver-xlibre-xvfb/copyright		    x11/xserver-xlibre-xvfb
 usr/share/doc/xserver-xlibre/changelog.gz		    x11/xserver-xlibre
 usr/share/doc/xserver-xlibre/copyright			    x11/xserver-xlibre
+usr/share/keyrings/NexusSfan.pgp			    misc/nexussfan-archive-keyring
 usr/share/lintian/overrides/xlibre			    x11/xlibre
 usr/share/lintian/overrides/xlibre-x11-common		    x11/xlibre-x11-common
 usr/share/lintian/overrides/xserver-xlibre-video-intel	    x11/xserver-xlibre-video-intel

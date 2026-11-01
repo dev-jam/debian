@@ -1,3 +1,19 @@
+Package: nexussfan-archive-keyring
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Section: misc
+Maintainer: NexusSfan <nexussfan@duck.com>
+Filename: pool/xlibre/nexussfan-archive-keyring_1.0.0-1_all.deb
+Size: 3084
+MD5sum: 3de2f023a8edd5fba26713c0efa9f3c8
+SHA1: 45680103089554668bf02fa1117fca01b0593d3a
+SHA256: c7b8a2da81e57a942464ec07df560d6de98de96b673b918223e7971757a31936
+SHA512: e13413ca642ce98d699fc6c808ed0355265854533de7ef91491f288cb9831c03889fc64b8be361b10f77e8fd0c5fe643a202976cd8aee719c5a7f2c0fd488ffa
+Description: OpenPGP archive certificates of NexusSfan
+ NexusSfan digitally signs its Release files. This package
+ contains the archive certificates used for that.
+
 Package: x11proto-core-dev
 Architecture: all
 Version: 2025.1-1+xlibre1
