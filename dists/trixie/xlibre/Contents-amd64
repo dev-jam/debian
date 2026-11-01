@@ -302,7 +302,6 @@ usr/include/xorg/xkbrules.h				    x11/xserver-xlibre-dev
 usr/include/xorg/xkbsrv.h				    x11/xserver-xlibre-dev
 usr/include/xorg/xkbstr.h				    x11/xserver-xlibre-dev
 usr/include/xorg/xlibre-server.h			    x11/xserver-xlibre-dev
-usr/include/xorg/xlibre_ptrtypes.h			    x11/xserver-xlibre-dev
 usr/include/xorg/xorg-server.h				    x11/xserver-xlibre-dev
 usr/include/xorg/xorgVersion.h				    x11/xserver-xlibre-dev
 usr/include/xorg/xserver-properties.h			    x11/xserver-xlibre-dev
@@ -609,7 +608,6 @@ usr/share/lintian/overrides/xlibre-x11-common		    x11/xlibre-x11-common
 usr/share/lintian/overrides/xserver-xlibre-video-intel	    x11/xserver-xlibre-video-intel
 usr/share/man/man1/Xephyr.1.gz				    x11/xserver-xlibre-xephyr
 usr/share/man/man1/Xfbdev.1.gz				    x11/xserver-xlibre-xfbdev
-usr/share/man/man1/Xkdrive.1.gz				    x11/xserver-xlibre-common
 usr/share/man/man1/Xnest.1.gz				    x11/xserver-xlibre-xnest
 usr/share/man/man1/Xorg.1.gz				    x11/xserver-xlibre-core
 usr/share/man/man1/Xorg.wrap.1.gz			    x11/xserver-xlibre-legacy
