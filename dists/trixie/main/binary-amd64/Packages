@@ -563,7 +563,7 @@ Description: Thunar custom actions collection
 
 Package: devjam-tools
 Architecture: all
-Version: 1.92-1
+Version: 1.93-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
@@ -597,12 +597,12 @@ Recommends: sudo,
  csvtool,
  libevtx-utils,
  systemd-container
-Filename: pool/main/devjam-tools_1.92-1_all.deb
-Size: 24705468
-MD5sum: 5bf2df89cf9714b6e942bfb8af062a60
-SHA1: f6cefa5a23a801597d9405d1891bbdd82b3f5c83
-SHA256: 72517cac98a403170ec5dcc9a332bdf7de88ee5ab26ea0155ba1c508c32adcb6
-SHA512: c604ab9e29799fcde3b209e0b8d357b8b443848862210049f1c470c97125a2b0aa8d6a1bf18b584ca2d1b7f0a1047fbceec7662788c266453b7009fb82735fec
+Filename: pool/main/devjam-tools_1.93-1_all.deb
+Size: 24706024
+MD5sum: 09fddd76d43c20ff76c8489d42177f24
+SHA1: ff1d2f9ea2e322fb277c58e91a82609579811f80
+SHA256: 10d14da6f2ff6d7a090f1d007566a697c3eb52b58c3bb28789f90caeaf9b59b3
+SHA512: c032218f9fbf386768d794ac6c00e5e2fe77d75675098ff9ba4d6197dfc6b08706dd4ee63fbb9b0b9bb801e276821dd0d20fc17bd07ac32f3401288832ad0d9c
 Description: personal tools for Debian
 
 Package: devjam-wallpapers

@@ -55,6 +55,9 @@ source scripts/prepare-conf.sh
 
 # Generate Packages indices for all components
 echo "Generating Packages indices..."
+# The checksum cache keys on mtime; upstream debs can be replaced
+# with identical mtimes, so always start with an empty cache
+rm -f .cache/packages-*.db
 apt-ftparchive generate .cache/generate.conf
 echo
 
