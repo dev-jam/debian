@@ -3,6 +3,6 @@ Enabled: yes
 Types: deb
 URIs: https://dev-jam.github.io/debian/
 Suites: trixie
-Components: main tools science
+Components: main tools science xlibre
 Architectures: amd64
 Signed-By: /usr/share/keyrings/dev-jam.asc

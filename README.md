@@ -16,7 +16,7 @@ Suite: `trixie`. Architectures: `amd64` and `all`.
 | `tools` | Tools | `trixie` only |
 | `xlibre` | XLibre stable packages | `trixie` only |
 
-The suite is named `trixie` for all three components, but the packages in `main` are not specific to it.
+The suite is named `trixie` for all four components, but the packages in `main` and `science` are not specific to it.
 
 ## Add the repository
 
