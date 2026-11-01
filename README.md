@@ -12,8 +12,9 @@ Suite: `trixie`. Architectures: `amd64` and `all`.
 | Component | Contents | Debian releases |
 | :-- | :-- | :-- |
 | `main` | General packages | All Debian releases |
+| `science` | Science / lab packages | All Debian releases |
 | `tools` | Tools | `trixie` only |
-| `science` | Science / lab packages | `trixie` only |
+| `xlibre` | XLibre stable packages | `trixie` only |
 
 The suite is named `trixie` for all three components, but the packages in `main` are not specific to it.
 
@@ -47,7 +48,7 @@ Enabled: yes
 Types: deb
 URIs: https://dev-jam.github.io/debian/
 Suites: trixie
-Components: main tools science
+Components: main tools science xlibre
 Architectures: amd64
 Signed-By: /usr/share/keyrings/dev-jam.asc
 EOF
@@ -78,8 +79,8 @@ Packages installed from this repository stay installed. Remove them separately w
 ## Repository layout
 
 ```text
-dists/trixie/{main,tools,science}/binary-amd64/   package indexes
-pool/{main,tools,science}/                        the .deb files
-dev-jam.asc                                       public signing key
-dev-jam.sources                                   ready-made APT source file
+dists/trixie/{main,tools,science,xlibre}/binary-amd64/   package indexes
+pool/{main,tools,science,xlibre}/                        the .deb files
+dev-jam.asc                                              public signing key
+dev-jam.sources                                          ready-made APT source file
 ```
