@@ -451,10 +451,10 @@ Depends: lsb-base
 Conflicts: x11-common
 Filename: pool/xlibre/xlibre-x11-common_7.8+5_all.deb
 Size: 215772
-MD5sum: 2d70f5bf1111947c6ba1805713c62792
-SHA1: 2e55ff9f064f200391f605eac948c43e6e4576c5
-SHA256: e4a51c481457e7fe3e032514719329acd70981891ae13dbe95c806663c94d1ae
-SHA512: 2997b2bfa8628307a0c96b20a76a749002fbd348a46c02d3081289faeff4eb4cba5bdb90a3a3545444859b66deb4d69471bbda0a1587455a35048def71ae7e44
+MD5sum: 1c1e0b5de7ae39520be0ac4d4b037e93
+SHA1: 713df56b1fabc4b3ab04e7909b51bc4dbc3e9168
+SHA256: 03389600681175acd04df462e1a2ae0e73e2f99fc2fbaf72ede73675bc1b3823
+SHA512: a4e558ae32d5b205026680a38d35b18200b0e2d8a903301d5452a0be119475839af0c2f50b6028d9b968baabea8caa7eb1e5bed0b288a6da656b6105ec741dc4
 Homepage: https://github.com/X11Libre
 Description: X Window System (X.Org) infrastructure
  x11-common contains the filesystem infrastructure required for further
@@ -682,11 +682,11 @@ Provides: xlibre-driver-input, xserver-xorg-input-elographics (= 2:25.0.1-1)
 Depends: libc6 (>= 2.3), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-input-elographics
 Filename: pool/xlibre/xserver-xlibre-input-elographics_25.0.1-1_amd64.deb
-Size: 10244
-MD5sum: 965bbd8ea550193df90432f9346401eb
-SHA1: baf0989859dfa7dfb03baf039900a3336845031c
-SHA256: 38e0a6278b189c322b77ee787e0e2a0802a0f864f424056393f306d243e555a6
-SHA512: aadcc1734bb2f8e7aa452e566338a595c501ddd7a8eb9d49878d3205fa18f3270cdc8be63d1316a190f4a0e4256e98083ea458cce47aa483cf9fc64663c9c9b9
+Size: 10296
+MD5sum: 769d9ef3f3beb7fda30b060b1c2d8fc8
+SHA1: d73093de01571791cf4b35de90224b747af028c4
+SHA256: 6c525e1e444a79fdb5c3c0af34e9d38863be9ad6a897990db244001029d0e517
+SHA512: 72defe36102026824611c07004c3d2f903bf11ae2748957218b90a533b18589fd9cac205e03586df4aedbe1a4582d71dfb5d96d93081eb76532ce4aaebf5e57c
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- ELOGraphics input driver
  This package provides the driver for ELO Graphics touchscreens.
@@ -729,16 +729,16 @@ Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 98
 Provides: xlibre-driver-input, xserver-xorg-input-evdev (= 2:25.0.0-1)
-Depends: libc6 (>= 2.33), libevdev2 (>= 1.2.2+dfsg-1~), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.38), libevdev2 (>= 1.2.2+dfsg-1~), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-input-evdev
 Breaks: xserver-xorg-core (<< 2:1.18.0-1)
 Replaces: xserver-xorg-core (<< 2:1.18.0-1)
 Filename: pool/xlibre/xserver-xlibre-input-evdev_25.0.0-1_amd64.deb
-Size: 31344
-MD5sum: a38bd862c3ba4535a2c2bc722b3f8037
-SHA1: 5cf12b832cd24e11c5dcf64800cf46203b0bc0fc
-SHA256: 5265e8f4ef29dc971e41e1906b55add5c1d99087d3a8c7b3ce79a05f09fc5656
-SHA512: 2ad1c58993dd4e639064f1b0f07cb9949bee77a54772e97748f42b755cfcf2fc811f8e2b050eb03bc08a2f4bf10aea9d71a0cb2768d1991107899283e733c1d9
+Size: 31736
+MD5sum: fc99d3d9efe0ddcb9443c017b2237bb3
+SHA1: ae4affff8a86c1b92cc5f72b23a356a7300046d1
+SHA256: 38249896a12c4f2c948034721824bfd66eb69f4ecc05b1bb769e06ad16986f96
+SHA512: ae31f09575778a4b6e4a0bfd22e794954bf1f8e131eed29e81382faa806640d20c4621efff8fc4d0ac8a56d4227de5d0793d5281c3867e0f44fafc47a9eb949f
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- evdev input driver
  This package provides the driver for input devices using evdev, the Linux
@@ -781,16 +781,16 @@ Version: 25.0.0-1
 Priority: optional
 Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 67
+Installed-Size: 71
 Provides: xserver-xorg-input-joystick
-Depends: libc6 (>= 2.7)
+Depends: libc6 (>= 2.38)
 Conflicts: xserver-xorg-input-joystick
 Filename: pool/xlibre/xserver-xlibre-input-joystick_25.0.0-1_amd64.deb
-Size: 23172
-MD5sum: fc754a5fb5b6b3f47c0249d1d113c493
-SHA1: fe567de77c552513910604192782a67a03a74762
-SHA256: a706ec133977c85f36a288e664b17b9eff60585375ff2cda0414e27f001f4654
-SHA512: 418f8f859443e91f1cb60b54e1a96fba5865852256f3cc3f59ae708b62800d9d919f42aea29b9c9062e1e9766a156fd09a6167824f0cc0ee167f0b25c8426ec1
+Size: 23844
+MD5sum: 6e4a64b5435d0e4bbb3f9010241da4f0
+SHA1: 1047669176a20420e201eb100098c046a911d60c
+SHA256: 1ba13b4d57a834355fae017de68d2c01e67f1994eae348e724fbd8a0a24e7a29
+SHA512: 5d226a2676b8110685ab6dc41465af58bed03ddf57d1a6c301d7463d770cc64caddf912acd72509aecc7245de3aedc97b644aea6615139352f2e71b3ac864864
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- joystick input driver
  This package provides the driver for joysticks. It allows to control the pointer with
@@ -810,14 +810,14 @@ Source: xserver-xlibre-input-keyboard
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 46
 Provides: xserver-xorg-input-kbd (= 2:25.0.0-1)
-Depends: libc6 (>= 2.4)
+Depends: libc6 (>= 2.42)
 Conflicts: xserver-xorg-input-kbd
 Filename: pool/xlibre/xserver-xlibre-input-kbd_25.0.0-1_amd64.deb
-Size: 10304
-MD5sum: f5390a6e72369c0f111da7179e588dde
-SHA1: 6819947ac47fad71bf18e2b47edcf524efe8f9c0
-SHA256: 5794a89f898696b3457690a7977a1fc89c564aa27cc31c6d9dd699a54ac574c3
-SHA512: c6691f9b06c812752877eb8787b8c3c7dc1fae7e61e4e52558b48c11b185d7ab5df1f21d4abd8ec0a43e9ac97b49bf4456281b8d0e1cd2e665310a21decfd40f
+Size: 10320
+MD5sum: 930d2f3998a40f6d5f8733277f6bbfc2
+SHA1: 5806c72d6a87b727e88cadffc439d614cfa79b5a
+SHA256: eed48db0414122c926b3101c075120c74ba950cfccedecd8494152a7fb4aad58
+SHA512: bf6b7b621e0e8ae01c297912359043fe63aec809b861965ecafef97f7619eb4ac5d2bc26d0ed772634876b77b6cb077891f1b15280e02a4c76db1d5ce6274537
 Description: XLibre X server -- keyboard input driver
  This package provides the driver for keyboard input devices.
  This package is built from the XLibre xf86-input-keyboard driver module.
@@ -853,16 +853,16 @@ Version: 1:25.0.1-1
 Priority: optional
 Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 123
+Installed-Size: 127
 Provides: xlibre-driver-input, xserver-xorg-input-libinput (= 1:25.0.1-1)
-Depends: libc6 (>= 2.38), libinput10 (>= 1.26.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.38), libinput10 (>= 1.30.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-input-libinput
 Filename: pool/xlibre/xserver-xlibre-input-libinput_25.0.1-1_amd64.deb
-Size: 40996
-MD5sum: 90f9b4e2064de12168d763d88feeb330
-SHA1: 302e4b0b35abc87a10095ca7ed795b40937d42a3
-SHA256: a3de8216e843eb910a6c98f6c61ccd0003bfe3c513f3935eff25b66ccfbceb35
-SHA512: 6026833baae72d5425b21a77965cb543eb17dc3fb6758ee8da41f2834533e97d1bc430923106a12fa528ff65a5b5191103dd34117edf126fa5f27724b83da9bd
+Size: 41592
+MD5sum: 53c0a806709fc078a9d0d93769350d86
+SHA1: ad085ca9c3a53dafb3e2102c6b7a17a45bbe6014
+SHA256: 9e85fb51aad718a974400368964b5b33f8381fe5d7e88c03f6a536ea7357aa66
+SHA512: 85be88eee741b04bd224430db71e5fd54c306f882003cb7905ed05f1a482f07d77bcd265c8ba837e5d66921097f362f4a841cde3cf8392d2b5b60595f092cbf1
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- libinput input driver
  This package provides the driver for input devices using libinput library.
@@ -882,11 +882,11 @@ Provides: xserver-xorg-input-mouse (= 2:25.0.0-1)
 Depends: libc6 (>= 2.38)
 Conflicts: xserver-xorg-input-mouse
 Filename: pool/xlibre/xserver-xlibre-input-mouse_25.0.0-1_amd64.deb
-Size: 36552
-MD5sum: 1cbd661260828b737888aa6d3b2b780c
-SHA1: 3b273de8738961762c97877e24c7a385b15040f5
-SHA256: 1bf4e8f023d051c1ae0b4b7839759215d4dbf0069da99105023a0a242418ffd4
-SHA512: a97ad3a64af6c398e20a2715f3b1678bcf212a1a3ac1c03143eaa48e0d8a9e2c164564166f396d2e4a801d49c2e6203bb6c8073382641535771984b87701dafa
+Size: 37036
+MD5sum: 3df8730dc4d64a0f370c2e8088b69cdd
+SHA1: 4446ed482d41d28134725bad025642a4b26e6000
+SHA256: 3a6165d416e4b1726d5701c345a118c8e5a7bf16fa956c256aa95a64eed25b0f
+SHA512: 3f9c6f6ee88a2bb14cf791386dd5e34ff5aa5532efae64dadbd185ee4a2d3d638ce099f4dc400e1642a679c23181bf066113788c75c1d4e84108877b6683785b
 Description: XLibre X server -- mouse input driver
  This package provides the driver for mouse input devices.
  This package is built from the XLibre xf86-input-keyboard driver module.
@@ -921,18 +921,18 @@ Version: 1:25.0.0-1
 Priority: optional
 Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 172
+Installed-Size: 181
 Provides: xlibre-driver-input, xlibre-driver-synaptics, xserver-xorg-input-synaptics (= 1:25.0.0-1)
 Depends: libc6 (>= 2.38), libevdev2 (>= 1.3), libx11-6, libxi6 (>= 2:1.2.0), libxtst6 (>= 2:1.2.5), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
 Suggests: gpointing-device-settings, touchfreeze
 Conflicts: xlibre-driver-synaptics, xserver-xorg-input-synaptics
 Replaces: xorg-driver-synaptics
 Filename: pool/xlibre/xserver-xlibre-input-synaptics_25.0.0-1_amd64.deb
-Size: 61692
-MD5sum: ad86879eb51d24631ed686db33fc7e6d
-SHA1: ec7b1e3be5dfc0428dc510a7fc98ccde498a72a4
-SHA256: 2c48a6618a2a18acaf749eeec6a7198b1968eb8da62989d77f41289d12dc5d93
-SHA512: 4e3ee00c1e30cad5b99abfde34aac9787c89a64fe714a414c1d45604b2460bd7c2df6d324c96922ed0928463ebeff34549f22b3d374855ea05c9147ccb141538
+Size: 62188
+MD5sum: f2e8509d5ff94fe7bfe878d2f7bdae0c
+SHA1: e6527740b6ecddbc35d2736d0b792a19e55ed1e9
+SHA256: ab67e379a11da81e979c2653e1c895763c27052f117495a2f843fc6cb3aebef6
+SHA512: 766bda1a728074bf83858618b0683a83141ad28aa3e56243481e916ed4c8055bcf05a64c4110e2e5d68f8f657c0a7fa234e610aaca9f31cf18ee60b26a94e97b
 Homepage: https://github.com/X11Libre
 Description: Synaptics TouchPad driver for XLibre server
  This package provides an input driver for the XLibre X server to enable
@@ -967,14 +967,14 @@ Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 70
 Provides: xlibre-driver-input, xserver-xorg-input-vmmouse (= 2:25.0.0-1)
-Depends: libc6 (>= 2.34), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0), udev
+Depends: libc6 (>= 2.38), libudev1 (>= 183), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0), udev
 Conflicts: xserver-xorg-input-vmmouse
 Filename: pool/xlibre/xserver-xlibre-input-vmmouse_25.0.0-1_amd64.deb
-Size: 13376
-MD5sum: 3e8036e3f4c534696cb4472b6aaa3e6a
-SHA1: 392b3407bfcda4987586710b11371a7b14edcbd2
-SHA256: e58e166e2f38ea5f64d49ec6c2bc93567dcd39e4ebddccb10283df6a8b102a79
-SHA512: 720c24f06dcc50c7136bdc36b2dc1e3a5c75c4799cf760cbb9db34be290586f915356ef6a2446f0625f2ec35f950682395aa5ef0e972ea9b69157d7c0701d64c
+Size: 13484
+MD5sum: 576c7d168fbb5b8eda66e1e7f48742fa
+SHA1: 82a8c794ffb5de37d9eb597d6b7a61bd5f80ea53
+SHA256: 6c540764987b49882a898993c7b36b3705b32dd2eee6856099f296e9714571f9
+SHA512: 1000095b2da3ea371b5d85163a55ec97be09538c83ef7513c4e350acd6c8198afca72bd6d4b7b9fce571be4d3c76de1624dc98306486aedde6a1cff2c9324d53
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- VMMouse input driver to use with VMWare
  This package provides the driver for the X11 vmmouse input device.
@@ -999,11 +999,11 @@ Provides: xlibre-driver-input, xserver-xorg-input-void (= 2:25.0.0-1)
 Depends: libc6 (>= 2.4), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-input-void
 Filename: pool/xlibre/xserver-xlibre-input-void_25.0.0-1_amd64.deb
-Size: 5992
-MD5sum: 8c0b06c9fd8fdbb54974ee8ee582afe9
-SHA1: 70accd44cd6e047864cc466de987ba56bbc9d7c2
-SHA256: cef9d4a6562152cb95afd61149c3393a9e480f7d7567e26cba9ce5b1b8ad2eb4
-SHA512: b835e85f48d627f2b17c80d1195c3015d379f4f714f59543207c6da5b6f1d0625f47966ce5362cb13988c076938290c907ce74d0d2a03b8f896b0974ddb62001
+Size: 5996
+MD5sum: 114c0280b4ae055728650b48db545791
+SHA1: 714931901e11c25e707c5eb411d40fdd5baf4c41
+SHA256: 6a0b1c86789bfa55d38f4cac72f0b40ac37aacf34597ee1cce0f0b17e846ae23
+SHA512: b751f18f1a61ee1b5351c21196394404ee1c8765a905693c3a8457bede3266827c60aae08412bede4e888528dba7d3d87f1c236b7b9d09b60dc2907b32e2b248
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- void input driver
  This package provides the void input driver, which never actually registers
@@ -1020,18 +1020,18 @@ Version: 1:25.0.0-1
 Priority: optional
 Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 313
+Installed-Size: 305
 Provides: xlibre-driver-input, xserver-xorg-input-wacom (= 1:25.0.0-1)
-Depends: libc6 (>= 2.38), libudev1 (>= 183), libx11-6, libxi6 (>= 2:1.2.0), libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.42), libudev1 (>= 183), libx11-6, libxi6 (>= 2:1.2.0), libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.1.0)
 Suggests: xinput
 Conflicts: wacom-tools (<< 0.10.0), xserver-xorg-input-wacom
 Replaces: wacom-tools (<< 0.10.0)
 Filename: pool/xlibre/xserver-xlibre-input-wacom_25.0.0-1_amd64.deb
-Size: 93116
-MD5sum: b87493664677de67562b972aeda4e547
-SHA1: 5d34b3e8d9809768dd9849259dc0c3f26c74da41
-SHA256: 0218618a187310172006f493fe162f6c5cc6cb855ee52da68929137561333bfa
-SHA512: e08988ea67391c3eae4ddd3ff60ead05c83e4aebcf7c08d6e02cb621c2f86c7dab0ec8917369458e4ea951a217eac32aa48bb9165783c478765bdcecb9eaf4e2
+Size: 93660
+MD5sum: 31df17f9ec6dd6776bf513cb27d3a0d6
+SHA1: fcbd27538b887e10209375b9fbf08098ac4be7f1
+SHA256: 9a24cb65de3839959a928cbcaca93c77fdb0f1a1c9e2fea70c7f2a5cb4414525
+SHA512: 1e7839f03bf0c0ffe5626a93338d03e1e2c5145817b438906b47063df233a5717e25f3422b7839d7e29bcca99fe78fde71e2731ade7c67a7cd18eb38178b10cb
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- Wacom input driver
  This package provides the XLibre driver for Wacom tablet devices.
@@ -1091,17 +1091,17 @@ Version: 25.1.1-3
 Priority: optional
 Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 193
+Installed-Size: 197
 Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.1-3)
-Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 17.1.0~rc2), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0), mesa-common-dev (>= 25.2.6), mesa-libgallium (>= 25.2.6), mesa-vulkan-drivers (>= 25.2.6)
+Depends: libc6 (>= 2.38), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 17.1.0~rc2), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0), mesa-common-dev (>= 25.2.6), mesa-libgallium (>= 25.2.6), mesa-vulkan-drivers (>= 25.2.6)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-amdgpu
 Filename: pool/xlibre/xserver-xlibre-video-amdgpu_25.1.1-3_amd64.deb
-Size: 68924
-MD5sum: 91ad6802728b9200bb6feebfd164e340
-SHA1: 1d13c0892a5f221991f5005607c89e1dfe4b6426
-SHA256: e85a778fb698889d0b752bc14feca83f7450d619cc2d258105c941be4e9ffc50
-SHA512: 9f1d4bc87c359541057e5b3ccea5bcbb74ee092dce2bc22bd3d0659c99ca6a966ccc319f9a67182fece6e218625ff663ca57466ae4c90a1bb71b83f8677acf9d
+Size: 69508
+MD5sum: 939aed7d3ca3d85b8a489711b228d975
+SHA1: 5aa3279e0ea744b6ac20c9e76b8a8ddf9ffbb283
+SHA256: 96b482ed15ff73c3605cb3204cbc642cca7f4f0a05ca6de00917f76c7f3a483d
+SHA512: a529f03791d4a4c9d0d9dcb907f93cdf7196e4b4daa3470973f3e6adf7b7afa00b85ecef3dcdfaebfde3d9c0ae4aebbf9121b6107326cbed47eb352e04da9223
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- AMDGPU display driver
  This package provides the 'amdgpu' driver for the AMD Radeon cards. The
@@ -1125,11 +1125,11 @@ Depends: libc6 (>= 2.4), libpciaccess0, xorg-video-abi-28, xserver-xlibre-core (
 Suggests: xserver-xorg-video-r128, xserver-xorg-video-mach64
 Conflicts: xserver-xorg-video-ati
 Filename: pool/xlibre/xserver-xlibre-video-ati_25.0.1-1_amd64.deb
-Size: 7000
-MD5sum: 1c6bd9539d254e5249649f97e968c8fa
-SHA1: c01dd68f5eac853c65b83e307c1d70af5864fe6f
-SHA256: 4ca7cb11fc437a2b445d422d0c667c3f67f50c4bc6adae728e0c6b0026d2c080
-SHA512: 68743f9910cb6ad669a72a93fd490743deb57fc05040587b097dec8d809a0b28f87abb98b1941449c961aede97a63e60710cf839d9d413fa545755bd51556d33
+Size: 6992
+MD5sum: d50fc427c15cdd8c025152e7431f53f9
+SHA1: b115235437e606d6650c23fe0cee5877dff9bbed
+SHA256: a7e3bdd6dba01b2fc014addf4249040bf4534508da0e9a3de13cdfab1963d272
+SHA512: 581db01e9f0ae8d3e22b37c7cfb7c02742a4988917ca07760f8ff573666473fe080e4986ef257917e63b8637de4fbf411b8d9bbae38a9ecfebf102258759dd96
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- AMD/ATI display driver wrapper
  This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
@@ -1158,11 +1158,11 @@ Provides: xlibre-driver-video, xserver-xorg-video-dummy (= 2:25.0.0-1)
 Depends: libc6 (>= 2.4), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-dummy
 Filename: pool/xlibre/xserver-xlibre-video-dummy_25.0.0-1_amd64.deb
-Size: 9576
-MD5sum: 7897b55e927814dfb73c15ced337f4f2
-SHA1: d7b38115ee7e02a53dd6b3a8c25ff468790b5b3b
-SHA256: 2e2cff3ba3255f56cc54608522dc32ed1491252aa34fa27e688d10f7e14387b0
-SHA512: 236c26f0a74974997d8b006cf14fe9268a1f593c32c9b390766f8fd7b42d801f6ed0f6f18328fd34ef78eb4955d5d1b00cdcce603f19311807dead85535c1261
+Size: 9616
+MD5sum: 465be5f1ad8517b2778a9758a64d0808
+SHA1: 3d1494873c425122ecc2865e7a111583eb4990a1
+SHA256: 3fca9fc6667dc6035b2897077a7ebad86d7ea8c28aeac2d04991cd4061bb04aa
+SHA512: 0915b3fa3a5562875278a3e6d049370200309262f2fd6f7195f88c8b80b4829f6585d1427fe4003f8dad3773cd8f93218813f48d70467ff665683c35977ff3a5
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- dummy display driver
  This package provides a 'dummy' display driver, which does not actually
@@ -1184,11 +1184,11 @@ Provides: xlibre-driver-video, xserver-xorg-video-fbdev (= 2:25.0.0-1)
 Depends: libc6 (>= 2.4), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-fbdev
 Filename: pool/xlibre/xserver-xlibre-video-fbdev_25.0.0-1_amd64.deb
-Size: 11528
-MD5sum: 4796119042997f015425c0c6fb1def90
-SHA1: 55fd1030144abb68c112c76cf9144cdc59a251af
-SHA256: 974e79af8e384548a1b8e17ef4bb18819756dd83597652d7fccb9b5d31837232
-SHA512: 49ad1214f7cdaaf55a16ce1277e7e39675f5b083ac7bdfd9938abb65ffc570917870426c37a505af908b1db06264a3523b79d6dc85a081fbb8cb6296778f5779
+Size: 11556
+MD5sum: c25737648e6e04786f139bfede83658c
+SHA1: 3e613280c4bf566cb7a1a519872ca58032c09b59
+SHA256: 7bc340ab38813c9ef4dc2d29f7d375c658c755fa0849608eff56f93b2f10b69c
+SHA512: 70a4a38cd6368df06116db9a39bb2beca5ee234dc67c339a9e2265fe8aef1ceadf70689b1b7b08f455fdda0cb7f84d12b5b27bbb7959fbca20a46a8a97acaef6
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- fbdev display driver
  This package provides the driver for the Linux framebuffer device (aka
@@ -1205,16 +1205,16 @@ Version: 3:25.0.2-1
 Priority: optional
 Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 3233
+Installed-Size: 3249
 Provides: xlibre-driver-video, xserver-xorg-video-intel (= 3:25.0.2-1)
 Depends: libc6 (>= 2.34), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.62), libpciaccess0 (>= 0.8.0+git20071002), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1 (>= 2:1.1.4), libxrandr2 (>= 2:1.2.99.2), libxrender1 (>= 1:0.9.12), libxss1, libxtst6 (>= 2:1.2.5), libxvmc1 (>= 2:1.0.12), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-intel
 Filename: pool/xlibre/xserver-xlibre-video-intel_25.0.2-1_amd64.deb
-Size: 1646904
-MD5sum: b264408edd2c19835cd02c11961fcd04
-SHA1: 95a289ab85660db9d44aaadc9b08e4c4b2e94f81
-SHA256: fa579c5fec271d7f7fe5ebf178fbbbf575f1abb363462f3556c5fc5bf88ef331
-SHA512: 935eef147342dd8b22da575c140d133b582cf95d2eb205c603745299c49556a30e47d5aca3fc4441ae040239acb62ff6b9e5bbcc64ed320e3f9e199371f8e535
+Size: 1657292
+MD5sum: 7d1ebbe01582ab113e1224ff357a3cbe
+SHA1: a7f66c3879842f99f42b5813b34750b312d580b7
+SHA256: 576838484a692ff7609a99a3a74b312b79ad2186b856a0a40de14657532f78aa
+SHA512: 50b3669761efcca14406668445bc6e97261d233c571c6f528e2cf2ae728f6c3334d171e4e560ab5aab6465c066fc97df5171c63180fd9220364146b6a74362ce
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- Intel i8xx, i9xx display driver
  This package provides the driver for the Intel i8xx and i9xx family
@@ -1236,18 +1236,18 @@ Version: 2:25.0.0-1
 Priority: optional
 Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 250
+Installed-Size: 246
 Provides: xlibre-driver-video, xserver-xorg-video-nouveau (= 2:25.0.0-1)
-Depends: libc6 (>= 2.33), libdrm-nouveau2 (>= 2.4.38), libdrm2 (>= 2.4.61), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.38), libdrm-nouveau2 (>= 2.4.38), libdrm2 (>= 2.4.61), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Recommends: libgl1-mesa-dri
 Suggests: firmware-misc-nonfree
 Conflicts: xserver-xorg-video-nouveau
 Filename: pool/xlibre/xserver-xlibre-video-nouveau_25.0.0-1_amd64.deb
-Size: 88888
-MD5sum: 6028e90bce2de9be4a5a9ef8a1623488
-SHA1: 3950ced74562fda3486825bdc27bcace98659a58
-SHA256: 9ccba593505b9e24cc8197cb3141f8c118ea50c1d23bea1b8364bd1b22628bf1
-SHA512: 892452bb5e4c86cc191e8026660ad57b7885251e4733aa1d0a3ccdfff2675448b31144c0fffdd8a16c3f740f5edd253ce269f7c205dbf609657f26c2b4e4dcde
+Size: 89260
+MD5sum: 678299b914749e441d7cf4b78ed07fce
+SHA1: df260e9d0d58f2498367bd7d4a3bac583a160d8d
+SHA256: deaaca509c5b4286ff136ea209e99b37a1a1fa878d5166f919aae022a88a2d7b
+SHA512: 384cf5071523a83fb355f38c36edd369e2865bd6cd7d6f666e2408376d42fe422cdf21dd83666cd7cdff3cc2f699a1df7c77253e54012ac81dc53abb4cd28e6a
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- Nouveau display driver
  This driver for the XLibre X server (see xserver-xlibre for a further description)
@@ -1269,11 +1269,11 @@ Provides: xlibre-driver-video, xserver-xorg-video-qxl (= 1:25.0.0-1)
 Depends: libc6 (>= 2.38), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-qxl
 Filename: pool/xlibre/xserver-xlibre-video-qxl_25.0.0-1_amd64.deb
-Size: 83016
-MD5sum: 2876b5d96f253e91abfa5c0c99322ece
-SHA1: c443e17fe4c058f24cdbddda3d41c5d1c320f2ea
-SHA256: 0e00f699d4d7ca50af907370755692e4687663517bae281b6fce98a5bcd3a7b9
-SHA512: 9bc65d91bc06ece5a86335d93c7700c0e6819271c71f98cef8b4c4083878a6927ee0c400970a620052d3324976a9e0cb468040c6a6d973214261b211e786e0da
+Size: 84900
+MD5sum: c3707ae51123577f7dc6aa3653ae4564
+SHA1: 9f3fbba2bd36892a7fb4a566a1da14bc1b0f54f6
+SHA256: 4f2b35ddffbd44e8cee8fd6d7e154ce216a6ed5a5a9dc93bf1e43a2788447120
+SHA512: ea23694930ca17f0dd0bba65df868dedc50a1d3686b4548306bfafccedddee8032225fe7b91e1c25fff9c2b3157d14730f87bd2a00dfbc659a39013ea6f37a12
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- QXL display driver
  This package provides the driver for QXL video device, i.e. if Linux is
@@ -1294,15 +1294,15 @@ Source: xserver-xlibre-video-ati
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 525
 Provides: xserver-xorg-video-radeon (= 1:25.0.1-1)
-Depends: libc6 (>= 2.17), libdrm-radeon1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183)
+Depends: libc6 (>= 2.38), libdrm-radeon1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-radeon
 Filename: pool/xlibre/xserver-xlibre-video-radeon_25.0.1-1_amd64.deb
-Size: 149460
-MD5sum: 41bf69150900d7b8508346922906304b
-SHA1: 6b2196133011af03d969a09eec722d2c36f4ff34
-SHA256: fb03dd95de8ad1b028dac11d62d89733f8f7d9c5f20deb93ab426d3acf505844
-SHA512: 901e76256cd3603809c9533cfe3f59963c69adaa2da51ce35b2c28626e15b9d921d227f5455d022ccfea51c2f74a7938287b625db364c0185735914aa999a50b
+Size: 150464
+MD5sum: 527ad7d37bb93a404bfc1c85da1ff1ba
+SHA1: f14033433dfdc05d840866a0b85af446725236e3
+SHA256: 7a26179509ff0f425b0d30e4513aad9462c9fbd9e7d855640c7bff8c91cb6fbd
+SHA512: 76610fad0f10fc2b082eedc62dc3660a909e362252254762144dfe89dd593babbfa4e4de35430613d4bc1fd53fb1200548366d2894615de2bfeb0dc27be07455
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- AMD/ATI Radeon display driver
  This package provides the 'radeon' driver for the AMD/ATI cards. The
@@ -1328,14 +1328,14 @@ Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 104
 Provides: xlibre-driver-video, xserver-xorg-video-sisusb (= 2:25.0.0-1)
-Depends: libc6 (>= 2.14), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.38), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-sisusb
 Filename: pool/xlibre/xserver-xlibre-video-sisusb_25.0.0-1_amd64.deb
-Size: 37608
-MD5sum: 3629052c0c00b716dacc81e8452d8234
-SHA1: 99bdb31b1cbc6febb99f2ba58baebb938263387b
-SHA256: 95d0f0f79b1b0e7d4f4dda820593854208353017329a804f0ed284814e288a68
-SHA512: 68027075fcdb00c7a30012ae38b8d5f5d920edd5e5548d65463a33730baf11611d25e5bea48578a8a283cc094b7d29f7a315aa44a23e91e740ff36224fabf818
+Size: 37680
+MD5sum: e7d8d5c95948087c401e5496362b8836
+SHA1: eda69bced84935c3b16030b2b7b70b701642568c
+SHA256: 55b3a5d2b43ca11c0a6c481ca65958326a548884f0440e303e25befe1975aa4f
+SHA512: 13ac9d15a6fa489c43e1e964dfef55a41d9027069fe75f7f5d58c7144549dc261e2c357304e3f90113de73329cc5d80e2bb75775da85daaf21c0f22b21eb8711
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- SiS USB display driver
  This package provides the driver for SiS USB-attached video devices.
@@ -1353,11 +1353,11 @@ Provides: xlibre-driver-video, xserver-xorg-video-vesa (= 2:25.0.0-1)
 Depends: libc6 (>= 2.14), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-vesa
 Filename: pool/xlibre/xserver-xlibre-video-vesa_25.0.0-1_amd64.deb
-Size: 14552
-MD5sum: 4fd714c285b47d3c858eb02aaef2f9ce
-SHA1: 943a9e802e64420bb4fcb9776a5743bb5fce274c
-SHA256: db316ee4529bd630cc2c7c9c42531df980daa9d9c291ccd35a804bda1c472524
-SHA512: 90954d5f766f5667e6a9994e2417fe48710008a1236210e4ab680ae14928f684e795b769e5935fdcf0d5d8e35edb8334477a9d81316706740f8d79c29f619a8d
+Size: 14796
+MD5sum: c682316974526b8dc492dccada03c828
+SHA1: 708a996c4eb9212785f93ee86f43e369e77133a8
+SHA256: 1ad1c77a66c0ce157d90956806c7e2fbc40849cc06c5ecf8fa760332074dcadc
+SHA512: d07fb20b12d0b9055b2bd014c6213e6f58e091bb2c34ee7b27148a13ee390dcc29b0332a9ddae22507c0dab656a18167191fcc2ae99fddf60bc49e43d9701571
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- VESA display driver
  This driver for the XLibre X server (see xserver-xlibre for a further description)
@@ -1379,14 +1379,14 @@ Section: x11
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 101
 Provides: xlibre-driver-video, xserver-xorg-video-vmware (= 2:25.0.0-1)
-Depends: libc6 (>= 2.34), libx11-6 (>= 2:1.4.99.1), libxext6, xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.38), libx11-6 (>= 2:1.4.99.1), libxext6, xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-vmware
 Filename: pool/xlibre/xserver-xlibre-video-vmware_25.0.0-1_amd64.deb
-Size: 29648
-MD5sum: 5d82af5029ff03da09f5bf4859dcd91a
-SHA1: 11016048643a425137e1e8809e558ae4657f2940
-SHA256: ba27e24938d11ba393a598fbfcc284e96e2616c0e3557a333a0c0a10aaba3b96
-SHA512: 14e4c213ac90d3bc771565ae53fbfa4647ec387a9ae01917efb79aab7c36aab960956929cf8a6f71f309df1996b93c2a998102d24ac0defd4291dcd9c738a006
+Size: 29900
+MD5sum: fffdb00eb9656a9839650982533e8820
+SHA1: 55a5810c8040705d6eb49cac8f58146c3608eb9f
+SHA256: 2ffff7d6d2f811c05ba171a0f2a222f6968832414f4f6716e3b5656aef9a1bab
+SHA512: 0c1a0a8e78b38150ea7a73042b690aff875ec1e03999ce0844abf40984747e850806c797c6d72bbc58472ddb90381710a73c6465d0e625bdefee412357c51de8
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- VMware display driver
  This package provides the driver for VMware client sessions, i.e. if Linux
@@ -1408,11 +1408,11 @@ Provides: xlibre-driver-video, xserver-xorg-video-voodoo (= 2:25.0.0-1)
 Depends: libc6 (>= 2.2.5), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xorg-video-voodoo
 Filename: pool/xlibre/xserver-xlibre-video-voodoo_25.0.0-1_amd64.deb
-Size: 12984
-MD5sum: a81aaec0f26861fa74e845de226ace0c
-SHA1: f4dd3a719bdb8fb48c64515418fb4c31ac59f786
-SHA256: 570062f07eeba2ae4d97842c0380c6a8387477a214bf952e0e4e47ed7d43a685
-SHA512: e5545c2fe848b32150de4d49b612f7832c7ac5f15b63cc9b20353ab92d616349b207d3c7881843cb85a1198eba25638081af305c357c24f18d189344962fa7a5
+Size: 13124
+MD5sum: 3c3d8cfe335aaca1505de84109e17716
+SHA1: 45087601fcc9e880a5b0200af63969a86f25df22
+SHA256: 8dc6fb179c65f11a2db4de5f1aab7b5350e7b2d2b771ca6d3b118419bf7602a5
+SHA512: 3f2bb6e128dae51395a36671cbbed261a1a24244e482bd4c2571657dafbab0ae6c7dd0d06f8846c74c44524efd0cbe4775d0adaefdf8d397c1cd5f68673c231a
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- Voodoo display driver
  This package provides the driver for 3dfx Voodoo1 and Voodoo2 chipsets.
@@ -1519,18 +1519,18 @@ Priority: optional
 Section: x11
 Source: xserver-xlibre-video-qxl
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 258
+Installed-Size: 262
 Provides: xserver-xspice (= 1:25.0.0-1)
 Depends: libc6 (>= 2.38), libspice-server1 (>= 0.13.2), libxfont2 (>= 1:2.0.1), python3:any, xserver-xlibre, xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Conflicts: xserver-xspice
 Breaks: xserver-xorg-video-qxl (<< 0.1.4-2~)
 Replaces: xserver-xorg-video-qxl (<< 0.1.4-2~)
 Filename: pool/xlibre/xserver-xlibre-xspice_25.0.0-1_amd64.deb
-Size: 95520
-MD5sum: d03182043bcbd329f4214228b4d15132
-SHA1: 6485f528f233b3873dfdcd50ad3e407a7b222b7e
-SHA256: 6c981760020eafc0240c09185e5a028b9e76a537f9a1ac2ae8743a38e925015d
-SHA512: 911ba767cb3f9134f4615c2e700accb08131d7e1aae199c9ea86039e075ad47127fa1267bd006aaa3a1fda87d1138e2325a1e4398f2acebb75fc61d7525af458
+Size: 97700
+MD5sum: ac6ef30f40a031ae58c777ad53e54d29
+SHA1: 1016b5bc1b029b0bd52981b590d1fd5c26441530
+SHA256: 123574231725430499e3b52b15e34927db6805a18934ba98416b63dc8f8b5e35
+SHA512: 1e087467c3260acd65e878ab1c2153310adf4121e29a866d54a92765484bae0b0a66ec293670090b726617225fe0086f362d46571e86190c03952c9ee8e8c263
 Homepage: https://github.com/X11Libre
 Description: Xspice X server
  Xspice is an X server and Spice server in one. It consists of a wrapper script
