@@ -433,17 +433,17 @@ Description: Grub boot items by devjam
 
 Package: devjam-kde-servicemenus
 Architecture: all
-Version: 1.36-1
+Version: 1.37-1
 Priority: optional
 Section: kde
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: meld, imagemagick, k4dirstat, kfind, kdialog, kompare, mediainfo, konsole, dolphin, krusader, thunar, pacpl, devjam-tools, fclones, inotify-tools, zstd, genisoimage, kio-admin, mkvtoolnix, ffmpeg, devjam-tools
-Filename: pool/main/devjam-kde-servicemenus_1.36-1_all.deb
-Size: 6164
-MD5sum: f25cc779e5183271e98dfa6a80875832
-SHA1: c0cb94b529747cb5a8594143c38afd1ad3fbf44a
-SHA256: d7375c681ae34ea6169a282426efbbfc4df88dd414f111432212a923e34dda98
-SHA512: 82005587fc0c0768a761afbb1146e969d521f4021f25f79404995c34aa8a86bd1dc645401bc0fdaadbc55f3f9be26f4b0c3183289a38e98f45f66e849c53d358
+Filename: pool/main/devjam-kde-servicemenus_1.37-1_all.deb
+Size: 6180
+MD5sum: 4206b5d7235477c817e36a4408b0878a
+SHA1: 158d2181cb13db4db1fca39407d1bcb213a05181
+SHA256: 1c4040190691c0c35df7942e76557a15afbe4288b5c0e567de3ce7616e2c615c
+SHA512: 3cce6713d70616654b43fb6fd591f10678046faf58e09281aad612a42e6d24b599b1b1ccdc7742531b370ee00b9383d6bc094bcdb0b5a086ed73ad226c7dd44f
 Description: KDE Service Menu items collection by devjam
  Service menus for Dolphin
 
@@ -564,18 +564,18 @@ Description: Thunar custom actions collection
 
 Package: devjam-tools
 Architecture: all
-Version: 1.95-1
+Version: 1.96-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: curl, jq, ca-certificates, pkexec, python3:any, mawk | gawk
 Recommends: sudo, gh, sox, flac, wl-clipboard, debian-keyring, devscripts, lintian, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, linux-cpupower, dkms, debsecan, genisoimage, csvtool, libevtx-utils, systemd-container
-Filename: pool/main/devjam-tools_1.95-1_all.deb
-Size: 24710212
-MD5sum: 833bd9585cf40b56f5e34136a8f43d4a
-SHA1: de5bea1c4c63e0d758c05b08618e5f8286fb7510
-SHA256: f38cf38fee2d92566c7a856f9a9eb464e27c0940b52ccd919e6ba1f799f47098
-SHA512: e8263fa4f1df478143b4f7d315a91c716b33e502b77f009cf9c6e1ee2f34dc899457bdf2feb3954a51d47074c9b83aa9c1d14a9b12e2ca9c8dd4c861c9fa7be1
+Filename: pool/main/devjam-tools_1.96-1_all.deb
+Size: 24710380
+MD5sum: d0a45a699bcc2ca6a6a942bdffd0e784
+SHA1: 7bcdee6ca88032c63138a85f0ea79348f5c0af24
+SHA256: e4b107d2b597bafdb4462ac86a1cfae1ad824e52a50962ca576bf68e53cfe14b
+SHA512: e9d521b1cd65d9f95dffda3e0c559634914391dd938776e1734ad98d541dbaf5bb48dc87650e6980d1170037dc653f70a1d57d54ea1eedd14a43654e8df45580
 Description: Tools for Debian
  Various tools for Debian
 
