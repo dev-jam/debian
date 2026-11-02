@@ -130,18 +130,18 @@ Description: Converter from CloneCD disc image format to standard ISO
 
 Package: clementine
 Architecture: amd64
-Version: 1.4.3~trixie
+Version: 1.4.4~trixie
 Priority: optional
 Section: sound
 Maintainer: David Sansome <me@davidsansome.com>
-Installed-Size: 22175
-Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgpod4t64 (>= 0.6.0), libgstreamer-plugins-base1.0-0 (>= 1.10.0), libgstreamer1.0-0 (>= 1.6.0), libmtp9t64 (>= 1.1.0), libprotobuf32t64 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.8.2), libqt6openglwidgets6 (>= 6.1.2), libqt6sql6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 13.1), libtag2 (>= 2.0), libx11-6, zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-alsa, gstreamer1.0-pulseaudio, libprojectm-data | projectm-data
-Filename: pool/tools/clementine_1.4.3~trixie_amd64.deb
-Size: 5637652
-MD5sum: 4d7d581ebe5885b5f7a33509d66f5fe2
-SHA1: 192035750907240144b673b728942d94de5507e6
-SHA256: 8bc8b3d559dd1ca38aec0a366b3e7716a062d89f191ea5d6f266da9650821185
-SHA512: cc5849d6110d9f07c13eafb23515628cdcb50088205bc9c9a1ffdd8ed64efb3adf28583c3c817024edec2b31e8ca1823654be58c4a2a18be2ea3047825bd75af
+Installed-Size: 23647
+Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgpod4t64 (>= 0.6.0), libgstreamer-plugins-base1.0-0 (>= 1.10.0), libgstreamer1.0-0 (>= 1.8.0), libmtp9t64 (>= 1.1.0), libprotobuf32t64 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.8.2), libqt6openglwidgets6 (>= 6.1.2), libqt6sql6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 13.1), libtag2 (>= 2.0), libx11-6, zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-alsa, gstreamer1.0-pulseaudio, libprojectm-data | projectm-data
+Filename: pool/tools/clementine_1.4.4~trixie_amd64.deb
+Size: 5955820
+MD5sum: 7577cb55d3678b03d125e2da68664ae7
+SHA1: 31618b8be0bec86a98a328a995722b2e87f9b1b8
+SHA256: c349d0efca1edb929bcb3544da567f62ab96c64d9fc1b5a39a86cd8c9ecc2c0a
+SHA512: 4b3fd5811a7fbdd5fd71aaf4c613f013ace43b8f7dc486a71c035a0d5762e5bc56f6ec2e6a69bd1c283ee77f30e9e7b697e2a29c974a50fa5b99f01a800b38cd
 Homepage: http://www.clementine-player.org/
 Description: Modern music player and library organiser inspired by Amarok 1.4
  Clementine focuses on a fast and easy-to-use interface for searching and
