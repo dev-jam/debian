@@ -53,25 +53,24 @@ Description: Install, update and launch the Craft App Suite.
 
 Package: audacity4-appimage
 Architecture: amd64
-Version: 4.0.1-2
+Version: 4.0.2-1
 Priority: optional
-Section: sound
+Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 206512
+Installed-Size: 206548
 Depends: libc6 (>= 2.35)
-Recommends: libavformat63 | libavformat62 | libavformat61 | libavformat60 | libavformat59
-Filename: pool/main/audacity4-appimage_4.0.1-2_amd64.deb
-Size: 55546564
-MD5sum: 399f91319122ceda021a31401ee92fba
-SHA1: 8fef0fdf3d3d7244678c832a1863512dadbc16b8
-SHA256: a82aa4cf9c473bd966e56005454c5d1401b079b5ed6b83ce6137a408a59e2142
-SHA512: da3e9b47befe64dbafb969ffc37cfb768f27d4ea4d8b5ef3345dd451b8bbafdfa926d6468dc420a56c699b86a03aec4fd9843a6833fcbdd2b1429d21b7b249e6
-Description: Audacity 4 - Sound Editor (repackaged AppImage)
+Filename: pool/main/audacity4-appimage_4.0.2-1_amd64.deb
+Size: 55528752
+MD5sum: aa8f4923ece0ae0028497f1e5d66870d
+SHA1: af21973240f68682d7b5a5d40b1fe1e3efe03d1a
+SHA256: c160cdbfd24329731388bc5d8d356cccfe8efcaab9920ee9bf97c377c76a92ae
+SHA512: 061cef155409240a3e924af35cd4b45e4bcf0c61fcc353577f51118c47242ae400c4bb54d9480116f00bd8e1d487ec1e6f604afc1fe32601d9a777413148b30d
+Description: Audacity 4 Portable - Sound Editor (repackaged AppImage)
  Record and edit audio files
  .
- Repackaged from audacity-linux-4.0.1-x86_64.AppImage.
- Extracted to /opt/audacity4, so no FUSE is needed.
- Start it with "audacity4".
+ Repackaged from audacity-linux-4.0.2-x86_64.AppImage.
+ Extracted to /opt/audacity4-appimage, so no FUSE is needed.
+ Start it with "audacity4portable".
 
 Package: brave-flags-wrapper
 Architecture: all
