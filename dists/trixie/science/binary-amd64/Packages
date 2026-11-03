@@ -1,101 +1,118 @@
 Package: devjam-science-experiment-mode-rtirq
 Architecture: all
-Version: 1.44-4
+Version: 1.45-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: rtirq
-Filename: pool/science/devjam-science-experiment-mode-rtirq_1.44-4_all.deb
-Size: 10536
-MD5sum: 0d19dceed07abaa85bf4833a534357d8
-SHA1: 142e5ad0a52b742ff961709900cd208008afbf06
-SHA256: 5ad3c48fdbc9b25872b08c99b42b763a1fa030ce7f881030ab46a9ecbb756c7f
-SHA512: 9ae19e97b794fee29046d0a92935b589fc318f7e7e59745a006d0dec23aa4d6e6cae27dcbf14c43c479a42a533741047d2ce9d1efeb1e133c82dc152126cb944
-Description: Experiment mode with IRQ priority order optimized for deterministic human-EEG, buttonbox and audio visual timing
+Filename: pool/science/devjam-science-experiment-mode-rtirq_1.45-1_all.deb
+Size: 12080
+MD5sum: 19b58d6b9220a850dcb9891a375d5896
+SHA1: 7a7a2358b976dad8d5e681fc9d1d58b5b05367de
+SHA256: 28415eb7c142194b6621ffae5534c09bb277a1727f8fcbb5c38d0bd921ebd175
+SHA512: 2b88e4899a63b5dfe146d7423e537f47e1a6ec2ae737ea25e1cfe7aaeae13447efc5bbdbd59adbfe0a5ee013317bcbd7ba22e0f7e4c3d5b52ef6574120503ae9
+Description: Experiment mode with real-time IRQ priorities for lab timing
+ Experiment mode for lab computers with deterministic timing for EEG,
+ button boxes and audio-visual stimuli. It adds GRUB entries that
+ isolate CPU cores, rtirq profiles for normal and experiment mode, a
+ service that pins audio IRQs (internal and USB) to the isolated cores,
+ and tools to switch and verify the setup (switch-rtirq, verify-rtirq,
+ check-isolation, check-rt-processes, usb-affinity).
 
 Package: devjam-science-kde-servicemenus
 Architecture: all
-Version: 1.0-1
+Version: 1.0-2
 Priority: optional
 Section: kde
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science-tools
 Recommends: dolphin, krusader
-Filename: pool/science/devjam-science-kde-servicemenus_1.0-1_all.deb
-Size: 1476
-MD5sum: a4a826300753b20beb79eb85f405e72d
-SHA1: 173f1bc0d9716ff0f87dc10c8f708b1f50706ca0
-SHA256: f332c348c48d40dd5d156ab29497276b9015238bdbece2c0c52b6e8a148bf40d
-SHA512: 7f9d46d8ecc7a8bcd5925606879d2c55e2b5218773bf66c881b584ea62ebe9cabe508ba895080d726757954767778f69af1cdef57487e19f6af4c6238d28fb5f
+Filename: pool/science/devjam-science-kde-servicemenus_1.0-2_all.deb
+Size: 1916
+MD5sum: 336c449a8298e1acbaa1f0c91d04d9b2
+SHA1: ed0119b3eaafa010bf10f0949f6802960209b549
+SHA256: 2e660dcff4763c54cd8d12920295518d2b4ef98e432ba522b55739aae5e852c5
+SHA512: 736853673467ca09c906dd2494a63576d57578369efcd14a201ea4755107c50307d0f4e97715133a759cae9a36355e24b3556b25193bb100d7ccab8716d339e4
 Description: KDE Service Menu items for science by devjam
+ Dolphin and Krusader service menu that packs a folder as an OpenSesame
+ experiment (.osexp).
 
 Package: devjam-science-opensesame-psychopy
 Architecture: all
-Version: 1.6-1
+Version: 1.6-2
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science-tools
-Filename: pool/science/devjam-science-opensesame-psychopy_1.6-1_all.deb
-Size: 4568
-MD5sum: b92a82317138f308499aeb6a4ba29b26
-SHA1: 32065968fbc5fc466dcbeaf3646397c0953cc408
-SHA256: a262482a8f90d6eff100a59e2345067ae6e7553271d9958454284c16ad589dac
-SHA512: e0f9053b4146589d3f8a78834373cd70d9824313b2e0636b178695c21a40b8f5e988a10194938d2f028bbcc88ada391fa504b250902bc064122cb4307cca0d27
+Filename: pool/science/devjam-science-opensesame-psychopy_1.6-2_all.deb
+Size: 5600
+MD5sum: 511458435f6e9cb38fd4903f4f615a65
+SHA1: eaa00e2b5c6bf2390f5f9b608d72a1b00343c463
+SHA256: 16232b87f8314049db0590a33810f70bc2cd3f8b447b858810a47b05c5e53326
+SHA512: a2b8d8682cccf82c6b8d4411d601813fedbe3c76c796ecc291e7091c2074050b6afce4f11bc086de5d961536daeacb1eea3332acd05f3cbd4dfacba393e91297
 Description: OpenSesame Launcher with PsychoPy
+ Desktop launchers for OpenSesame, PsychoPy, PsychoPy Studio and Sigmund
+ Analyst in the PsychoPy environment in /opt/psychopy, including an
+ OpenSesame launcher that runs as a user service with real-time
+ priority, and manage-opensesame-affinity to set its CPU affinity.
 
 Package: devjam-science-tools-matlab
 Architecture: all
-Version: 1.0-1
+Version: 1.0-2
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/science/devjam-science-tools-matlab_1.0-1_all.deb
-Size: 49360
-MD5sum: a30a6906c32194d90ff13e1ba2756ed5
-SHA1: dc3bd331dae53f1e7f38feed41dd842edcb00f57
-SHA256: 59b65429159d1b8e5d289cfb656d7f996b07e5a0963c5f2586e76353663772a9
-SHA512: 238f2966f06548a073351ebeea1d3258c7d3a6e97f791991213b6ea1837a0ac10f3574fc05088217c1f969c05ca8c572ca8a381c181e6f26f3e0e210dbe4107e
-Description: matlab tools
+Filename: pool/science/devjam-science-tools-matlab_1.0-2_all.deb
+Size: 50496
+MD5sum: 115b759ded41499585f0a5c98a38cf9e
+SHA1: 6bc09f8693c1c3209754a408c5410aaf0d3b377c
+SHA256: a0bfd70a446f1427222beb560c234bd4e3d5d665566e4dfc80961d02dc6ee0d7
+SHA512: 09d78d353438766860eb7d2ffde0d7ac27e9b8cb50234c9316fff6dbe6d2ed9866a59e4f33bc70ba9091e536603777a4e77fd091bdcbfffe7fb93466d7a69119
+Description: MATLAB launchers and service menus
+ Desktop launchers for MATLAB with and without Psychtoolbox and OpenGL,
+ service menus to run a MATLAB script in the background or as a
+ Psychtoolbox experiment, and the matching command line wrappers.
 
 Package: devjam-science-tools
 Architecture: all
-Version: 1.86-1
+Version: 1.87-2
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: inxi,
- hardinfo2,
- fastfetch,
- udev,
- shared-mime-info,
- desktop-file-utils,
- hicolor-icon-theme,
- curl,
- ca-certificates,
- mawk | gawk
+Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme, curl, ca-certificates, mawk | gawk
 Recommends: sudo
-Filename: pool/science/devjam-science-tools_1.86-1_all.deb
-Size: 331252
-MD5sum: 1e284448d7030fd170e8c036947ddb2d
-SHA1: df8b849d3d64713422555c68e75747f19f2dcadb
-SHA256: f172f15f2a99154f6cfab45a8ebd1331fa270859a1d1ea623963fc149c72f45f
-SHA512: dedba595e1da068b5577c4d286a68c6d7a97e80203b07ba49adcd06aadb37f27905ce1b19b4ff5712820b955d92442193e439de59059b02803d78f0c3f6e47b2
-Description: science tools
+Filename: pool/science/devjam-science-tools_1.87-2_all.deb
+Size: 332808
+MD5sum: c81ead582f72eeee966cb6d4ba992d25
+SHA1: 147637f4b71d30acde14723793574c387b0670bd
+SHA256: 26d18d7b4a8d8351e185239557679a9c12d44cb9b094c75943bc6053756da4c7
+SHA512: eb8fe32d53339cb026221d5413e389da3d2f06de8b4380e48dfdfc5a038c34437f96f54bdf2f485ec2897eb0c0cae5036e4ebf1ad1c944361e9177629de59cbb
+Description: Tools and file types for lab computers
+ Tools for lab computers: print-system-information (hardware and
+ software report), install-psychopy-opensesame, update-psychopy-installer,
+ update-tobii-etm, make-osexp and setup-user-links. It also provides MIME
+ types and icons for OpenSesame and PsychoPy experiments, udev rules for
+ Teensy boards and a fixed desktop entry for Tobii Pro Eye Tracker
+ Manager.
 
 Package: devjam-science-wallpapers
 Architecture: all
-Version: 1.0-1
+Version: 1.0-2
 Priority: optional
 Section: graphics
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/science/devjam-science-wallpapers_1.0-1_all.deb
-Size: 1953428
-MD5sum: 92adc6f9ae689da9bed372c1177021e7
-SHA1: 63d97d75eaf4fe11336f098935142f966efb6d73
-SHA256: fbc86a2ac7f2fb0ae0409ec4b7daf7a9867f05d16928f0b0f7d7de3bbe66572a
-SHA512: 1417d38cadcb87fc39770ddc51070663dc838591aaae1250be5d71b612584bcca6f08306924d00b18e4a79a364c9eb44cf01cb46f5950ce5b68c70a06a99e3a5
-Description: wallpapers
+Filename: pool/science/devjam-science-wallpapers_1.0-2_all.deb
+Size: 1954592
+MD5sum: 1500ce699f019cbfa66bdc17a80593a4
+SHA1: 4280b2dd1157741f26089fe66f82dd6ae7b1ee3f
+SHA256: a2afa7a441d1ef2250cc8a766ecdc3b8cc2c55a2582b8eac22083d6fa673c8a6
+SHA512: 361c875756db0a59069a7a0c91c61b9a8dab577ddd4d0de5069d061040137f0e5e92d1d773112f158cc71a8a3f2979ea68a63083e28eec36bf18cf6cfbc1c65c
+Description: CLS lab desktop wallpapers for normal and experiment mode
+ Desktop wallpapers for the lab computers that show whether the system
+ runs in normal mode or in experiment mode, with short instructions on
+ where to save research data and how to print system information.
+ Available in 1920x1080 and 3840x2160, installed in
+ /usr/share/wallpapers/cls.
 
 Package: libjpeg8-dbg
 Architecture: amd64
