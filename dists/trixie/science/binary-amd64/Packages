@@ -75,18 +75,18 @@ Description: MATLAB launchers and service menus
 
 Package: devjam-science-tools
 Architecture: all
-Version: 1.90-1
+Version: 1.91-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme, curl, ca-certificates, mawk | gawk
 Recommends: sudo
-Filename: pool/science/devjam-science-tools_1.90-1_all.deb
-Size: 332936
-MD5sum: 4be34eaa970b5b906310320ab9f774ea
-SHA1: 2f345529d4447d09167fe1254691f2c720ff9a94
-SHA256: c82617689b7031b9ac474d64faa3527e43fdab6cd4ce4ff1df20a6db32382c58
-SHA512: c821bf7abfead3ff03da878ec199e7f38a67241417f795906ad0c796ae988653e4d77804479a6b659c02543329c1e1d4623887536899de3225a5b2accb4a79f3
+Filename: pool/science/devjam-science-tools_1.91-1_all.deb
+Size: 333060
+MD5sum: c07fd82f9aa79a85b6c7ee8cf6153f0c
+SHA1: 21935c9eb9ba0d825b7c0012a46f97cca7682f2c
+SHA256: 34f92fe09760c64c434b4e9e8e24986fa7d7390c4ee7ab555186d1aef771fda5
+SHA512: dc23bd74d0cf9c52c3e26f1ba13e75e4bf8c24ad35a865bc9ad1bed6ac8bf38ffe9dd309051f5ec6e49abcc450cfead11cac280709b54c164aa5fd9353e81913
 Description: Tools and file types for lab computers
  Tools for lab computers: print-system-information (hardware and
  software report), install-psychopy-opensesame, update-psychopy-installer,
