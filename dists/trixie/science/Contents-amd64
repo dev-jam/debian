@@ -128,9 +128,9 @@ usr/lib/python3/dist-packages/opensesame_plugin_radboudbox-5.4.1.dist-info/WHEEL
 usr/lib/python3/dist-packages/opensesame_plugin_screenshot-0.8.1.dist-info/INSTALLER python/python3-opensesame-plugin-screenshot
 usr/lib/python3/dist-packages/opensesame_plugin_screenshot-0.8.1.dist-info/METADATA python/python3-opensesame-plugin-screenshot
 usr/lib/python3/dist-packages/opensesame_plugin_screenshot-0.8.1.dist-info/WHEEL python/python3-opensesame-plugin-screenshot
-usr/lib/python3/dist-packages/opensesame_plugin_titta_eyetracking-7.0.3.dist-info/INSTALLER python/python3-opensesame-plugin-titta-eyetracking
-usr/lib/python3/dist-packages/opensesame_plugin_titta_eyetracking-7.0.3.dist-info/METADATA python/python3-opensesame-plugin-titta-eyetracking
-usr/lib/python3/dist-packages/opensesame_plugin_titta_eyetracking-7.0.3.dist-info/WHEEL python/python3-opensesame-plugin-titta-eyetracking
+usr/lib/python3/dist-packages/opensesame_plugin_titta_eyetracking-7.0.4.dist-info/INSTALLER python/python3-opensesame-plugin-titta-eyetracking
+usr/lib/python3/dist-packages/opensesame_plugin_titta_eyetracking-7.0.4.dist-info/METADATA python/python3-opensesame-plugin-titta-eyetracking
+usr/lib/python3/dist-packages/opensesame_plugin_titta_eyetracking-7.0.4.dist-info/WHEEL python/python3-opensesame-plugin-titta-eyetracking
 usr/lib/python3/dist-packages/opensesame_plugins/audio_low_latency/__init__.py python/python3-opensesame-plugin-audio-low-latency
 usr/lib/python3/dist-packages/opensesame_plugins/audio_low_latency/audio_low_latency_init_item.py python/python3-opensesame-plugin-audio-low-latency
 usr/lib/python3/dist-packages/opensesame_plugins/audio_low_latency/audio_low_latency_item.py python/python3-opensesame-plugin-audio-low-latency
