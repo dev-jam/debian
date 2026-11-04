@@ -1262,6 +1262,7 @@ usr/bin/compare-diffoscope				    utils/devjam-tools
 usr/bin/convert-folder-to-video-iso			    utils/devjam-tools
 usr/bin/copy-quoted-paths				    utils/devjam-tools
 usr/bin/csv2tsv						    utils/devjam-tools
+usr/bin/devjam-run-once					    utils/devjam-tools
 usr/bin/dirsync						    python/python3-dirsync
 usr/bin/dl-build					    utils/devjam-tools
 usr/bin/dl-rebuild					    utils/devjam-tools

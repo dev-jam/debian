@@ -676,19 +676,19 @@ Description: Thunar custom actions collection
 
 Package: devjam-tools
 Architecture: all
-Version: 1.99-1
+Version: 2.0-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: curl, jq, ca-certificates, pkexec, python3:any, mawk | gawk
 Recommends: sudo, gh, sox, flac, wl-clipboard, debian-keyring, devscripts, lintian, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, linux-cpupower, dkms, debsecan, genisoimage, csvtool, libevtx-utils, systemd-container
 Suggests: devjam-s-benchmark
-Filename: pool/main/devjam-tools_1.99-1_all.deb
-Size: 59832
-MD5sum: 4eb6ff69a32db2ab58e820fb3f5783ac
-SHA1: e69c9d6d318dc722325d961ce9ce034dba0ac328
-SHA256: 4f240437645f6331bcb80bc01b7122614d2f260c2146413b97a06bc69ea836f2
-SHA512: e4acd63b281607c90c651b073b5992c8d04701bad03563f58ea27b1b6e532b815dea1242c735e6651abae63c5e10ecf223e4add42f430bce782cccba71966bd7
+Filename: pool/main/devjam-tools_2.0-1_all.deb
+Size: 60088
+MD5sum: d8aff218f3a5a85dbfcf335b164a1ab6
+SHA1: f86e70fdb3ca9cee75c56df6c392ece8cfa36d3e
+SHA256: 9b8eee9242abaf5101cff65a2e91aeef8046beb36fc8ce123b3a4ebc41457156
+SHA512: a897e0e248fa7062c922c7f09c7cf0f1e71bf9955cbb4e35cb7e5c6879b5b72a92cf3b92d8ec5b1170eb814076e11d038f726b8ceffc830edfd0ae3ab971131b
 Description: Scripts for packaging, audio and video, files and system upkeep
  Command line tools by devjam, grouped by task:
   - packaging and builds: build-deb-package, bpo-build, bpo-build-host,
@@ -700,7 +700,8 @@ Description: Scripts for packaging, audio and video, files and system upkeep
   - files: duplicate checks with fclones, tar-all-files,
     copy-quoted-paths, csv2tsv, evtx2xml, extract-microvideo
   - system: smart-menu, smt-manager, fstrim-all, suspend and compositing
-    toggles, dkms-rebuild, systemd-find-junk, plasma-restart
+    toggles, dkms-rebuild, systemd-find-junk, plasma-restart,
+    devjam-run-once
  .
  Many of these are also used by devjam-kde-servicemenus and
  devjam-thunar-actions.
