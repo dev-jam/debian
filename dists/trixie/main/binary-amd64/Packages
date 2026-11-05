@@ -604,19 +604,19 @@ Description: Scripts to switch between PipeWire and ALSA-only mode
 
 Package: devjam-plasma-defaults
 Architecture: all
-Version: 1.0-1
+Version: 1.1-1
 Priority: optional
 Section: kde
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-wallpapers
 Recommends: sddm-theme-breeze
 Enhances: plasma-desktop
-Filename: pool/main/devjam-plasma-defaults_1.0-1_all.deb
-Size: 3096
-MD5sum: 9062b1f5600ada98fc89d2a67c654132
-SHA1: b00cbb28e169819fa5676954314d00b2cc6fa37a
-SHA256: 162944bcc87a4ce58db553535651d237713784a69cdc09e112aad15072f89de0
-SHA512: e0c7f0226d113fd5d9a7e88217b9c5542d1517d72a38924049cfec29a43c4b6d2d216dcbd81b3d1991a9e329399249919f87ffde4897e92f37d086d18644c6f0
+Filename: pool/main/devjam-plasma-defaults_1.1-1_all.deb
+Size: 3332
+MD5sum: 3d7927a4462b704a97f51ba7f47b19b3
+SHA1: 173cf5e3d5e572ff45a47ced6c001d302c1d9dd9
+SHA256: d74becc32659c1c1cfa82704f32f223e5b482d37f5155b1d4932471d08395c76
+SHA512: d603c722e5270809347da8a9fbc99ef2a0fc916a469e96f6ce3a7cf234874dbfb87df1ed0c8db225536f5a7b52fd32fcff8791cd16a83bc5e864c34c2a015f95
 Description: KDE Plasma defaults by devjam
  System-wide defaults in /etc/xdg for KDE Plasma and its applications.
  KConfig reads these before ~/.config, so every user starts with them and
@@ -631,6 +631,8 @@ Description: KDE Plasma defaults by devjam
     formats)
   - lock screen with the CLS wallpaper (devjam-wallpapers)
   - SDDM theme Breeze (/etc/sddm.conf.d/10-devjam-theme.conf)
+  - SDDM starts the X server with -keeptty, which systemd-logind
+    integration needs (/etc/sddm.conf.d/20-devjam-x11.conf)
 
 Package: devjam-s-benchmark
 Architecture: all

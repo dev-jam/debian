@@ -151,6 +151,7 @@ etc/rescuezilla/no_source_overwrite			    admin/rescuezilla
 etc/rescuezilla/share					    admin/rescuezilla
 etc/rtirq.conf						    misc/rtirq
 etc/sddm.conf.d/10-devjam-theme.conf			    kde/devjam-plasma-defaults
+etc/sddm.conf.d/20-devjam-x11.conf			    kde/devjam-plasma-defaults
 etc/sensors.d/asus_z790.conf				    utils/devjam-sensors-asus-z790-plus-wifi
 etc/skel/.bash_aliases					    admin/devjam-system-config
 etc/su-to-rootrc					    admin/devjam-system-config
