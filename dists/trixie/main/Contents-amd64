@@ -126,6 +126,8 @@ etc/apt/trusted.gpg.d/waydroid.gpg			    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/xanmod.asc			    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/xlibre-deb.asc			    misc/devjam-external-keyring-legacy
 etc/bash_completion.d/phoronix-test-suite		    Utilities/phoronix-test-suite
+etc/bashrc.d/history.bashrc				    admin/devjam-system-config
+etc/bashrc.d/hstr.bashrc				    admin/devjam-system-config
 etc/brave/brave-flags.conf				    web/devjam-gpu-brave-config
 etc/chromium.d/custom-flags				    web/devjam-gpu-chromium-config
 etc/default/grub.d/theme.cfg				    admin/devjam-grub-theme
@@ -136,6 +138,7 @@ etc/grub.d/55_supergrub2disk				    admin/devjam-grub-tools
 etc/grub.d/60_boot-local-isos				    admin/devjam-grub-tools
 etc/grub.d/61_boot-global-isos				    admin/devjam-grub-tools
 etc/grub.d/90_shutdown-reboot				    admin/devjam-grub-tools
+etc/live/config.conf.d/devjam-user-setup.conf		    admin/devjam-live-config
 etc/navidrome/navidrome.toml				    navidrome
 etc/oss.conf						    sound/oss-linux
 etc/profile.d/VULKAN_VIDEO_ON.sh			    graphics/devjam-gpu-mesa-config
@@ -147,11 +150,19 @@ etc/profile.d/mesa.sh					    graphics/devjam-gpu-mesa-config
 etc/rescuezilla/no_source_overwrite			    admin/rescuezilla
 etc/rescuezilla/share					    admin/rescuezilla
 etc/rtirq.conf						    misc/rtirq
+etc/sddm.conf.d/10-devjam-theme.conf			    kde/devjam-plasma-defaults
 etc/sensors.d/asus_z790.conf				    utils/devjam-sensors-asus-z790-plus-wifi
 etc/skel/.bash_aliases					    admin/devjam-system-config
 etc/su-to-rootrc					    admin/devjam-system-config
 etc/systemd/user/geteduroam-notifs.service		    geteduroam-cli,geteduroam-gui
 etc/systemd/user/geteduroam-notifs.timer		    geteduroam-cli,geteduroam-gui
+etc/xdg/dolphinrc					    kde/devjam-plasma-defaults
+etc/xdg/kdeglobals					    kde/devjam-plasma-defaults
+etc/xdg/kiorc						    kde/devjam-plasma-defaults
+etc/xdg/konsolerc					    kde/devjam-plasma-defaults
+etc/xdg/kscreenlockerrc					    kde/devjam-plasma-defaults
+etc/xdg/ksmserverrc					    kde/devjam-plasma-defaults
+etc/xdg/plasma-localerc					    kde/devjam-plasma-defaults
 lib/systemd/system/rtirq-resume.service			    misc/rtirq
 lib/systemd/system/rtirq.service			    misc/rtirq
 opt/audacity4/.DirIcon					    sound/audacity4-appimage
@@ -1423,6 +1434,7 @@ usr/lib/live/build/source_hooks				    misc/live-build
 usr/lib/live/build/source_iso				    misc/live-build
 usr/lib/live/build/source_live				    misc/live-build
 usr/lib/live/build/source_tar				    misc/live-build
+usr/lib/live/config/2010-devjam-no-wallet		    admin/devjam-live-config
 usr/lib/modprobe.d/i915.conf				    graphics/devjam-gpu-intel-config
 usr/lib/oss/build/Makefile.osscore			    sound/oss-linux
 usr/lib/oss/build/Makefile.tmpl				    sound/oss-linux
@@ -2122,10 +2134,14 @@ usr/share/doc/devjam-kde-servicemenus/changelog.Debian.gz   kde/devjam-kde-servi
 usr/share/doc/devjam-kde-servicemenus/copyright		    kde/devjam-kde-servicemenus
 usr/share/doc/devjam-live-boot-hooks/changelog.Debian.gz    admin/devjam-live-boot-hooks
 usr/share/doc/devjam-live-boot-hooks/copyright		    admin/devjam-live-boot-hooks
+usr/share/doc/devjam-live-config/changelog.Debian.gz	    admin/devjam-live-config
+usr/share/doc/devjam-live-config/copyright		    admin/devjam-live-config
 usr/share/doc/devjam-mpv-config/changelog.Debian.gz	    video/devjam-mpv-config
 usr/share/doc/devjam-mpv-config/copyright		    video/devjam-mpv-config
 usr/share/doc/devjam-pipewire-scripts/changelog.Debian.gz   sound/devjam-pipewire-scripts
 usr/share/doc/devjam-pipewire-scripts/copyright		    sound/devjam-pipewire-scripts
+usr/share/doc/devjam-plasma-defaults/changelog.Debian.gz    kde/devjam-plasma-defaults
+usr/share/doc/devjam-plasma-defaults/copyright		    kde/devjam-plasma-defaults
 usr/share/doc/devjam-s-benchmark/changelog.Debian.gz	    utils/devjam-s-benchmark
 usr/share/doc/devjam-s-benchmark/copyright		    utils/devjam-s-benchmark
 usr/share/doc/devjam-sensors-asus-z790-plus-wifi/changelog.Debian.gz utils/devjam-sensors-asus-z790-plus-wifi
@@ -2316,6 +2332,7 @@ usr/share/fastfetch/presets/neofetch.jsonc		    devel/fastfetch
 usr/share/fastfetch/presets/paleofetch.jsonc		    devel/fastfetch
 usr/share/fastfetch/presets/screenfetch.jsonc		    devel/fastfetch
 usr/share/fish/vendor_completions.d/fastfetch.fish	    devel/fastfetch
+usr/share/geany/geany.conf				    admin/devjam-system-config
 usr/share/icons/fclones-gui.png				    utils/fclones-gui-launcher
 usr/share/icons/hicolor/128x128/apps/ai.storyteller.artcraft-launcher.png utils/artcraft-launcher
 usr/share/icons/hicolor/128x128/apps/app.eduroam.geteduroam.png geteduroam-gui

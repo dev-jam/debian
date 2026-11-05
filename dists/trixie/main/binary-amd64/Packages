@@ -532,6 +532,31 @@ Description: Boot hooks for dev-jam Debian Live images
  compositing on or off, and set up the XLibre modesetting driver.
  The hooks are installed in /usr/share/devjam/hooks.
 
+Package: devjam-live-config
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: live-config
+Filename: pool/main/devjam-live-config_1.0-1_all.deb
+Size: 3332
+MD5sum: 0c626a1e6649b66f754213621d5aa7ae
+SHA1: 6c63d15fbcb4f552e8e7af2de6067a0036570873
+SHA256: 69c5aa8874f59e1f1b80d6e306b4212130fe900a7c78b3f147fbb9a33437b638
+SHA512: 56ca956f725fb7e01d395534a69cfcee22d99627f3eb12c5c4700870e00a7da1b9739b58e4f96dad27bf71edc67f44fe148ed478b91bb33fd296ecedc76cab7b
+Description: Debian Live session settings by devjam
+ Settings that only apply to a Debian Live session, through live-config:
+ .
+  - live-config component devjam-no-wallet: no password storage in the
+    live session. KWallet is switched off (no first-use wizard, no Secret
+    Service API) and GNOME Keyring can neither be started by systemd, by
+    D-Bus activation nor by the GNOME/MATE autostart files. Everything is
+    written to the live root, so an installed system keeps KWallet with
+    its first-use wizard.
+  - the groups of the live user (LIVE_USER_DEFAULT_GROUPS), including
+    psychopy, psychtoolbox, dialout and lp for lab hardware.
+
 Package: devjam-mpv-config
 Architecture: all
 Version: 1.1-4
@@ -576,6 +601,36 @@ Description: Scripts to switch between PipeWire and ALSA-only mode
  The modes are per user. In ALSA-only mode the ALSA "default" device is
  routed to the sound card instead of PipeWire through
  /etc/alsa/conf.d/99z-devjam-alsa-only.conf.
+
+Package: devjam-plasma-defaults
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: kde
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-wallpapers
+Recommends: sddm-theme-breeze
+Enhances: plasma-desktop
+Filename: pool/main/devjam-plasma-defaults_1.0-1_all.deb
+Size: 3096
+MD5sum: 9062b1f5600ada98fc89d2a67c654132
+SHA1: b00cbb28e169819fa5676954314d00b2cc6fa37a
+SHA256: 162944bcc87a4ce58db553535651d237713784a69cdc09e112aad15072f89de0
+SHA512: e0c7f0226d113fd5d9a7e88217b9c5542d1517d72a38924049cfec29a43c4b6d2d216dcbd81b3d1991a9e329399249919f87ffde4897e92f37d086d18644c6f0
+Description: KDE Plasma defaults by devjam
+ System-wide defaults in /etc/xdg for KDE Plasma and its applications.
+ KConfig reads these before ~/.config, so every user starts with them and
+ can still change each setting:
+ .
+  - Dolphin: filter bar, full-width status bar, zoom slider, no menu bar,
+    preview plugins
+  - single click to open, no Delete command next to Move to Trash
+  - Konsole uses the profile Default.profile when a user has it (the
+    Debian Live image puts it in /etc/skel), KIO confirmations, an
+    empty session at login, region and formats (English with Dutch
+    formats)
+  - lock screen with the CLS wallpaper (devjam-wallpapers)
+  - SDDM theme Breeze (/etc/sddm.conf.d/10-devjam-theme.conf)
 
 Package: devjam-s-benchmark
 Architecture: all
@@ -638,22 +693,25 @@ Description: Low latency tools and settings for Debian
 
 Package: devjam-system-config
 Architecture: all
-Version: 1.23-5
+Version: 1.25-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-system-config_1.23-5_all.deb
-Size: 5484
-MD5sum: 39808d842b36e5f91ffb47cb77930367
-SHA1: e9383d97cbc344bc47adc0eaf1f23566f17b6ca3
-SHA256: 4c22006aa3819abb084b3055604069843cb2218cdf11b4e38b82a23211513135
-SHA512: cfbb0e9c581a98352eab879146f3fb0a0415221b04e191b232c9f283487d15a982bd5bbcfd7af1a17c815012c94906f168a9e5bf6e5eeacfe6beb98450c2fb76
+Recommends: hstr
+Filename: pool/main/devjam-system-config_1.25-1_all.deb
+Size: 6904
+MD5sum: 4063a40c534928ae9582b4e04f2125e7
+SHA1: 2a2de1df2c75fe1f932baea549a7aa17fda4638b
+SHA256: 799aee861b23bdd9c08157e45c620409dedd0b9c522893a81f0568d2be498044
+SHA512: 37c7454a9c45dcd8ebec27ef9732b1c4bb9b8f27557ecb2744f5af71a5bbb3e43a6b63e22287a6d2ddc3b1af670f92d5493de458045fd6e15c910915d0850fa0
 Description: Generic configs by devjam
  General system settings: timestamps in the shell history, default bash
- aliases and profile for new users, high-quality PipeWire resampling,
- TRIM/discard for SSDs and LUKS volumes, storage tuning, a shorter stop
- timeout for systemd user services, and switch-io to choose an I/O
- scheduler preset.
+ aliases and profile for new users, bash drop-in snippets in
+ /etc/bashrc.d (history size, hstr on Ctrl-R) loaded through
+ ~/.bash_aliases together with ~/.config/bashrc.d, Geany defaults,
+ high-quality PipeWire resampling, TRIM/discard for SSDs and LUKS
+ volumes, storage tuning, a shorter stop timeout for systemd user
+ services, and switch-io to choose an I/O scheduler preset.
 
 Package: devjam-thunar-actions
 Architecture: all
