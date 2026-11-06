@@ -83,4 +83,11 @@ dists/trixie/{main,tools,science,xlibre}/binary-amd64/   package indexes
 pool/{main,tools,science,xlibre}/                        the .deb files
 dev-jam.asc                                              public signing key
 dev-jam.sources                                          ready-made APT source file
+scripts/                                                 scripts that update the repository
 ```
+
+## License
+
+* The scripts in `scripts/` are Copyright (C) 2026 Bob Rosbag. They are licensed under the GNU General Public License version 3 or (at your option) any later version (GPL-3.0-or-later). The full license text is in [`scripts/LICENSE`](scripts/LICENSE).
+* Own packages: see [`dev-jam/debian-packages`](https://github.com/dev-jam/debian-packages) and the `copyright` file of each package (`/usr/share/doc/<package>/copyright`).
+* Unmodified upstream `.deb` files keep the copyright and license of their upstream project.

@@ -1,3 +1,5 @@
+# Copyright (C) 2026 Bob Rosbag <mail@bobrosbag.nl>
+# SPDX-License-Identifier: GPL-3.0-or-later
 # Sourced by update-repo.sh (working directory = repo root).
 # Requires components.env to be sourced first (SUITE, ARCHS, COMPONENTS).
 
