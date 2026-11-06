@@ -16,6 +16,7 @@ usr/bin/manage-opensesame-affinity			    science/devjam-science-opensesame-psych
 usr/bin/matlab-run-cli-bg				    science/devjam-science-tools-matlab
 usr/bin/matlab-run-cli-exp				    science/devjam-science-tools-matlab
 usr/bin/opensesame-psychopy-launch			    science/devjam-science-opensesame-psychopy
+usr/bin/opensesamerun-psychopy				    science/devjam-science-opensesame-psychopy
 usr/bin/print-system-information			    science/devjam-science-tools
 usr/bin/ptb3-matlab					    non-free/science/matlab-psychtoolbox-3
 usr/bin/setup-user-links				    science/devjam-science-tools

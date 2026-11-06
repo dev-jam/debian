@@ -39,22 +39,26 @@ Description: KDE Service Menu items for science by devjam
 
 Package: devjam-science-opensesame-psychopy
 Architecture: all
-Version: 1.6-2
+Version: 1.7-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science-tools
-Filename: pool/science/devjam-science-opensesame-psychopy_1.6-2_all.deb
-Size: 5600
-MD5sum: 511458435f6e9cb38fd4903f4f615a65
-SHA1: eaa00e2b5c6bf2390f5f9b608d72a1b00343c463
-SHA256: 16232b87f8314049db0590a33810f70bc2cd3f8b447b858810a47b05c5e53326
-SHA512: a2b8d8682cccf82c6b8d4411d601813fedbe3c76c796ecc291e7091c2074050b6afce4f11bc086de5d961536daeacb1eea3332acd05f3cbd4dfacba393e91297
+Filename: pool/science/devjam-science-opensesame-psychopy_1.7-1_all.deb
+Size: 6116
+MD5sum: 1c599fef5eaa11d101c81a12620ead81
+SHA1: 317f0624b276316486b2b80892ffbaf4860bf220
+SHA256: f0ecd350876a412dd39ef677c18858745461d05bf5e0b0666a5f2587382ce84c
+SHA512: 0273de9ea88c104bc463359ec8036ae956048e1784d00da2ff2e02a370c4ef9315d687f681a3671587c55b4011a0922c7e631ca978a0dcc7077ccbe9f2024e76
 Description: OpenSesame Launcher with PsychoPy
  Desktop launchers for OpenSesame, PsychoPy, PsychoPy Studio and Sigmund
  Analyst in the PsychoPy environment in /opt/psychopy, including an
  OpenSesame launcher that runs as a user service with real-time
  priority, and manage-opensesame-affinity to set its CPU affinity.
+ .
+ opensesamerun-psychopy runs an experiment without the GUI, as a
+ replacement for opensesamerun, which no longer works in OpenSesame 4.1.
+ It needs the Experiment Manager plugin in the PsychoPy environment.
 
 Package: devjam-science-tools-matlab
 Architecture: all
