@@ -370,59 +370,145 @@ Description: Inertial scrolling (aka kinetic scrolling) for synaptics
 
 Package: devjam-gpu-x11-xlibre-dmabuf
 Architecture: all
-Version: 1.0-2
+Version: 1.0-3
 Priority: optional
 Section: x11
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
 Breaks: devjam-gpu-x11-xlibre-tearfree-amdgpu (<< 1.5-4), devjam-gpu-x11-xlibre-tearfree-modesetting (<< 1.6-4)
 Replaces: devjam-gpu-x11-xlibre-tearfree-amdgpu (<< 1.5-4), devjam-gpu-x11-xlibre-tearfree-modesetting (<< 1.6-4)
-Filename: pool/main/devjam-gpu-x11-xlibre-dmabuf_1.0-2_all.deb
-Size: 1848
-MD5sum: 9dd3cf88fa7f8a07f56be2ae7293a9cc
-SHA1: 5da9c690f34531d66b89deecad85b7dc111d6458
-SHA256: 02bb4585e8f440adfde25cb945e363e8ca82eb0a54aa00f5b1461c24715791ab
-SHA512: fe670cca314604514f2a5cd5b49fc2468dde5c452f26e20d439dfb4560f5774cbdb7b723fd8dcb207af535778a0b7ae4f1d5110b8d2534c298facd0741f2f148
+Filename: pool/main/devjam-gpu-x11-xlibre-dmabuf_1.0-3_all.deb
+Size: 1844
+MD5sum: f968da9c1e0e41ec7b68dad9dc22eb26
+SHA1: 6db068cce4ac2ca05790768939ed26045c402507
+SHA256: e6a69b9a89bc8b4d3dc69caaa2cc426cd9af1a5dda4b09f1a34296c4f02138d0
+SHA512: d5f4e72bb87d1e00669ad541bbafe84025dd1493e15c9c463064e29e4fd1675809f0df344a327f0155f9b4efc0d314111aff743751831f2f72a03c2ee3ece397
 Description: DMA-BUF support for the XLibre server
- Enables DMA-BUF support in the XLibre server. Recommended by the XLibre
- tearfree configuration packages for amdgpu and modesetting.
+ Enables DMA-BUF support in the XLibre server. Recommended by the
+ modesetting configuration package devjam-gpu-x11-xlibre-modesetting.
+
+Package: devjam-gpu-x11-xlibre-modesetting-asyncflip
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-gpu-x11-xlibre-modesetting
+Recommends: xlibre
+Filename: pool/main/devjam-gpu-x11-xlibre-modesetting-asyncflip_1.0-1_all.deb
+Size: 2120
+MD5sum: bbdb1a255386e43f8bd9320bdc7b0f0e
+SHA1: e133127e39ed5d52a7b93dd19fb0b78d421ef01b
+SHA256: a552143d728732eeaada73579704f0faf8d99146b4b8236a3e8042bd1a5dd13b
+SHA512: 945200bea052f1e90b9748cdc834f99e6d5fa459588e249ba9bace4a05a99df64109ac9558a3cad3a0bcf0896acb80ffd42916d75a22e6579fc212960eb124f6
+Description: Async flips on secondary outputs for the modesetting driver
+ X11 OutputClass section that enables AsyncFlipSecondaries in the
+ modesetting driver of XLibre (default: off). With DRI3 page flipping on
+ a multi-display screen only one display is synchronized to vblank;
+ with this option the other displays flip asynchronously and may tear.
+ Mainly useful when the displays mirror or clone each other.
+
+Package: devjam-gpu-x11-xlibre-modesetting-atomic
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-gpu-x11-xlibre-modesetting
+Recommends: xlibre
+Filename: pool/main/devjam-gpu-x11-xlibre-modesetting-atomic_1.0-1_all.deb
+Size: 1936
+MD5sum: 801f4b77b09e15ce3b3fd528575df5b6
+SHA1: 0464f1942190cd09e1bee85c876af67e63dd2c2c
+SHA256: cf5ea8a0e3187f0246b1ad9bee7ea1d606b048e76de5e7141cc2897649af8cb7
+SHA512: 55733b1be824c662615309b272886a84053bc760034f94dccbb9d7aafc79ca7fb1c7e69203255c91e1b53d6e6c31700262af20a9e7ac9e0c628124d1307b84a7
+Description: Atomic mode setting for the modesetting driver of XLibre
+ X11 OutputClass section that enables atomic mode setting in the
+ modesetting driver (default: off). Atomic mode setting needs XLibre or
+ a patched Xorg.
+
+Package: devjam-gpu-x11-xlibre-modesetting-vrr
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-gpu-x11-xlibre-modesetting
+Recommends: xlibre
+Filename: pool/main/devjam-gpu-x11-xlibre-modesetting-vrr_1.0-1_all.deb
+Size: 2076
+MD5sum: 9e4e6f6e07d23c2d66905fed9fbaebe0
+SHA1: 6296ac6a49e9232bf911c92526f2adec4b99ee80
+SHA256: cb28736fdf94668473ef256c9109ddd902c99daaeb0172b9d31fef7228aa2b77
+SHA512: 7c566d5579c3b3751fee7aa146721c1ea0a50bdde3a8e8c22d4e528143e8e958ad1093153ebde038ee8b095b724c81ba1d57ce29b3de8eb0272dcdf01e444969
+Description: Variable refresh rate for the modesetting driver of XLibre
+ X11 OutputClass section that enables variable refresh rate in the
+ modesetting driver (default: off). VRR is only used by fullscreen
+ applications that flip via the Present extension on a VRR-capable
+ display. Not recommended for experiments that need a fixed refresh
+ rate.
+
+Package: devjam-gpu-x11-xlibre-modesetting
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: x11
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Recommends: xlibre, devjam-gpu-x11-xlibre-dmabuf
+Filename: pool/main/devjam-gpu-x11-xlibre-modesetting_1.0-1_all.deb
+Size: 2028
+MD5sum: c3783527d64aa7c50735720434bebcbc
+SHA1: 527ac4c29db1b5cae4353e8ee38866b07aa782db
+SHA256: 1a256fbff365c260baabf274072e5b9ce3d50568aff56b91bec87e8d11e9df14
+SHA512: d23843b29781b87582878dd74a3e8101124d0b8f70e3cf857706e8b53afaabee8653b85dab9a8f52fba86703b38551e29098520a7de5271fab8ad71729598475
+Description: Use the modesetting driver of XLibre on Intel and AMD GPUs
+ X11 OutputClass section that selects the built-in modesetting driver
+ for GPUs on the i915, xe and amdgpu kernel drivers, instead of the
+ intel or amdgpu DDX. TearFree is enabled by default in the modesetting
+ driver of XLibre.
 
 Package: devjam-gpu-x11-xlibre-tearfree-amdgpu
 Architecture: all
-Version: 1.5-5
+Version: 1.6-1
 Priority: optional
-Section: x11
+Section: oldlibs
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: xlibre, devjam-gpu-x11-xlibre-dmabuf
-Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-amdgpu_1.5-5_all.deb
-Size: 2016
-MD5sum: 4ea1ca694f621a89ad8b2683caaadefe
-SHA1: ff8ac2f0f4d0b1f4b1fe3b4f2df7db1d98793572
-SHA256: 51ab8867ad37ab33feabef797a26adfd3fee9bc402af98235bced8f1cc6260f9
-SHA512: 7366785dd1e3ec8d1848cfd9621033b8d6f8acff6f6255e750a319aead8db70897519f651c384dabeffeef67ba874e11f56756dd3140b5aa247697b78ea90707
-Description: Tearfree improvements to the amdgpu driver
- X11 device section for the amdgpu driver with TearFree, atomic mode
- setting and variable refresh enabled and the shadow framebuffer
- disabled. Atomic mode setting needs XLibre or a patched Xorg.
+Depends: devjam-gpu-x11-xlibre-modesetting, devjam-gpu-x11-xlibre-modesetting-atomic
+Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-amdgpu_1.6-1_all.deb
+Size: 2076
+MD5sum: b5a6d0660f0267614fde3ad0d6259ddb
+SHA1: 53655f277091a985e63eda50a5d8802f50511bfb
+SHA256: 93803ea9521136d2b965aec1b69e2616735b95a00ceacf0fefbe49f6168e3404
+SHA512: 7797b89bf55c5b86710ecee04e3a514e17b029f61872d6092fade260c89fd0374cb4fd67997fdceee5d108eb5ec795e3c71032f37746a244643ce241ac778aad
+Description: Transitional package for devjam-gpu-x11-xlibre-modesetting
+ This package removes the old X11 device section
+ /etc/X11/xorg.conf.d/20-amdgpu.conf and pulls in
+ devjam-gpu-x11-xlibre-modesetting and
+ devjam-gpu-x11-xlibre-modesetting-atomic. The GPU now uses the
+ modesetting driver instead of the amdgpu DDX, and variable refresh rate
+ is no longer enabled; install devjam-gpu-x11-xlibre-modesetting-vrr for
+ it. It can be removed safely.
 
 Package: devjam-gpu-x11-xlibre-tearfree-modesetting
 Architecture: all
-Version: 1.6-5
+Version: 1.7-1
 Priority: optional
-Section: x11
+Section: oldlibs
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Recommends: xlibre, devjam-gpu-x11-xlibre-dmabuf
-Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-modesetting_1.6-5_all.deb
-Size: 2040
-MD5sum: f56050943cef9e930bdea3e63ec808dd
-SHA1: d8de56d240473ceaa1bcaeb660c91f4892564ae1
-SHA256: 4496f8516796f59bf9a02ead309162e7ee18e6ea9f30571eb69e8b55c1ef0e45
-SHA512: 303cf8dcc5d08cfd6da1b6717873dd9505aab196d417b812d1dd8108e65d39531b6627cfa35bf0562895ee0e775fef11a9ad9176f4f26ebab169c8b4fef56405
-Description: Tearfree improvements to the modesetting driver
- X11 device section for the modesetting driver (Intel and AMD) with
- TearFree, atomic mode setting and variable refresh enabled and the
- shadow framebuffer disabled. Atomic mode setting needs XLibre or a
- patched Xorg.
+Depends: devjam-gpu-x11-xlibre-modesetting, devjam-gpu-x11-xlibre-modesetting-atomic
+Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-modesetting_1.7-1_all.deb
+Size: 2036
+MD5sum: e4f0eab320e7892e6abd0fce7a10dd96
+SHA1: 870d550b1ffbc984e80e16c758ba5db02f1b775d
+SHA256: dfb76d27783b961331a615d4802676c6257353704d08f04b6c80a2883641aed2
+SHA512: e97c933821e29de5cce9ae80df9bace965254e62ecbe3b303d5fd0f3c6e9c3fb73a695be9291a6e8de62dd2093d5703ab362fe835889773bb5ce42e878d26e8c
+Description: Transitional package for devjam-gpu-x11-xlibre-modesetting
+ This package removes the old X11 device section
+ /etc/X11/xorg.conf.d/20-modesetting.conf and pulls in
+ devjam-gpu-x11-xlibre-modesetting and
+ devjam-gpu-x11-xlibre-modesetting-atomic. Variable refresh rate is no
+ longer enabled; install devjam-gpu-x11-xlibre-modesetting-vrr for it. It
+ can be removed safely.
 
 Package: devjam-gpu-x11-xlibre-tearfree-plasma-egl
 Architecture: all
@@ -515,21 +601,23 @@ Description: Dolphin and Krusader service menus by devjam
 
 Package: devjam-live-boot-hooks
 Architecture: all
-Version: 1.18-4
+Version: 1.19-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-live-boot-hooks_1.18-4_all.deb
-Size: 3820
-MD5sum: 2922ce12ba852dc9e7f24b5cf53a5f2b
-SHA1: a6405e0df8eec96c85062115a7770d5cbbf2230d
-SHA256: 682ec1b34e05db96e711d164162bff9ff2e858f6b8a01cf6fca030a656a69d95
-SHA512: b52b30f1ba7b448288e0cf7859ec6f90f66dc5681ea7d5686da90becf12f1cbe88088f75b7393bf364a6a7a5318eb650b66aafddacc782a569c4bd5e7550b036
+Filename: pool/main/devjam-live-boot-hooks_1.19-1_all.deb
+Size: 3536
+MD5sum: e748a318e7a24ef8bbe518d37a7e93a1
+SHA1: 3367eca1ae1b8bbb2dc5e61ed332091aa0bffea7
+SHA256: df9a6f0ad0468dec33bf1c111e2b40e11e9aec5f69a17852e1eb4759f58be36e
+SHA512: b1cd8f8cb0196acfd9b90e02ff251e323c8d55b8999d2931b8253ae0b318ebaf421e4e6350ea05ba27b4eef3d7514f6adbb5e4f03e458f1c74cd3487bce259ce
 Description: Boot hooks for dev-jam Debian Live images
  Shell hooks for Debian Live images that configure autologin and the
  default session for several desktops (KDE, GNOME, Xfce, Cinnamon, MATE,
  LXQt, LXDE, Budgie, Openbox, Kodi) on X11 or Wayland, switch
- compositing on or off, and set up the XLibre modesetting driver.
+ compositing on or off, and set up the XLibre modesetting driver (with
+ atomic mode setting and async flips on secondary outputs, optionally
+ with variable refresh rate).
  The hooks are installed in /usr/share/devjam/hooks.
 
 Package: devjam-live-config
