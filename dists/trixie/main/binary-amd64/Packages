@@ -353,36 +353,36 @@ Description: Use Vulkan as GTK4 renderer
 
 Package: devjam-gpu-x11-synaptics-config
 Architecture: all
-Version: 1.0-5
+Version: 1.1-1
 Priority: optional
 Section: x11
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xserver-xlibre-input-synaptics | xserver-xorg-input-synaptics
-Filename: pool/main/devjam-gpu-x11-synaptics-config_1.0-5_all.deb
-Size: 2820
-MD5sum: 0ce8e5d0efb29567f34b9603be355221
-SHA1: e50736f3693aa50dd5bf2be7dabc3a1143c5bbe5
-SHA256: 5dacc64f971a0f9582308319c702afa97e05b73827a17e3f2d9159eba220410b
-SHA512: 36284c1ed0b6b6b21c0c9ad1f54fc7ae4f54e5d6273373793d712385c3d4c0f5e3d017c7268b2f7953a71d687495e86608672d3c77ac7b4a7fe215ab8b6660d3
+Filename: pool/main/devjam-gpu-x11-synaptics-config_1.1-1_all.deb
+Size: 3112
+MD5sum: 7e921f61f746b329e5d9e3b2c4c0e34f
+SHA1: d22d18f91025d6a91c6d7bea54f322ca6e335885
+SHA256: 3e7c1d954a826006183b41264c97a3284bb0d32d4debda8bcabb813e5987892f
+SHA512: 5b41149eb677bffa7ca3e4b783425b46d20c4f69c3c36a6562cc6998bf24278fa3a842473a6ef370ff6cdce122773b18f6df7a04c80e2eff4952a8db8cec8cce
 Description: Inertial scrolling (aka kinetic scrolling) for synaptics
  X11 configuration for the synaptics touchpad driver with inertial
  (kinetic) scrolling and tuned touchpad edges.
 
 Package: devjam-gpu-x11-xlibre-dmabuf
 Architecture: all
-Version: 1.0-3
+Version: 1.1-1
 Priority: optional
 Section: x11
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
 Breaks: devjam-gpu-x11-xlibre-tearfree-amdgpu (<< 1.5-4), devjam-gpu-x11-xlibre-tearfree-modesetting (<< 1.6-4)
 Replaces: devjam-gpu-x11-xlibre-tearfree-amdgpu (<< 1.5-4), devjam-gpu-x11-xlibre-tearfree-modesetting (<< 1.6-4)
-Filename: pool/main/devjam-gpu-x11-xlibre-dmabuf_1.0-3_all.deb
-Size: 1844
-MD5sum: f968da9c1e0e41ec7b68dad9dc22eb26
-SHA1: 6db068cce4ac2ca05790768939ed26045c402507
-SHA256: e6a69b9a89bc8b4d3dc69caaa2cc426cd9af1a5dda4b09f1a34296c4f02138d0
-SHA512: d5f4e72bb87d1e00669ad541bbafe84025dd1493e15c9c463064e29e4fd1675809f0df344a327f0155f9b4efc0d314111aff743751831f2f72a03c2ee3ece397
+Filename: pool/main/devjam-gpu-x11-xlibre-dmabuf_1.1-1_all.deb
+Size: 2132
+MD5sum: 1a9e241f96064161d02e0025ab916592
+SHA1: 66162ed9b3daef87d3e4445a0d714599e8ba64b7
+SHA256: 7660710b11f5841dabe522933278b7a137426100fda5dbda5d5cf105deafd52d
+SHA512: a2444a4bd600d586cb66f24f1b9ed90e4bc60d4874b39f19a64416439280b4b9ab1252f16a6c74c2237a247e4d0cca1161fbbf165cc26eaff5b80ef2b0d8322d
 Description: DMA-BUF support for the XLibre server
  Enables DMA-BUF support in the XLibre server. Recommended by the
  modesetting configuration package devjam-gpu-x11-xlibre-modesetting.

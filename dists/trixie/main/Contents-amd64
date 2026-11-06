@@ -97,8 +97,6 @@ boot/grub/themes/debian/ubuntu_regular_20.pf2		    admin/devjam-grub-theme
 boot/tools/bios/supergrub2-classic-2.06s4-multiarch-CD.iso  admin/devjam-grub-tools
 boot/tools/efi/supergrub2-classic-2.06s4-x86_64_efi-STANDALONE.EFI admin/devjam-grub-tools
 data.tar.gz						    sound/oss-linux
-etc/X11/xorg.conf.d/15-dmabuf.conf			    x11/devjam-gpu-x11-xlibre-dmabuf
-etc/X11/xorg.conf.d/70-synaptics.conf			    x11/devjam-gpu-x11-synaptics-config
 etc/alsa/conf.d/99z-devjam-alsa-only.conf		    sound/devjam-pipewire-scripts
 etc/apt/sources.list.d/nordvpn.list			    misc/nordvpn-release
 etc/apt/trusted.gpg.d/NexusSfan.pgp			    misc/devjam-external-keyring-legacy
@@ -1976,10 +1974,12 @@ usr/share/Thunar-custom-actions/uca.d/0802_-_check_unique_isolate.xml xfce/devja
 usr/share/Thunar-custom-actions/uca.d/0803_-_check_duplicates_isolate.xml xfce/devjam-thunar-actions
 usr/share/Thunar-custom-actions/uca.d/0804_-_compare_files_or_folders_in_meld.xml xfce/devjam-thunar-actions
 usr/share/Thunar-custom-actions/uca.d/0805_-_compare_files_or_folders_in_kompare.xml xfce/devjam-thunar-actions
+usr/share/X11/xorg.conf.d/15-devjam-dmabuf.conf		    x11/devjam-gpu-x11-xlibre-dmabuf
 usr/share/X11/xorg.conf.d/20-devjam-modesetting.conf	    x11/devjam-gpu-x11-xlibre-modesetting
 usr/share/X11/xorg.conf.d/30-devjam-modesetting-asyncflip.conf x11/devjam-gpu-x11-xlibre-modesetting-asyncflip
 usr/share/X11/xorg.conf.d/30-devjam-modesetting-atomic.conf x11/devjam-gpu-x11-xlibre-modesetting-atomic
 usr/share/X11/xorg.conf.d/30-devjam-modesetting-vrr.conf    x11/devjam-gpu-x11-xlibre-modesetting-vrr
+usr/share/X11/xorg.conf.d/71-devjam-synaptics.conf	    x11/devjam-gpu-x11-synaptics-config
 usr/share/appdata/phoronix-test-suite.appdata.xml	    Utilities/phoronix-test-suite
 usr/share/applications/Thunar-su.desktop		    utils/devjam-tools
 usr/share/applications/ai.storyteller.artcraft-launcher.desktop utils/artcraft-launcher
@@ -2456,6 +2456,8 @@ usr/share/lintian/overrides/apt-cleaner			    admin/apt-cleaner
 usr/share/lintian/overrides/brave-flags-wrapper		    web/brave-flags-wrapper
 usr/share/lintian/overrides/devjam-archive-keyring-legacy   misc/devjam-archive-keyring-legacy
 usr/share/lintian/overrides/devjam-external-keyring-legacy  misc/devjam-external-keyring-legacy
+usr/share/lintian/overrides/devjam-gpu-x11-synaptics-config x11/devjam-gpu-x11-synaptics-config
+usr/share/lintian/overrides/devjam-gpu-x11-xlibre-dmabuf    x11/devjam-gpu-x11-xlibre-dmabuf
 usr/share/lintian/overrides/devjam-gpu-x11-xlibre-tearfree-amdgpu oldlibs/devjam-gpu-x11-xlibre-tearfree-amdgpu
 usr/share/lintian/overrides/devjam-gpu-x11-xlibre-tearfree-modesetting oldlibs/devjam-gpu-x11-xlibre-tearfree-modesetting
 usr/share/lintian/overrides/devjam-grub-theme		    admin/devjam-grub-theme
