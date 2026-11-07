@@ -32,19 +32,19 @@ Description: APT package cleanup tool for KDE Plasma
 
 Package: artcraft-launcher
 Architecture: amd64
-Version: 0.13.0-1
+Version: 0.16.0-1
 Priority: optional
 Section: utils
 Maintainer: ArtCraft Launcher maintainers <craft-launcher@storyteller.ai>
-Installed-Size: 29979
+Installed-Size: 30247
 Depends: libc6 (>= 2.35), libgcc-s1, libxkbcommon0, libxkbcommon-x11-0, libwayland-client0, libx11-6, libx11-xcb1, libxcb1, libxcursor1, libxi6, libvulkan1 | libegl1
 Recommends: mesa-vulkan-drivers, libegl-mesa0, xdg-desktop-portal
-Filename: pool/main/artcraft-launcher_0.13.0-1_amd64.deb
-Size: 13745162
-MD5sum: d1fb8e7e655f1447bb496d4614642a5b
-SHA1: e8d1d24aa92704d65ffd50052fb3276e79ebec58
-SHA256: 2eaf59480969c5accb8752c056e2c36c6627068cbb3a911f48fbbdbacf386233
-SHA512: a4ef4f8055ba92b968848715d4eed16a4ca5cabb83a1fa8a77a27c23c850b4e9f2f3a257149f75138f168fda0e46bb1e8a22bf430d397bf69072be8d509a1b31
+Filename: pool/main/artcraft-launcher_0.16.0-1_amd64.deb
+Size: 13854616
+MD5sum: 1ac74d51196b5ef0acf8eae773ca2d4d
+SHA1: 1e5843e65d434635b11330d240591c821918cecd
+SHA256: 2f8f53974b1472da6350e7b32c2b8b6523c530eefdc881b812b9c9a80a2661a0
+SHA512: 4d168b3f287c8a6869722f79d678214e4c1b7c34f76b1c0cd68d1618dda3848fb61c0bf9121400c22424629d34d0cd6dfb84b7bbc5ad0e3481ea4a43ac088404
 Homepage: https://github.com/storytold/craft-launcher
 Description: Install, update and launch the Craft App Suite.
  ArtCraft Launcher lists PhotoCraft, LightCraft, FilmCraft, DesignCraft,
@@ -887,36 +887,20 @@ Description: X11 display size confs for the CLS lab monitors
  the CLS lab, for correct DPI, and the switch-x11-monitor command that
  installs the chosen profile in /etc/X11/xorg.conf.d.
 
-Package: e1000e-dkms
-Architecture: all
-Version: 3.8.7
-Priority: optional
-Section: kernel
-Maintainer: Kolja Hildebrand <kolja.hildebrand@gmail.com>
-Depends: dkms (>= 1.95)
-Filename: pool/main/e1000e-dkms_3.8.7_all.deb
-Size: 241548
-MD5sum: 9eed0400f409bf0ed262edbd31084703
-SHA1: 672b51755d57914f466f4ade75eee79eb6757596
-SHA256: 7c055d7d73094a5447a3d385b349cbbc8907c8b137be442fd3370ad6b12dd816
-SHA512: 6770e5c4d90293a1d102566489fd9212e3d717ab873ddb79e06914a05d59709f14a5c8795cdfaa7ca972e6d076d74d6a2e3e0f806f7f486e2f65ab29bcca283d
-Homepage: http://sourceforge.net/projects/e1000/
-Description: Intel e1000e Ethernet adapter driver (DKMS version)
-
 Package: fastfetch
 Architecture: amd64
-Version: 2.70.0
+Version: 2.71.0
 Priority: optional
 Section: devel
 Maintainer: Carter Li <zhangsongcui@live.cn>
-Installed-Size: 4493
+Installed-Size: 4542
 Depends: libc6 (>= 2.35)
-Filename: pool/main/fastfetch_2.70.0_amd64.deb
-Size: 1490960
-MD5sum: 508e45806c6f3d1dc535002b371bac05
-SHA1: f0ce7c5139686fedd6f3c524e933fb09eb6436df
-SHA256: 06e9a1be9a863dc815f8a31a6b1abec7b29967be30084ffcc29c1bca072d801b
-SHA512: 543ddaa0441988dcc532e04fb398b2dd513501ba2bfe7ef74d0dee2b370aa4ab79dee73baaadcf343e26efab2028c3e06cd084a5034c910d0e973530309c3892
+Filename: pool/main/fastfetch_2.71.0_amd64.deb
+Size: 1512482
+MD5sum: f41e52ed90c0c99303e1de6bfdc594f1
+SHA1: b70a7b0c5702bfe79a48a25b177b6a4c178bcffc
+SHA256: 6dc0b71c03e58f9f981a6b3c62b4fa3fb30b9d5ee9fa783302c91ea4c2a3600e
+SHA512: 9e70d4497d8a62bf92e8fb7949eded27bde2ca62e9292da2851f0aeb89e71468ac08a2b431bf30c34c2ebe469973c6c304c2a674e55b6358fe20d40deba778c9
 Homepage: https://github.com/fastfetch-cli/fastfetch
 Description: Fast neofetch-like system information tool
  fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
@@ -1326,52 +1310,6 @@ SHA512: f0d4f356b203e1ef743875eb62b6b4d2039313df45e8ecffb33399cd27cec6bfd8790ac2
 Homepage: https://nordvpn.com/
 Description: Package to install NordVPN GPG key and APT repo
 
-Package: opensesame-toolbox
-Architecture: all
-Version: 2.8-1
-Priority: extra
-Section: science
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 1255
-Depends: python3 (>= 3.2), python3-pyqt5, python3-pyqt5.qtwebkit, python3-numpy, python3-configobj
-Recommends: opensesame
-Filename: pool/main/opensesame-toolbox_2.8-1_all.deb
-Size: 358792
-MD5sum: d296f32c6e2c2a142417f36bb989276d
-SHA1: 666e7d19d1ce626755545ee5d774335b3ba45b77
-SHA256: 6b8d871100788044518fb4a2186d68cb56dd9312401de3c57c0ed18a9ff58440
-SHA512: d247408db3eefdd661eda07becc13ad4b201d5bf20bf3952a83f32698fbf4400bb61633499b405da6b0d70557883fc445cc35206a5fe3ea98334dcc84b618ea3
-Homepage: https://github.com/dev-jam/opensesame-toolbox
-Description: OpenSesame Experiment Manager and OpenSesame Questionnaire Processor
- OpenSesame Toolbox offers two applications to supplement OpenSesame.
- OpenSesame Experiment Manager can manage, order and execute OpenSesame Experiments and create OpenSesame Questionnaires.
- OpenSesame Questionnaire Processor can process OpenSesame multiple choice questionnaires by giving a summary of the scores.
-
-Package: oss-linux
-Architecture: amd64
-Version: 4.2-2020
-Priority: optional
-Section: sound
-Maintainer: 4Front Technologies <support@opensound.com>
-Installed-Size: 7352
-Provides: oss
-Depends: binutils, gcc, libc6, libgtk2.0-0, sed (>= 1.0.0)
-Suggests: libsdl1.2debian-oss | libsdl1.2debian-all, libesd0, libwine-oss, libsox-fmt-oss, mpg123, gstreamer0.10-plugins-bad (>= 0.10.7), libasound2-plugins
-Conflicts: libflashsupport
-Filename: pool/main/oss-linux_4.2-2020_amd64.deb
-Size: 2633446
-MD5sum: 5bff42067d7e40acbc6f0fe555e2a5a8
-SHA1: e559ec3009fa6192fcb20dd192342802975b2f4b
-SHA256: 373ff90a885dc534d4589d48554bdcf22f100b10e702a43d072cbaa3e8e819f5
-SHA512: 43135225580cc3aaf29779d04bddb48bd2b3a100f8562428ddfe245ff0477683d42e81fd455dd22cf11157fc46ebcb61e0957a61be9e813f6eb1cd2355d0521e
-Description: Open Sound System (http://www.opensound.com)
- OSS provides libraries and necessary drivers for practically all sound
-  cards on the market including PnP and many PCI ones which enable you
-  to play sound files, compose music, use MIDI (only included in the
-  testing releases) and adjust your sound card using various user space
-  programs.
-Build-Depends: build-essential sed gawk libtool libgtk2.0-dev
-
 Package: payload-dumper-go
 Architecture: amd64
 Version: 2.1.0-6
@@ -1483,18 +1421,18 @@ Description: Compute the DR14 value of the given audio files
 
 Package: python3-freesimplegui
 Architecture: all
-Version: 0:5.2.0.post1-2~w2d0
+Version: 0:5.3.0.post1-1~w2d0
 Priority: optional
 Section: python
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 2140
+Installed-Size: 2146
 Depends: python3 (>= 3.7~), python3:any
-Filename: pool/main/python3-freesimplegui_5.2.0.post1-2~w2d0_all.deb
-Size: 608808
-MD5sum: 452d0903a983300e5e8c2576647df74b
-SHA1: c5d18988008654b3cbde3b8eba0f14f7123bd7c5
-SHA256: 4ffe621968d7c5256d5027229324365a0a9155cd589b1ce5f1459afefdbeec2b
-SHA512: 15f1f9339d5e86273f6bc84681a4fbe302a70b689dbd65a5ca88bc0e0e36997bf84a5a6fa597451d617f6681c783f1acef78e9b7f7c1e3b614383bbf55eabe19
+Filename: pool/main/python3-freesimplegui_5.3.0.post1-1~w2d0_all.deb
+Size: 609228
+MD5sum: 19bc50465b36a796cf0c027de1eec1f0
+SHA1: e0e47b4cea91a25623e5d7842d7d83668108eba1
+SHA256: 37c68ea2e9c8644f48b5262e04b2f582e9b483de7d9f0da58c1df1764466329f
+SHA512: a2030d4cd6dfc035b19f4f47b461c3236acac93d1035702b3cf3fef61cc6fdc55efddfc47f007e8235e4f625b0d2951fbd130c76c11604c20bc83f31a4210ceb
 Description: The free-forever Python GUI framework.
  This package was automatically generated from the upstream wheel by wheel2deb.
 
@@ -1553,19 +1491,19 @@ Description: Linux audio performance analyzer
 
 Package: python3-tartube
 Architecture: all
-Version: 2.5.231-1
+Version: 2.5.253-1
 Priority: optional
 Section: python
 Source: tartube
 Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 13103
+Installed-Size: 13183
 Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
-Filename: pool/main/python3-tartube_2.5.231-STRICT_all.deb
-Size: 3059208
-MD5sum: a59ff799e73c5a6af144398debf3d09d
-SHA1: fbfbf7f7e77b566ea77af325a4c950f0862c810d
-SHA256: d4f7f96fa1c724c8b811e9b18eb0b0f3be3d5812407173635e33a8ff25ba4d9c
-SHA512: 3ca79a28988aa6b704938b1fd1bb22975fec5593f95b399db13730fea3f31ce8773fd0ec0140d3b2eee2c51b5d8a3c22be9610a6506089ea39b7fbf1903835ec
+Filename: pool/main/python3-tartube_2.5.253-STRICT-1_all.deb
+Size: 3086348
+MD5sum: 854321d0f30f5b284a290fa1cf5d62fd
+SHA1: 43c4d11f4042f782b38bf397694bd9744db6521e
+SHA256: 67ff8bb4c95ef3cda56d00f06d5e4e7b698b42f50e92ecb196e4932d05eb560a
+SHA512: b25b888cdfd0e12eb0003d6286b85191c095e6b2be7e0e30e8f6f0becc949f2ed992685f6875bbe9520d6ad7fb849c480fc13f18f46b925b7290f4a6c8fa4dd3
 Homepage: https://tartube.sourceforge.io
 Description: GUI front-end for youtube-dl and yt-dlp
  Tartube is a GUI front-end for youtube-dl, yt-dlp and other compatible video
@@ -1646,19 +1584,19 @@ Description: sedutil ladar for Debian
 
 Package: strata
 Architecture: amd64
-Version: 1.1.0-1
+Version: 1.1.1-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 45812
+Installed-Size: 47804
 Depends: libc6 (>= 2.39), libgtk-4-1 (>= 4.12), libgtksourceview-5-0, libpoppler-glib8t64, libgraphene-1.0-0, libgstreamer1.0-0, libgstreamer-plugins-base1.0-0, libfontconfig1, libpango-1.0-0, libpangocairo-1.0-0, libgdk-pixbuf-2.0-0, libcairo2, libglib2.0-0t64, libstdc++6, libgcc-s1, bubblewrap
 Recommends: gvfs-daemons, gvfs-backends, ffmpegthumbnailer, gstreamer1.0-libav, gstreamer1.0-plugins-good
-Filename: pool/main/strata_1.1.0-1_amd64.deb
-Size: 15349400
-MD5sum: f9064e025f4e99204072d844d7c86798
-SHA1: dff97146c4946801b239bbdb79d8ebbbc82614c4
-SHA256: d3aaa68feb0075728c37203a1d45793984b15b75a50fe0937c5152bfd6b3e4c5
-SHA512: 9467f37eea87ab040962ce2004fa2fe0f3d7e551427800d17501de6639ea9198f07f899c42943eda28d83ab21df39407d7df086078ee1960f157071e9656e5fc
+Filename: pool/main/strata_1.1.1-1_amd64.deb
+Size: 15841140
+MD5sum: 5a9925be5b91118ca5ede96eab4c61ae
+SHA1: 7a34c37e66e424da3f1ed725de3416e6b13d6bf7
+SHA256: 974bd53dbcddfe650c6e51a0ee119fa7ac64533959cd08aa6b807c60696f8601
+SHA512: e9f5906d7bd3beaae94023c7b8121b83102da89f0ff24d4ce10139e4be67a895f04fc79d283663bf17906a63b6e3fcc62c862d5e747bb0e46aaef57ee8116fe2
 Homepage: https://github.com/lgse/strata
 Description: Fast, keyboard-first file manager
  Strata is a GTK4 file manager for Linux with rich previews, tabs and keyboard navigation.
@@ -1685,17 +1623,18 @@ Description: A simple TUI for interacting with systemd services and their logs
 
 Package: systemd-manager-tui
 Architecture: amd64
-Version: 1.2.5-1
+Version: 1.3.0-1
 Priority: optional
 Maintainer: Matheus-git <mathiew0@gmail.com>
-Installed-Size: 7873
-Depends:
-Filename: pool/main/systemd-manager-tui_1.2.5_amd64.deb
-Size: 2131504
-MD5sum: d012f1cdd40495b6f36664befae873d3
-SHA1: d51d8378162f65c85c3faad1c5cd905b32a1e707
-SHA256: 26843579634740fb04f2b5fc018101bd46aa1fe50e97b03c40775f6663210565
-SHA512: 0cc93f5e9c59cfd75b13b3818831da1f8978113556a15ee7cfadda7b16df09ecd5e893b047d00977ea40903247f32b617120884eb32a6204e5552323f6f1136c
+Installed-Size: 8545
+Depends: systemd
+Recommends: default-dbus-session-bus | dbus-session-bus
+Filename: pool/main/systemd-manager-tui_1.3.0-1_amd64.deb
+Size: 2144864
+MD5sum: 5fc9e30bf012a46b2c66d610be51e2f2
+SHA1: 798a947b682e4703cef85875c08238872946210f
+SHA256: e078620f5051baa055eebd0946d77b2ac96d456a1287c6d4f3f509024784e4e1
+SHA512: dc17b0b261bb78285121d90e614f21391e37dd726412bedc6d8fab134f2503673876bcded68618f36098a5bfa9fa8a238ebbd0c7ec67d7844fcb4816550c2626
 Homepage: https://github.com/matheus-git/systemd-manager-tui
 Description: TUI for managing systemd services
  # Systemd manager tui
@@ -1724,6 +1663,10 @@ Description: TUI for managing systemd services
  .
  # With a filter
  systemd-manager-tui -f docker
+ .
+ # Without watching system and user units for failure notifications
+ systemd-manager-tui -n
+ # or: systemd-manager-tui --no-notifications
  ```
  .
  ## Install
@@ -1743,6 +1686,37 @@ Description: TUI for managing systemd services
  .
  Download the .rpm file from
  [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
+ .
+ ### Building packages
+ .
+ Build native and cross-compiled binaries, DEBs, and RPMs with:
+ .
+ ```sh
+ ./build.sh
+ ```
+ .
+ The script selects the RPM architecture and binary asset automatically. To
+ regenerate packages
+ from binaries that already exist under `target/<triple>/release/`, use:
+ .
+ ```sh
+ ./build.sh --rpm-only
+ ./build.sh --deb-only
+ ./build.sh --packages-only
+ ```
+ .
+ Before packaging, the script rejects stale binaries, verifies the ELF target
+ architecture, and
+ runs the binary's `--version` command when the target is native or a compatible
+ QEMU runner is
+ installed.
+ .
+ To build or package only one architecture, combine an option with `--target`:
+ .
+ ```sh
+ ./build.sh --rpm-only --target aarch64-unknown-linux-musl
+ ./build.sh --skip-native --target x86_64-unknown-linux-musl
+ ```
  .
  ### Arch linux
  .
@@ -1769,6 +1743,34 @@ Description: TUI for managing systemd services
  .
  - ratatui - 0.29.0
  - zbus - 5.5.0
+ .
+ ## Testing
+ .
+ Run the regular test suite with:
+ .
+ ```bash
+ cargo test
+ ```
+ .
+ The regular suite includes unit, application-flow, and Ratatui rendering tests
+ using `TestBackend`, so it does not require an interactive terminal or a
+ running systemd instance.
+ .
+ Real integration tests against the system and user D-Bus buses are available as
+ an opt-in suite. Run them on a systemd-based Linux host where the current user
+ has an active user manager and both `systemctl` and `systemd-run` are
+ available:
+ .
+ ```bash
+ cargo test infrastructure::systemd_service_adapter::tests -- --ignored
+ --test-threads=1
+ ```
+ .
+ The integration suite reads real system units and creates an isolated transient
+ user service to exercise lifecycle operations. The temporary service is stopped
+ and cleaned up automatically. These tests are ignored during a regular `cargo
+ test` so environments without systemd, such as many CI containers, continue to
+ work.
  .
  ## Contributing
  .
@@ -1821,20 +1823,20 @@ Description: Python wheel to debian package converter
 
 Package: yserver
 Architecture: amd64
-Version: 1.8.0-1
+Version: 1.9.0-1
 Priority: optional
 Section: x11
 Maintainer: Jos Dehaes <jos.dehaes@gmail.com>
-Installed-Size: 10620
+Installed-Size: 10906
 Depends: libc6 (>= 2.39), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libinput10 (>= 1.19.1), libudev1 (>= 183), libxkbcommon0 (>= 0.6.1), libxshmfence1, libvulkan1, xauth, xkb-data
 Recommends: mesa-vulkan-drivers, xfonts-base
 Suggests: lightdm
-Filename: pool/main/yserver_1.8.0-1_amd64.deb
-Size: 3049700
-MD5sum: b8822e100d96470a6a2a79ebc3356bff
-SHA1: a2ded6402600a64058f354b4a5b819ebf163cbe3
-SHA256: 098e03a277a62ef5641f04b2c8214556b441075177ec00ca01ebfb5c7f052de8
-SHA512: 70727be776e2581eaa8267488715e783d8017810d70b42321a38fed2c434488743f982ccdda000cc5b3272aba6f75c8601311379ec7148cf14742f1a1b0aa339
+Filename: pool/main/yserver_1.9.0-1_amd64.deb
+Size: 3149344
+MD5sum: 151cfb5758fc8d9f757194ef76f495c7
+SHA1: b3cfdf0b58c3607bfd79465db67249eb9fb03b9c
+SHA256: dd2141c58cec010ec989c4198d7957f2e3656031a709be88e14ad1cefe2de952
+SHA512: d78a4d08003d2518bca864bb7c5e142c7a8620710f37db7ae771116f44e28b988a579407cfb6cacc63a457475d1939c9261c895e37dc72e2ad7527b6f6debad7
 Homepage: https://github.com/joske/yserver
 Description: modern X11 server written from scratch in Rust (DRM/KMS + Vulkan)
  yserver is a modern X11 server written from scratch in Rust. The goal is not
