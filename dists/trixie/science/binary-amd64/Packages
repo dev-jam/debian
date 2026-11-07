@@ -761,36 +761,36 @@ Description: Titta is a toolbox for using eye trackers from Tobii with Python, s
 
 Package: python3-tittalslpy
 Architecture: amd64
-Version: 0:2.0.0-1~w2d0
+Version: 0:2.1.0-1~w2d0
 Priority: optional
 Section: python
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 31096
-Depends: python3 (<< 3.14), python3 (>= 3.13~), python3-numpy, python3-tittapy (<< 2.1), python3:any
-Filename: pool/science/python3-tittalslpy_2.0.0-1~w2d0_amd64.deb
-Size: 7835464
-MD5sum: 358c4149bf226ad89d512431b7ae77a8
-SHA1: dfc2fc8626d9ed1a24e03de04d705a477a29a982
-SHA256: fde219eecdc09d874da92457d1c6f3572a7f27b304fcb83b6f17b4589b52a18d
-SHA512: 71ef2fa046d1c854f8a07b325621457d39661fd7033beb4d8bcf46596d8e8e68c52d300c315c4cff3e47028e33006dd5c066f28fe960ffbcdaab3c3abdd890a8
+Installed-Size: 34721
+Depends: python3 (<< 3.14), python3 (>= 3.13~), python3-numpy, python3-tittapy (<< 2.2), python3:any
+Filename: pool/science/python3-tittalslpy_2.1.0-1~w2d0_amd64.deb
+Size: 8284724
+MD5sum: fec3f575f0941e8f13e686d1075ccd00
+SHA1: aed0a1e763e68d50946caf89b79b1e5f991741ed
+SHA256: 96140c280ee573acd6add454c1dcdba9bc4d4b0a97a505670b1a38842058e5e8
+SHA512: b33c3a59e6caa55cb4cc56f5b29b996edc6ed967b064044e96ca9f5f19f8703229d7cf059214371273d65d81d9669ac458c5d3f95702aa8c384114f51c350d00
 Homepage: https://github.com/dcnieho/Titta
 Description: Interface for streaming and receiving Tobii eye tracker data using Lab Streaming Layer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-tittapy
 Architecture: amd64
-Version: 0:2.0.0-1~w2d0
+Version: 0:2.1.0-1~w2d0
 Priority: optional
 Section: python
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 35256
+Installed-Size: 45761
 Depends: python3 (<< 3.14), python3 (>= 3.13~), python3-numpy, python3:any
-Filename: pool/science/python3-tittapy_2.0.0-1~w2d0_amd64.deb
-Size: 8297316
-MD5sum: c8dc108f0785e19cc8631451073b6dcf
-SHA1: 52bf76e8145abe7102db5cd20f221c8792e4902a
-SHA256: 069a84890e64f50cbfbfee34a960d55434b9202b47ae8ae3fec7bcde0c18ed81
-SHA512: cb3dd050bd5c0fbb4322907726e842821ffbac63d3932ff36f53d19872dd89103bbebbe39e5493412f5cd11a06502f20c62acef0b569a4d528acb89fc5454919
+Filename: pool/science/python3-tittapy_2.1.0-1~w2d0_amd64.deb
+Size: 9542276
+MD5sum: e8b2b8c7da5d0292adbc4890890d5faa
+SHA1: 2f5e08602893d8908632663715ab953031ac0939
+SHA256: 7b9cd682cf87220b4e678021932c0161e27f07c5b1814dbdcc9526c08b8ef2d3
+SHA512: 914b55f4ff84539fdd728e3752fbb7efaff3232419e3160bda7efc285a170b6e94a65e2702e5022b3714384966849565e72258e1fbb174da65bbe9b21e00c30a
 Homepage: https://github.com/dcnieho/Titta
 Description: Interface to Tobii eye trackers using Tobii Pro SDK
  This package was automatically generated from the upstream wheel by wheel2deb.
