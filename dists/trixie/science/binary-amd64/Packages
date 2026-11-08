@@ -483,19 +483,19 @@ Description: Implementation of the EyeLink core graphics set of handlers for Ope
 
 Package: python3-opensesame-plugin-audio-low-latency
 Architecture: all
-Version: 13.1.3-1
+Version: 13.1.4-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-audio-low-latency
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 327
 Depends: python3:any, python3-alsaaudio (>= 0.11.0), python3-pygame (>= 2.0.0), python3-sounddevice (>= 0.5.1)
-Filename: pool/science/python3-opensesame-plugin-audio-low-latency_13.1.3-1_all.deb
-Size: 93688
-MD5sum: 9d20ee264c95e663f7e2db054ecf515c
-SHA1: f1519b398d58cbf3b1fedfc4aee5cc43808a102d
-SHA256: 441910c37d5fc0fd733579c71b7ac5f662f79d057e51c3798bb4c1a576199013
-SHA512: c44c081f738fd28df9a13fc25eea1ea44cee7053cae6920088f0783e8817e181d061bb9a9691b3aa4d4a8ab0ec5022942d96a5f45e6d33f460e63f6d9368cbbd
+Filename: pool/science/python3-opensesame-plugin-audio-low-latency_13.1.4-1_all.deb
+Size: 93880
+MD5sum: 2f6ee9c66c437bfdb01bfb677d7392d2
+SHA1: b3e616673d494100fad15650bd7a76218e47aa4d
+SHA256: c2b7d7cff3fd4312eedcc3675a2232cf66be03a72ab9f9c14f7cb487162d28ce
+SHA512: e2cacf4cebc80b5906459f4b45016de56256116d296fa0d46ac333a73897fbaa7d499001dd2445838b84613b7024080389f9bbb6fe3253b5e8efb804fa6ec20e
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
 Description: OpenSesame plugin for playing and recording audio with low latency
  This plugin for the OpenSesame experiment builder plays and
@@ -505,19 +505,19 @@ Description: OpenSesame plugin for playing and recording audio with low latency
 
 Package: python3-opensesame-plugin-experiment-manager
 Architecture: all
-Version: 4.0.5-1
+Version: 4.0.6-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-experiment-manager
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 54
 Depends: python3:any
-Filename: pool/science/python3-opensesame-plugin-experiment-manager_4.0.5-1_all.deb
-Size: 12916
-MD5sum: 96c59d31f3ae9bc978070ba66b463fd9
-SHA1: 76d44b163bbef7bdb5a50d3b65283274378f32e2
-SHA256: 4e29e4a96043b8ab6be79cb2ad4071fa42c7d020e4de2e17f846360cdb69f0aa
-SHA512: f09b276bf4ef7c50f802b00217974969e6cb36c16757a0cd3cf315c525d563a2e1fa7fc8e12f34f8a0e9d006ba4365bccefeaa143dc1d6682f3c7fae5fe83aeb
+Filename: pool/science/python3-opensesame-plugin-experiment-manager_4.0.6-1_all.deb
+Size: 13116
+MD5sum: 8f3aee467643083dc029cfb03cdee1df
+SHA1: 7047c0d9aa91c876439695ce2c3d4600baf03268
+SHA256: d0954c029ed1c362d96b888ba87c94ee6efd9b689110734f74a5395c45db32e6
+SHA512: b28ac44499a460ee1940514371f93172c77f5a138779d5bb1d27d857c352b7a93805c8502ae2be4d0dd24412ab4d6aec47e70fbe1b5a14654dbb8e6ce6b7b08f
 Homepage: https://github.com/dev-jam/opensesame-plugin-experiment_manager
 Description: OpenSesame plugin for running other experiments in an experiment
  This plugin for the OpenSesame experiment builder runs another
@@ -544,19 +544,19 @@ Description: Extension package for OpenSesame which adds support for EyeLink dev
 
 Package: python3-opensesame-plugin-parallel-port-trigger
 Architecture: all
-Version: 5.1.1-1
+Version: 5.1.2-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-parallel-port-trigger
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 58
+Installed-Size: 57
 Depends: python3:any, python3-parallel (>= 0.2.2)
-Filename: pool/science/python3-opensesame-plugin-parallel-port-trigger_5.1.1-1_all.deb
-Size: 15756
-MD5sum: d92b98911ca48c33e8a18bb7d4f9fb09
-SHA1: c712fb5aeddbf5381d3dbd57adeef742bdecb4d7
-SHA256: 3d23bb25c798d25e1d68fd8cbe5df4fec7c0b0930352f572c0289a3da80f8497
-SHA512: eff2a27153930440cc32b80376fb3842123f6ea2c8e467672af93741f6ebc4c044e3abbae3a477fb8a584ac54581c8e9de0bc364e2b9ac59f7fbb81484b27c27
+Filename: pool/science/python3-opensesame-plugin-parallel-port-trigger_5.1.2-1_all.deb
+Size: 17960
+MD5sum: 31b429217d7cb58d8f84aed453d23376
+SHA1: 4fbc00b2ba95292a05e99898641c36ff7c9a8c47
+SHA256: 0a8a7d19cb05c9e7fb5a739e33f570c2a11e4623f2c53a1f3cf8033097592b7e
+SHA512: ad05dca1695282776d2ecdffc1b916ad477eb3fc67f2a0ecea8c2128535fa2c273cc36b76dad88bea183c6365f573bae75ea8ea8bbf0231c06089e1ad41ca027
 Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
 Description: OpenSesame plugin for sending triggers through the parallel port
  This plugin for the OpenSesame experiment builder sends
@@ -566,19 +566,19 @@ Description: OpenSesame plugin for sending triggers through the parallel port
 
 Package: python3-opensesame-plugin-radboudbox
 Architecture: all
-Version: 5.4.2-1
+Version: 5.4.3-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-radboudbox
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 138
 Depends: python3:any, python3-rusocsci, python3-serial
-Filename: pool/science/python3-opensesame-plugin-radboudbox_5.4.2-1_all.deb
-Size: 43572
-MD5sum: 1e96e2cac44102287f3bc31c6505aeff
-SHA1: d80f54fb08d3ec1cf0e64bdcfa6083d7c5640a8e
-SHA256: ed0fc9197728f0bc9de6da3752b660f505aaf405997de6afa32920a4d69c0a44
-SHA512: 1e5cf3c7dc029868a1364494eb2684355d436632167125cdec6368a09d654a40b02261d06694a0c1214b51229e8fabccb2e911bf9a3cb737f9cbed67dc51b242
+Filename: pool/science/python3-opensesame-plugin-radboudbox_5.4.3-1_all.deb
+Size: 43696
+MD5sum: 587eba68ca1a456448acd5399b1db2bc
+SHA1: 70ee1c8e26f3f027ae0763ffb480352e20468b78
+SHA256: 7583fe8803983ee82e3889cf8b1263947a176a6db21c4e128f66e47135746ba8
+SHA512: e720241c87d1eefbacb63f5258c43eed4c176b1c2a2270e26a081c13523631de49bcceb81a2a0f267eee713e71a330e92b0a0dc25227f2d126551d0efedae394
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
 Description: OpenSesame plugin for the Radboud Buttonbox
  This plugin for the OpenSesame experiment builder collects
@@ -588,19 +588,19 @@ Description: OpenSesame plugin for the Radboud Buttonbox
 
 Package: python3-opensesame-plugin-screenshot
 Architecture: all
-Version: 0.8.2-1
+Version: 0.8.3-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-screenshot
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 46
+Installed-Size: 47
 Depends: python3:any, python3-pil, python3-screeninfo (>= 0.8)
-Filename: pool/science/python3-opensesame-plugin-screenshot_0.8.2-1_all.deb
-Size: 11916
-MD5sum: 64c2b2e733227f72e35188aef8efa8f9
-SHA1: 61fc639e71ce00a19d717bdaa22722684cb00342
-SHA256: c13afdcc95ab59b2580f4efc3a950ffe7743a13134b77b9ddbd043655e4beb19
-SHA512: 38ae5710dc95a7945b9b5b851f9df80290273f9fcf8b18f36eadc93632d32a445aff343c62c48433cb432533bc7dae3edce4f0a700a622892a9129880e7f9db0
+Filename: pool/science/python3-opensesame-plugin-screenshot_0.8.3-1_all.deb
+Size: 12080
+MD5sum: 5987aac01cb4d9fc219ff8ab48610ddd
+SHA1: 31426e278fa2bede37e14723ca9bd05c57e7e674
+SHA256: 78b351c41b243014e22e4fc4e0e40f99a85de7be38e9764bebee567f7d2cd978
+SHA512: 36b0f8c20b297b3efa15a7a3b15d97553329c6fd94773ca8688f71c91c54b1887ac31d3b1a880b4396ec4246ba6d8560598ce02e72f1b60390f494473d43a8ae
 Homepage: https://github.com/dev-jam/opensesame-plugin-screenshot
 Description: OpenSesame plugin for saving screenshots during an experiment
  This plugin for the OpenSesame experiment builder saves
@@ -609,19 +609,19 @@ Description: OpenSesame plugin for saving screenshots during an experiment
 
 Package: python3-opensesame-plugin-titta-eyetracking
 Architecture: all
-Version: 7.0.5-1
+Version: 7.0.6-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-titta-eyetracking
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4370
+Installed-Size: 4374
 Depends: python3:any, python3-pandas, python3-tables, python3-titta (>= 2.2.2)
-Filename: pool/science/python3-opensesame-plugin-titta-eyetracking_7.0.5-1_all.deb
-Size: 4366948
-MD5sum: 8ff6da88be0890549c619c61cae44f79
-SHA1: 98e52d431fbd7dfd7bc363ed761c928e0ed6aab0
-SHA256: 565b537f51892fd4365b71bc1a0ea81081b620df4e567ffa36bd660cda6bf394
-SHA512: d571a03d4ffd92541461315c1ee4b31e2b99b6a58810a7d1f6d770fb1bd45c59a030c05bfca2113a66352e53ddcc9e06b022fe898f04c687c4d7af44867c5b51
+Filename: pool/science/python3-opensesame-plugin-titta-eyetracking_7.0.6-1_all.deb
+Size: 4367492
+MD5sum: dc020c140bf0c4424d7f7e95c6d0c36b
+SHA1: d2bc0fd258afcda442c4941a7f0612ef70a9bf1c
+SHA256: ee2ec01794dc375eddb8c9505aeede3c3a3acda1d74208ac0c2758eec33e83e6
+SHA512: e54944043690bcc56d4068e99ec0f7358573219dacce6f04bbc94e212af83c99bb103db0e7a886356d55a2219ac9a199a16eb779e699acb6caa756ef702d1732
 Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
 Description: OpenSesame plugin for Tobii eye trackers through Titta
  This plugin for the OpenSesame experiment builder calibrates
