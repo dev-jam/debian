@@ -14,17 +14,17 @@ Description: android tools for Debian
 
 Package: apt-cleaner
 Architecture: all
-Version: 1.0-4
+Version: 1.1-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: apt, sudo
-Filename: pool/main/apt-cleaner_1.0-4_all.deb
-Size: 2456
-MD5sum: f913c7bb7b9ae68ff59aa4033cb436b5
-SHA1: 1cf36a697836ab0503315d84edd7fb010dd80181
-SHA256: f5495be98df974fa02019284eb1ee97a2f19ad0f105b0ebf837f0134ba3490fe
-SHA512: bb07f02e40bb92ee16901d8be4d240913375c0196c7d00d1def426e8b610acf3ac949eb7a91a52b253fdcf33969f962d0f78bf08c465f689907ad232a7fe7248
+Filename: pool/main/apt-cleaner_1.1-1_all.deb
+Size: 2452
+MD5sum: b0423b663530388ded617d38a054e8dc
+SHA1: d561585b9abee81c6dba99eef725c0b88e17c8e8
+SHA256: 6b25789d259dc32995d6236446a92fc98cfe7adfff1d133a1c44727fe06e62d2
+SHA512: cf70cbfd010f0af8b0531c263876dfca1d59bd9b36b48ef6c2fb3ed0a4d98332dec39ea14286aa897117ea75e775e5c50acf982dc03bb0edff32d97920510d5e
 Description: APT package cleanup tool for KDE Plasma
  Opens a terminal window to run apt-get autoremove --purge and apt-get
  clean, displays a completion status message, and waits for user
@@ -76,16 +76,16 @@ Description: Audacity 4 - Sound Editor (repackaged AppImage)
 
 Package: brave-flags-wrapper
 Architecture: all
-Version: 2.2.0-5
+Version: 2.2.1-1
 Priority: optional
 Section: web
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/brave-flags-wrapper_2.2.0-5_all.deb
-Size: 3720
-MD5sum: 79f739ee6263cd314dd222fc59dd4e82
-SHA1: 778ea303230f333a26b84be628b9dcd7ab9e6099
-SHA256: 1d21a63ae2924ce94d519741700614c467ea9736183d4a27719128607e15d143
-SHA512: 6c1880b3e7111ea8057b9468d29a67d144071b536d47fc5523a8df51812cdd066a36b07a1f0ce50dbcd102141a667835b5ce7f50b851d42afb7835bf96aeed14
+Filename: pool/main/brave-flags-wrapper_2.2.1-1_all.deb
+Size: 3728
+MD5sum: 3c8f495edc87df74436e52261159075c
+SHA1: 6ab8c72e3b70f50f2d73e5133adc0924fa733df2
+SHA256: 5c365a7118a74de0da97981c7bcced37b52b1c2970e16dde82c79839f904cb24
+SHA512: 854e9600ac817c029df3146d9d1d464463dd79c918c5fd77442d0c0f89b8e400d2a23c282a91f6c7d904d4cc899a648f28c22b9191f019f32fb52a5b2f5b5a7a
 Description: Wrapper that applies persistent command-line flags to Brave and Brave Origin
  Diverts the launchers /usr/bin/brave-browser-stable and
  /usr/bin/brave-origin-stable and wraps them so flags from
@@ -173,19 +173,19 @@ Description: Signing key for the dev-jam apt repository
 
 Package: devjam-conky-system-monitor
 Architecture: all
-Version: 1.17-3
+Version: 1.18-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: x11-xserver-utils
 Recommends: conky-std | conky-all, devjam-cpu-powercap, jq
 Suggests: libkscreen-bin
-Filename: pool/main/devjam-conky-system-monitor_1.17-3_all.deb
-Size: 10464
-MD5sum: 5ad28c97f9d6842eb7c926a0c095216c
-SHA1: 8636d1d22886dd45604223c98fc1db5e58b61dbf
-SHA256: d53c4036fac4e6804a42c93811282b8cf8ebd26d9a16184bc6b79b8b224020c0
-SHA512: 390acf2fd90f1def1d18b4a3f035e16cb21f32c66a5a526cd6fcab877f067fdb844e19a1b37c60d86fdfad684c6d8697ae7ddcf2c4628853e11e4792b7efce3a
+Filename: pool/main/devjam-conky-system-monitor_1.18-1_all.deb
+Size: 10460
+MD5sum: 0255e728deb0045aff0be163ff341938
+SHA1: 3796564e04eb261f205148bb004fb4f68310e4cb
+SHA256: 6e676b2a0733e371967b69f5e559cfddc655ce873eea8dca1dfc168708254537
+SHA512: 589c549124260817684210735b57c60559b8769ba20e1cafe770a59e1a9c8b30f250c730474f60cf1e6018a164fd1d9f7afa6bd3f6d1e4cb338d8c5537404f0f
 Description: Conky system monitor theme
  Conky configuration with Lua helper functions that scales with the
  display, plus a display watcher that restarts Conky when the
@@ -229,16 +229,16 @@ Description: Kernel hardening sysctl settings for desktops
 
 Package: devjam-external-keyring-legacy
 Architecture: all
-Version: 1.0-5
+Version: 1.1-1
 Priority: optional
 Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-external-keyring-legacy_1.0-5_all.deb
-Size: 33736
-MD5sum: bfc18f1a4010d252388be80cc171d5bc
-SHA1: 41776434460db21e680cffee17cc924ad563a9bc
-SHA256: 60c11d361733d747409a4cb283fbcedb755ae5a5a5feed01e925af123b883afb
-SHA512: a26845176418bab1bb5071bf942d5a8a9b67a2fdd53790881ed5d27bd4aa6869137613d6de6fef4e530d87c6fbca2e427940bc17c2cabb7e98dfbedc4a59acd8
+Filename: pool/main/devjam-external-keyring-legacy_1.1-1_all.deb
+Size: 33732
+MD5sum: 6fbd6787cfb4676f0af268509461996f
+SHA1: ff11eded67f0198be49f30a216348def8c13b8e6
+SHA256: 94029633d068b851188395bce260c5abeba1be168007abf6f7b22d054ce8f246
+SHA512: bfebec7d9b23ec291c8a8049ac9fcae26c198d4e6507b0fe1d97581f7b8602ffeccf07ec7c92ce38b3e8a41f6234856570bbbf414eddb678cfa0438ac8f6dff8
 Description: OpenPGP keys for external apt repositories (legacy)
  Signing keys of third-party apt repositories, installed in
  /etc/apt/trusted.gpg.d for Debian Live images that still use
@@ -248,16 +248,16 @@ Description: OpenPGP keys for external apt repositories (legacy)
 
 Package: devjam-external-keyring
 Architecture: all
-Version: 1.1-3
+Version: 1.2-1
 Priority: optional
 Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-external-keyring_1.1-3_all.deb
-Size: 44692
-MD5sum: a7d8d8a93bafc5c16d1dc97d3f37b8b5
-SHA1: fa9e207d3eef662b37a7603ec765a9f50cdda670
-SHA256: b7b74becf3a440b6f71118985d647b268c37874bb7252ce01d806f0d6b1c6eb4
-SHA512: 6b6dc0212c0411abbeca36da85da2420671a50e43873192a6ccae8d0a895d5de34c2cba30982c79209779451c1d087c21a5801c4a283dc4dde5a212f43f56928
+Filename: pool/main/devjam-external-keyring_1.2-1_all.deb
+Size: 44696
+MD5sum: 2e7d96032f09123dfaa5addefe9969db
+SHA1: 737786be7eb855d59b931632975cc3fcf6f72a8c
+SHA256: 10abbd7f6d46e22a9e62b433a894d9be3bbc9d6b880b65c1c679dcaedb3e1a8a
+SHA512: 96ff327b400785a6fa0c0937fdede32f1b731895199bc9c2fac0f3b7486b031cda7db56e88d80774cdcadc3c3f6f646fa705e70292f553fcbca657882a64ab0e
 Description: OpenPGP keys for external apt repositories
  Signing keys of third-party apt repositories used on dev-jam systems,
  such as Signal, Syncthing, OnlyOffice, XanMod, Liquorix, XLibre,
@@ -563,16 +563,16 @@ Description: Grub boot theme by devjam
 
 Package: devjam-grub-tools
 Architecture: all
-Version: 1.28-3
+Version: 1.29-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-grub-tools_1.28-3_all.deb
+Filename: pool/main/devjam-grub-tools_1.29-1_all.deb
 Size: 5480224
-MD5sum: dca2076f1ba6f1283c355d94886ddf69
-SHA1: 0c77aba420ad4222979e619872470ef5c2364fd1
-SHA256: c74c4ed571ebf0a48a0483aad39731e9775ab1c87ae4da25f60033d26d9c8aae
-SHA512: 8f6f047b26b1c811ba62fd59c00ffbff43c26e586984a9f8ff05c0c86f8d0860ae30dc1998481eb9d5569d30be01f6ef2328767d5ad775c8f39a6c48868515a9
+MD5sum: 8d4a91520a5330e7210baeeeceab2919
+SHA1: be5cf8b55c8a6ad8ddf9fdde590663f44a9bd37a
+SHA256: 3ec080139b32fd849e3a61ded875859fa8e52cc994d2b4cbfed0cb0315eb0f75
+SHA512: 3bc56f069e007af6ba8761fd8f9a4014cd72c4ce2a8f9f886fee483861c5ec17a94e5ce81d097276768e0110823b27077fc153a6492f54edcb1dfc0b1414bbe5
 Description: Grub boot items by devjam
  Extra GRUB menu entries: Rescuezilla, Clonezilla, Super GRUB2 Disk,
  a hardware info screen, booting ISO images from a boot-isos directory
@@ -601,16 +601,16 @@ Description: Dolphin and Krusader service menus by devjam
 
 Package: devjam-live-boot-hooks
 Architecture: all
-Version: 1.19-2
+Version: 1.20-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-live-boot-hooks_1.19-2_all.deb
-Size: 3544
-MD5sum: cf45de666ff63eb8273fdad78257d968
-SHA1: 567cbe8591ba6f9d58b17039366603fa180ac446
-SHA256: a7f0c35f5d56c7585452cfd54378a35a26ff3b6f679cd36a9bc2ccb8986961e0
-SHA512: 29a9653378b3f9383e546ba79a19c5fe257a9a298680f90a75bbe6b7773f3544326fc159cfb8837475bd00badfbfb38e44257000f4af14e00b317343d3141973
+Filename: pool/main/devjam-live-boot-hooks_1.20-1_all.deb
+Size: 3540
+MD5sum: 90f8b011187f80a671d0ead0103ae35c
+SHA1: 207b728443e1bbf8fc07bbfaece510d2214eae03
+SHA256: 294ca0ea1d4914b1e5ac07d5636c717bd567f4f7154778bf0692e750c392e17f
+SHA512: 971006de3fabf6a1d16d6caedab4b1eb646c5dea2761af21547817a5c516c0f8c55239c0ef22cb930b117632c50ad31479f00ee119a0fb58ea7803f2d9aa97d6
 Description: Boot hooks for dev-jam Debian Live images
  Shell hooks for Debian Live images that configure autologin and the
  default session for several desktops (KDE, GNOME, Xfce, Cinnamon, MATE,
@@ -622,17 +622,17 @@ Description: Boot hooks for dev-jam Debian Live images
 
 Package: devjam-live-config
 Architecture: all
-Version: 1.0-2
+Version: 1.1-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: live-config
-Filename: pool/main/devjam-live-config_1.0-2_all.deb
-Size: 3376
-MD5sum: 74675845e066bac6d44e2fbdc4575bb0
-SHA1: e4f9def2f7342b7cf5d6df9b542fa0750eb9608f
-SHA256: 804dae57eb7f168d63713bcf463e0cb452a155b121bc01ff9fc588e80737147f
-SHA512: 38a793fde2b9b40157b04f03b637c886edbb750596117ecebe24339bcc155a2f4be321c9a347a60beda527cca2dce63634a5ced87e94512a19eaad4ec9242800
+Filename: pool/main/devjam-live-config_1.1-1_all.deb
+Size: 3368
+MD5sum: cd8fab3aea45199714a56df32fe7bd8a
+SHA1: 1b4789dfb47075c3f3d9a2f8c04791e231842976
+SHA256: 110cd36657e10fb7d55e51b509300b9c338237b284daa130fb4afc9cce107680
+SHA512: f5242f4e88f81d5ce11652f71db56fb0715620fc915ad9bfa05b38445a0766ad6433a30ea7c758daa1a3ef0fdd88123b1c1be72df3d1b91ed8ab9d9ac51968ea
 Description: Debian Live session settings by devjam
  Settings that only apply to a Debian Live session, through live-config:
  .
@@ -647,17 +647,17 @@ Description: Debian Live session settings by devjam
 
 Package: devjam-mpv-config
 Architecture: all
-Version: 1.1-5
+Version: 1.2-1
 Priority: optional
 Section: video
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: mpv
-Filename: pool/main/devjam-mpv-config_1.1-5_all.deb
+Filename: pool/main/devjam-mpv-config_1.2-1_all.deb
 Size: 3836
-MD5sum: 9167ba026926ace10ee6bfddbdad8afb
-SHA1: 18aff10bcb3066bf1f40dbbdcd366a655f35b9cb
-SHA256: 6f728bd852df294c916e398f654c4c92d0288527b4151383d3cb419f33387df4
-SHA512: 9f22897003d3a28648339015326e2a437c1202c956a524d0d85c9d17bae99c5dab17ddddafb003bc64a051ece066f737cd017f730f016b5e050adb1d60f35696
+MD5sum: 9cfdbab7d6414dca7edf5ea1e29a9b30
+SHA1: ef8ce36e3cd1b7bd66336255120d491d9532415d
+SHA256: 4e5c8578a3b0e43838b8182b5c4d46bdde94a33f1cb2e930cbc5ba74f916e127
+SHA512: 4ed6af46c5ce6a3552cf9492cf71b8e39dfc222d4b785e0d730325481f84681992cfa4f346348a64b4fef84287b959668a57319cf5c83ea4ba03d85c667a1a70
 Description: mpv configs for the CLS lab monitors
  mpv configuration profiles for the monitors in the CLS lab and the
  switch-mpv-config command that installs the chosen profile as
@@ -665,17 +665,17 @@ Description: mpv configs for the CLS lab monitors
 
 Package: devjam-pipewire-scripts
 Architecture: all
-Version: 1.3-3
+Version: 1.4-1
 Priority: optional
 Section: sound
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: systemd, libnotify-bin
-Filename: pool/main/devjam-pipewire-scripts_1.3-3_all.deb
-Size: 4208
-MD5sum: de8fdb76478c20081fc5b4dc12704b3d
-SHA1: a63ad39601c82477f0c0f116f34aa9c76e53bd7f
-SHA256: 2fb0b731517b9915558d67afba15067b70f8433c1554b7228965d48f664e4f64
-SHA512: 5b394b9480c40134c310e9e69e4c2ddbf3577f86cf058a54cc9a794ab8b43f33b25823b3122f1aa92982a0fd96b27f16cec92227741b53d34417cb2123c538ca
+Filename: pool/main/devjam-pipewire-scripts_1.4-1_all.deb
+Size: 4212
+MD5sum: 570c909c20b15c5dabb506598c3910b5
+SHA1: c8003541f7bdcdc1bad4cfaeb06f4f41071b6a21
+SHA256: fb6923ab5a781b26803c0c7e15db85c7bc3b6569408a961e598f01b87c92782f
+SHA512: 71f8f1d7e932cabc9f157489db7421bbebac5c4740f3dd630f8a09cd37c2b18ab4d2e11e3d3470c677420e23dd774486f0039e41a207443b9cb2cd0f5c5885c3
 Description: Scripts to switch between PipeWire and ALSA-only mode
  Menu entries and scripts to stop PipeWire and let ALSA clients use the
  sound card directly, and to switch back:
@@ -724,19 +724,19 @@ Description: KDE Plasma defaults by devjam
 
 Package: devjam-s-benchmark
 Architecture: all
-Version: 2021.01.08-2
+Version: 2021.01.08+devjam1-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: python3:any
 Breaks: devjam-tools (<< 1.98-1~)
 Replaces: devjam-tools (<< 1.98-1~)
-Filename: pool/main/devjam-s-benchmark_2021.01.08-2_all.deb
-Size: 24654768
-MD5sum: abb052abf487038cfeb8e2480cc2d581
-SHA1: 7f5c48858444edba011bb56e83df84df71ce7310
-SHA256: cca1ce23b30ca05e2f295466873c2b5a22da1868b1e8da386808bd0a9e1be0a9
-SHA512: 160571e5cc92648a5272c8cae90de9e21252303d2be831ee7ab501bc0793f4c16ee6ffebb12cf24c61d1402e2ce59a0737bbe1c3d8d47d9af0dbeb4033ff21f9
+Filename: pool/main/devjam-s-benchmark_2021.01.08+devjam1-1_all.deb
+Size: 24654776
+MD5sum: 32a8ce6bb88afc80da47038924e5d28e
+SHA1: d40a97babedb8ad567c206fe7668a687cb363247
+SHA256: 1c2af962f36f37f899915f8b5cbb7ca4ec278f52eb14b808a354f68965179f19
+SHA512: 43d846a30e4d85c93ad2fa090809f5b8baf0ff51a084f32e8fe76f1b7baf10e70ce004d92d51eae8ffdc92cbe3749980d0977c7ec2b0068c90f92a37fb1fbb99
 Description: S benchmark suite for storage I/O responsiveness
  The S benchmark suite by Paolo Valente measures application start-up
  latency, throughput, fairness and video playback while the disk is under
@@ -783,17 +783,17 @@ Description: Low latency tools and settings for Debian
 
 Package: devjam-system-config
 Architecture: all
-Version: 1.25-2
+Version: 1.26-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: hstr
-Filename: pool/main/devjam-system-config_1.25-2_all.deb
-Size: 6936
-MD5sum: a9d38e3a02858b7774e7db3da0f80878
-SHA1: 64aafdf4fb58efd5a9fb4f82f10a84e586745a92
-SHA256: 8ecb87c6940c862eb0f3b99b3939177b35574b2617164db4fdeb9fc9d9b8d1fa
-SHA512: eed7808d1e590c27c518276ae2e8df775e3cdfa93e2ad51ac025923c85ac30055d63a55ed61fe1ba2b5a1bac914b7b7183f7a8d012fa028c3a8603b62549142e
+Filename: pool/main/devjam-system-config_1.26-1_all.deb
+Size: 6928
+MD5sum: 71f9df264fa2daaed435e02b16f96e31
+SHA1: 5143fc358032b3b35cee96371ce780357b593b10
+SHA256: 7739c59a239f67cceea388a0b05a68de5dd3b62208a44ee0c8666b312e415010
+SHA512: fccead550c30d887450d0b5e3453ff1768577e615ee410a004313eab881788604b993c0ed3bf97194b4441b7ea5a4f2cdce6b81c1995b3fa9496e33c227968e1
 Description: Generic configs by devjam
  General system settings: timestamps in the shell history, default bash
  aliases and profile for new users, bash drop-in snippets in
@@ -805,17 +805,17 @@ Description: Generic configs by devjam
 
 Package: devjam-thunar-actions
 Architecture: all
-Version: 3.5-7
+Version: 3.6-1
 Priority: optional
 Section: xfce
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: thunar, thunar-archive-plugin, thunar-gtkhash, catfish, imagemagick, zenity, mediainfo-gui, baobab, inotify-tools, pacpl, meld, genisoimage, mkvtoolnix, cfourcc, mediainfo, ffmpeg, devjam-tools, fclones, zstd
-Filename: pool/main/devjam-thunar-actions_3.5-7_all.deb
+Filename: pool/main/devjam-thunar-actions_3.6-1_all.deb
 Size: 7304
-MD5sum: 4546909e3c790ff25668e6bf7bf3f4f4
-SHA1: e9e31bc12aee61df1c04ff7ff97efe2dbbd55049
-SHA256: 924526e6675ed648a779ae59533f9efeea606f56b1dbf7d3fcf9aa50eaf226dc
-SHA512: 3d8078c4b3e73133a52fbdbca36c739ebc7e2b2c6c3824e210be8a52a45dddd81b07234cc15abe5d89a66fd9f8616b988ef3f8b1aff88cd5591f7e9a69e36459
+MD5sum: ce4a4346e3fd1dd2e053464ac76729eb
+SHA1: 8c34b799c3e7a48fd3af75cbd8ca402cd107a5c1
+SHA256: fabac802eb60ffd504289515d64f4c337a7154ffe3c9e2aecd1acf462f85f661
+SHA512: a96f8aca993633d5d5fab15245706f8bca4813236e54b9fada5fdb064091ec46f04281d415abeb34d76c75a367b1d3f790d717c3c6567d5c0a9e1cf383626052
 Description: Thunar custom actions collection
  Collection of Thunar custom actions for audio and video conversion,
  images, archives, duplicate checks, file comparison and MATLAB. A
@@ -872,16 +872,16 @@ Description: CLS desktop wallpapers
 
 Package: devjam-x11-monitor-config
 Architecture: all
-Version: 1.1-5
+Version: 1.2-1
 Priority: optional
 Section: x11
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-x11-monitor-config_1.1-5_all.deb
+Filename: pool/main/devjam-x11-monitor-config_1.2-1_all.deb
 Size: 3584
-MD5sum: 174875adc7600ba654e3b99fb4526454
-SHA1: f20aa4d299e08b730705f05bfd051a54af5fb3d4
-SHA256: b421aa45407f16021a78efbc6134c3a367ad502702a7d0f86f80e8d9dfdb261c
-SHA512: 7e650dc95840d49b9e8e85e19f8e2afcdc0fcc1d5fb19081859386ac706eb2a1f303e1806c62400fcf488c67bddc4efd4296248328d80b9533628f70f5c04b05
+MD5sum: ad6e0a021e95e97d7b02c1a8d5a4d9af
+SHA1: 822310d96280c8f8d0a1515dcac1af713c537569
+SHA256: 3f9987f5a20d68fbcad01c20aafd6ca765fc73bdb5a834f21c14af3907e9ec48
+SHA512: 3c52df3ee8dbdf385cffbd3b53835a15f8b2c8bc3879150c1be7df46d9f8de37037428d71479c86b7244ac7ebc6ea42cda66478d1318042da6b3a93f643d9e3e
 Description: X11 display size confs for the CLS lab monitors
  X11 monitor profiles with the physical display size of the monitors in
  the CLS lab, for correct DPI, and the switch-x11-monitor command that
@@ -907,16 +907,16 @@ Description: Fast neofetch-like system information tool
 
 Package: fclones-gui-launcher
 Architecture: all
-Version: 1.1-5
+Version: 1.2-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/fclones-gui-launcher_1.1-5_all.deb
-Size: 24752
-MD5sum: 464343ea6aa0a682aa092e1bc0311aa3
-SHA1: 3511ad3cf97f2f242f60347a45457d1da17d4e1e
-SHA256: ee87d37bb1585e218c32b84449dafa1cecc9d964bf3a4a1d8099d8c32820e5b3
-SHA512: 2514e70e50b5d1112fc28148945f339717e724ee0db47b9fe2e5e26d5caf00a86e9467069b600a9db3f534c0051a1f0434344ed803212dec948489b2fba369b2
+Filename: pool/main/fclones-gui-launcher_1.2-1_all.deb
+Size: 24756
+MD5sum: a5ffb9dcc219501d276fe40cd3e84ee4
+SHA1: 7cb0277811f4d091677f8cb99292afe79252f77e
+SHA256: 6e2e953c5441b71d02126afb0681357f35284a3faf6a6a4711c04c8d0088064a
+SHA512: bea9b85aadc6d244dad3f958e67e1dc9c4bfc08c2c70b0771f6189ca2d99d0a8ccc4f7cc6996d07bbd4975e0efbd9db7398c251c035bca26562c9050dc194cb7
 Description: Desktop launcher for fclones-gui
  Desktop entry and icon for fclones-gui, the graphical front end of the
  fclones duplicate file finder.

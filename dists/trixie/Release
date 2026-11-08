@@ -1,16 +1,16 @@
 Architectures: amd64
 Codename: trixie
 Components: main tools science xlibre
-Date: Sun, 08 Nov 2026 09:59:36 +0000
+Date: Sun, 08 Nov 2026 10:10:25 +0000
 Label: dev-jam
 Origin: dev-jam
 Suite: trixie
 MD5Sum:
- 132ad61ff3423113481e9cbed7e29f2b              159 Release
+ 245697359c8c6056a2a514e60981f09c              159 Release
  21c04842fbb03e03feecb173dd6198d9          1119077 main/Contents-amd64
  43c562f6e8ff5f0dbbca14271663a438            56057 main/Contents-amd64.gz
- 70406e9efa1ce8ea3452515ed3373b32            81298 main/binary-amd64/Packages
- bdc5a92900609bce106a7229e1f3375d            33273 main/binary-amd64/Packages.gz
+ 9a49716d2f4aa5a4d6542e96f636d744            81314 main/binary-amd64/Packages
+ 8d050264617381049a3d7a179452998b            33278 main/binary-amd64/Packages.gz
  1401530d2aa5d3f9fad8b9511465a26e            74727 science/Contents-amd64
  b1b06190603593919e222bd03cd77882             6161 science/Contents-amd64.gz
  fede9526997e75c2ecc7d6e04b646687            36990 science/binary-amd64/Packages
@@ -24,11 +24,11 @@ MD5Sum:
  eb1f89b108fbb0fe7c906ffcee4df7c9            73248 xlibre/binary-amd64/Packages
  05b1eab18fe811b9d248dfb1b1099336            21199 xlibre/binary-amd64/Packages.gz
 SHA1:
- e2fa1309079d7cad895e0d912eff4b36b2912645              159 Release
+ 3c6cad26c71fe615d0578b4a486830725e2adb3c              159 Release
  1628d405414e2ac6def155c857c2a1fb5907d7ef          1119077 main/Contents-amd64
  e75a0d30cce5f5f880f7616d46fd6cbeda0b69d2            56057 main/Contents-amd64.gz
- cd801689ad33dc80ba13058cecc8d378be7141b9            81298 main/binary-amd64/Packages
- 8a0b80629955bcb5f1c946e79fbcade54d6f159b            33273 main/binary-amd64/Packages.gz
+ 1d9a36cd05b8b383cf574e46bbc8bd61036facb2            81314 main/binary-amd64/Packages
+ 56da342eca2a1d8d33bb62428d007a36ddd89468            33278 main/binary-amd64/Packages.gz
  fcd3b139fa1d88c5d37483b3688b10b09af7acff            74727 science/Contents-amd64
  1c6bcabe41d136f7650200e80baf4e186e2146df             6161 science/Contents-amd64.gz
  f65a5462c1ec7af72968cb2fc6632f289bebcb6e            36990 science/binary-amd64/Packages
@@ -42,11 +42,11 @@ SHA1:
  3d3ba1f833f9522e10581cf239cfbce7f49870f8            73248 xlibre/binary-amd64/Packages
  11b1f9562b679088f62238b9f6e294d4f0013347            21199 xlibre/binary-amd64/Packages.gz
 SHA256:
- 5ba4e9664a7f3f6508596ec16f87a62c58d72921e95d94d4c0dcdd0b723c3c6f              159 Release
+ 8dc121ec60042ca59a97bf7ab839a12adefa021352a89473d70b52431f6e1ee1              159 Release
  f3eb8461ae6e831d58c6cb2abc5417e9de058f5f9912f28b79dfd8295c72c69c          1119077 main/Contents-amd64
  fdf06446030502eb33cf37b018e6d96a028d6665c09293723dc6f2b06a94e971            56057 main/Contents-amd64.gz
- 25608a9e8562065bd506ed2f75a8e8ab28079b4fce039e8593b9d7c4b95d79e5            81298 main/binary-amd64/Packages
- 4e2a208afd2a30d3777a93064988ee3a831346574e7e3dce97feac6b5e7affad            33273 main/binary-amd64/Packages.gz
+ c0afc9573383b235f8a2591f0e38efd539a7e9493a09ad9d81a1c047f3073bfe            81314 main/binary-amd64/Packages
+ 0202dd2b4c0b9907914cac67627e19e38686b4ee8a78be6836bf54e3bd96e02c            33278 main/binary-amd64/Packages.gz
  002c3596e220bf659cce511c5808ec1269f1db0dc326555009109d54c75df130            74727 science/Contents-amd64
  c0ab11ce82910f7cbea272b9ad2e9eced4b80fd8c24d702b715d2f90a35dbba7             6161 science/Contents-amd64.gz
  78b478cae7b3c124ac8a7339c536fa889eda23ffd97fffe5d6f631a8af69d14a            36990 science/binary-amd64/Packages
@@ -60,11 +60,11 @@ SHA256:
  9b6d78ff121a0816bff3bf1e2550a97c436b81714aa032bf9794c8688e13f68f            73248 xlibre/binary-amd64/Packages
  a6f2c996c9715bfceb8cb15e4e01cb448108d0fdf3456208bc419972a9a77ead            21199 xlibre/binary-amd64/Packages.gz
 SHA512:
- ddeb0a3b0e191666117f2f5236f6fe5a9bc6fc346be93be728eed87937802b9d3a90809e294024a0049259c08a92206f4bf1ad05515d2e1a27a192eb8f8671ff              159 Release
+ 224743f4dd8d671bd765f1068baa52640023af2ebd4c884dc44004c6fb536bb69eac79c67f17f4f006f8c8708c5daaf7031a6c0c316daed7ec4946eb7f202b08              159 Release
  2e1868ff02fc2a0124fbd1406299bf7c40001d0d41e52b190662e50138a1244f2ca50dbefb6daa1efd4b1ef4e08bbdfe01c1e96fe42d7fbc5b8b94c3c77deef3          1119077 main/Contents-amd64
  c3d2e753f8e80887c82d90fb6231a033b2e3837065072f1322c59ffe2572c8deedd44406feb0c740e5a6702097edd51464ddf981ec342d92e1f2308cf6d43600            56057 main/Contents-amd64.gz
- d43e79dce2a1cc4e4b380d7a73fe4c76c5f1c8734f4d2903f3f01ece183411388830a3aa29123909dd6e58324c884c4ad60ce9d4fc02fa52da4ca9c653bf25f8            81298 main/binary-amd64/Packages
- 589eb7da91e443abbe22b2e1190c29647797201d8b2f1123e5a3157393bc549b1b1e8f85d377ce6ade83d88af54a88565f03c676cd9f8c89c3828dd7a6c51623            33273 main/binary-amd64/Packages.gz
+ e34b4173732db798c2ccf644097f00af01066a51b7fb264111b72c440e112a0ddc7c0365b44eaa436b660c9f03cc68c83c8425f4568e769e6e4db5926e244560            81314 main/binary-amd64/Packages
+ be7b4afeaf1402e30e6017871323269748385607e6d8b522b08d874b8c8c3cf5a2f43011437bdb6a3325498ee11469003e72da4167be4a7205d56d017916f91c            33278 main/binary-amd64/Packages.gz
  b77c3329db1009a8656168eab934b4da51c053b6f581a451c0122dc9b68117c99ff4e7d6215aaad57f6d936f8ef151f6c263e3313a5d2774b80f4b4d5ad65e51            74727 science/Contents-amd64
  6eac68bfd2c6e1cc25dca6626c3e74c8c5cfbfb4b27ebaaacbced221d20351ea7098f83617acd333af1bdfd52ca412edcc62d126504673eba7903be9553e5ad0             6161 science/Contents-amd64.gz
  dd0b0723942d1f3bb14172023779d562b8c0e15e6f0f1ca7c45eabd04f236f848648f0dff7bec5712f2df7395a4a340dd57bd29a786c90f33080d9eca661db00            36990 science/binary-amd64/Packages
