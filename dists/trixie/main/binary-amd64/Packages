@@ -303,16 +303,16 @@ Description: GPU acceleration flags for Chromium
 
 Package: devjam-gpu-intel-config
 Architecture: all
-Version: 1.0-11
+Version: 1.1-1
 Priority: optional
 Section: graphics
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-gpu-intel-config_1.0-11_all.deb
+Filename: pool/main/devjam-gpu-intel-config_1.1-1_all.deb
 Size: 1860
-MD5sum: fde67b7632a6751a11e3d379021b728a
-SHA1: 855ed74b74fff5b2b46447888dddd5ef945b6cbd
-SHA256: 696eb70f9bfa380d91514b8989a2e09c8310bb64166ec0ce055cce62aa1e80cf
-SHA512: d7b8349eee77edf8eb58db1b6d24eefad15a68070d70ac1c60415824da078e8ab02059818bb07dc96d19a41cbb0769fcef742011c49d268cdbae430b80699507
+MD5sum: 1857b0ba4ed5ae9157125318d94236d8
+SHA1: d574d72305eb8ba5dc7787026220e97024695795
+SHA256: b4d44e7bd553fe05829148848ac4c895324466e93e7dc08d83584759006096a2
+SHA512: a7d0e0d688fef99dd6dd701a7fcb9dddde8c224b887d1ad7f772049798df67e3709b3133bd9dc14df42e8cd55b5d2e320763b8078794178f800318cbacc04694
 Description: Optimizations for the i915 Intel driver
  modprobe options for the i915 driver that enable GuC/HuC firmware
  loading, frame buffer compression, atomic (nuclear) page flips and
@@ -320,16 +320,16 @@ Description: Optimizations for the i915 Intel driver
 
 Package: devjam-gpu-mesa-config
 Architecture: all
-Version: 1.1-6
+Version: 1.2-1
 Priority: optional
 Section: graphics
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-gpu-mesa-config_1.1-6_all.deb
-Size: 2248
-MD5sum: 2d7d72f81b8d110d59d487b318d459ae
-SHA1: 60db2675d57a3ee58f2d3914dd857390f04ff27c
-SHA256: a172299286cc7f933e7cfecbb58a8a78ca101aac7eb5beee060af7c6e7e98d3a
-SHA512: 0da8f4b8178f103531ed4f7b53173cb90e5167abc0993936b2b81d4e4b5ce7da0a45f3bc36a1409b3ab1b2ff784f9267fd71855fb04694a31ae335895e26881e
+Filename: pool/main/devjam-gpu-mesa-config_1.2-1_all.deb
+Size: 2240
+MD5sum: 246b29b3bb00a5cbdb48151411417b20
+SHA1: 874745b8d4a9bb99f6e2d455f2b2c3b6b9a4aa9a
+SHA256: b741ba76942f35cc10f0b1c8524b79b20fed15eea02e9c711c6f1070e86a0604
+SHA512: 57c351182d28bf7fa694d212e9f5763e3e15cc1cd6a6b860bd5587c80e862e19a97ff4d9b492bc1930cb1bebe40629d5720158ccaaab14d681107e89c7f2b804
 Description: Mesa optimizations for gl threads, DRI and video decoding/encoding
  Mesa settings through drirc and environment variables: threaded GL,
  no-error contexts, Intel compute class, MPEG-4 VA-API and Vulkan video
@@ -529,17 +529,17 @@ Description: Use EGL instead of GLX for KWin and Qt
 
 Package: devjam-gpu-x11-xlibre-tearfree-plasma
 Architecture: all
-Version: 1.4-6
+Version: 1.5-1
 Priority: optional
 Section: x11
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: xlibre
-Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-plasma_1.4-6_all.deb
+Filename: pool/main/devjam-gpu-x11-xlibre-tearfree-plasma_1.5-1_all.deb
 Size: 2204
-MD5sum: de2401750c375a27ffe17683fb381d62
-SHA1: 65dd99b93e6d530ca2d09b14a635605a79309637
-SHA256: d31141cb7cb0d380ff20adb2d6420a605f14ac4f9dce913262a239c507e68efa
-SHA512: 75deff16ce814032ef5b5f9e6176a7859f7556561c7c2102358d885f18841c995ec762e4edaeed06f402d8495063904bb5d1834dfdf13de8450021a08dd8102f
+MD5sum: 2fcbd89762c04ba4082095b17b04fc93
+SHA1: 5a84bbc755f2a923eb23399ba41e0f68e7bc4bd6
+SHA256: 4d3f0a99de442c5336d795b2059ded9a9f128bc915b071cf7671244733cd2148
+SHA512: 68a027ef1365e37ac4ee80b59cdf4f729097b46c2c1ca3ca8dc194f960d52a33a637541a639461e6d2c046598064cd29568f99105c8e646eec4b806f48a3ce02
 Description: Let the X server handle vsync for KWin
  Disables sync to vblank in KWin and Qt Quick on X11, so the modesetting
  driver of XLibre (or a recent unreleased Xorg) handles vsync and
