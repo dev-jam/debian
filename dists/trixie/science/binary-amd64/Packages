@@ -483,19 +483,19 @@ Description: Implementation of the EyeLink core graphics set of handlers for Ope
 
 Package: python3-opensesame-plugin-audio-low-latency
 Architecture: all
-Version: 13.1.4-1
+Version: 14.0.0-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-audio-low-latency
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 327
+Installed-Size: 333
 Depends: python3:any, python3-alsaaudio (>= 0.11.0), python3-pygame (>= 2.0.0), python3-sounddevice (>= 0.5.1)
-Filename: pool/science/python3-opensesame-plugin-audio-low-latency_13.1.4-1_all.deb
-Size: 93880
-MD5sum: 2f6ee9c66c437bfdb01bfb677d7392d2
-SHA1: b3e616673d494100fad15650bd7a76218e47aa4d
-SHA256: c2b7d7cff3fd4312eedcc3675a2232cf66be03a72ab9f9c14f7cb487162d28ce
-SHA512: e2cacf4cebc80b5906459f4b45016de56256116d296fa0d46ac333a73897fbaa7d499001dd2445838b84613b7024080389f9bbb6fe3253b5e8efb804fa6ec20e
+Filename: pool/science/python3-opensesame-plugin-audio-low-latency_14.0.0-1_all.deb
+Size: 95696
+MD5sum: d9d6ae211c5d5e49caf62befcbb20622
+SHA1: 75310297b635677aa1be7ec1ea2f88ba226f0360
+SHA256: 5688ba23207c1647e07686255284222fe7462f2f4593933fa0ab2a1479ef3e44
+SHA512: c9eb3f182b4ebd20a4e08d9552616b04bc7b5f29a31005d6199da1c08160896d08fee9d59683be1e6af1eda50f1859e7826182d68d508cecfee33681f8c944df
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
 Description: OpenSesame plugin for playing and recording audio with low latency
  This plugin for the OpenSesame experiment builder plays and
@@ -544,19 +544,19 @@ Description: Extension package for OpenSesame which adds support for EyeLink dev
 
 Package: python3-opensesame-plugin-parallel-port-trigger
 Architecture: all
-Version: 5.1.2-1
+Version: 5.1.3-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-parallel-port-trigger
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 57
+Installed-Size: 60
 Depends: python3:any, python3-parallel (>= 0.2.2)
-Filename: pool/science/python3-opensesame-plugin-parallel-port-trigger_5.1.2-1_all.deb
-Size: 17960
-MD5sum: 31b429217d7cb58d8f84aed453d23376
-SHA1: 4fbc00b2ba95292a05e99898641c36ff7c9a8c47
-SHA256: 0a8a7d19cb05c9e7fb5a739e33f570c2a11e4623f2c53a1f3cf8033097592b7e
-SHA512: ad05dca1695282776d2ecdffc1b916ad477eb3fc67f2a0ecea8c2128535fa2c273cc36b76dad88bea183c6365f573bae75ea8ea8bbf0231c06089e1ad41ca027
+Filename: pool/science/python3-opensesame-plugin-parallel-port-trigger_5.1.3-1_all.deb
+Size: 18848
+MD5sum: b18828aa10aaf5ed53ce29010625b06d
+SHA1: c625eb9b8036d247be84e5aa3d08bd56eaa83b1b
+SHA256: bf2110b48ae1bf663b01add38dc213d8ba1d09acc54fee2695cedf6eaa58871f
+SHA512: f0c595b94202a836406da575431086bf3345089784a41ae12ccae0f2fc329176c416ddb98dd8c61235c8bd4e7edea0e43e64977b3de26f1a75229b8a55c97eca
 Homepage: https://github.com/dev-jam/opensesame-plugin-parallel_port_trigger
 Description: OpenSesame plugin for sending triggers through the parallel port
  This plugin for the OpenSesame experiment builder sends
@@ -566,19 +566,19 @@ Description: OpenSesame plugin for sending triggers through the parallel port
 
 Package: python3-opensesame-plugin-radboudbox
 Architecture: all
-Version: 5.4.3-1
+Version: 6.0.0-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-radboudbox
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 138
+Installed-Size: 158
 Depends: python3:any, python3-rusocsci, python3-serial
-Filename: pool/science/python3-opensesame-plugin-radboudbox_5.4.3-1_all.deb
-Size: 43696
-MD5sum: 587eba68ca1a456448acd5399b1db2bc
-SHA1: 70ee1c8e26f3f027ae0763ffb480352e20468b78
-SHA256: 7583fe8803983ee82e3889cf8b1263947a176a6db21c4e128f66e47135746ba8
-SHA512: e720241c87d1eefbacb63f5258c43eed4c176b1c2a2270e26a081c13523631de49bcceb81a2a0f267eee713e71a330e92b0a0dc25227f2d126551d0efedae394
+Filename: pool/science/python3-opensesame-plugin-radboudbox_6.0.0-1_all.deb
+Size: 50048
+MD5sum: ce6553cc9ae5ee21f27ae2a4f4efa840
+SHA1: 307e668e9b8b4753fd2274dd88553470256b4692
+SHA256: b5e8ba248d55464effddfa9a8f45fdd3587d1c2119a210ad9209f2c9ed738d9c
+SHA512: 2d7f51380b4c22a3c5d1918b79b07cc12906bc73bd0ebb46543e01cf2a62db8f658c1fbd27b5be6bafad95f6c47a42625d6f0b9a71269bbd50a19f156a63d68a
 Homepage: https://github.com/dev-jam/opensesame-plugin-radboudbox
 Description: OpenSesame plugin for the Radboud Buttonbox
  This plugin for the OpenSesame experiment builder collects
