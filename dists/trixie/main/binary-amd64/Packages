@@ -824,19 +824,19 @@ Description: Thunar custom actions collection
 
 Package: devjam-tools
 Architecture: all
-Version: 2.2-1
+Version: 2.3-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: curl, jq, ca-certificates, pkexec, python3:any, mawk | gawk
 Recommends: sudo, gh, sox, flac, wl-clipboard, debian-keyring, devscripts, lintian, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, linux-cpupower, dkms, debsecan, genisoimage, csvtool, libevtx-utils, systemd-container
 Suggests: devjam-s-benchmark
-Filename: pool/main/devjam-tools_2.2-1_all.deb
-Size: 60700
-MD5sum: 7a8fde5bd56290290b94df9e554f4049
-SHA1: eda1a144386c73b4eb9775ed07801df61eb35e89
-SHA256: 66873c701c06f63648761125d9e1916ac16188ccbdcef0135e095ad1856a10d7
-SHA512: 32d3f491cb4a796ac4251603f62431042b7fc83aff3787ad1259b060fb0c5d28a55753a77b31a8f3581fc5e1f27f03cc6a2667c0d8e8ef77af5fa0a6d2b0a5a3
+Filename: pool/main/devjam-tools_2.3-1_all.deb
+Size: 61044
+MD5sum: 3f2ac5e798db4acfcff33dbeae31c3f3
+SHA1: 116a720b3ffb3f54209656daf68520ee02441bd5
+SHA256: 330a84f5a4fd27f18c1e481fcf3504cd248af727227ec8db43dd6ce785c26a83
+SHA512: 676bf5c97731eee68e95e09b7366d85e3fc726b53122258616c09f4df95afad3c58d349a95db504c5b936dae53904e8e3cc15bf6abff71542a1d590b9bf235d5
 Description: Scripts for packaging, audio and video, files and system upkeep
  Command line tools by devjam, grouped by task:
   - packaging and builds: build-deb-package, bpo-build, bpo-build-host,
