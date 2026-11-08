@@ -65,7 +65,13 @@ echo
 
 # Generate and sign the Release files
 echo "Generating and signing Release files..."
-apt-ftparchive -c .cache/release.conf release "dists/$SUITE" > "dists/$SUITE/Release"
+# apt-ftparchive release lists every Release file it finds under dists/$SUITE,
+# so the old one must be gone and the new one written outside dists/; a plain
+# "> dists/$SUITE/Release" creates the file before the scan and Release then
+# lists itself with a wrong checksum
+rm -f "dists/$SUITE/Release"
+apt-ftparchive -c .cache/release.conf release "dists/$SUITE" > .cache/Release.new
+mv -f .cache/Release.new "dists/$SUITE/Release"
 gpg --yes --default-key "$KEY" -abs -o "dists/$SUITE/Release.gpg" "dists/$SUITE/Release"
 gpg --yes --default-key "$KEY" --clearsign -o "dists/$SUITE/InRelease" "dists/$SUITE/Release"
 echo
