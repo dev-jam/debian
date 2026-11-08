@@ -783,17 +783,17 @@ Description: Low latency tools and settings for Debian
 
 Package: devjam-system-config
 Architecture: all
-Version: 1.26-1
+Version: 1.27-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: hstr
-Filename: pool/main/devjam-system-config_1.26-1_all.deb
-Size: 6928
-MD5sum: 71f9df264fa2daaed435e02b16f96e31
-SHA1: 5143fc358032b3b35cee96371ce780357b593b10
-SHA256: 7739c59a239f67cceea388a0b05a68de5dd3b62208a44ee0c8666b312e415010
-SHA512: fccead550c30d887450d0b5e3453ff1768577e615ee410a004313eab881788604b993c0ed3bf97194b4441b7ea5a4f2cdce6b81c1995b3fa9496e33c227968e1
+Filename: pool/main/devjam-system-config_1.27-1_all.deb
+Size: 6940
+MD5sum: b0caa74a99ea3a3c7a0f17f035d0fd9b
+SHA1: 75551391bd649f97d029fbe2c267ecbca543180c
+SHA256: 6738fc0dfc0e05753b9a8039a860fdd2539e03bc41d31da312ab159074d1a59f
+SHA512: 5d2d7a8dd522ba8d71fc4b32971de2ed4c2f19d7408c5680d08844a77d68644170a02d20f3bdab9f9241668ece80a4b5e3f525a985526a624d3d8ca891074626
 Description: Generic configs by devjam
  General system settings: timestamps in the shell history, default bash
  aliases and profile for new users, bash drop-in snippets in
