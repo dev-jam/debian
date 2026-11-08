@@ -1264,6 +1264,7 @@ usr/bin/check-flac					    utils/devjam-tools
 usr/bin/check-io-schedulers				    utils/devjam-tools
 usr/bin/check-unique-fclones				    utils/devjam-tools
 usr/bin/check-unique-isolate-fclones			    utils/devjam-tools
+usr/bin/check-versions					    utils/devjam-tools
 usr/bin/compare-diffoscope				    utils/devjam-tools
 usr/bin/convert-folder-to-video-iso			    utils/devjam-tools
 usr/bin/copy-quoted-paths				    utils/devjam-tools

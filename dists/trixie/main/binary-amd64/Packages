@@ -824,24 +824,24 @@ Description: Thunar custom actions collection
 
 Package: devjam-tools
 Architecture: all
-Version: 2.4-1
+Version: 2.5-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: curl, jq, ca-certificates, pkexec, python3:any, mawk | gawk
-Recommends: sudo, gh, sox, flac, wl-clipboard, debian-keyring, devscripts, lintian, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, linux-cpupower, dkms, debsecan, genisoimage, csvtool, libevtx-utils, systemd-container
+Recommends: sudo, gh, git, sox, flac, wl-clipboard, debian-keyring, devscripts, lintian, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, linux-cpupower, dkms, debsecan, genisoimage, csvtool, libevtx-utils, systemd-container
 Suggests: devjam-s-benchmark
-Filename: pool/main/devjam-tools_2.4-1_all.deb
-Size: 61520
-MD5sum: cd5bb1f5a9d1f749a7bee99cad6886c9
-SHA1: 5fa3a06818f84448b9d08d62a59889a92709c0af
-SHA256: fa87ffb398a7c1f8e5e175dafef38af9bd7e247ba9ea4b0f345dce5c73659ad2
-SHA512: 2800011d09b948ec1257f37a8f925a65c091466a34c4df4acee9196c33a60396ca159593a3a108521c3ed2f658b78d1c2ce857a1d2733fd705fe371ed398c95f
+Filename: pool/main/devjam-tools_2.5-1_all.deb
+Size: 64252
+MD5sum: cb9ccd64909394d2126fd3f23ae2b8f6
+SHA1: c3d7375c58821cfb342704c5883b2f7dff24ae4f
+SHA256: ab701994248f4ea3a022cd95e847d9a8ffbe35bff649bdb7bdc48fece02df96d
+SHA512: b2ef5400b6e87975c51f4846577bc52c3f8ab2213903de9c6388fa68cd0255ea6802f2ae6d1b3bf5f2e27df573cf24389fe505fc519f3cacb008b0f9e0229f03
 Description: Scripts for packaging, audio and video, files and system upkeep
  Command line tools by devjam, grouped by task:
-  - packaging and builds: build-deb-package, bpo-build, bpo-build-host,
-    bpo-resume, sbuild-local, appimage2deb, update-local-debs,
-    update-artcraft-repo, nspawn, lb-build
+  - packaging and builds: build-deb-package, check-versions, bpo-build,
+    bpo-build-host, bpo-resume, sbuild-local, appimage2deb,
+    update-local-debs, update-artcraft-repo, nspawn, lb-build
   - audio and video: aud-convert-codec, aud-convert-channels,
     vid-convert-codec, vid-convert-container, check-flac, mkvdts2ac3,
     change-fourcc, alsa-capabilities, audio-monitor
