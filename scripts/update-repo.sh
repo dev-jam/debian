@@ -50,6 +50,34 @@ if [ -n "$LARGE_FILES" ]; then
   echo
 fi
 
+# -------------------------------------------------------------------
+# One version per package: pool/ must not hold two debs of the same
+# package and architecture (also not in two components). The control
+# fields decide, not the file names.
+# -------------------------------------------------------------------
+DUPLICATES=$(
+  find pool/ -type f \( -name "*.deb" -o -name "*.udeb" \) -print0 | sort -z |
+    while IFS= read -r -d '' file; do
+      fields=$(dpkg-deb -f "$file" Package Version Architecture 2>/dev/null) || {
+        printf 'unreadable\t%s\t-\n' "$file"; continue; }
+      pkg=$(sed -n 's/^Package: //p' <<<"$fields")
+      ver=$(sed -n 's/^Version: //p' <<<"$fields")
+      arch=$(sed -n 's/^Architecture: //p' <<<"$fields")
+      printf '%s\t%s\t%s\n' "$pkg:$arch" "$file" "$ver"
+    done |
+    awk -F'\t' '$1 == "unreadable" { print "  - " $2 " (not a valid deb)"; next }
+                { n[$1]++; list[$1] = list[$1] "\n  - " $2 " (" $3 ")" }
+                END { for (k in n) if (n[k] > 1) print k ":" list[k] }'
+)
+
+if [ -n "$DUPLICATES" ]; then
+  echo "ERROR: pool/ holds more than one version of these packages (or unreadable debs):"
+  echo "$DUPLICATES"
+  echo
+  echo "Remove the old versions from pool/ before running this script again."
+  exit 1
+fi
+
 KEY="debian@bobrosbag.nl"
 
 source scripts/components.env
