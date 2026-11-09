@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: amd64
 Codename: trixie
 Components: main tools science xlibre
-Date: Mon, 09 Nov 2026 18:47:59 +0000
+Date: Mon, 09 Nov 2026 18:50:07 +0000
 Label: dev-jam
 Origin: dev-jam
 Suite: trixie
@@ -78,18 +78,18 @@ SHA512:
  fcff6e20197d801f909fdfdfa43310d25c17d3aaf36f5d3a1f6ffa290b29172fe9be566f79b79ebbf9b6e480eb232be0b0398a2899085b2ee234941b30bb00b4            21199 xlibre/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmryFV8UHGRlYmlhbkBi
-b2Jyb3NiYWcubmwACgkQi19wb+ePuyQXExAAj4XIh0c17v+h+OkwRmzkLwmxXv7B
-l+lFNFjSaVYmDm75wQFPYp9euae7XnG1n5YENHB+RkKIdEYlnHh7WLsiY7NJHdq/
-XM9LBtaA4twxedwZPLX1SKF50cR0YuWfVmAdsZ8gEH7doBNX31+zI+Nhxs1Wf08p
-CLUMF9WZvb//9/kO3Cy0qREDBAzastK+Ow7zp5QR5AxO/r2KBTkNVvndwj2WnsDq
-Sfi5mz3zy5umIHC2IlzgZ08FlG6OI227+O1ejfEZzi3W/SS7+kydVkgrZg8+2cC9
-FmCwa30mGh6Litrxma91Yj/4CG0mwrrJAhQv/0llnv3gc0NuXCf2jdk8Bdf4bKcm
-g52KhkZmJPtOYCJ1Dqe+jpo6FsUIjyJ69gVYAaSjYGwDHoR7Z/PIKia097rfOX/Z
-h98B3hRNRvsOCLAltpd3wPf2Ujwy9e2GLD5dKpqzzDp1ot6EAkPecKMynWY+vAjC
-esnflWaIInXc4aCJNzF7fNrnaS+nVrwUr4OWkl0nLiwpvgxiQI4QTmKZJfyCoHQg
-x2g1DXnDusvWEjX8mSeMBgA0Oc4Z0ZkT44pbW0FIhC440k5+rqbVOAKJdpjvGEHM
-TsKvt7o+ChI8eeRLbv54FNETQSkYV9ivGm0aMnFirY0BwmDXPhqBjpVoiZSjr597
-yEhi+V2ozOP3Uig=
-=+wmj
+iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmryFd8UHGRlYmlhbkBi
+b2Jyb3NiYWcubmwACgkQi19wb+ePuyRoIQ/+N81AK/DLnZO86C+2FaRlz+uNuf2+
+9cak6Wkha02Pcar17J9s/f3r9znFOiLh7R0uDGdkcW9Io/Qkej+0u/5VkdSO4wZ9
+BiSfPZ3q91mjEjtIPs2xJ6vHp+4+m+GIcl/qs/7wWFyGFT6Ywx/cOHx5V1NVjO/A
+1m1KUX2hplseNkxl6w8GRxOZCg2SJoNUDLbnC2q81zem0LS/RmLRM3iWyNzKqTRD
+IfUcALqLvdzhFL/boyqf6sRJi2KMFMIqSuHnZsMScEZ1T0sHrDqXDQwUpTZ3nwmC
+8C3//fgHi7G+Jaoxown+VKsjtFtoTBYye4p0SGRrgxuwNWM/v74dMK6LFsyNau+j
+sMUCIjTbvdQPkYsJIh7yoj7MaCdtYK/cO+U3HDjCBV3ZZ4qqaxQwMwjGLfhv92aQ
+UUVcY4oW1SQpuCUW6psvUfY1OStOMxi6ELqjPyWAOYop/oAj0cR99yPsQlRn2Qpv
+Dx6Y3PEClq00kQuJiP1w/hDQ4S/t6UDhdJ11nZCtXQWPV/mXG0mlIn+XZwRl4r5A
+3DqHSdYNGONU90i3/M8CBPkFCzecHvZH95RF2cgDbvqZIRPKAerZTgt3unNPn51t
+qFjwlELJgdMc2YpY/sZ7iEfrnOQfcxE27ZFs55d8UFPWWwoh8ChWpKeEsp0v/ZWI
+ffLChGRgHsYG1Xk=
+=qnxT
 -----END PGP SIGNATURE-----
