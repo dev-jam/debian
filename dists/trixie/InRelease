@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: amd64
 Codename: trixie
 Components: main tools science xlibre
-Date: Mon, 09 Nov 2026 10:41:22 +0000
+Date: Mon, 09 Nov 2026 18:47:59 +0000
 Label: dev-jam
 Origin: dev-jam
 Suite: trixie
@@ -78,18 +78,18 @@ SHA512:
  fcff6e20197d801f909fdfdfa43310d25c17d3aaf36f5d3a1f6ffa290b29172fe9be566f79b79ebbf9b6e480eb232be0b0398a2899085b2ee234941b30bb00b4            21199 xlibre/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmrxo1MUHGRlYmlhbkBi
-b2Jyb3NiYWcubmwACgkQi19wb+ePuyQMGxAArRrqiTMzrXfVe/QIC0RHtu17Agnq
-SJg5VkHT7k0pa3kZYTggaf8cjNNrNTZmmLl1gafw36CRPATSpBGEq/O80fkIqou1
-cGcAHxuw7/SZWVzcNT7g6uGGZgGYAhFdvPmOhXcCDC/Rss4WYbqF1QPCJytM89LU
-bx1gtt0YbcGAI2G3VkB7V/bUtJFugZzE8gp6Rzm5mW+ZO6NeOgw08pY6DYmP1PLp
-8qtb4XrvBNbc/CVPnUkZV1Hrmhpjy6tZh9+YEkp6jVii7nbqdxslfstRUY/mZZIi
-SAibEh/6MIoqnQ0HGow3TCYcnO6VZ7WqGYPq4gtzmQbf8L3lWQWd9PR5qeph7O2E
-bn8IlqDqMVqTB+9EbkvJcC/ywK8ec/JZDx1L1JqqJtNmd4wz/t28k8Ntq3mIFXqn
-pNP6kF++77PhehqV09Ti6gF1jDtFCY9rDUe5om9qDXebz2JpBgsXpJG2+YWVzts2
-PjZm0rJvBEBJs67Z/N62Xkyfk6ZHAl31qT/81myk0n1GXpWjVhtaeUTKc99UiDMD
-cNdFMAgB1M/uH2EqGZfktmsXJv1f5cxuAd1c5m1qfsQpPkqcKbGVCYpiJNKWny39
-NfYpmrMGpXXbAPdnz7qYgom3fChcgYFG9LH6JkW8c1UmL08cRiThc4xOfHaBsu3H
-UZxkYUkgoTr4XXo=
-=ukBJ
+iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmryFV8UHGRlYmlhbkBi
+b2Jyb3NiYWcubmwACgkQi19wb+ePuyQXExAAj4XIh0c17v+h+OkwRmzkLwmxXv7B
+l+lFNFjSaVYmDm75wQFPYp9euae7XnG1n5YENHB+RkKIdEYlnHh7WLsiY7NJHdq/
+XM9LBtaA4twxedwZPLX1SKF50cR0YuWfVmAdsZ8gEH7doBNX31+zI+Nhxs1Wf08p
+CLUMF9WZvb//9/kO3Cy0qREDBAzastK+Ow7zp5QR5AxO/r2KBTkNVvndwj2WnsDq
+Sfi5mz3zy5umIHC2IlzgZ08FlG6OI227+O1ejfEZzi3W/SS7+kydVkgrZg8+2cC9
+FmCwa30mGh6Litrxma91Yj/4CG0mwrrJAhQv/0llnv3gc0NuXCf2jdk8Bdf4bKcm
+g52KhkZmJPtOYCJ1Dqe+jpo6FsUIjyJ69gVYAaSjYGwDHoR7Z/PIKia097rfOX/Z
+h98B3hRNRvsOCLAltpd3wPf2Ujwy9e2GLD5dKpqzzDp1ot6EAkPecKMynWY+vAjC
+esnflWaIInXc4aCJNzF7fNrnaS+nVrwUr4OWkl0nLiwpvgxiQI4QTmKZJfyCoHQg
+x2g1DXnDusvWEjX8mSeMBgA0Oc4Z0ZkT44pbW0FIhC440k5+rqbVOAKJdpjvGEHM
+TsKvt7o+ChI8eeRLbv54FNETQSkYV9ivGm0aMnFirY0BwmDXPhqBjpVoiZSjr597
+yEhi+V2ozOP3Uig=
+=+wmj
 -----END PGP SIGNATURE-----
