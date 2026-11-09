@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: amd64
 Codename: trixie
 Components: main tools science xlibre
-Date: Mon, 09 Nov 2026 19:49:20 +0000
+Date: Mon, 09 Nov 2026 20:04:16 +0000
 Label: dev-jam
 Origin: dev-jam
 Suite: trixie
@@ -78,18 +78,18 @@ SHA512:
  fcff6e20197d801f909fdfdfa43310d25c17d3aaf36f5d3a1f6ffa290b29172fe9be566f79b79ebbf9b6e480eb232be0b0398a2899085b2ee234941b30bb00b4            21199 xlibre/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmryI8AUHGRlYmlhbkBi
-b2Jyb3NiYWcubmwACgkQi19wb+ePuyTxOg/+Lx4//+KUen+RbO7MOEljPWfTSly7
-mjz3XD/uKrKi4LuloCheeh91GRlgworUu8InqYBIffA33tJ9P9XNYA8dsmkU46+O
-Cmmf2ATXwE06sLas0YfsF6NAGG2XP2UXIFv41P9jF+E5jtbhUNvXorowFUEX+kfr
-o0LrYo8nvbgWUobqsgr61gOwMM4tKUCEPmwK6UoDioUk/Q26FRx3yh52sICKZjvR
-VmP5gycmgN/PuiQlUouSBBDz5Pddik+mtUq8y1LiM92xk7uTaRmMskeslT0JKDxC
-y2z7hA9svshSDoYI7VV55j1qJAGK6RlpzU09gRx36i6WPnQLJ40dwma5m2QjQ8CP
-mBwUJVx0ehcaNpNKf7wT5Z9hamBZVYbKvbeAn/dwa65NkuBxgo05zeOsRXOhUsUs
-SR7Xlg2hIix2b0lr2uKDew5xqUdEGjbKfv6yvS1/03mg6J2NKfRq6AbjKlimK/CI
-RZ9GjNoOnta9AVZ2fNebJ3U84StFQ+WKHmnCisVYYRSqNXAP6hDa30JqAzk+gO+7
-8cv10AtsuAzpIzMgj6O4hgVuxeapnaW4hUKEXHI1/cqwV7xgb8NLnujAl4SEjdSO
-R4+pqyCjVTOKAAncAjkgSFhAotTliENEHu70BNVHj23fmj+3rhyo0rPZ6tPSeYFx
-ELKAWFYbTVL6J4Q=
-=xVlj
+iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmryJ0EUHGRlYmlhbkBi
+b2Jyb3NiYWcubmwACgkQi19wb+ePuySPehAAjBiikNzLVjSsdv/wZLNyrceCMXRR
+bsyma63K05HrStB6LmIOvWOpe0VS2adDYvpk33dIzr/SrBJgVY8yLpQ/k/UhkXjX
+lgHPfvsfs9jeoOzGKyUYmUwOt+NHGO/18mfd/TGlte4xRTaQRZq6Hvr9OJpphNwD
+e0ZsRss42EzeGNXS7RyQFENmvMDEUCwj4Tjin5i9nk2aQb0MjhVpGqivnsdwFb+Q
+Dx5oIAhjjbR6BBZcmWYeg+wHDhA8bMmHeXpzIskQ1u3Y5wsT0kzwZU/1YiivUx9t
+QuWtUWn54INb0d9Lzo3iW6EzcYkcl1cKta1KfRsw5lcRIy1ZkMjWUgBfdSIrJm0f
+pjMa3bRLDBrDt0INmZ3Agblmz7LSEPindtGFOQeTt8gN6uf4I+zKepgfnHMmZlF4
+7ONBL7+wSeoK9ZKM2VllETvqSbOzYoPf/bWS5z6+QV0n5leSapAqZOc+np41/b3m
+CgvhqeZ0QhBcvacLDlD0IcsvvuYsE88fYK0ZMFU4AaDlSJqsQmkXR7R5F5IQMYl0
+CjJ7eCIOdg4CchQSVxeWnUGLabgNI/uiqeoHHAgrfJ8ASOiBSO132lNzhIrfQKZd
+BASZmm8tTpin0SK2Dw3VmhArmwlH4ePoJAp8T2W7gWIVvy7ZqAoz1W+7ZOOY580D
+jfK54QWkrRe3hgw=
+=H/EO
 -----END PGP SIGNATURE-----
