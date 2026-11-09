@@ -135,12 +135,12 @@ etc/grub.d/61_boot-global-isos				    admin/devjam-grub-tools
 etc/grub.d/90_shutdown-reboot				    admin/devjam-grub-tools
 etc/live/config.conf.d/devjam-user-setup.conf		    admin/devjam-live-config
 etc/navidrome/navidrome.toml				    navidrome
-etc/profile.d/VULKAN_VIDEO_ON.sh			    graphics/devjam-gpu-mesa-config
 etc/profile.d/egl.sh					    x11/devjam-gpu-x11-xlibre-tearfree-plasma-egl
 etc/profile.d/gtk4-vulkan.sh				    x11/devjam-gpu-x11-gtk4-vulkan
 etc/profile.d/history-timestamp.sh			    admin/devjam-system-config
 etc/profile.d/kwin_env.sh				    x11/devjam-gpu-x11-xlibre-tearfree-plasma
 etc/profile.d/mesa.sh					    graphics/devjam-gpu-mesa-config
+etc/profile.d/vulkan-video-on.sh			    graphics/devjam-gpu-mesa-config
 etc/rescuezilla/no_source_overwrite			    admin/rescuezilla
 etc/rescuezilla/share					    admin/rescuezilla
 etc/rtirq.conf						    misc/rtirq
@@ -2256,6 +2256,7 @@ usr/share/lintian/overrides/apt-cleaner			    admin/apt-cleaner
 usr/share/lintian/overrides/brave-flags-wrapper		    web/brave-flags-wrapper
 usr/share/lintian/overrides/devjam-archive-keyring-legacy   misc/devjam-archive-keyring-legacy
 usr/share/lintian/overrides/devjam-external-keyring-legacy  misc/devjam-external-keyring-legacy
+usr/share/lintian/overrides/devjam-gpu-mesa-config	    graphics/devjam-gpu-mesa-config
 usr/share/lintian/overrides/devjam-gpu-x11-synaptics-config x11/devjam-gpu-x11-synaptics-config
 usr/share/lintian/overrides/devjam-gpu-x11-xlibre-dmabuf    x11/devjam-gpu-x11-xlibre-dmabuf
 usr/share/lintian/overrides/devjam-gpu-x11-xlibre-tearfree-amdgpu oldlibs/devjam-gpu-x11-xlibre-tearfree-amdgpu

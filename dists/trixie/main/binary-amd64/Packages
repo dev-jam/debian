@@ -320,16 +320,16 @@ Description: Optimizations for the i915 Intel driver
 
 Package: devjam-gpu-mesa-config
 Architecture: all
-Version: 1.2-1
+Version: 1.3-1
 Priority: optional
 Section: graphics
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-gpu-mesa-config_1.2-1_all.deb
-Size: 2240
-MD5sum: 246b29b3bb00a5cbdb48151411417b20
-SHA1: 874745b8d4a9bb99f6e2d455f2b2c3b6b9a4aa9a
-SHA256: b741ba76942f35cc10f0b1c8524b79b20fed15eea02e9c711c6f1070e86a0604
-SHA512: 57c351182d28bf7fa694d212e9f5763e3e15cc1cd6a6b860bd5587c80e862e19a97ff4d9b492bc1930cb1bebe40629d5720158ccaaab14d681107e89c7f2b804
+Filename: pool/main/devjam-gpu-mesa-config_1.3-1_all.deb
+Size: 2552
+MD5sum: dc84e2be7b11aca169010b44409b01ac
+SHA1: 48f46f9da04f0df2edc81b64c93799563c84dbc8
+SHA256: 6554e3e0301bd58111d6ed773b1e12d7691c0456808ac4242423f2013777f28f
+SHA512: 8788c9e7902eeae4ee5786c92dceb12c73893e38f7fa08da28b33d66cbdf73217a89f0de7de24e18213c4fd50136c7c4a671291b2813948663a7cef321c36eef
 Description: Mesa optimizations for gl threads, DRI and video decoding/encoding
  Mesa settings through drirc and environment variables: threaded GL,
  no-error contexts, Intel compute class, MPEG-4 VA-API and Vulkan video
@@ -783,17 +783,17 @@ Description: Low latency tools and settings for Debian
 
 Package: devjam-system-config
 Architecture: all
-Version: 1.27-1
+Version: 1.28-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: hstr
-Filename: pool/main/devjam-system-config_1.27-1_all.deb
-Size: 6940
-MD5sum: b0caa74a99ea3a3c7a0f17f035d0fd9b
-SHA1: 75551391bd649f97d029fbe2c267ecbca543180c
-SHA256: 6738fc0dfc0e05753b9a8039a860fdd2539e03bc41d31da312ab159074d1a59f
-SHA512: 5d2d7a8dd522ba8d71fc4b32971de2ed4c2f19d7408c5680d08844a77d68644170a02d20f3bdab9f9241668ece80a4b5e3f525a985526a624d3d8ca891074626
+Filename: pool/main/devjam-system-config_1.28-1_all.deb
+Size: 6980
+MD5sum: 0f226255e6b50c57918d9319362b7919
+SHA1: 1db948292220886a74c7fa808c4cc170a37e1a34
+SHA256: ecff4d84de030fe09aaf3ddf758de03e2a6deaac189dc19461c0bc4c54b87510
+SHA512: 5c02e91075f4463a500f3220fbd88399eb32c6be375d23a27904d897706c60340e0f46d80ccd33f7ee259dbc8ea5c01c4a811cf50c6f9a9fa69f62e25b44aa19
 Description: Generic configs by devjam
  General system settings: timestamps in the shell history, default bash
  aliases and profile for new users, bash drop-in snippets in
