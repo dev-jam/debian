@@ -4,15 +4,15 @@ Hash: SHA512
 Architectures: amd64
 Codename: trixie
 Components: main tools science xlibre
-Date: Tue, 10 Nov 2026 09:51:45 +0000
+Date: Tue, 10 Nov 2026 19:43:55 +0000
 Label: dev-jam
 Origin: dev-jam
 Suite: trixie
 MD5Sum:
  b2189c009b0c8c53998b005b46bd7b94          1119214 main/Contents-amd64
  e904538569f55e4397381ebf1a6920d4            56065 main/Contents-amd64.gz
- a61c7a976155def4238dd3a8c81799da            81333 main/binary-amd64/Packages
- 2e9d1dea26c9139fd05db244c98cef33            33267 main/binary-amd64/Packages.gz
+ ac79529c4682582ed5cb7a687e35d1d1            81333 main/binary-amd64/Packages
+ e8afc860b5d4d4e89a5eb408af436d0a            33267 main/binary-amd64/Packages.gz
  a2176c6e9d74030e1a36ce07146c2a97            75812 science/Contents-amd64
  583b890a44ed458ef3d37f15fb9dbb5a             6185 science/Contents-amd64.gz
  dd53c93a7ec859647ed4b3c78521ac15            36990 science/binary-amd64/Packages
@@ -28,8 +28,8 @@ MD5Sum:
 SHA1:
  3bf284f11a2ff3a0dffdd5c9981e9b608639871f          1119214 main/Contents-amd64
  d49cb84028d75eaf140e2165e8062077f65b557a            56065 main/Contents-amd64.gz
- 4440770158b63a9550f43d4292de7a6665142ef6            81333 main/binary-amd64/Packages
- e03b07a356866ebf887f5ebf0db50fd4cefca1d4            33267 main/binary-amd64/Packages.gz
+ e911e8af7d432e197b5a246cd2356f5d9b2e9577            81333 main/binary-amd64/Packages
+ abe1a873262849dacbbc7bcbb97eb96bb4f695d5            33267 main/binary-amd64/Packages.gz
  7dd5c4032832103e7b8c9d845c98edc0b76247c9            75812 science/Contents-amd64
  4922e48dea80cc1eee25d48d0e8ef907e580f373             6185 science/Contents-amd64.gz
  3cc0a769a1907213ec2df85c10b85c3d15defc9d            36990 science/binary-amd64/Packages
@@ -45,8 +45,8 @@ SHA1:
 SHA256:
  12412772263a6c565d8feebf47cdb988a3686a5979efd63a0af8ffe541848f3c          1119214 main/Contents-amd64
  d697bfdd36bfae75d37f2a4b5c68817b2547b56e9dcd4094c2fcad012bd52c3e            56065 main/Contents-amd64.gz
- a1027b124db3f0f25caca6d0ea7e7b8c1d5576dd7cb11ee80604531d237911e6            81333 main/binary-amd64/Packages
- eaaf3113751cecd28e19c5a73e363524c7f8f9aa149bafb5d685f3f99dfdb515            33267 main/binary-amd64/Packages.gz
+ d64959d303e42055422e48a06eed020f00b34ab43d93ea5a534c6844b2b273c5            81333 main/binary-amd64/Packages
+ ef57df789d1b84eada9ce05a6946deae15262d4c5831dfe2285dbf4595e99ba3            33267 main/binary-amd64/Packages.gz
  99e27744ffdd3d6b1f442cfab210281c45e9e4f0cf05dd57a31b7d6549ca53b7            75812 science/Contents-amd64
  9546761a0ed81daa31f7032e975f821c5418e832539551e0b483f66ec3902e55             6185 science/Contents-amd64.gz
  ea0fa39520a2dd2cd889652e83ab607754cf8d142672086e7b7ed22355a44e44            36990 science/binary-amd64/Packages
@@ -62,8 +62,8 @@ SHA256:
 SHA512:
  25ca8ac8472690adad059087545335dd592c12050ef589c2f3d586e1e3c0346c07d40b47b564b3efaec7ac00f9852e7292700878bb9d59594c25ec2ce0e80079          1119214 main/Contents-amd64
  0a77478096c92b0384ec0ed0fadcd30a46f48fbbf3f86225f4be2282acdeeb00587ca96133fe4a43e8b2af0d0590a4fa30e49aed16d64707b211f94753236327            56065 main/Contents-amd64.gz
- c7980c6d0651e6200f161147f6bdf9a7e88ef0bf382689ffd945c7f8d40a434939e419b924b1b149903646dd388e14de259aa9815c1f0a1f5b470be80e550c82            81333 main/binary-amd64/Packages
- 398184ab9e55737af0e7188b0d6967cf1e701d8da83341b6d508131620c7a6189714b5235aeeb52ea6b4cadd0cf5de765fc0cfb2d2df634e87dd8a12de2d70af            33267 main/binary-amd64/Packages.gz
+ f47eb410249a89820790477214200a295d6a53c378c61b9ffd986424b4c75020e816e1ce8a5837d6341e2e81fd38017e8cc3e66d4c663378aeea8aad54a433da            81333 main/binary-amd64/Packages
+ f2c1284580c245d5b0723616592a8f4798b790271f69a1188e4939e065654f82bb6cbc68e3f553399bc0396a07f0fb2c43990df3eb9d6a0612d6ab18d247ba74            33267 main/binary-amd64/Packages.gz
  5e85d62f6ad576de48661eebd892a18f0def2cf3f4249778ead61386afacfb2e5293bd55ec5894bfa4ce634036efccb4f367354c0e8182c9b8cd3c5646cae3b7            75812 science/Contents-amd64
  18828ee1588bd58e3cba96cc749f0619fb8b4bc3162a02cb6ec7c208239f52828513b7e19530fd1114e700028222539574fdb1b8f65c32a5cd0bf4aa87a6d795             6185 science/Contents-amd64.gz
  48b41c6ad4665da5bf58d441322bc62ff2cf2694484d1a5dcdd06fb7e3e1d1ae4455588e8b7a1a978a66efdd519591ae7efcf8d895ab23f0ea4626de04e00def            36990 science/binary-amd64/Packages
@@ -78,18 +78,18 @@ SHA512:
  fcff6e20197d801f909fdfdfa43310d25c17d3aaf36f5d3a1f6ffa290b29172fe9be566f79b79ebbf9b6e480eb232be0b0398a2899085b2ee234941b30bb00b4            21199 xlibre/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmry6TIUHGRlYmlhbkBi
-b2Jyb3NiYWcubmwACgkQi19wb+ePuySUIg/9G3fpE3b5T0Fcdwhw93oNQfnw8JsV
-d2WU8oF+q4vmspUYHspRyKDonoyHQa/zU6f878Bu6HVmDzAWkWb+tdN/HC9qpNId
-h7JTnpNIdYBsaSzJMXTFsVP6PjxofhdDI1sjxNGuio6vBEubUsBakLklvuy7ksZY
-Gy0ARC1BYfdolWYHg7+nHwP5zZYEqqm2ezWc8+O62GmWb/PtnElGb/BA5O4Hc7Rd
-nsnfZvpdSd2CYUiLHIjyrMOV5Eq/Q5z0cZxN2lPsNhaWsjhR/zR57XgMyADtX7HX
-mT2TcpHMwNLukPKVq6TKWdecq8lCvnlY098KATABEeKna9lCrGeEfnRgGoEqFeCY
-0UbuFBXLNgbXbJBYdSrizY6y+yTmwKNzHEpTrIH3AjTovqsiJiE9LrTLI3TEDm97
-mg/dcHGG89nFF87o8bhXZLGe1yP/h18O/TWyQiWjScp5X4fsc6Xdrq+teJl0y7Dq
-o4x/8KXBKoAptVPQ88EtZjHVm4gO3NgaBxTarqK6BjXY9XUfBNKNUI7qwZjYGylU
-0l36MIIRSTvifLheYamNXpMkWCiBNd0GGLM4M2+QYokuHWh1myZmiqfR+bVoaPlG
-O20F967ZWYEbmEbZrSdEn039xJnp0DmXMWJhPrnD5kfY8GJcHgMQnjUBd67qRR+b
-7MLECSKZxg1/g5Y=
-=mao8
+iQJIBAEBCgAyFiEEexp+HAVxGI9+atgPi19wb+ePuyQFAmrzc/wUHGRlYmlhbkBi
+b2Jyb3NiYWcubmwACgkQi19wb+ePuyTB2g/+OoGn7JDlmrdVTG4pwQ8iYVwo5Yra
+1iAPBW532We9jjY8tiYJ/AtVTg8tlSbAZoa+H6m+xyBHSqVX3nCSU49ocmmMqt/t
+xC0WyQvgtbqn6yU1rz4aspz6zmp9p4VwDPsL2nGDeQsS01AuegnffpdlLcZakApm
+XyYF3K31kqLen5Hb+recnyrf3tmM/vCvPEg4FHOw28ZbMmGtHPXU9VIIWWQN7Lbt
+g08uTLcf8hfal0r7iVIKeMBQXQ0QtpFlsIhUB0oITJrCq1qJ3N6xyopjwO96wPIQ
+CD4kze0eIcQVKOfejvYHYnyRTyccY8Re24x+4YVBTs0PW/SGc5onbsdEGp05hOaP
+TDRNoKdPcueb7VNRZWHeoK2p/mbUPBVojqVLSRbvZVJ6BIL8vHWupaeMo4E0szl5
+Fmol2+T+kr2RAGyA8+7PSz9D1miooOBx2HnjHq2armw0Us4utx08HxbMBwzI6Zx+
+wJi1OR9Byn1Hmt5jnTI9lxRKH46xYavHpwCWpuwSEBrv6avXcktuGfUzsFud4TFU
+9Y+4wlKaSsmCtHd6nUJQt+a10rF/lTnGWajP9fi8uXYNy9RbELDKECSpDFQc/2a6
+SKrt1tkMYV6XaynFimW8r71D+h3lQW1SHd/wUXesF7ESm98c+5GfZ69Sx8TxkgmT
+0j7CVbF4MjmAtmI=
+=6MLe
 -----END PGP SIGNATURE-----
