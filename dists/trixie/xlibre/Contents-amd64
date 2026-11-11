@@ -606,6 +606,7 @@ usr/share/doc/xserver-xlibre/copyright			    x11/xserver-xlibre
 usr/share/keyrings/NexusSfan.pgp			    misc/nexussfan-archive-keyring
 usr/share/lintian/overrides/xlibre			    x11/xlibre
 usr/share/lintian/overrides/xlibre-x11-common		    x11/xlibre-x11-common
+usr/share/lintian/overrides/xserver-xlibre-dev		    x11/xserver-xlibre-dev
 usr/share/lintian/overrides/xserver-xlibre-video-intel	    x11/xserver-xlibre-video-intel
 usr/share/man/man1/Xephyr.1.gz				    x11/xserver-xlibre-xephyr
 usr/share/man/man1/Xfbdev.1.gz				    x11/xserver-xlibre-xfbdev
