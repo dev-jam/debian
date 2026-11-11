@@ -389,24 +389,24 @@ Description: DMA-BUF support for the XLibre server
 
 Package: devjam-gpu-x11-xlibre-modesetting-asyncflip
 Architecture: all
-Version: 1.0-2
+Version: 1.0-3
 Priority: optional
 Section: x11
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: devjam-gpu-x11-xlibre-modesetting
 Recommends: xlibre
-Filename: pool/main/devjam-gpu-x11-xlibre-modesetting-asyncflip_1.0-2_all.deb
-Size: 2132
-MD5sum: 5f15f6144dbe5ac38a80ef6c74db5083
-SHA1: 2032a6ede2107230c655511f3fef9e0470d656ab
-SHA256: cb8d7399d778d021e3317f3fd8d58ccfd7e5882077057d5c681afe13ea2da39b
-SHA512: 555797b027a8b23f2fcc41daf6ef57266c5ffb3e15e07c893ca98e6f6ac23af8dc224b12d0c9c037d7dd1a34ca50848a5b3c48d111e08a7d6b8718de32698171
-Description: Async flips on secondary outputs for the modesetting driver
+Filename: pool/main/devjam-gpu-x11-xlibre-modesetting-asyncflip_1.0-3_all.deb
+Size: 2160
+MD5sum: 17d9b58bdae99beed8ea19d1dae2d72a
+SHA1: b2b4f313a805be6a1d5a86c7bc6f07ab29c98cad
+SHA256: 99fae6d01f95d08f6938c927ef40de4668c3a734b53fb26ed3c4caa9cd4f74d7
+SHA512: 5c09faf32a96718812897b2af0d76a710f0623362c766d8c270a05b3c38cc75346b82011e62fd1a89d48b9dbb8a84777203937ee5853371a167a9f93c2a5fac3
+Description: Async flips on secondary outputs for modesetting and amdgpu
  X11 OutputClass section that enables AsyncFlipSecondaries in the
- modesetting driver of XLibre (default: off). With DRI3 page flipping on
- a multi-display screen only one display is synchronized to vblank;
- with this option the other displays flip asynchronously and may tear.
- Mainly useful when the displays mirror or clone each other.
+ modesetting driver of XLibre or the amdgpu DDX (default: off). With
+ DRI3 page flipping on a multi-display screen only one display is
+ synchronized to vblank; with this option the other displays flip
+ asynchronously and may tear. Mainly useful when the displays mirror or
+ clone each other.
 
 Package: devjam-gpu-x11-xlibre-modesetting-atomic
 Architecture: all
@@ -429,24 +429,23 @@ Description: Atomic mode setting for the modesetting driver of XLibre
 
 Package: devjam-gpu-x11-xlibre-modesetting-vrr
 Architecture: all
-Version: 1.0-2
+Version: 1.0-3
 Priority: optional
 Section: x11
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: devjam-gpu-x11-xlibre-modesetting
 Recommends: xlibre
-Filename: pool/main/devjam-gpu-x11-xlibre-modesetting-vrr_1.0-2_all.deb
-Size: 2092
-MD5sum: e22f601a23f1ca7f2c2145d422ae0c64
-SHA1: 5de6c74fb25b45f3d6f2130e19cc1dcbd5988f35
-SHA256: 709614872a369649cf09462f165eabdcdf7cd6e3a532f66fbd38b0481e879645
-SHA512: 554a5fe9beef49e2c0a34bc56acb6c0c27700090cc52b3091b872f25c977464a878d6cee612ed8d3ea25c5480e05a21ea8048cf3027627d700f29b45ec359411
-Description: Variable refresh rate for the modesetting driver of XLibre
+Filename: pool/main/devjam-gpu-x11-xlibre-modesetting-vrr_1.0-3_all.deb
+Size: 2120
+MD5sum: 9430a788cf97ce83c333e8866932e8d8
+SHA1: a546e0a4511fbfe4c6a554d535db794474197d79
+SHA256: d11c0e3c5d206dde90a81e9b7410fc33a23ad606acd34b4ae8eed1d9ddf30283
+SHA512: f2346384567f330266d1b9a0c54cdffa1c98a5f6d19d01fb480e3df089a16c8ee8e12f4fdfdec010ed3d9fb1d248c3264b817bf9c4030ebf020f0c0e6fddd64a
+Description: Variable refresh rate for the modesetting and amdgpu drivers
  X11 OutputClass section that enables variable refresh rate in the
- modesetting driver (default: off). VRR is only used by fullscreen
- applications that flip via the Present extension on a VRR-capable
- display. Not recommended for experiments that need a fixed refresh
- rate.
+ modesetting driver of XLibre or the amdgpu DDX (default: off). VRR is
+ only used by fullscreen applications that flip via the Present
+ extension on a VRR-capable display. Not recommended for experiments
+ that need a fixed refresh rate.
 
 Package: devjam-gpu-x11-xlibre-modesetting
 Architecture: all
