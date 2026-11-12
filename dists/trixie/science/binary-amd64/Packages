@@ -20,19 +20,19 @@ Description: Transitional package for devjam-science-experiment-mode
 
 Package: devjam-science-experiment-mode
 Architecture: all
-Version: 1.1-1
+Version: 1.2-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-system-config-rtirq
 Breaks: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
 Replaces: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
-Filename: pool/science/devjam-science-experiment-mode_1.1-1_all.deb
-Size: 17892
-MD5sum: 89b6d1bb59af322ebbd94419ce221653
-SHA1: aa295b8b9da531936bab9941a04e8aa9d1cbb2e1
-SHA256: 08694e08ff90db5819d2f370dda1be00dde9d8e7b34ceb67e5090058b6a3ec42
-SHA512: d938a1946a24d91a66149def703b85ba29dfc5e9fbfddd7b604da59b9eb6542c37eb61a46feee37242c9de2e33162d5aa00b7a70cc5db8711808c2b6f22f36d4
+Filename: pool/science/devjam-science-experiment-mode_1.2-1_all.deb
+Size: 18460
+MD5sum: ebbe74a3e1bd06c4cca899755024c175
+SHA1: b33ac4718d24907162af1dd2596aa56abe9a53d4
+SHA256: ebb661c1f0dc5e61e32ba1d0a96a7f89e5b9a4683daa74cdc79429848ef89afd
+SHA512: 3e53254450e67606c75007a16c2730291287cc343f865df0ded993950195ca2e712d197e3d969abe83cab3af92f1f8967d1bd3e3c531e764a6253973597026da
 Description: Experiment mode with isolated CPU cores for lab timing
  Experiment mode for lab computers with deterministic timing for EEG,
  button boxes and audio-visual stimuli. It adds GRUB entries with the
@@ -68,17 +68,17 @@ Description: KDE Service Menu items for science by devjam
 
 Package: devjam-science-opensesame-psychopy
 Architecture: all
-Version: 1.9-1
+Version: 1.10-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-science-tools
-Filename: pool/science/devjam-science-opensesame-psychopy_1.9-1_all.deb
-Size: 6496
-MD5sum: 1ce41c01c8f2e030d99dba28db0b56da
-SHA1: c45f8ba649477ffd266012a7b809dac9d38783bc
-SHA256: 0b6008fce37ccf27493bee9404b933fb35bb781e126e6e21d5a705dd9520ac69
-SHA512: 5695dda932745c35b9eed93580b4739c5c8f2ccc35c77051ef41affb4b76531033314d984752e828d6bce7397f7fc2dfe1e6cee5b37ed22c6155e1cb515e1b1b
+Filename: pool/science/devjam-science-opensesame-psychopy_1.10-1_all.deb
+Size: 6296
+MD5sum: 8da18274a7d20ae7694d8e548e5fe43d
+SHA1: 08c5e5e03b0eacad558b67fc35dcff93cc6ab651
+SHA256: 44558eaf67beadccab182817f6dc61f052333752e0efae38800083d37d92260e
+SHA512: 47d65346326e3f994e77256636f3badee754dd94a7839ea82b0dcc486397c0136442b8d3519cd042815c788fb84b45197dea54dfc4a49843a5d88bb70ac6190d
 Description: OpenSesame Launcher with PsychoPy
  Desktop launchers for OpenSesame, PsychoPy, PsychoPy Studio and Sigmund
  Analyst in the PsychoPy environment in /opt/psychopy, including an
