@@ -20,19 +20,19 @@ Description: Transitional package for devjam-science-experiment-mode
 
 Package: devjam-science-experiment-mode
 Architecture: all
-Version: 1.3-1
+Version: 1.4-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-system-config-rtirq
 Breaks: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
 Replaces: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
-Filename: pool/science/devjam-science-experiment-mode_1.3-1_all.deb
-Size: 18836
-MD5sum: 0fbbaa911f8bdf783b03499fad0f45cf
-SHA1: 26a912421dd7acbae92ab1390f698268cc9a73a0
-SHA256: 9cd8f14f2e12612bab14653f42c30cd651f00d375cc40951cc8a57c60d18ebe8
-SHA512: 9df9ac40807a2adcf2817a60c084c1d30ccd10e486734e77cf0086a694c3c14a0c88de528c973522d934d8105686f8baf5bc6a572a77afb39bc6e3f9c86730fc
+Filename: pool/science/devjam-science-experiment-mode_1.4-1_all.deb
+Size: 21184
+MD5sum: b314ab7650530f1588a0298c0544419b
+SHA1: ca0df4bf8b2be0a11d15b6dc0208aae9a76e610c
+SHA256: 421bfca58986d97bc8bf2e4080a2fae9f8e45d481d0a12f6f163f8afd931fdb8
+SHA512: 60212d1b8362a794a2f23a7b5072261948b1c338abc6f5000b31973bb43019e44c47c0d1e1aaa684fe0c18ce6bb33d09c64e644c1500f24d7bd9d003cc0ac96a
 Description: Experiment mode with isolated CPU cores for lab timing
  Experiment mode for lab computers with deterministic timing for EEG,
  button boxes and audio-visual stimuli. It adds GRUB entries with the
@@ -40,9 +40,10 @@ Description: Experiment mode with isolated CPU cores for lab timing
  isolate CPU cores (isolcpus, nohz_full, rcu_nocbs) and keep the other
  IRQs off them (irqaffinity). The entries are made by update-grub
  itself, for every installed kernel. In experiment mode a service pins
- the IRQs of the sound cards (internal and USB) to the isolated cores
- and irqbalance does not run. check-isolation and usb-affinity show the
- result.
+ the IRQs of the sound cards (internal and USB) to the isolated cores,
+ another one keeps services, virtual machines and login sessions off
+ them, and irqbalance does not run. check-isolation and usb-affinity
+ show the result.
  .
  Real-time IRQ priorities come from devjam-system-config-rtirq, which
  is installed with it. switch-rtirq chooses whether rtirq.service runs

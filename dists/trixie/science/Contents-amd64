@@ -25,6 +25,7 @@ usr/include/jmorecfg.h					    libdevel/libjpeg8-dev
 usr/include/jpeglib.h					    libdevel/libjpeg8-dev
 usr/include/x86_64-linux-gnu/jconfig.h			    libdevel/libjpeg8-dev
 usr/lib/debug/usr/lib/x86_64-linux-gnu/libjpeg.so.8.4.0	    debug/libjpeg8-dbg
+usr/lib/devjam/experiment-mode/confine-cpus		    science/devjam-science-experiment-mode
 usr/lib/devjam/experiment-mode/grub-entries		    science/devjam-science-experiment-mode
 usr/lib/matlab/site/psychtoolbox-3/Datapixx.mexa64	    non-free/science/matlab-psychtoolbox-3-nonfree
 usr/lib/matlab/site/psychtoolbox-3/Eyelink.mexa64	    non-free/science/matlab-psychtoolbox-3-nonfree
@@ -441,6 +442,7 @@ usr/lib/python3/dist-packages/tittapy.libs/libtobii_research-37413a8c.so.2 pytho
 usr/lib/python3/dist-packages/tittapy.libs/libtobii_research-a85796b1.so.1 python/python3-tittapy
 usr/lib/python3/dist-packages/tittapy.libs/libzstd-82d8f7e0.so.1.5.5 python/python3-tittapy
 usr/lib/systemd/system/auto-pin-audio.service		    science/devjam-science-experiment-mode
+usr/lib/systemd/system/experiment-mode-cpus.service	    science/devjam-science-experiment-mode
 usr/lib/systemd/system/irqbalance.service.d/disable-experiment.conf science/devjam-science-experiment-mode
 usr/lib/systemd/user/opensesame-psychopy-rt.service	    science/devjam-science-opensesame-psychopy
 usr/lib/udev/rules.d/00-teensy.rules			    science/devjam-science-tools
