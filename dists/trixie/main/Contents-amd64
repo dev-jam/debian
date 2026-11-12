@@ -159,8 +159,6 @@ etc/xdg/konsolerc					    kde/devjam-plasma-defaults
 etc/xdg/kscreenlockerrc					    kde/devjam-plasma-defaults
 etc/xdg/ksmserverrc					    kde/devjam-plasma-defaults
 etc/xdg/plasma-localerc					    kde/devjam-plasma-defaults
-lib/systemd/system/rtirq-resume.service			    misc/rtirq
-lib/systemd/system/rtirq.service			    misc/rtirq
 opt/audacity4/.DirIcon					    sound/audacity4-appimage
 opt/audacity4/AppRun					    sound/audacity4-appimage
 opt/audacity4/audacity4portable.png			    sound/audacity4-appimage
@@ -1693,6 +1691,8 @@ usr/lib/sysctl.d/90-swappiness.conf			    admin/devjam-system-config-lowlatency
 usr/lib/systemd/system/phoromatic-client.service	    Utilities/phoronix-test-suite
 usr/lib/systemd/system/phoromatic-server.service	    Utilities/phoronix-test-suite
 usr/lib/systemd/system/phoronix-result-server.service	    Utilities/phoronix-test-suite
+usr/lib/systemd/system/rtirq-resume.service		    misc/rtirq
+usr/lib/systemd/system/rtirq.service			    misc/rtirq
 usr/lib/systemd/user.conf.d/00-process-timeouts.conf	    admin/devjam-system-config
 usr/lib/systemd/user/pipewire-pulse.service.d/cpuaffinity.conf admin/devjam-system-config-lowlatency
 usr/lib/systemd/user/pipewire-pulse.service.d/rtprio.conf   admin/devjam-system-config-lowlatency
@@ -2275,6 +2275,7 @@ usr/share/lintian/overrides/devjam-tools		    utils/devjam-tools
 usr/share/lintian/overrides/devjam-x11-monitor-config	    x11/devjam-x11-monitor-config
 usr/share/lintian/overrides/fclones-gui-launcher	    utils/fclones-gui-launcher
 usr/share/lintian/overrides/live-build			    misc/live-build
+usr/share/lintian/overrides/rtirq			    misc/rtirq
 usr/share/live/build/VERSION				    misc/live-build
 usr/share/live/build/bin/Packages			    misc/live-build
 usr/share/live/build/bootloaders/extlinux/extlinux.conf	    misc/live-build

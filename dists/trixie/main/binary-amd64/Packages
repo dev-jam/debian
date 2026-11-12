@@ -1560,23 +1560,24 @@ Description: Graphical hard drive backup and restore
 
 Package: rtirq
 Architecture: all
-Version: 20240905-48.1
+Version: 20240905-48.1+devjam1
 Priority: optional
 Section: misc
 Maintainer: Rui Nuno Capela <rncbc@rncbc.org>
-Installed-Size: 46
-Replaces: rtirq-init (<= 20240905-48.1)
-Filename: pool/main/rtirq_20240905-48.1_all.deb
-Size: 15296
-MD5sum: 5df761f6e2207605c450959a4f50f235
-SHA1: e5cead9e73a09fad21aee4bd648bfd1070180990
-SHA256: 6392cd8a3fe9472de33d924a98f9cbd8fd9f50d9067d275911a032d15f87d549
-SHA512: 554def90bef556cad9093fd8a9f09fb79bde4a91c39cea033b5f7633e8575410ab13b5a2cf6cb83b361e75aa478f8cf96e371d7b017657a1e576e1c290954da9
+Installed-Size: 49
+Breaks: rtirq-init
+Replaces: rtirq-init
+Filename: pool/main/rtirq_20240905-48.1+devjam1_all.deb
+Size: 15940
+MD5sum: 1648f1a309992b5af59a48769228b12d
+SHA1: 8001991403929a2cdda26373f064808c28a858b5
+SHA256: 359b2c8f3c44ca7b7f3b651c6d0aa993961bfcc6fc7b29a4566706aa1cfdb943
+SHA512: 4a134e35b95cd1f2700c53893f62be55ecba79366bf5ddc96a351993aac874b1185a0d717af0eb141116af6b0693c33409c43091824d57fb3630604688f7a1a6
 Homepage: https://www.rncbc.org/archive/#rtirq
 Description: Realtime IRQ thread system tunning
-  Startup scripts for tunning the realtime scheduling policy and priority
-  of relevant IRQ service threads, featured for a PREEMPT_RT / threadirqs
-  enabled kernel configuration.
+ Startup scripts for tunning the realtime scheduling policy and priority
+ of relevant IRQ service threads, featured for a PREEMPT_RT / threadirqs
+ enabled kernel configuration.
 
 Package: sedutil
 Architecture: amd64
