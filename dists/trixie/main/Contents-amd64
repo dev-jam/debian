@@ -143,7 +143,8 @@ etc/profile.d/mesa.sh					    graphics/devjam-gpu-mesa-config
 etc/profile.d/vulkan-video-on.sh			    graphics/devjam-gpu-mesa-config
 etc/rescuezilla/no_source_overwrite			    admin/rescuezilla
 etc/rescuezilla/share					    admin/rescuezilla
-etc/rtirq.conf						    misc/rtirq
+etc/rtirq.conf						    admin/devjam-system-config-rtirq,misc/rtirq
+etc/rtirq.conf.devjam					    admin/devjam-system-config-rtirq
 etc/sddm.conf.d/10-devjam-theme.conf			    kde/devjam-plasma-defaults
 etc/sddm.conf.d/20-devjam-x11.conf			    kde/devjam-plasma-defaults
 etc/sensors.d/asus_z790.conf				    utils/devjam-sensors-asus-z790-plus-wifi
@@ -1262,6 +1263,7 @@ usr/bin/check-dupes-fclones				    utils/devjam-tools
 usr/bin/check-dupes-isolate-fclones			    utils/devjam-tools
 usr/bin/check-flac					    utils/devjam-tools
 usr/bin/check-io-schedulers				    utils/devjam-tools
+usr/bin/check-rt-processes				    admin/devjam-system-config-rtirq
 usr/bin/check-unique-fclones				    utils/devjam-tools
 usr/bin/check-unique-isolate-fclones			    utils/devjam-tools
 usr/bin/check-versions					    utils/devjam-tools
@@ -1342,6 +1344,7 @@ usr/bin/testx						    utils/devjam-tools
 usr/bin/thunar						    xfce/devjam-thunar-actions
 usr/bin/update-artcraft-repo				    utils/devjam-tools
 usr/bin/update-local-debs				    utils/devjam-tools
+usr/bin/verify-rtirq					    admin/devjam-system-config-rtirq
 usr/bin/vid-convert-codec				    utils/devjam-tools
 usr/bin/vid-convert-container				    utils/devjam-tools
 usr/bin/wheel2deb					    python/wheel2deb
@@ -1961,6 +1964,8 @@ usr/share/doc/devjam-sensors-asus-z790-plus-wifi/changelog.Debian.gz utils/devja
 usr/share/doc/devjam-sensors-asus-z790-plus-wifi/copyright  utils/devjam-sensors-asus-z790-plus-wifi
 usr/share/doc/devjam-system-config-lowlatency/changelog.Debian.gz admin/devjam-system-config-lowlatency
 usr/share/doc/devjam-system-config-lowlatency/copyright	    admin/devjam-system-config-lowlatency
+usr/share/doc/devjam-system-config-rtirq/changelog.Debian.gz admin/devjam-system-config-rtirq
+usr/share/doc/devjam-system-config-rtirq/copyright	    admin/devjam-system-config-rtirq
 usr/share/doc/devjam-system-config/changelog.Debian.gz	    admin/devjam-system-config
 usr/share/doc/devjam-system-config/copyright		    admin/devjam-system-config
 usr/share/doc/devjam-thunar-actions/changelog.Debian.gz	    xfce/devjam-thunar-actions
@@ -2264,6 +2269,7 @@ usr/share/lintian/overrides/devjam-mpv-config		    video/devjam-mpv-config
 usr/share/lintian/overrides/devjam-pipewire-scripts	    sound/devjam-pipewire-scripts
 usr/share/lintian/overrides/devjam-s-benchmark		    utils/devjam-s-benchmark
 usr/share/lintian/overrides/devjam-system-config	    admin/devjam-system-config
+usr/share/lintian/overrides/devjam-system-config-rtirq	    admin/devjam-system-config-rtirq
 usr/share/lintian/overrides/devjam-thunar-actions	    xfce/devjam-thunar-actions
 usr/share/lintian/overrides/devjam-tools		    utils/devjam-tools
 usr/share/lintian/overrides/devjam-x11-monitor-config	    x11/devjam-x11-monitor-config

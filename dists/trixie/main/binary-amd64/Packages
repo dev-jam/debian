@@ -766,6 +766,31 @@ Description: Low latency tools and settings for Debian
  priority and CPU affinity for PipeWire, access to /dev/cpu_dma_latency,
  and sysctl settings for swappiness and inotify watches.
 
+Package: devjam-system-config-rtirq
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: admin
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: rtirq
+Breaks: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
+Replaces: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
+Filename: pool/main/devjam-system-config-rtirq_1.0-1_all.deb
+Size: 4172
+MD5sum: 2fa7c6e1578c6464dba5ffd55ebaf12a
+SHA1: 4fa264e2cd4d13cb19f0cf5a3b55cf7ca984aeed
+SHA256: 00755eee6b22e5c8beefc4e1559836b6f2005b5b99d18a7bfd474c7c60b9dc8a
+SHA512: c8412631aafdce25c3335541e2554292c1c24c385b18dc1936622a2ac852fe45b82fe969cca15c6ba44e98f63f1e9448590472ba18a557236df0514210c425a0
+Description: Real-time IRQ priorities (rtirq) for deterministic timing
+ rtirq configuration for computers with deterministic timing for
+ EEG, button boxes and audio-visual stimuli: audio, USB, parallel port
+ and Intel GPU interrupts get real-time priorities. /etc/rtirq.conf of
+ the rtirq package is diverted and replaced by this configuration.
+ Includes verify-rtirq and check-rt-processes to check the result.
+ .
+ Works on its own, without experiment mode. devjam-science-experiment-mode
+ can limit rtirq to experiment mode (switch-rtirq).
+
 Package: devjam-system-config
 Architecture: all
 Version: 1.28-1
