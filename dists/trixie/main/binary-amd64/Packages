@@ -764,19 +764,19 @@ Description: Low latency tools and settings for Debian
 
 Package: devjam-system-config-rtirq
 Architecture: all
-Version: 1.2-1
+Version: 1.3-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: rtirq
 Breaks: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
 Replaces: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
-Filename: pool/main/devjam-system-config-rtirq_1.2-1_all.deb
-Size: 5536
-MD5sum: 7cfdec32f276c848873a722b783ebd04
-SHA1: 9cdb3bb14ab68678c5c4316bbe6afcfb36afd7fa
-SHA256: e617971dc273475ba748a058637500857aba61c204916193c68ec94bc309fb0e
-SHA512: 668ffb1afd888c14abfa7b7f650a777dd6fd4c1b327c5636a10ab4e7f531651572c0f77205218d2448220b73815f9ae81bc0bde1fb218391a21d0c0b8514a619
+Filename: pool/main/devjam-system-config-rtirq_1.3-1_all.deb
+Size: 5660
+MD5sum: 88c7801b50908e023b33600fb22c4bb3
+SHA1: 7f7049b554fb12b097c8bef702de8a4b605fd43b
+SHA256: 756834f645520d30b4895e2a056c10891631ebbc9c4b44a7eb8ea4afe9a2fa2d
+SHA512: 010e7b63b17061bb6be4941620c1f399f69b2be80a644374ccc667ebf6936e0e251dfbe6fcd5f77cf5b2bbb8fba5bb821f0092e7a6ba5bb4ba419715ed6cc803
 Description: Real-time IRQ priorities (rtirq) for deterministic timing
  rtirq configuration for computers with deterministic timing for
  EEG, button boxes and audio-visual stimuli: audio, USB, parallel port
