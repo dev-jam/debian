@@ -107,6 +107,7 @@ etc/apt/trusted.gpg.d/cuerdos.gpg			    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/deb.fastforward.debian.net.pgp	    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/dev-jam.asc			    misc/devjam-archive-keyring-legacy
 etc/apt/trusted.gpg.d/eduvpn-v4.gpg			    misc/devjam-external-keyring-legacy
+etc/apt/trusted.gpg.d/githubcli-archive-keyring.gpg	    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/home_cboxdoerfer.gpg		    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/liquorix-keyring.gpg		    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/mx-23-archive-keyring.asc		    misc/mx23-archive-keyring
@@ -2196,6 +2197,7 @@ usr/share/keyrings/deb.fastforward.debian.net.pgp	    misc/devjam-external-keyri
 usr/share/keyrings/dev-jam.asc				    misc/devjam-archive-keyring
 usr/share/keyrings/eduvpn-v4.gpg			    misc/devjam-external-keyring
 usr/share/keyrings/gierens.gpg				    misc/devjam-external-keyring
+usr/share/keyrings/githubcli-archive-keyring.gpg	    misc/devjam-external-keyring
 usr/share/keyrings/home_cboxdoerfer.gpg			    misc/devjam-external-keyring
 usr/share/keyrings/liquorix-keyring.gpg			    misc/devjam-external-keyring
 usr/share/keyrings/mx-23-archive-keyring.gpg		    misc/mx23-archive-keyring

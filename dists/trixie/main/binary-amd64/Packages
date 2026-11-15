@@ -229,16 +229,16 @@ Description: Kernel hardening sysctl settings for desktops
 
 Package: devjam-external-keyring-legacy
 Architecture: all
-Version: 1.1-1
+Version: 1.2-1
 Priority: optional
 Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-external-keyring-legacy_1.1-1_all.deb
-Size: 33732
-MD5sum: 6fbd6787cfb4676f0af268509461996f
-SHA1: ff11eded67f0198be49f30a216348def8c13b8e6
-SHA256: 94029633d068b851188395bce260c5abeba1be168007abf6f7b22d054ce8f246
-SHA512: bfebec7d9b23ec291c8a8049ac9fcae26c198d4e6507b0fe1d97581f7b8602ffeccf07ec7c92ce38b3e8a41f6234856570bbbf414eddb678cfa0438ac8f6dff8
+Filename: pool/main/devjam-external-keyring-legacy_1.2-1_all.deb
+Size: 38140
+MD5sum: 16e0f8847c5c5526cdfb1c0cacedf033
+SHA1: 9f23b9542a811262bb72104c28d64b18ede8c15f
+SHA256: 6fb28aee899b909c12c9695a5af0146fdba730b374c38753ff1479b51b605483
+SHA512: 4bce9e2b9333827d89bcd63fd7268b0ae92314cfa79c1584a1cb1257b313c687dbb664e8844ad88198dc3ec0899023f9b53a4710b7df4489658aea83bf5031a6
 Description: OpenPGP keys for external apt repositories (legacy)
  Signing keys of third-party apt repositories, installed in
  /etc/apt/trusted.gpg.d for Debian Live images that still use
@@ -248,21 +248,22 @@ Description: OpenPGP keys for external apt repositories (legacy)
 
 Package: devjam-external-keyring
 Architecture: all
-Version: 1.2-1
+Version: 1.3-1
 Priority: optional
 Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-external-keyring_1.2-1_all.deb
-Size: 44696
-MD5sum: 2e7d96032f09123dfaa5addefe9969db
-SHA1: 737786be7eb855d59b931632975cc3fcf6f72a8c
-SHA256: 10abbd7f6d46e22a9e62b433a894d9be3bbc9d6b880b65c1c679dcaedb3e1a8a
-SHA512: 96ff327b400785a6fa0c0937fdede32f1b731895199bc9c2fac0f3b7486b031cda7db56e88d80774cdcadc3c3f6f646fa705e70292f553fcbca657882a64ab0e
+Filename: pool/main/devjam-external-keyring_1.3-1_all.deb
+Size: 49096
+MD5sum: 23d20609990f3a40291417b2cbb340ee
+SHA1: 4b3ad27353a53b748cd82ea7547cf1c71eb141f2
+SHA256: 7cb730b6b03dc3d34ff815ca23e2daeae27c1b771d286543919ac511d6b1b2c5
+SHA512: b8d1ee8585df04358d3cb61468fcb99cbc2371e309d1333956f733300fe07b6c514065e5243e182e8a72bc467cb316c6676feb99638fb961d59b7fd9e46591e4
 Description: OpenPGP keys for external apt repositories
  Signing keys of third-party apt repositories used on dev-jam systems,
  such as Signal, Syncthing, OnlyOffice, XanMod, Liquorix, XLibre,
- Waydroid, SR Research and the OpenSesame (cogscinl) PPA, installed in
- /usr/share/keyrings for use with Signed-By in deb822 .sources files.
+ Waydroid, SR Research, the GitHub CLI and the OpenSesame (cogscinl)
+ PPA, installed in /usr/share/keyrings for use with Signed-By in
+ deb822 .sources files.
 
 Package: devjam-gpu-brave-config
 Architecture: all
