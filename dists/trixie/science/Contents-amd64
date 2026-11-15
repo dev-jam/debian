@@ -696,6 +696,7 @@ usr/share/titta-demo/demo_analyses/extract_trial_data.py    science/devjam-scien
 usr/share/titta-demo/demo_analyses/import_funcs.py	    science/devjam-science-titta-demo
 usr/share/titta-demo/demo_analyses/plot_gaze_video.py	    science/devjam-science-titta-demo
 usr/share/titta-demo/demo_analyses/plot_heatmap.py	    science/devjam-science-titta-demo
+usr/share/titta-demo/demo_analyses/plot_heatmap_video.py    science/devjam-science-titta-demo
 usr/share/titta-demo/demo_analyses/plot_scanpath.py	    science/devjam-science-titta-demo
 usr/share/titta-demo/demo_analyses/run_analysis.py	    science/devjam-science-titta-demo
 usr/share/titta-demo/demo_analyses/stimuli/im1.jpeg	    science/devjam-science-titta-demo

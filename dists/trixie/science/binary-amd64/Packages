@@ -94,19 +94,19 @@ Description: OpenSesame Launcher with PsychoPy
 
 Package: devjam-science-titta-demo
 Architecture: all
-Version: 1.0-1
+Version: 1.1-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: python3, python3-numpy, python3-pandas, python3-pil, python3-matplotlib, python3-h5py, python3-tables, python3-opencv, python3-i2mc
 Recommends: xdg-user-dirs, curl, libnotify-bin
 Suggests: python3-titta
-Filename: pool/science/devjam-science-titta-demo_1.0-1_all.deb
-Size: 9310164
-MD5sum: 36ef948402f7593f235607a7e3545965
-SHA1: d17f9d36dbe80ce81e963d52682eee93cf106b77
-SHA256: 0aeb8d13ee715ac59cbba6b745a801b8b63cff94831e79995ac227ca4e2868a8
-SHA512: 8f5189f410881880e6665f5c9dc27f7339e40e7251f0542f9fa8bf49285113f45288c7ae2f907911f40ef0c7776d3bbb51f1da2d6c8311f797bfd30e3a4c8e3f
+Filename: pool/science/devjam-science-titta-demo_1.1-1_all.deb
+Size: 9315200
+MD5sum: 96cab7f1c05126ac745306cf88f903dc
+SHA1: ea0491aba7680fea2457f7968d6362a1029ea836
+SHA256: 0d3cecb48d69dd7c61154614a5ca5ffd31730800f46a9d388e2a259f8d93f72b
+SHA512: 7b414df4dd886384ff9c435f8e0a5ecf1a93474a477a53a77e298cef27f6ca638b4917108455065abc02eb189795b8726dbeca818adf383bb5e0aca6a658e73d
 Description: Titta demo experiments and analyses for eye-tracking studies
  The demo_experiments and demo_analyses folders of Titta (Tobii
  eye-tracker toolbox), from the staging branch of github.com/dev-jam/Titta.
