@@ -92,36 +92,6 @@ Description: OpenSesame Launcher with PsychoPy
  replacement for opensesamerun, which no longer works in OpenSesame 4.1.
  It needs the Experiment Manager plugin in the PsychoPy environment.
 
-Package: devjam-science-titta-demo-analyses
-Architecture: all
-Version: 1.0-2
-Priority: optional
-Section: science
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: devjam-tools, python3, python3-numpy, python3-pandas, python3-pil, python3-matplotlib, python3-h5py, python3-tables, python3-opencv, python3-i2mc
-Recommends: xdg-user-dirs, curl, libnotify-bin
-Suggests: python3-titta
-Filename: pool/science/devjam-science-titta-demo-analyses_1.0-2_all.deb
-Size: 3482600
-MD5sum: c6a1f368640d1e785fd0afde95a71e35
-SHA1: a1419898e72bfd78682bc32491b26e9e4a3f9591
-SHA256: 46b8f2305fc49e9c88fdfda48eb7cb5a874690608bed85ced13a98632e59ed72
-SHA512: 502166fb6aa9f7f18faf12c99f3e8ebedff5cda4aff091be3dc850be137be000274c568e97ffcd2d29b9a3ee44bece30e58111d13738d82836eee8b0a8962e2e
-Description: Titta demo analyses for eye-tracking data, copied to the Desktop
- The demo_analyses folder of Titta (Tobii eye-tracker toolbox), from the
- staging branch of github.com/dev-jam/Titta: trial extraction, data
- quality, fixation detection with I2MC, mapping fixations to AOIs with
- cumulative plots, scanpaths, heatmaps and gaze videos, plus
- run_analysis.py to run all steps in one go.
- .
- The scripts are installed in /usr/share/titta-demo-analyses and copied
- once per user to the Desktop (folder titta_demo_analyses, via
- devjam-run-once), where they can be edited and run. The menu entry
- "Titta demo analyses" makes a new copy; its action "Download latest
- version from GitHub" fetches the current staging branch instead.
- Existing folders are never overwritten. The exact commit of the
- packaged version is in the file VERSION.
-
 Package: devjam-science-tools-matlab
 Architecture: all
 Version: 1.1-1
