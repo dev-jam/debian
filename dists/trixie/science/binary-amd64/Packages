@@ -92,6 +92,36 @@ Description: OpenSesame Launcher with PsychoPy
  replacement for opensesamerun, which no longer works in OpenSesame 4.1.
  It needs the Experiment Manager plugin in the PsychoPy environment.
 
+Package: devjam-science-titta-demo-analyses
+Architecture: all
+Version: 1.0-2
+Priority: optional
+Section: science
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: devjam-tools, python3, python3-numpy, python3-pandas, python3-pil, python3-matplotlib, python3-h5py, python3-tables, python3-opencv, python3-i2mc
+Recommends: xdg-user-dirs, curl, libnotify-bin
+Suggests: python3-titta
+Filename: pool/science/devjam-science-titta-demo-analyses_1.0-2_all.deb
+Size: 3482600
+MD5sum: c6a1f368640d1e785fd0afde95a71e35
+SHA1: a1419898e72bfd78682bc32491b26e9e4a3f9591
+SHA256: 46b8f2305fc49e9c88fdfda48eb7cb5a874690608bed85ced13a98632e59ed72
+SHA512: 502166fb6aa9f7f18faf12c99f3e8ebedff5cda4aff091be3dc850be137be000274c568e97ffcd2d29b9a3ee44bece30e58111d13738d82836eee8b0a8962e2e
+Description: Titta demo analyses for eye-tracking data, copied to the Desktop
+ The demo_analyses folder of Titta (Tobii eye-tracker toolbox), from the
+ staging branch of github.com/dev-jam/Titta: trial extraction, data
+ quality, fixation detection with I2MC, mapping fixations to AOIs with
+ cumulative plots, scanpaths, heatmaps and gaze videos, plus
+ run_analysis.py to run all steps in one go.
+ .
+ The scripts are installed in /usr/share/titta-demo-analyses and copied
+ once per user to the Desktop (folder titta_demo_analyses, via
+ devjam-run-once), where they can be edited and run. The menu entry
+ "Titta demo analyses" makes a new copy; its action "Download latest
+ version from GitHub" fetches the current staging branch instead.
+ Existing folders are never overwritten. The exact commit of the
+ packaged version is in the file VERSION.
+
 Package: devjam-science-tools-matlab
 Architecture: all
 Version: 1.1-1
@@ -111,25 +141,27 @@ Description: MATLAB launchers and service menus
 
 Package: devjam-science-tools
 Architecture: all
-Version: 2.1-1
+Version: 2.2-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme, curl, ca-certificates, mawk | gawk
 Recommends: sudo
-Filename: pool/science/devjam-science-tools_2.1-1_all.deb
-Size: 333200
-MD5sum: 760dc55d19c86d05024781abe3070eeb
-SHA1: 076b6240ddc5d1d51ebcc55668236c745a8af630
-SHA256: 37da2df49f6ed3085f98db252e79f1f4ffca2380033905e6e6887f5717c389fe
-SHA512: 646d0d649dea93bc316887c92a303382e2c8d4fdfce8b95cbaed560a41d0d3e1ba0c2b43e28c0b47ca873a6890d302324bce558e44bf28460255d3d89c483431
+Suggests: git
+Filename: pool/science/devjam-science-tools_2.2-1_all.deb
+Size: 334088
+MD5sum: 0b7287b35ed2882d33fdeb8f2737df3c
+SHA1: 094c17e91f2a0c2c80db2f30d99899ab5ae501ae
+SHA256: ab39fd314e9134ad02b8d0ed967fc084c201afe30cd1ac45b811bf160863aec2
+SHA512: 241d10f62082fdcfa669c8a2645bed56c0ec85e141b94109ea38da2a739f33ee1514308ff5945d273e447757622ca744895e18f024cf03ac9643a5ce1f2f94be
 Description: Tools and file types for lab computers
  Tools for lab computers: print-system-information (hardware and
  software report), install-psychopy-opensesame, update-psychopy-installer,
- update-tobii-etm, make-osexp and setup-user-links. It also provides MIME
- types and icons for OpenSesame and PsychoPy experiments, udev rules for
- Teensy boards and a fixed desktop entry for Tobii Pro Eye Tracker
- Manager.
+ update-tobii-etm, update-titta-demo-analyses (refreshes the payload of
+ devjam-science-titta-demo-analyses), make-osexp and setup-user-links. It
+ also provides MIME types and icons for OpenSesame and PsychoPy
+ experiments, udev rules for Teensy boards and a fixed desktop entry for
+ Tobii Pro Eye Tracker Manager.
 
 Package: devjam-science-wallpapers
 Architecture: all
