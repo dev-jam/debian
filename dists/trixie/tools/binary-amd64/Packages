@@ -763,6 +763,63 @@ Description: display graphs for monitoring hardware temperature
   * the rotation speed of the fans (using lm-sensors).
   * the sensors of a remote computer (using psensor-server).
 
+Package: python3-platformdirs
+Architecture: all
+Version: 4.14.5-1~bpo13+1
+Priority: optional
+Section: python
+Source: platformdirs
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 186
+Depends: python3:any
+Filename: pool/tools/python3-platformdirs_4.14.5-1~bpo13+1_all.deb
+Size: 28564
+MD5sum: aa3e80f01534d57fece345294cffe10b
+SHA1: eb807cf4fa8a58e42d69677f64882b0f9090b645
+SHA256: 64e8ed7d1f6c5d009ca7d3e150e8b422adc1639269c4e49e9d999dfc9b6edacf
+SHA512: 5728cc3a2625ec1cde9e36768c1024189deb984b93289d41206ea52341b4f31ba43ae34849e8c75882dc03cde4c1ba8aae3ea4b55bfe48af7486d4b1fe2f8baf
+Homepage: https://github.com/platformdirs/platformdirs
+Description: determining appropriate platform-specific directories (Python 3)
+ Depending on your system (Linux, Mac OS X, or Windows), you have to use
+ different directories for storing user data. platformdirs will help you choose
+ an appropriate:
+ .
+  * user data directory (user_data_dir function)
+  * user config directory (user_config_dir function)
+  * user cache directory (user_cache_dir function)
+  * site data directory (site_data_dir function)
+  * site config directory (site_config_dir function)
+  * user log directory (user_log_dir function)
+ .
+ On Linux systems, these function return directories based on the XDG Base
+ Directory Specification.
+
+Package: python3-trove-classifiers
+Architecture: all
+Version: 2026.9.21.13-1~bpo13+1
+Multi-Arch: foreign
+Priority: optional
+Section: python
+Source: trove-classifiers
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 70
+Depends: python3:any
+Filename: pool/tools/python3-trove-classifiers_2026.9.21.13-1~bpo13+1_all.deb
+Size: 11132
+MD5sum: 0d95afcb9a7e96e85be80a6060d549b3
+SHA1: 8187bfb17f477c4b6f971a7619dca8da4956d487
+SHA256: 0637b5f97eca86b91e08ca7181e7ed7bab85ea6bec7f1a0d4d434020a5d44f12
+SHA512: 1607a1c585711d8905c29b450d183fa46c95c570de5578134620c8fa2b4452d2dcb0ae48057bf3f345c7233d18d540b06d6364edae2ee8e35c8a8aeb224daf8c
+Homepage: https://github.com/pypa/trove-classifiers
+Description: Validates classifiers in packages for PyPI
+ The package provides a canonical source for classifiers on PyPI.
+ .
+ The Classifiers categorize projects per PEP 301. Use this package to validate
+ classifiers in packages for PyPI upload or download.
+ .
+ This package installs the library for Python 3.
+Commands: trove-classifiers
+
 Package: s-tui
 Architecture: all
 Version: 1.5.0-1~bpo13+2
