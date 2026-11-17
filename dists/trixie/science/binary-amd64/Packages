@@ -676,19 +676,19 @@ Description: OpenSesame plugin for saving screenshots during an experiment
 
 Package: python3-opensesame-plugin-titta-eyetracking
 Architecture: all
-Version: 7.1.0-1
+Version: 7.1.1-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-titta-eyetracking
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 4378
+Installed-Size: 4383
 Depends: python3:any, python3-h5py, python3-pandas, python3-pil, python3-tables, python3-titta (>= 2.2.2)
-Filename: pool/science/python3-opensesame-plugin-titta-eyetracking_7.1.0-1_all.deb
-Size: 4368756
-MD5sum: 6c06f1d2872f80f040e0ff8fdd9d0697
-SHA1: 9f329a4d022df60e66a82acfd808d48f094f5ce5
-SHA256: 6eb1905bae2a16620c8127c0b390828b449fd8f7b0b868ca94d9a6c92c987369
-SHA512: 6df76e542479be1863f18f654ba0988166c822fd9662d1366215d0989946abff02850393fcf42827e9f6c82e72f477138bf9ddd5e396a28970675dcf603f2930
+Filename: pool/science/python3-opensesame-plugin-titta-eyetracking_7.1.1-1_all.deb
+Size: 4369832
+MD5sum: 4671424e43b9c86988d6f8aad602639f
+SHA1: ca8e43e9fbdf0d7ff6cddcecb63ea7120f056ece
+SHA256: 66bc020fca622680ec2acffd52a810a06b190bc30334cbe24665d61648cdbbda
+SHA512: 3309d55481a4df11725037d9eb21542ad0d095ea44ddeca0bff11bd7b42cbd9c1c653f98e7728e9cfcb4ebc963f9da632780a5bf6fc2801890b15d5e73dc314b
 Homepage: https://github.com/dev-jam/opensesame-plugin-titta_eyetracking
 Description: OpenSesame plugin for Tobii eye trackers through Titta
  This plugin for the OpenSesame experiment builder calibrates
