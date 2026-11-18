@@ -1999,6 +1999,7 @@ usr/share/doc/kde-servicemenu-kim5/work.css		    kde/kde-servicemenu-kim5
 usr/share/doc/kde-servicemenu-reimage/README.txt	    kde/kde-servicemenu-reimage
 usr/share/doc/kde-servicemenu-reimage/changelog		    kde/kde-servicemenu-reimage
 usr/share/doc/kde-servicemenu-reimage/copyright		    kde/kde-servicemenu-reimage
+usr/share/doc/live-build/NEWS.Debian.gz			    misc/live-build
 usr/share/doc/live-build/changelog.gz			    misc/live-build
 usr/share/doc/live-build/copyright			    misc/live-build
 usr/share/doc/live-build/examples/auto/build		    misc/live-build

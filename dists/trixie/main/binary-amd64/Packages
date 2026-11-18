@@ -1190,20 +1190,20 @@ Description: Manipulate images and their metadata.
 
 Package: live-build
 Architecture: all
-Version: 1:20261019+bsr
+Version: 1:20261118+bsr1
 Priority: optional
 Section: misc
 Maintainer: Debian Live <debian-live@lists.debian.org>
-Installed-Size: 811
+Installed-Size: 822
 Depends: cpio, debootstrap
 Recommends: apt-utils, bzip2, cryptsetup, file, live-boot-doc, live-config-doc, live-manual-html | live-manual, rsync, systemd-container, wget, xz-utils
 Suggests: e2fsprogs, eatmydata, git, mtd-utils, parted
-Filename: pool/main/live-build_20261019+bsr_all.deb
-Size: 198264
-MD5sum: 6eddeaec8c5797ffc0eb4c3fb2efccb2
-SHA1: e184965dd5e2113dd91ea6998b6f3f0ff719176d
-SHA256: 2de254b7a135ff128f327636e20b4abb876166a734f98414ce19aab0e435f1ab
-SHA512: c5352358b0b4c2baf1ac8978caad7f05b8b8d434581f56b51cce4ff3129c9aece655d0442ccf906413eb0f9112482371f9c37049a0dd8040b9dc160e451b9bd7
+Filename: pool/main/live-build_20261118+bsr1_all.deb
+Size: 210556
+MD5sum: 9670618a2696e32af0ee01987750dc11
+SHA1: 3cb885f6f821f4a3ac25752c94f9e73641b1cae3
+SHA256: 9c3357778c8a8e2f2f31c905e69c7c68fda80269ba8783adb93f48b871263aa8
+SHA512: 4ba8ed219207144ee0bac2a7722db18f0dc74493a600447afc7ab49682a727e7cc2cee9900eb35d949dd8956e6dd6b09f4edbf0c80b653fbcba3d222101044af
 Homepage: https://wiki.debian.org/DebianLive
 Description: Live System Build Components
  The Debian Live project maintains the components to build Debian based Live
