@@ -20,19 +20,19 @@ Description: Transitional package for devjam-science-experiment-mode
 
 Package: devjam-science-experiment-mode
 Architecture: all
-Version: 1.6-1
+Version: 1.7-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: devjam-system-config-rtirq
 Breaks: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
 Replaces: devjam-science-experiment-mode-rtirq (<< 1.47-1~)
-Filename: pool/science/devjam-science-experiment-mode_1.6-1_all.deb
-Size: 22892
-MD5sum: 9c44dd9a153d71dfd7c2124fb5af6686
-SHA1: cb4337631cd5f6b3c885e4c1a4d718eec07d70bf
-SHA256: e7a29d134951692ebcd75afb666e0e03593da500858abcd733201671840611cf
-SHA512: 745fe4fd473001d09939f5447387e1a99c95d671dd6864b0e81aa6dcaca09bdebab2651bf5447c75529d4a9064ea628f6dfa1ebc2dd15e49f96c4b3158f671c2
+Filename: pool/science/devjam-science-experiment-mode_1.7-1_all.deb
+Size: 22932
+MD5sum: f1543f7b61a7a969ab3ae10ed938ba1c
+SHA1: a742fec44acfc00c005e6bc13f1d14eecb3360bc
+SHA256: dd3da531785c184524d7a25f36b5cde95defb08e439948616ec7a8337161bd8c
+SHA512: 0778e4ee480bd9e5b98eace3afdd1a3c2bb84f02f733a1bc7be2857e8e2739e3903fe373efc460811eaa5909232bb261c3c496841543e7e85ffcf37bbf5c71ee
 Description: Experiment mode with isolated CPU cores for lab timing
  Experiment mode for lab computers with deterministic timing for EEG,
  button boxes and audio-visual stimuli. It adds GRUB entries with the

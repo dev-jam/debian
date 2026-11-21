@@ -1,5 +1,5 @@
 etc/apt/trusted.gpg.d/neurodebian-archive-keyring.asc	    science/neurodebian-archive-keyring
-etc/default/grub.d/11_experiment_mode_defaults.cfg	    science/devjam-science-experiment-mode
+etc/default/grub.d/experiment_mode_defaults.cfg		    science/devjam-science-experiment-mode
 etc/grub.d/11_experiment_mode				    science/devjam-science-experiment-mode
 etc/popularity-contest.d/neurodebian.conf		    science/neurodebian-popularity-contest
 etc/ptb3/matlab.sh					    non-free/science/matlab-psychtoolbox-3
