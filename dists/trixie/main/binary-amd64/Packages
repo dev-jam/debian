@@ -545,20 +545,21 @@ Description: Grub boot theme by devjam
 
 Package: devjam-grub-tools
 Architecture: all
-Version: 1.29-1
+Version: 1.30-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-grub-tools_1.29-1_all.deb
-Size: 5480224
-MD5sum: 8d4a91520a5330e7210baeeeceab2919
-SHA1: be5cf8b55c8a6ad8ddf9fdde590663f44a9bd37a
-SHA256: 3ec080139b32fd849e3a61ded875859fa8e52cc994d2b4cbfed0cb0315eb0f75
-SHA512: 3bc56f069e007af6ba8761fd8f9a4014cd72c4ce2a8f9f886fee483861c5ec17a94e5ce81d097276768e0110823b27077fc153a6492f54edcb1dfc0b1414bbe5
+Filename: pool/main/devjam-grub-tools_1.30-1_all.deb
+Size: 5480864
+MD5sum: e9681b029d924ad266db9836c2eacbcc
+SHA1: a90a2069955863d356a230b4a375026fe72823e5
+SHA256: 5d5fe8793bcf8b785bda94bbbcfb2eae9ccd47301e16f7e5701e735b2a3bdfb2
+SHA512: 6e094eb71276b04809b39161dbbd98e86ff7c22bdbd0bea7df1d0fe72afe7c27617099c20fd0f88d4adc6a88634fd3932e005b8123b94127f50600ec0b111837
 Description: Grub boot items by devjam
  Extra GRUB menu entries: Rescuezilla, Clonezilla, Super GRUB2 Disk,
  a hardware info screen, booting ISO images from a boot-isos directory
- on the local or on any filesystem, and shutdown/reboot.
+ on the local filesystem, on any filesystem or on one filesystem chosen
+ by UUID in /etc/default/grub.d/bootisos.cfg, and shutdown/reboot.
 
 Package: devjam-kde-servicemenus
 Architecture: all
