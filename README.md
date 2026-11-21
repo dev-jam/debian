@@ -14,9 +14,20 @@ Suite: `trixie`. Architectures: `amd64` and `all`.
 | `main` | General packages | All Debian releases |
 | `science` | Science / lab packages | All Debian releases |
 | `tools` | Tools | `trixie` only |
-| `xlibre` | XLibre stable packages | `trixie` only |
+| `xlibre` | XLibre stable packages: `xlibre-server` and everything around it (drivers, protocol headers, libraries) | `trixie` only |
+| `xlibre-rc` | Release candidates of the stable XLibre server series (`xlibre-server` only) | `trixie` only |
+| `xlibre-beta` | Next XLibre server series, e.g. 25.2.x (`xlibre-server` only) | `trixie` only |
 
-The suite is named `trixie` for all four components, but the packages in `main` and `science` are not specific to it.
+The suite is named `trixie` for all components, but the packages in `main` and `science` are not specific to it.
+
+`xlibre-rc` and `xlibre-beta` only hold the X server itself and always need `xlibre` for the rest. They are not enabled in `dev-jam.sources`; add them to the `Components:` line to opt in. APT installs the highest version it finds, so with `xlibre-rc` or `xlibre-beta` enabled their server replaces the one from `xlibre` on the next upgrade. To keep such a component enabled without pulling it in automatically, pin it low; its packages are then only installed when asked for with an explicit version (`apt-get install xserver-xlibre-core=<version>`):
+
+```text
+# /etc/apt/preferences.d/dev-jam-xlibre-beta
+Package: *
+Pin: release o=dev-jam, c=xlibre-beta
+Pin-Priority: 100
+```
 
 ## Add the repository
 
@@ -79,8 +90,8 @@ Packages installed from this repository stay installed. Remove them separately w
 ## Repository layout
 
 ```text
-dists/trixie/{main,tools,science,xlibre}/binary-amd64/   package indexes
-pool/{main,tools,science,xlibre}/                        the .deb files
+dists/trixie/<component>/binary-amd64/   package indexes
+pool/<component>/                        the .deb files
 dev-jam.asc                                              public signing key
 dev-jam.sources                                          ready-made APT source file
 scripts/                                                 scripts that update the repository
