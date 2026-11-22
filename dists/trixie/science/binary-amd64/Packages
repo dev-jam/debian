@@ -69,17 +69,17 @@ Description: KDE Service Menu items for science by devjam
 
 Package: devjam-science-opensesame-psychopy-dev
 Architecture: all
-Version: 1.0-1
+Version: 1.0-2
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Depends: devjam-science-tools (>= 2.5-1)
-Filename: pool/science/devjam-science-opensesame-psychopy-dev_1.0-1_all.deb
+Depends: devjam-science-tools (>= 2.6-1)
+Filename: pool/science/devjam-science-opensesame-psychopy-dev_1.0-2_all.deb
 Size: 4708
-MD5sum: 80640399f13a8f955c2be00781432284
-SHA1: cd66d0600cfa31e38d966c64aa87ec246cedb0d1
-SHA256: a7c4c121dfa45a2887448b2f1045796156d08363ea4a546a8d4784f413b7d6a6
-SHA512: e0e2b0af49510b7ed1b7037c04ec07c25b75a0fd361c646596839dd14ce068566d7aac235f6b7c3904699161bb211ed5c880cea98d02d3fa4ad9f7dcaf7fb1a3
+MD5sum: 320257e631dcd4c1b44d693192fd4bbc
+SHA1: f08b2be60e0c27c359907dab27b0794936c11b96
+SHA256: afbed3181161fe9de794ad9554ed664504ac23969196fcc5fe6ed8243c35a34d
+SHA512: b019a9b4c1423ca2766a25634b2d621e204198a684f2ff55d0b4abc10041cdde458c8c7b36f07ff5e3b3e52e86564580b6d57933da982549b0b7046488c3a910
 Description: OpenSesame Launcher with the PsychoPy dev environment
  Desktop launchers for OpenSesame and Sigmund Analyst in the PsychoPy
  dev environment in /opt/psychopy/PsychoPy-dev, made with
@@ -173,19 +173,19 @@ Description: MATLAB launchers and service menus
 
 Package: devjam-science-tools
 Architecture: all
-Version: 2.5-1
+Version: 2.6-1
 Priority: optional
 Section: science
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: inxi, hardinfo2, fastfetch, udev, shared-mime-info, desktop-file-utils, hicolor-icon-theme, curl, ca-certificates, mawk | gawk
 Recommends: sudo
 Suggests: git
-Filename: pool/science/devjam-science-tools_2.5-1_all.deb
-Size: 336400
-MD5sum: b8054db1a6c1bd437f88a3b46be9332d
-SHA1: 4a9447e4313ef943132ff7615d71c2e82f17427b
-SHA256: b196c9eec415df22b8ae9f13c6aae404a0fd5da4cea627671234a9e8f5d829a5
-SHA512: a99ec7aaa168e22c8edd722d62b00929f3a614e2782aebb90669fed221990808fa4033e40eb04fb8866c60d134e987162a7aadc6ade96a9678912a674210e681
+Filename: pool/science/devjam-science-tools_2.6-1_all.deb
+Size: 336852
+MD5sum: e421b1fffc9ec9dc77979066fbcf2e49
+SHA1: 33e81372a7c6e0c9984ac0799c923a08d18182f1
+SHA256: 51f20bef2203b7653656112da810492321c832e06d8a6b1adad45f4be27e5b7b
+SHA512: 0a8cf3c2c4c7b76f82769f7335a6a58ca084efc73c0c2826901c0a2b7c46e2601c55eaa2f5a7c397090e9be70edda199a6d01894e2ac543faa78120f9e83ebf8
 Description: Tools and file types for lab computers
  Tools for lab computers: print-system-information (hardware and
  software report), install-psychopy-opensesame, update-psychopy-installer,
