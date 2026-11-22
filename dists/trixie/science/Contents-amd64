@@ -11,11 +11,14 @@ usr/bin/make-osexp					    science/devjam-science-tools
 usr/bin/manage-opensesame-affinity			    science/devjam-science-opensesame-psychopy
 usr/bin/matlab-run-cli-bg				    science/devjam-science-tools-matlab
 usr/bin/matlab-run-cli-exp				    science/devjam-science-tools-matlab
+usr/bin/opensesame-psychopy-dev-launch			    science/devjam-science-opensesame-psychopy-dev
 usr/bin/opensesame-psychopy-launch			    science/devjam-science-opensesame-psychopy
 usr/bin/opensesamerun-psychopy				    science/devjam-science-opensesame-psychopy
+usr/bin/opensesamerun-psychopy-dev			    science/devjam-science-opensesame-psychopy-dev
 usr/bin/print-system-information			    science/devjam-science-tools
 usr/bin/ptb3-matlab					    non-free/science/matlab-psychtoolbox-3
 usr/bin/setup-user-links				    science/devjam-science-tools
+usr/bin/sigmund-analyst-psychopy-dev-launch		    science/devjam-science-opensesame-psychopy-dev
 usr/bin/sigmund-analyst-psychopy-launch			    science/devjam-science-opensesame-psychopy
 usr/bin/titta-demo-setup				    science/devjam-science-titta-demo
 usr/bin/update-psychopy-installer			    science/devjam-science-tools
@@ -448,6 +451,7 @@ usr/lib/python3/dist-packages/tittapy.libs/libzstd-82d8f7e0.so.1.5.5 python/pyth
 usr/lib/systemd/system/auto-pin-audio.service		    science/devjam-science-experiment-mode
 usr/lib/systemd/system/experiment-mode-cpus.service	    science/devjam-science-experiment-mode
 usr/lib/systemd/system/irqbalance.service.d/disable-experiment.conf science/devjam-science-experiment-mode
+usr/lib/systemd/user/opensesame-psychopy-dev-rt.service	    science/devjam-science-opensesame-psychopy-dev
 usr/lib/systemd/user/opensesame-psychopy-rt.service	    science/devjam-science-opensesame-psychopy
 usr/lib/udev/rules.d/00-teensy.rules			    science/devjam-science-tools
 usr/lib/udev/rules.d/99-auto-pin-audio.rules		    science/devjam-science-experiment-mode
@@ -462,11 +466,14 @@ usr/share/applications/matlab-ptb-edit.desktop		    science/devjam-science-tools
 usr/share/applications/matlab-ptb.desktop		    science/devjam-science-tools-matlab
 usr/share/applications/matlab-ptb_nogl.desktop		    science/devjam-science-tools-matlab
 usr/share/applications/matlab_nogl.desktop		    science/devjam-science-tools-matlab
+usr/share/applications/opensesame-psychopy-dev-rt.desktop   science/devjam-science-opensesame-psychopy-dev
+usr/share/applications/opensesame-psychopy-dev.desktop	    science/devjam-science-opensesame-psychopy-dev
 usr/share/applications/opensesame-psychopy-rt.desktop	    science/devjam-science-opensesame-psychopy
 usr/share/applications/opensesame-psychopy.desktop	    science/devjam-science-opensesame-psychopy
 usr/share/applications/print-system-information.desktop	    science/devjam-science-tools
 usr/share/applications/psychopy-studio.desktop		    science/devjam-science-opensesame-psychopy
 usr/share/applications/psychopy.desktop			    science/devjam-science-opensesame-psychopy
+usr/share/applications/sigmund-analyst-psychopy-dev.desktop science/devjam-science-opensesame-psychopy-dev
 usr/share/applications/sigmund-analyst-psychopy.desktop	    science/devjam-science-opensesame-psychopy
 usr/share/applications/tobiiproeyetrackermanager.desktop    science/devjam-science-tools
 usr/share/devjam/rtirq/experiment_mode.conf		    science/devjam-science-experiment-mode
@@ -478,6 +485,8 @@ usr/share/doc/devjam-science-experiment-mode/changelog.Debian.gz science/devjam-
 usr/share/doc/devjam-science-experiment-mode/copyright	    science/devjam-science-experiment-mode
 usr/share/doc/devjam-science-kde-servicemenus/changelog.Debian.gz kde/devjam-science-kde-servicemenus
 usr/share/doc/devjam-science-kde-servicemenus/copyright	    kde/devjam-science-kde-servicemenus
+usr/share/doc/devjam-science-opensesame-psychopy-dev/changelog.Debian.gz science/devjam-science-opensesame-psychopy-dev
+usr/share/doc/devjam-science-opensesame-psychopy-dev/copyright science/devjam-science-opensesame-psychopy-dev
 usr/share/doc/devjam-science-opensesame-psychopy/changelog.Debian.gz science/devjam-science-opensesame-psychopy
 usr/share/doc/devjam-science-opensesame-psychopy/copyright  science/devjam-science-opensesame-psychopy
 usr/share/doc/devjam-science-titta-demo/changelog.Debian.gz science/devjam-science-titta-demo
@@ -650,6 +659,7 @@ usr/share/kio/servicemenus/matlab-background.desktop	    science/devjam-science-
 usr/share/kio/servicemenus/matlab-experiment-terminal.desktop science/devjam-science-tools-matlab
 usr/share/lintian/overrides/devjam-science-experiment-mode  science/devjam-science-experiment-mode
 usr/share/lintian/overrides/devjam-science-opensesame-psychopy science/devjam-science-opensesame-psychopy
+usr/share/lintian/overrides/devjam-science-opensesame-psychopy-dev science/devjam-science-opensesame-psychopy-dev
 usr/share/lintian/overrides/devjam-science-titta-demo	    science/devjam-science-titta-demo
 usr/share/lintian/overrides/devjam-science-tools	    science/devjam-science-tools
 usr/share/lintian/overrides/devjam-science-tools-matlab	    science/devjam-science-tools-matlab
