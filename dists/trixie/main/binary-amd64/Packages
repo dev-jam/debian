@@ -227,6 +227,44 @@ Description: Kernel hardening sysctl settings for desktops
  maximise ASLR entropy, limit oops and warning loops, and protect FIFOs
  and core dumps of setuid programs.
 
+Package: devjam-external-keyring-legacy
+Architecture: all
+Version: 1.3-1
+Priority: optional
+Section: misc
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-external-keyring-legacy_1.3-1_all.deb
+Size: 43540
+MD5sum: 7c28d6e90c17ff719c3d21f59942f733
+SHA1: 8c7f890983b4b3d96404432002bfbbd7da4dbd7a
+SHA256: e2272cb73980eb3e97a8bc1232a1b8b6e99db3735f0a51753b84503e8fbcfc21
+SHA512: eabe528a821f84af35920ff6ee6a89fc99606af0904881909003dd9e0ac10ff6479d913f14d7e350abfe592f218b91c533d02be6da17978e15258b9d80846de6
+Description: OpenPGP keys for external apt repositories (legacy)
+ Signing keys of third-party apt repositories, installed in
+ /etc/apt/trusted.gpg.d for Debian Live images that still use
+ sources.list without Signed-By. Use devjam-external-keyring on other
+ systems; this package will be dropped once Debian Live handles
+ deb822 .sources files.
+
+Package: devjam-external-keyring
+Architecture: all
+Version: 1.4-1
+Priority: optional
+Section: misc
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Filename: pool/main/devjam-external-keyring_1.4-1_all.deb
+Size: 48400
+MD5sum: ddc73cd0799f3f0da82ff9ed5a3cec30
+SHA1: 79fb930c61376cfdc923abb3db1e2c6ba2cd1e1d
+SHA256: 337ada074783f2fc3f161c94fe650a64db766f3abcedb7c280ab1fd77ba594b3
+SHA512: 622398907508982e663eeaa146610a07bd98802b2888d06a0975a1b18457536f8dd88d6b246321c2b0b1535754dc66165981c974066cb8db8e11816f59682863
+Description: OpenPGP keys for external apt repositories
+ Signing keys of third-party apt repositories used on dev-jam systems,
+ such as Signal, Syncthing, OnlyOffice, Nextcloud Office, XanMod,
+ Liquorix, XLibre, Waydroid, SR Research, ArtCraft, the GitHub CLI and
+ the OpenSesame (cogscinl) PPA, installed in /usr/share/keyrings for use
+ with Signed-By in deb822 .sources files.
+
 Package: devjam-gpu-brave-config
 Architecture: all
 Version: 1.5-6
