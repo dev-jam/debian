@@ -579,19 +579,19 @@ Description: Implementation of the EyeLink core graphics set of handlers for Ope
 
 Package: python3-opensesame-plugin-audio-low-latency
 Architecture: all
-Version: 14.0.0-1
+Version: 14.1.0-1
 Priority: optional
 Section: python
 Source: opensesame-plugin-audio-low-latency
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 333
-Depends: python3:any, python3-alsaaudio (>= 0.11.0), python3-pygame (>= 2.0.0), python3-sounddevice (>= 0.5.1)
-Filename: pool/science/python3-opensesame-plugin-audio-low-latency_14.0.0-1_all.deb
-Size: 95696
-MD5sum: d9d6ae211c5d5e49caf62befcbb20622
-SHA1: 75310297b635677aa1be7ec1ea2f88ba226f0360
-SHA256: 5688ba23207c1647e07686255284222fe7462f2f4593933fa0ab2a1479ef3e44
-SHA512: c9eb3f182b4ebd20a4e08d9552616b04bc7b5f29a31005d6199da1c08160896d08fee9d59683be1e6af1eda50f1859e7826182d68d508cecfee33681f8c944df
+Installed-Size: 334
+Depends: python3:any, python3-alsaaudio (>= 0.11.0), python3-sounddevice (>= 0.5.1)
+Filename: pool/science/python3-opensesame-plugin-audio-low-latency_14.1.0-1_all.deb
+Size: 95968
+MD5sum: 5e31189e1ddc25e385492f1709e132de
+SHA1: 09edc66d5704ea865caae504f22c3dc0f7969423
+SHA256: 77e94e252a108f31ab151bb185a501f9e7e8611f0b30988ee42b3a58e42b295c
+SHA512: ec465c4bee988c45a473ae58a9b87a785fb541fb3fa882dabf2c12675cd0c4701c52137f1ec3058e5425f047377ba1e81fefa67a54545c61af3169b50540fba4
 Homepage: https://github.com/dev-jam/opensesame-plugin-audio_low_latency
 Description: OpenSesame plugin for playing and recording audio with low latency
  This plugin for the OpenSesame experiment builder plays and
