@@ -27,6 +27,7 @@ usr/include/jmorecfg.h					    libdevel/libjpeg8-dev
 usr/include/jpeglib.h					    libdevel/libjpeg8-dev
 usr/include/x86_64-linux-gnu/jconfig.h			    libdevel/libjpeg8-dev
 usr/lib/debug/usr/lib/x86_64-linux-gnu/libjpeg.so.8.4.0	    debug/libjpeg8-dbg
+usr/lib/devjam-science-tools/verify-venv-packages.py	    science/devjam-science-tools
 usr/lib/devjam/experiment-mode/confine-cpus		    science/devjam-science-experiment-mode
 usr/lib/devjam/experiment-mode/grub-entries		    science/devjam-science-experiment-mode
 usr/lib/matlab/site/psychtoolbox-3/Datapixx.mexa64	    non-free/science/matlab-psychtoolbox-3-nonfree
