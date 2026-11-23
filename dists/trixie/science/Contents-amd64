@@ -336,10 +336,10 @@ usr/lib/python3/dist-packages/pipewire_python/_constants.py python/python3-pipew
 usr/lib/python3/dist-packages/pipewire_python/_utils.py	    python/python3-pipewire
 usr/lib/python3/dist-packages/pipewire_python/controller.py python/python3-pipewire
 usr/lib/python3/dist-packages/pipewire_python/link.py	    python/python3-pipewire
-usr/lib/python3/dist-packages/psychopy_radboudbox-0.1.1.dist-info/INSTALLER python/python3-psychopy-radboudbox
-usr/lib/python3/dist-packages/psychopy_radboudbox-0.1.1.dist-info/METADATA python/python3-psychopy-radboudbox
-usr/lib/python3/dist-packages/psychopy_radboudbox-0.1.1.dist-info/WHEEL python/python3-psychopy-radboudbox
-usr/lib/python3/dist-packages/psychopy_radboudbox-0.1.1.dist-info/entry_points.txt python/python3-psychopy-radboudbox
+usr/lib/python3/dist-packages/psychopy_radboudbox-0.1.2.dist-info/INSTALLER python/python3-psychopy-radboudbox
+usr/lib/python3/dist-packages/psychopy_radboudbox-0.1.2.dist-info/METADATA python/python3-psychopy-radboudbox
+usr/lib/python3/dist-packages/psychopy_radboudbox-0.1.2.dist-info/WHEEL python/python3-psychopy-radboudbox
+usr/lib/python3/dist-packages/psychopy_radboudbox-0.1.2.dist-info/entry_points.txt python/python3-psychopy-radboudbox
 usr/lib/python3/dist-packages/psychopy_radboudbox/__init__.py python/python3-psychopy-radboudbox
 usr/lib/python3/dist-packages/psychopy_radboudbox/components/__init__.py python/python3-psychopy-radboudbox
 usr/lib/python3/dist-packages/psychopy_radboudbox/components/classic/radboudboxControl.png python/python3-psychopy-radboudbox
