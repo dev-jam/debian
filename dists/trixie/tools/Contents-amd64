@@ -700,6 +700,7 @@ usr/lib/x86_64-linux-gnu/qt6/qml/org/kde/kwin/private/kdecoration/kdecorationpri
 usr/lib/x86_64-linux-gnu/qt6/qml/org/kde/kwin/private/kdecoration/libkdecorationprivatedeclarative.so kde/kwin-common
 usr/lib/x86_64-linux-gnu/qt6/qml/org/kde/kwin/private/kdecoration/qmldir kde/kwin-common
 usr/lib/x86_64-linux-gnu/simplescreenrecorder/libssr-glinject.so libs/simplescreenrecorder-lib
+usr/libexec/clementine/crashpad_handler			    sound/clementine
 usr/libexec/kdiskmark_helper				    utils/kdiskmark
 usr/share/applications/audacity.desktop			    sound/audacity
 usr/share/applications/be.maartenbaert.simplescreenrecorder.desktop video/simplescreenrecorder

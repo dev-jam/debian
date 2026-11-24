@@ -130,18 +130,18 @@ Description: Converter from CloneCD disc image format to standard ISO
 
 Package: clementine
 Architecture: amd64
-Version: 1.4.6~trixie
+Version: 1.4.7~trixie
 Priority: optional
 Section: sound
 Maintainer: David Sansome <me@davidsansome.com>
-Installed-Size: 23770
-Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgpod4t64 (>= 0.6.0), libgstreamer-plugins-base1.0-0 (>= 1.10.0), libgstreamer1.0-0 (>= 1.8.0), libmtp9t64 (>= 1.1.0), libprotobuf32t64 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.8.2), libqt6openglwidgets6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 13.1), libtag2 (>= 2.0), libx11-6, zlib1g (>= 1:1.1.4), libqt6sql6-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-alsa, gstreamer1.0-pulseaudio, libprojectm-data | projectm-data
-Filename: pool/tools/clementine_1.4.6~trixie_amd64.deb
-Size: 6046568
-MD5sum: 4a7e299697f034a7c63fc02aaaaafa54
-SHA1: c035579869c8c81c18a90f48050cae0a2f728d42
-SHA256: db0f5664d80bd20b78dd4ed8320f71e0bac317af472a0cbaa4b8478caf0a1dcb
-SHA512: 446d1394e42383b5e8d1db188279f897dd5c1ab8e2d49d16413efcbae5954f4081ddf2f656d0424fbf55808bb200be553daf8ccc13889deccfe3ca3cc49fb103
+Installed-Size: 25410
+Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libcurl4t64 (>= 7.16.2), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgpod4t64 (>= 0.6.0), libgstreamer-plugins-base1.0-0 (>= 1.10.0), libgstreamer1.0-0 (>= 1.8.0), libmtp9t64 (>= 1.1.0), libprotobuf32t64 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.8.2), libqt6openglwidgets6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6, zlib1g (>= 1:1.1.4), libqt6sql6-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-alsa, gstreamer1.0-pulseaudio, libprojectm-data | projectm-data
+Filename: pool/tools/clementine_1.4.7~trixie_amd64.deb
+Size: 6627864
+MD5sum: 7f3c11ea165ff640249de693cd052ace
+SHA1: 8ab2467f0a642779855dc2dbedf337c4d56ad397
+SHA256: 6f3c2d869fe4125ad46c80785cf577845c497af846a3ae67be63ad2d69ac65c2
+SHA512: 9a81de65103478825e2d75e76d6bb719753cf3223352f57fe19f67df103b5606e84e987b1fe821dc335acf5b0c511f435db9b5c42d59be23e087419c50f0e088
 Homepage: http://www.clementine-player.org/
 Description: Modern music player and library organiser inspired by Amarok 1.4
  Clementine focuses on a fast and easy-to-use interface for searching and
@@ -277,18 +277,18 @@ Description: complete batch renamer for Linux
 
 Package: kdiskmark
 Architecture: amd64
-Version: 3.3.0+ds-3~bpo13+1
+Version: 3.3.0+ds-4~bpo13+1
 Priority: optional
 Section: utils
-Maintainer: Boyuan Yang <byang@debian.org>
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Installed-Size: 687
 Depends: fio, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5)
-Filename: pool/tools/kdiskmark_3.3.0+ds-3~bpo13+1_amd64.deb
-Size: 220440
-MD5sum: bfa62f1e369a539fc683d46e065cb4af
-SHA1: 74fca5a0e8442f4ab40975d496940f621ed63146
-SHA256: f9e62a2fe747b4243b0557c8e8bd52a375cd6b7368ee69ee2d37e352cdb6a40e
-SHA512: 8bc0bb5a74dc1ce6d542a152f10bf79d274eac9aff7b52f661a392f40ed2f59835c74d26cc9c88baefd198f5eee30adf883c43d6a078132c12694597a1fe3654
+Filename: pool/tools/kdiskmark_3.3.0+ds-4~bpo13+1_amd64.deb
+Size: 220324
+MD5sum: eb4c3f2744ad731c8deb9a5b2b91555b
+SHA1: 6f6c8357cd6976b8ae144a059e7a5c164140a312
+SHA256: 889786b4937fd437e9829134b9cb251559d039e817951bd6a8ed7926fc41577b
+SHA512: 6d2bd3bcaec18e1c8841466a13ea2220942fa7e8350c174778d685c1c628129910f25919adf114aadc92c1b7cb1c0fcf044c6c5aed06b5bf1b71876462f339ce
 Homepage: https://github.com/JonMagon/KDiskMark
 Description: simple disk benchmark tool
  This is an HDD and SSD benchmark tool with a very friendly
