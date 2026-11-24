@@ -257,18 +257,18 @@ Description: digital photo management application for KDE
 
 Package: gprename
 Architecture: all
-Version: 20210415-1+bsr2
+Version: 20210415-1+devjam1
 Priority: optional
 Section: utils
 Maintainer: Thiago Pezzo <pezzo@protonmail.com>
 Installed-Size: 213
 Depends: libglib-perl, libgtk3-perl, libintl-perl, liblocale-gettext-perl, libpango-perl, perl:any
-Filename: pool/tools/gprename_20210415-1+bsr2_all.deb
-Size: 47532
-MD5sum: 1d1a52900c416dcb63fa98c8de640280
-SHA1: 49786bbc914dde03b4a51603cdae4c10eeb7ac57
-SHA256: fd9eb0d33f3f9faa16df5f08adbf38d01f7b9c57db0c6d14e3b1168f779c8ca7
-SHA512: 10fb99794637f2e8f2f9e15cdb9349f38fd9085ec4bd470b6b09d833e6bb74dcb994ab250c0435293c6a36eeec263d15350b5df12756bfe834bb41b4f4fccc9b
+Filename: pool/tools/gprename_20210415-1+devjam1_all.deb
+Size: 47436
+MD5sum: 1767419de1b60497bb63300dcb1d8795
+SHA1: b8e8aec5faf0e8bb00ec3835ecfadad877728ec7
+SHA256: 7a125d8b7a0fc88c9618aa2020dcd1707ccb010b58e51bd943ce4f3513362dec
+SHA512: 2da78227a52819799328d3a5d9ecb42fbbe28abd3abfd1c0e27c04f31e996b0250dab506b268217d0b2faae7dfbf225377eaadd8cf9f0e1c3e48ca5fabd61d39
 Homepage: http://gprename.sourceforge.net
 Description: complete batch renamer for Linux
  GPRename is a complete batch renamer for files and directories.
