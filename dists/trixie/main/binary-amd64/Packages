@@ -793,17 +793,17 @@ Description: Real-time IRQ priorities (rtirq) for deterministic timing
 
 Package: devjam-system-config
 Architecture: all
-Version: 1.29-1
+Version: 1.30-1
 Priority: optional
 Section: admin
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Recommends: hstr
-Filename: pool/main/devjam-system-config_1.29-1_all.deb
-Size: 6988
-MD5sum: 5c71ac182deda1edb85cbd79e6c828b4
-SHA1: 05146229e2cae44d1ca5ac9c37b340e37c9eea54
-SHA256: 886f7178c07b3ef577c03b5e525926b2f324d6941f61493a82c8fb45aa29840d
-SHA512: 838360fff6ddddf069a3059fd48daa602be4c865093f168855a636943c45e6e94e3712d6a40a1526641cdf9c4677606bfaedc95b8ac5ca81d039d756e12adb55
+Filename: pool/main/devjam-system-config_1.30-1_all.deb
+Size: 7676
+MD5sum: 649c8ae61b23649a4c33c5a20033801a
+SHA1: efeebc402c4dcbbfb6049178cff9e690fef388a9
+SHA256: f7eff55ff0db3672af9454bdab59aa8fa05ae6d7735366aa2301bb9b8d0b6c57
+SHA512: 44df8f4c894d451b1f43ddaafa7b9673b8d0e2debe526608f0dc9ec878803b477de1128a48e0997038866878619973d9647287b50b248df4813a8d2f5ed7cf39
 Description: Generic configs by devjam
  General system settings: timestamps in the shell history, default bash
  aliases and profile for new users, bash drop-in snippets in
@@ -811,7 +811,8 @@ Description: Generic configs by devjam
  ~/.bash_aliases together with ~/.config/bashrc.d, Geany defaults,
  high-quality PipeWire resampling, TRIM/discard for SSDs and LUKS
  volumes, storage tuning, a shorter stop timeout for systemd user
- services, and switch-io to choose an I/O scheduler preset.
+ services, switch-io to choose an I/O scheduler preset, and a GRUB
+ drop-in that makes the newest Liquorix kernel the top-level entry.
 
 Package: devjam-thunar-actions
 Architecture: all

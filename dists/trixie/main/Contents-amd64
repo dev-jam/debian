@@ -130,6 +130,7 @@ etc/bashrc.d/hstr.bashrc				    admin/devjam-system-config
 etc/brave/brave-flags.conf				    web/devjam-gpu-brave-config
 etc/chromium.d/custom-flags				    web/devjam-gpu-chromium-config
 etc/default/grub.d/bootisos.cfg				    admin/devjam-grub-tools
+etc/default/grub.d/liquorix-top-level.cfg		    admin/devjam-system-config
 etc/default/grub.d/theme.cfg				    admin/devjam-grub-theme
 etc/grub.d/50_rescuezilla				    admin/devjam-grub-tools
 etc/grub.d/51_clonezilla				    admin/devjam-grub-tools
