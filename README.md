@@ -12,14 +12,14 @@ Suite: `trixie`. Architectures: `amd64` and `all`.
 | Component | Contents | Debian releases |
 | :-- | :-- | :-- |
 | `main` | General packages | All Debian releases |
-| `science` | Science / lab packages | All Debian releases |
+| `science` | Science / lab packages | `trixie` and later |
 | `tools` | Tools | `trixie` only |
 | `xlibre` | XLibre stable packages: `xlibre-server` and everything around it (drivers, protocol headers, libraries) | `trixie` only |
 | `xlibre-rc` | Release candidates of the stable XLibre server series (`xlibre-server` only) | `trixie` only |
 | `xlibre-beta` | Next XLibre server series, e.g. 25.2.x (`xlibre-server` only) | `trixie` only |
 | `experimentation` | Packages in testing: OpenSesame 4.1 with its plugins and extensions, PsychoPy 2027.1, Sigmund Analyst and the Python libraries they need | `trixie` only |
 
-The suite is named `trixie` for all components, but the packages in `main` and `science` are not specific to it.
+The suite is named `trixie` for all components, but the packages in `main` are not specific to it. `science` is meant for `trixie` and later; it has not been tested on older releases.
 
 `xlibre-rc` and `xlibre-beta` only hold the X server itself and always need `xlibre` for the rest. They are not enabled in `dev-jam.sources`; add them to the `Components:` line to opt in. APT installs the highest version it finds, so with `xlibre-rc` or `xlibre-beta` enabled their server replaces the one from `xlibre` on the next upgrade. To keep such a component enabled without pulling it in automatically, pin it low; its packages are then only installed when asked for with an explicit version (`apt-get install xserver-xlibre-core=<version>`):
 
