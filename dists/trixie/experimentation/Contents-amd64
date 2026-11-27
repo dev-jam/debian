@@ -1,5 +1,7 @@
 usr/bin/esprima						    python/python3-esprima
+usr/bin/manage-opensesame-rt-affinity			    science/devjam-science-opensesame-rt
 usr/bin/opensesame					    science/python3-opensesame
+usr/bin/opensesame-rt-launch				    science/devjam-science-opensesame-rt
 usr/bin/pyqt-code-editor				    python/python3-pyqt-code-editor
 usr/bin/ruff						    python/ruff
 usr/bin/sigmund-analyst					    python/python3-pyqt-code-editor
@@ -9147,8 +9149,12 @@ usr/lib/python3/dist-packages/tree_sitter_yaml/_binding.abi3.so python/python3-t
 usr/lib/python3/dist-packages/tree_sitter_yaml/binding.c    python/python3-tree-sitter-yaml
 usr/lib/python3/dist-packages/tree_sitter_yaml/py.typed	    python/python3-tree-sitter-yaml
 usr/lib/python3/dist-packages/tree_sitter_yaml/queries/highlights.scm python/python3-tree-sitter-yaml
+usr/lib/systemd/user/opensesame-rt.service		    science/devjam-science-opensesame-rt
+usr/share/applications/opensesame-rt.desktop		    science/devjam-science-opensesame-rt
 usr/share/applications/opensesame.desktop		    science/python3-opensesame
 usr/share/applications/sigmund-analyst.desktop		    python/python3-pyqt-code-editor
+usr/share/doc/devjam-science-opensesame-rt/changelog.Debian.gz science/devjam-science-opensesame-rt
+usr/share/doc/devjam-science-opensesame-rt/copyright	    science/devjam-science-opensesame-rt
 usr/share/doc/psychopy/changelog.Debian.gz		    science/psychopy
 usr/share/doc/psychopy/copyright			    science/psychopy
 usr/share/doc/python3-datamatrix/changelog.Debian.gz	    python/python3-datamatrix
@@ -9277,6 +9283,7 @@ usr/share/doc/python3-tree-sitter/changelog.Debian.gz	    python/python3-tree-si
 usr/share/doc/python3-tree-sitter/copyright		    python/python3-tree-sitter
 usr/share/doc/ruff/changelog.Debian.gz			    python/ruff
 usr/share/doc/ruff/copyright				    python/ruff
+usr/share/lintian/overrides/devjam-science-opensesame-rt    science/devjam-science-opensesame-rt
 usr/share/lintian/overrides/psychopy			    science/psychopy
 usr/share/lintian/overrides/python3-fastnumbers		    python/python3-fastnumbers
 usr/share/lintian/overrides/python3-ffpyplayer		    python/python3-ffpyplayer

@@ -1,3 +1,30 @@
+Package: devjam-science-opensesame-rt
+Architecture: all
+Version: 1.0-1
+Priority: optional
+Section: science
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Depends: python3-opensesame
+Recommends: devjam-system-config-lowlatency
+Suggests: devjam-science-experiment-mode
+Filename: pool/experimentation/devjam-science-opensesame-rt_1.0-1_all.deb
+Size: 5536
+MD5sum: 4633fca5fe8e54782680667d65e99f10
+SHA1: e926d70ca677e21f46c7662d3c8db85fbd3f1beb
+SHA256: 3d34c7603fb752e3e28b6e4871869b7fbf52e1c58f27fae5497221da59552d61
+SHA512: 8e9e24b3700be641faf92904e7ccafde9bf5b594427470e97f2a580117f2ff09aaf6fee80218e33cd3350dd756a6503b31255c672753790a45164054041ac210
+Description: OpenSesame launcher with real-time priority
+ A desktop launcher that starts OpenSesame from the python3-opensesame
+ package as a user service with real-time priority. In experiment mode
+ (devjam-science-experiment-mode) that OpenSesame runs on the isolated CPU
+ cores; manage-opensesame-rt-affinity sets other CPUs.
+ .
+ The service needs the real-time limits of devjam-system-config-lowlatency
+ (rtprio 95 and unlimited memlock for the audio group); without them it
+ does not start. This package does for the OpenSesame installed with apt
+ what devjam-science-opensesame-psychopy does for the one in the PsychoPy
+ environment in /opt/psychopy.
+
 Package: psychopy
 Architecture: all
 Version: 2027.1.0~git20261126.958ba8f-0+devjam2
