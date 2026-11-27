@@ -1478,41 +1478,6 @@ SHA512: 92970a6b9ccbb7158627d63e930cf7feebb662fa1348a9c474b187a8bd26ef326306d337
 Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
-Package: python3-tartube
-Architecture: all
-Version: 2.5.253-1
-Priority: optional
-Section: python
-Source: tartube
-Maintainer: A S Lewis <aslewis@cpan.org>
-Installed-Size: 13183
-Depends: python3-feedparser, python3-gi, python3-requests, python3:any, python3-pip
-Filename: pool/main/python3-tartube_2.5.253-STRICT-1_all.deb
-Size: 3086348
-MD5sum: 854321d0f30f5b284a290fa1cf5d62fd
-SHA1: 43c4d11f4042f782b38bf397694bd9744db6521e
-SHA256: 67ff8bb4c95ef3cda56d00f06d5e4e7b698b42f50e92ecb196e4932d05eb560a
-SHA512: b25b888cdfd0e12eb0003d6286b85191c095e6b2be7e0e30e8f6f0becc949f2ed992685f6875bbe9520d6ad7fb849c480fc13f18f46b925b7290f4a6c8fa4dd3
-Homepage: https://tartube.sourceforge.io
-Description: GUI front-end for youtube-dl and yt-dlp
- Tartube is a GUI front-end for youtube-dl, yt-dlp and other compatible video
- downloaders.
- .
-  - You can fetch a list of videos from your favourite channels and playlists on
-  YouTube, BitChute, and hundreds of other websites
-  - In buffering is an issue, you can download a temporary copy of a video
-  before automatically opening it in your favourite media player
-  - Tartube will organise your videos into convenient folders (if that's what
-  you want)
-  - Tartube can alert you when livestreams and debut videos are starting
-  (YouTube only)
-  - If you think the censors will remove a video, against the wishes of its
-  creators and before you've had a chance to watch it, Tartube can make an
-  archive copy
-  - Tartube won't manipulate search results, unsubscribe you from your favourite
-  channels or deliberately conceal videos
-  - Tartube is free and open-source software
-
 Package: rescuezilla
 Architecture: all
 Version: 2.6.2-1
