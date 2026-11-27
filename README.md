@@ -17,6 +17,7 @@ Suite: `trixie`. Architectures: `amd64` and `all`.
 | `xlibre` | XLibre stable packages: `xlibre-server` and everything around it (drivers, protocol headers, libraries) | `trixie` only |
 | `xlibre-rc` | Release candidates of the stable XLibre server series (`xlibre-server` only) | `trixie` only |
 | `xlibre-beta` | Next XLibre server series, e.g. 25.2.x (`xlibre-server` only) | `trixie` only |
+| `experimentation` | Packages in testing: OpenSesame 4.1 with its plugins and extensions, PsychoPy 2027.1, Sigmund Analyst and the Python libraries they need | `trixie` only |
 
 The suite is named `trixie` for all components, but the packages in `main` and `science` are not specific to it.
 
@@ -27,6 +28,12 @@ The suite is named `trixie` for all components, but the packages in `main` and `
 Package: *
 Pin: release o=dev-jam, c=xlibre-beta
 Pin-Priority: 100
+```
+
+`experimentation` holds packages that are being tested: OpenSesame (`python3-opensesame`) with its plugins and extensions, PsychoPy (`psychopy`), Sigmund Analyst (`python3-pyqt-code-editor`) and the Python libraries they need. Like `xlibre-rc` and `xlibre-beta` it is not enabled in `dev-jam.sources`; add it to the `Components:` line to opt in. It needs `science` as well (for example `python3-sounddevice`). A few of its packages are newer versions of `trixie` packages (`python3-screeninfo` 0.8.1 instead of 0.6.7), which APT then installs in their place. With the component enabled:
+
+```sh
+sudo apt-get install python3-opensesame
 ```
 
 ## Add the repository
