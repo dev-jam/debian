@@ -138,6 +138,25 @@ Description: high performance, standard-compliant ECMAScript parser
  This package installs the library for Python 3.
 Commands: esprima
 
+Package: python3-expyriment
+Architecture: all
+Version: 0.10.0+opensesame2-0+devjam1
+Priority: optional
+Section: python
+Maintainer: Bob Rosbag <debian@bobrosbag.nl>
+Installed-Size: 11572
+Depends: python3:any, python3-pygame, python3-opengl, python3-numpy
+Filename: pool/experimentation/python3-expyriment_0.10.0+opensesame2-0+devjam1_all.deb
+Size: 4275800
+MD5sum: dea0aab66675f8a41cd48d8c4866a801
+SHA1: 79d1ae1d83dd28126d0e727bffdb36e1af594a49
+SHA256: e881b3fc6deaa184db1e816d84c7f3e4a41557d0c3c21283f85a91d385efd338
+SHA512: 60e8918e05772c6bf0b7f5cc81f0bb2e4276e95128c74a3121936adae5ee51095456847f22763cd463147ac0cadc7ba732c9c0f08786a5eb3c78eece7571e1da
+Homepage: http://www.expyriment.org
+Description: Python library for cognitive and neuroscientific experiments
+ Local repackaging of the upstream wheel of expyriment
+ 0.10.0+opensesame2 for Debian trixie.
+
 Package: python3-fastnumbers
 Architecture: amd64
 Version: 5.2.0-0+devjam1
@@ -501,24 +520,24 @@ Description: OpenSesame plugin for Tobii eye trackers through Titta
 
 Package: python3-opensesame
 Architecture: all
-Version: 4.1.24+git20261125.dd2ed4b-0+devjam2
+Version: 4.1.24+git20261125.dd2ed4b-0+devjam3
 Priority: optional
 Section: science
 Source: opensesame-core
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Installed-Size: 32081
-Provides: opensesame-core (= 4.1.24+git20261125.dd2ed4b-0+devjam2), python3-opensesame-core (= 4.1.24+git20261125.dd2ed4b-0+devjam2)
+Provides: opensesame-core (= 4.1.24+git20261125.dd2ed4b-0+devjam3), python3-opensesame-core (= 4.1.24+git20261125.dd2ed4b-0+devjam3)
 Depends: python3-fileinspector, python3-markdown, python3-numpy, python3-pil, python3-pseudorandom, python3-pyqt-code-editor, python3-pyqt6.qtwebengine, python3-qdatamatrix, python3-qnotifications, python3-setuptools, python3-webcolors, python3-yaml, python3:any, python3-datamatrix, python3-psutil, python3-pyqt6, python3-qtawesome, python3-qtpy, pyqt6-dev-tools
-Recommends: mesa-vulkan-drivers | vulkan-icd, psychopy, python3-opengl, python3-pygame
+Recommends: mesa-vulkan-drivers | vulkan-icd, psychopy, python3-expyriment, python3-opengl, python3-pygame
 Suggests: python3-serial, python3-shapely
 Breaks: opensesame-core (<< 4.1.24+git20261125.dd2ed4b-0+devjam2)
 Replaces: opensesame-core (<< 4.1.24+git20261125.dd2ed4b-0+devjam2)
-Filename: pool/experimentation/python3-opensesame_4.1.24+git20261125.dd2ed4b-0+devjam2_all.deb
-Size: 16576684
-MD5sum: b0ce38cb6bf8c67d17ed226a7b757a22
-SHA1: 90273dd8d5912b7766b6fb3f9275f093a57d458a
-SHA256: 3046142b556335295b2b6983425192b0f840f99b3e248c8ffc363601a41a81b2
-SHA512: f07ffb980297fa7374e5253e7f0d682394c21b547fc90fefa0fd668684fbb1cbc49bd80c72250e5fb4b604e067be39d8393cc33f95cd65288e7e0c0bf17c308a
+Filename: pool/experimentation/python3-opensesame_4.1.24+git20261125.dd2ed4b-0+devjam3_all.deb
+Size: 16579128
+MD5sum: 3fdbec1a1dc372c0163b2fe9efdc4c13
+SHA1: fb58fe30ba07e34c2ddeb7cc24c0f7437d2053c6
+SHA256: b367638f1315e11edecc02c8785e502542aab02b61bc0b0de48934edfb0a1aa5
+SHA512: a2ae3855c08a5064de41eb44cbc9c20a7045bfa4d970a05cee14c742fa46b8039203566be258f2f22b8ed16ed954f1de54cbf133e05cc2d681d0ba15614d6a24
 Homepage: https://osdoc.cogsci.nl
 Description: graphical experiment builder for the social sciences
  OpenSesame is a program for creating experiments for psychology,
