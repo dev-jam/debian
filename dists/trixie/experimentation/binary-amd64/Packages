@@ -593,26 +593,6 @@ Description: Pieces of Psychtoolbox-3 ported to CPython
  3.0.22.2 for Debian trixie. Shared libraries that the wheel
  bundles are shipped unchanged.
 
-Package: python3-pyarrow
-Architecture: amd64
-Version: 26.0.1-0+devjam2
-Priority: optional
-Section: python
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 132356
-Depends: python3 (>= 3.13~), python3 (<< 3.14), libc6 (>= 2.28), python3-numpy
-Filename: pool/experimentation/python3-pyarrow_26.0.1-0+devjam2_amd64.deb
-Size: 33978276
-MD5sum: 45d54dc01e5f8910a60e32ab9f304f0c
-SHA1: 4f50d457351467c4528b3aaa3df26a10921a1ccd
-SHA256: 29bd53f2337793c74fbd2739f0f84e20044001f4e157c4415a32130c70a1fc57
-SHA512: caf32b62fcd416fafac8298e9b2c3890d660dccdfea782cff7ed6131102ec57c0fbe327ccc234fca86630ab812989a1046cedc98b76c53ad655eb4b8a83d4e94
-Homepage: https://arrow.apache.org/
-Description: Python library for Apache Arrow
- Local repackaging of the upstream PyPI wheel of pyarrow
- 26.0.1 for Debian trixie. Shared libraries that the wheel
- bundles are shipped unchanged.
-
 Package: python3-pygame-eyelink-coregraphics
 Architecture: all
 Version: 0:2.2.596.0-1~w2d0
