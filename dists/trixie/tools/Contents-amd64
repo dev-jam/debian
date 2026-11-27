@@ -3004,9 +3004,6 @@ usr/share/doc/strawberry/README.md.gz			    sound/strawberry
 usr/share/doc/strawberry/changelog.Debian.gz		    sound/strawberry
 usr/share/doc/strawberry/changelog.gz			    sound/strawberry
 usr/share/doc/strawberry/copyright			    sound/strawberry
-usr/share/doc/win32-loader/THANKS			    utils/win32-loader
-usr/share/doc/win32-loader/changelog.gz			    utils/win32-loader
-usr/share/doc/win32-loader/copyright			    utils/win32-loader
 usr/share/fish/vendor_completions.d/mpv.fish		    video/mpv
 usr/share/glib-2.0/schemas/psensor.gschema.xml		    utils/psensor
 usr/share/icons/gprename.png				    utils/gprename
@@ -5024,8 +5021,5 @@ usr/share/ulduzsoft/birdtray/translations/main_ru.qm	    mail/birdtray
 usr/share/ulduzsoft/birdtray/translations/main_sv.qm	    mail/birdtray
 usr/share/ulduzsoft/birdtray/translations/main_tr.qm	    mail/birdtray
 usr/share/ulduzsoft/birdtray/translations/main_zh_cn.qm	    mail/birdtray
-usr/share/win32/win32-loader.exe			    utils/win32-loader
-usr/share/win32/win32-loader/g2ldr			    utils/win32-loader
-usr/share/win32/win32-loader/g2ldr.mbr			    utils/win32-loader
 usr/share/zsh/site-functions/_psd			    utils/profile-sync-daemon
 usr/share/zsh/vendor-completions/_mpv			    video/mpv
