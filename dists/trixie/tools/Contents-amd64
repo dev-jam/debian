@@ -7,8 +7,6 @@ usr/bin/birdtray					    mail/birdtray
 usr/bin/bleachbit					    admin/bleachbit
 usr/bin/ccd2iso						    otherosfs/ccd2iso
 usr/bin/cleanup_digikamdb				    graphics/digikam
-usr/bin/clementine					    sound/clementine
-usr/bin/clementine-tagreader				    sound/clementine
 usr/bin/digikam						    graphics/digikam
 usr/bin/digitaglinktree					    graphics/digikam
 usr/bin/gprename					    utils/gprename
@@ -700,7 +698,6 @@ usr/lib/x86_64-linux-gnu/qt6/qml/org/kde/kwin/private/kdecoration/kdecorationpri
 usr/lib/x86_64-linux-gnu/qt6/qml/org/kde/kwin/private/kdecoration/libkdecorationprivatedeclarative.so kde/kwin-common
 usr/lib/x86_64-linux-gnu/qt6/qml/org/kde/kwin/private/kdecoration/qmldir kde/kwin-common
 usr/lib/x86_64-linux-gnu/simplescreenrecorder/libssr-glinject.so libs/simplescreenrecorder-lib
-usr/libexec/clementine/crashpad_handler			    sound/clementine
 usr/libexec/kdiskmark_helper				    utils/kdiskmark
 usr/share/applications/audacity.desktop			    sound/audacity
 usr/share/applications/be.maartenbaert.simplescreenrecorder.desktop video/simplescreenrecorder
@@ -721,7 +718,6 @@ usr/share/applications/kwincompositing.desktop		    kde/kwin-data
 usr/share/applications/lindiskinfo.desktop		    utils/lindiskinfo
 usr/share/applications/mpv.desktop			    video/mpv
 usr/share/applications/org.bleachbit.BleachBit.desktop	    admin/bleachbit
-usr/share/applications/org.clementine_player.Clementine.desktop sound/clementine
 usr/share/applications/org.kde.digikam.desktop		    graphics/digikam
 usr/share/applications/org.kde.kwin.killer.desktop	    kde/kwin-common
 usr/share/applications/org.kde.showfoto.desktop		    graphics/showfoto
@@ -2884,8 +2880,6 @@ usr/share/doc/ccd2iso/README				    otherosfs/ccd2iso
 usr/share/doc/ccd2iso/changelog.Debian.gz		    otherosfs/ccd2iso
 usr/share/doc/ccd2iso/changelog.gz			    otherosfs/ccd2iso
 usr/share/doc/ccd2iso/copyright				    otherosfs/ccd2iso
-usr/share/doc/clementine/changelog.gz			    sound/clementine
-usr/share/doc/clementine/copyright			    sound/clementine
 usr/share/doc/digikam-data/changelog.Debian.gz		    graphics/digikam-data
 usr/share/doc/digikam-data/changelog.gz			    graphics/digikam-data
 usr/share/doc/digikam-data/copyright			    graphics/digikam-data
@@ -3023,7 +3017,6 @@ usr/share/icons/hicolor/128x128/apps/expoblending.png	    graphics/digikam-data
 usr/share/icons/hicolor/128x128/apps/kdiskmark.png	    utils/kdiskmark
 usr/share/icons/hicolor/128x128/apps/lindiskinfo.png	    utils/lindiskinfo
 usr/share/icons/hicolor/128x128/apps/mpv.png		    video/mpv
-usr/share/icons/hicolor/128x128/apps/org.clementine_player.Clementine.png sound/clementine
 usr/share/icons/hicolor/128x128/apps/panorama.png	    graphics/digikam-data
 usr/share/icons/hicolor/128x128/apps/psensor.png	    utils/psensor
 usr/share/icons/hicolor/128x128/apps/showfoto.png	    graphics/showfoto
@@ -3204,7 +3197,6 @@ usr/share/icons/hicolor/64x64/apps/digikam.png		    graphics/digikam-data
 usr/share/icons/hicolor/64x64/apps/kdiskmark.png	    utils/kdiskmark
 usr/share/icons/hicolor/64x64/apps/lindiskinfo.png	    utils/lindiskinfo
 usr/share/icons/hicolor/64x64/apps/mpv.png		    video/mpv
-usr/share/icons/hicolor/64x64/apps/org.clementine_player.Clementine.png sound/clementine
 usr/share/icons/hicolor/64x64/apps/psensor.png		    utils/psensor
 usr/share/icons/hicolor/64x64/apps/showfoto.png		    graphics/showfoto
 usr/share/icons/hicolor/64x64/apps/simplescreenrecorder-error.png video/simplescreenrecorder
@@ -3232,7 +3224,6 @@ usr/share/icons/hicolor/scalable/apps/dk-piwigo.svgz	    graphics/digikam-data
 usr/share/icons/hicolor/scalable/apps/dk-smugmug.svgz	    graphics/digikam-data
 usr/share/icons/hicolor/scalable/apps/kwin.svgz		    kde/kwin-data
 usr/share/icons/hicolor/scalable/apps/mpv.svg		    video/mpv
-usr/share/icons/hicolor/scalable/apps/org.clementine_player.Clementine.svg sound/clementine
 usr/share/icons/hicolor/scalable/apps/panorama.svgz	    graphics/digikam-data
 usr/share/icons/hicolor/scalable/apps/psensor.svg	    utils/psensor
 usr/share/icons/hicolor/scalable/apps/psensor_hot.svg	    utils/psensor
@@ -3294,10 +3285,6 @@ usr/share/knsrcfiles/kwinscripts.knsrc			    kde/kwin-data
 usr/share/knsrcfiles/kwinswitcher.knsrc			    kde/kwin-data
 usr/share/knsrcfiles/window-decorations.knsrc		    kde/kwin-data
 usr/share/krunner/dbusplugins/kwin-runner-windows.desktop   kde/kwin-data
-usr/share/kservices5/clementine-feed.protocol		    sound/clementine
-usr/share/kservices5/clementine-itms.protocol		    sound/clementine
-usr/share/kservices5/clementine-itpc.protocol		    sound/clementine
-usr/share/kservices5/clementine-zune.protocol		    sound/clementine
 usr/share/kwin/aurorae/AppMenuButton.qml		    kde/kwin-data
 usr/share/kwin/aurorae/AuroraeButton.qml		    kde/kwin-data
 usr/share/kwin/aurorae/AuroraeButtonGroup.qml		    kde/kwin-data
@@ -4683,7 +4670,6 @@ usr/share/metainfo/io.github.pacmanics.lindiskinfo.metainfo.xml utils/lindiskinf
 usr/share/metainfo/io.github.pwr_solaar.solaar.metainfo.xml misc/solaar
 usr/share/metainfo/mpv.metainfo.xml			    video/mpv
 usr/share/metainfo/org.bleachbit.BleachBit.metainfo.xml	    admin/bleachbit
-usr/share/metainfo/org.clementine_player.Clementine.appdata.xml sound/clementine
 usr/share/metainfo/org.kde.digikam.appdata.xml		    graphics/digikam
 usr/share/metainfo/org.kde.showfoto.appdata.xml		    graphics/showfoto
 usr/share/metainfo/org.strawberrymusicplayer.strawberry.appdata.xml sound/strawberry

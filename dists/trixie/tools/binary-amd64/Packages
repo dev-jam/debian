@@ -128,42 +128,6 @@ Description: Converter from CloneCD disc image format to standard ISO
  This converts CD backup files created using the non-free CloneCD program to a
  format understood by most Free Software CD writing programs.
 
-Package: clementine
-Architecture: amd64
-Version: 1.4.7~trixie
-Priority: optional
-Section: sound
-Maintainer: David Sansome <me@davidsansome.com>
-Installed-Size: 25410
-Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libcurl4t64 (>= 7.16.2), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libgl1, libglib2.0-0t64 (>= 2.80.0), libgpod4t64 (>= 0.6.0), libgstreamer-plugins-base1.0-0 (>= 1.10.0), libgstreamer1.0-0 (>= 1.8.0), libmtp9t64 (>= 1.1.0), libprotobuf32t64 (>= 3.21.12), libpulse0 (>= 0.99.1), libqt6concurrent6 (>= 6.1.2), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.8.2), libqt6openglwidgets6 (>= 6.1.2), libqt6sql6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libsqlite3-0 (>= 3.6.11), libstdc++6 (>= 14), libtag2 (>= 2.0), libx11-6, zlib1g (>= 1:1.1.4), libqt6sql6-sqlite, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-alsa, gstreamer1.0-pulseaudio, libprojectm-data | projectm-data
-Filename: pool/tools/clementine_1.4.7~trixie_amd64.deb
-Size: 6627864
-MD5sum: 7f3c11ea165ff640249de693cd052ace
-SHA1: 8ab2467f0a642779855dc2dbedf337c4d56ad397
-SHA256: 6f3c2d869fe4125ad46c80785cf577845c497af846a3ae67be63ad2d69ac65c2
-SHA512: 9a81de65103478825e2d75e76d6bb719753cf3223352f57fe19f67df103b5606e84e987b1fe821dc335acf5b0c511f435db9b5c42d59be23e087419c50f0e088
-Homepage: http://www.clementine-player.org/
-Description: Modern music player and library organiser inspired by Amarok 1.4
- Clementine focuses on a fast and easy-to-use interface for searching and
- playing your music.
- .
- Features include:
-   * Search and play your local music library
-   * Listen to internet radio from Last.fm, SomaFM, IntergalacticFM, Magnatune,
-     Jamendo and Icecast
-   * Create smart playlists and dynamic playlists
-   * Tabbed playlists, import and export M3U, XSPF, PLS, ASX and CUE
-   * Visualisations from projectM
-   * Lyrics and artist biographies and photos
-   * Transcode music into MP3, Ogg Vorbis, Ogg Speex, FLAC or AAC
-   * Edit tags on MP3 and OGG files, organise your music
-   * Download missing album cover art from Last.fm
-   * Cross-platform - works on Windows, Mac OS X and Linux
-   * Native desktop notifications on Linux (libnotify) and Mac OS X (Growl)
-   * Remote control using a Wii Remote, MPRIS or the command-line
-   * Copy music to your iPod, iPhone, MTP or mass-storage USB player
-   * Queue manager
-
 Package: digikam-data
 Architecture: all
 Version: 4:9.1.0-1~bpo13+2

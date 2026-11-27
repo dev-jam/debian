@@ -878,24 +878,6 @@ Description: X11 display size confs for the CLS lab monitors
  the CLS lab, for correct DPI, and the switch-x11-monitor command that
  installs the chosen profile in /etc/X11/xorg.conf.d.
 
-Package: fastfetch
-Architecture: amd64
-Version: 2.71.0
-Priority: optional
-Section: devel
-Maintainer: Carter Li <zhangsongcui@live.cn>
-Installed-Size: 4542
-Depends: libc6 (>= 2.35)
-Filename: pool/main/fastfetch_2.71.0_amd64.deb
-Size: 1512482
-MD5sum: f41e52ed90c0c99303e1de6bfdc594f1
-SHA1: b70a7b0c5702bfe79a48a25b177b6a4c178bcffc
-SHA256: 6dc0b71c03e58f9f981a6b3c62b4fa3fb30b9d5ee9fa783302c91ea4c2a3600e
-SHA512: 9e70d4497d8a62bf92e8fb7949eded27bde2ca62e9292da2851f0aeb89e71468ac08a2b431bf30c34c2ebe469973c6c304c2a674e55b6358fe20d40deba778c9
-Homepage: https://github.com/fastfetch-cli/fastfetch
-Description: Fast neofetch-like system information tool
- fastfetch is a neofetch-like tool for fetching system information and displaying them in a pretty way. It is written mostly in C to achieve much better performance.
-
 Package: fclones-gui-launcher
 Architecture: all
 Version: 1.2-1
@@ -1036,38 +1018,6 @@ Homepage: https://github.com/pkolaczk/fclones
 Description: Efficient duplicate file finder
  Fast duplicate file finder and remover written in Rust.
 
-Package: geteduroam-cli
-Architecture: amd64
-Version: 0.16.0+git-1
-Priority: optional
-Maintainer: Jeroen Wijenbergh
-Installed-Size: 14372
-Depends: network-manager
-Filename: pool/main/geteduroam-cli_0.16.0+git-1_amd64.deb
-Size: 6147414
-MD5sum: a6e142e2de7b34e4bd7a7bf9c178815e
-SHA1: 90705b67cb41042fb60fc09e7bfaba312b49b789
-SHA256: 1871276c9a30b4f1a3a767548d10d6edb64f56f0757edc1746178b39bbc959dd
-SHA512: 2886818138965ca84a53b19562bacac808b28bb83dacf56ab32bc6ab35f9752c5ea6235ff0f5a9b2633bfd10080f81f6a8aa4c6a4456b302eb6220205411abaf
-Homepage: https://geteduroam.org/
-Description: Geteduroam CLI client for Linux distributions.
-
-Package: geteduroam-gui
-Architecture: amd64
-Version: 0.16.0+git-1
-Priority: optional
-Maintainer: Jeroen Wijenbergh
-Installed-Size: 22180
-Depends: network-manager, libgtk-4-1, libadwaita-1-0, libnotify-bin
-Filename: pool/main/geteduroam-gui_0.16.0+git-1_amd64.deb
-Size: 7929814
-MD5sum: 96cf68408808bf5fca7c5b72055ccabd
-SHA1: 485df764e17633c6ff021f05f3851ea8b6aed57b
-SHA256: 9f342d41598b08fa47b1035eee6d2a08a99819acd925a90d5e19de0a4eaa3380
-SHA512: 15ed47ab81cadf27faec89b0dde84589f142187a1a47802053b9331776cd1d405430cd4d4d10ef3b6edec18803fe9d1f4473ac7ddd26b0e2b8830c0656e84c82
-Homepage: https://geteduroam.org/
-Description: Geteduroam GUI client for Linux distributions.
-
 Package: grafito
 Architecture: amd64
 Version: 1.7.0-1
@@ -1194,35 +1144,6 @@ Description: Live System Build Components
  live-build contains the components to build a live system from a configuration
  directory.
 
-Package: modulejail
-Architecture: all
-Version: 1.6.3
-Priority: optional
-Section: admin
-Maintainer: Jasper Nuyens <jnuyens@linuxbe.com>
-Depends: coreutils, findutils, awk | mawk | gawk | original-awk
-Recommends: curl | wget
-Filename: pool/main/modulejail_1.6.3_all.deb
-Size: 61258
-MD5sum: 88ee2626a77668304b39d539e66069d2
-SHA1: ab3b1513c62838d86e81a95752d3e4e25d5188b0
-SHA256: 3fc164b2e64a337311dd7dbabf1274d574cf1c9696d8ad07b43f7974abcea57d
-SHA512: 524168e3fb815e937617c3087fd82f1f56fbfccdbc8ae182be3f41f53becd3e82be2c6726a51d66f2768dd33c65a46949cf0f71fe87a40db17f31c6c303e91d9
-Homepage: https://modulejail.com
-Description: Shrink Linux kernel-module attack surface
- ModuleJail snapshots the set of currently loaded modules and writes a
- modprobe.d blacklist for every kernel module not currently in use,
- minus a built-in baseline and an optional sysadmin-supplied whitelist.
- .
- Aimed at Linux fleet operators who need to harden many servers against
- the wave of AI-assisted kernel privilege-escalation discoveries. Every
- additional loaded module is additional latent attack surface for the
- next disclosed CVE.
- .
- No daemon, no continuous monitoring, no AI inside the tool. One shell
- script, run once on a steady-state host, that writes one modprobe.d
- blacklist file.
-
 Package: mx23-archive-keyring
 Architecture: all
 Version: 2023.6.6
@@ -1264,24 +1185,6 @@ SHA512: 114faeda3b0beff8efaf9cc633d8845aa42b96a7b4261b4631618977096e6ce2bb4bf6fa
 Description: GnuPG archive keys of the MX-25 Linux archive
  The MX Linux project digitally signs its repository Release files.
  This package contains the archive keys used for that.
-
-Package: navidrome
-Architecture: amd64
-Architecture-Variant: amd64v1
-Version: 0.64.2
-Priority: optional
-Maintainer: Deluan Quintão <deluan at navidrome.org>
-Installed-Size: 71534
-Depends: ffmpeg
-Suggests: mpv
-Filename: pool/main/navidrome_0.64.2_linux_amd64.deb
-Size: 24701478
-MD5sum: 177d4d32527c3c9e12ab166809a9be0c
-SHA1: a4d34e12c3d41a8258bfad6ea26b5edbea2592b1
-SHA256: b9ecb35eb6e042d6b019d504c0df40fa676f9a5a18db6513f551e124af7085e3
-SHA512: 7b4eb23c6677c9d44f22cfbe845809bcd200c60f0e8bb51aa648243340fe9d0321e4155daba999151d17995579db288b3a7d9c467f895a37cea99497eaafc210
-Homepage: https://navidrome.org
-Description: 🎧☁ Your Personal Streaming Service
 
 Package: nordvpn-release
 Architecture: all
@@ -1336,25 +1239,6 @@ SHA512: 0e783e912c1856253fbc01ad6f629eff978ef3cdc5b42f3bbd1ccdaf261982a14ab8e658
 Homepage: http://www.phoronix-test-suite.com/
 Description: An Automated, Open-Source Testing Framework
  The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
-
-Package: pipeweaver
-Architecture: amd64
-Version: 0.1.9-1
-Priority: optional
-Section: sound
-Maintainer: Craig McLure <craig@mclure.net>
-Installed-Size: 18575
-Depends: libqt6webenginewidgets6 (>= 6.2.0), pipewire (>=1.0.5), qml6-module-qtqml-workerscript (>= 6.2.0), qml6-module-qtquick (>= 6.2.0), qml6-module-qtquick-controls (>= 6.2.0), qml6-module-qtquick-templates (>= 6.2.0), qml6-module-qtquick-window (>= 6.2.0), qml6-module-qtwebengine (>= 6.2.0)
-Conflicts: pipeweaver-app
-Filename: pool/main/pipeweaver_0.1.9-1_amd64.deb
-Size: 4860620
-MD5sum: c74dc0a9a36f932916416e68fb8bca1f
-SHA1: 1f43cf5d2f4426826642e6c35ce6b4f7a824906f
-SHA256: 8f0df036a07fb22193f1330e4b83121acd3d6b9e101f1ffb020517bf21b59791
-SHA512: 109d60b26b9e680463ccba2c0574fa33c6eee50cbf96818293999504a6a4f28b4b007a88e7d3749559c92f774f4dd68bb36c38a6fc0c42f636bc71cc127ae3a9
-Homepage: https://pipeweaver.github.io/
-Description: A tool for audio control and routing via Pipewire
- A tool for audio control and routing via Pipewire
 
 Package: python3-betteradbsync
 Architecture: all
@@ -1480,30 +1364,6 @@ SHA512: 92970a6b9ccbb7158627d63e930cf7feebb662fa1348a9c474b187a8bd26ef326306d337
 Description: Linux audio performance analyzer
  This package was automatically generated from the upstream wheel by wheel2deb.
 
-Package: rescuezilla
-Architecture: all
-Version: 2.6.2-1
-Priority: optional
-Section: admin
-Maintainer: Shasheen Ediriweera <rescuezilla@gmail.com>
-Installed-Size: 3293
-Depends: smbclient, fsarchiver, partclone, pv, pigz, nmap, os-prober, gvfs, cifs-utils, sshfs, sshpass, nfs-common, file, xdg-utils, libnotify-bin, lshw, pciutils, yad, hdparm, pbzip2, lzop, pixz, plzip, lrzip, zstd, fatresize, archivemount, nbd-server, nbd-client, python3-babel, clonezilla, lvm2, binutils, smartmontools, qemu-utils, efibootmgr, bsdmainutils
-Recommends: partimage, ecryptfs-utils, nbdkit, python3-whichcraft
-Filename: pool/main/rescuezilla_2.6.2-1_all.deb
-Size: 571846
-MD5sum: 50a6e536edcdc6aaec538c492e1f5f35
-SHA1: a30ca42625c46a749d3418ffcd48eed4a49ab619
-SHA256: 5a97b79660f644662f6a16080743ec1f5e3ae80aa8a6a602377aa22982c1842b
-SHA512: 0f0434b1236537f347033d2074538a7ae7194a25ad8e68e657aae4a2ea48c7fad21429944d40dc2f3f4eb05108918fc8c060f7d3910ad13c4af63a3a1fe17072
-Homepage: https://rescuezilla.com
-Description: Graphical hard drive backup and restore
- Rescuezilla is an easy-to-use disk cloning and imaging application that's
- fully compatible with Clonezilla — the industry-standard trusted by tens
- of millions. For many people, the alternative open-source tools such as
- Clonezilla are intimidating and difficult to use, so Rescuezilla provides
- an easy-to-use graphical environment like the leading commercial tools,
- Acronis True Image and Macrium Reflect.
-
 Package: rtirq
 Architecture: all
 Version: 20240905-48.1+devjam1
@@ -1558,186 +1418,6 @@ Homepage: https://github.com/lgse/strata
 Description: Fast, keyboard-first file manager
  Strata is a GTK4 file manager for Linux with rich previews, tabs and keyboard navigation.
 
-Package: systemctl-tui
-Architecture: amd64
-Version: 0.8.0-1
-Priority: optional
-Section: admin
-Maintainer: Reilly Wood
-Installed-Size: 5184
-Depends:
-Filename: pool/main/systemctl-tui_0.8.0-1_amd64.deb
-Size: 1477696
-MD5sum: 24a6896bc84f0122f83dcb8aecd83781
-SHA1: c0dc95ffcb72ba3510e667613d25aa98def27723
-SHA256: ac5de860f054748fd6441884857d237630e413a711b7b99a21d6bf84ca653fa8
-SHA512: da00a43e25aef9198f5388eb26296e3cf0b1b1d0218ec548dfda7b553d5fafaf7a21fc4a637fdcfebb17fdcf39bd0174724c0f0350156c6fc2cc2ab9c2a519a5
-Homepage: https://github.com/rgwood/systemctl-tui
-Description: A simple TUI for interacting with systemd services and their logs
- systemctl-tui is a fast, simple terminal user interface for interacting with
- systemd services and their logs. It can quickly browse service status and logs,
- and start/stop/restart/reload services.
-
-Package: systemd-manager-tui
-Architecture: amd64
-Version: 1.3.0-1
-Priority: optional
-Maintainer: Matheus-git <mathiew0@gmail.com>
-Installed-Size: 8545
-Depends: systemd
-Recommends: default-dbus-session-bus | dbus-session-bus
-Filename: pool/main/systemd-manager-tui_1.3.0-1_amd64.deb
-Size: 2144864
-MD5sum: 5fc9e30bf012a46b2c66d610be51e2f2
-SHA1: 798a947b682e4703cef85875c08238872946210f
-SHA256: e078620f5051baa055eebd0946d77b2ac96d456a1287c6d4f3f509024784e4e1
-SHA512: dc17b0b261bb78285121d90e614f21391e37dd726412bedc6d8fab134f2503673876bcded68618f36098a5bfa9fa8a238ebbd0c7ec67d7844fcb4816550c2626
-Homepage: https://github.com/matheus-git/systemd-manager-tui
-Description: TUI for managing systemd services
- # Systemd manager tui
- .
- ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
- .
- A TUI application for managing systemd services.
- .
- This tool allows you to manage systemd services with ease. You can view logs,
- list services, view properties, edit unit files, and control their lifecycle:
- start, stop, restart, mask, unmask, enable, and disable using the D-Bus API. It
- also supports Vim-like navigation. It is possible to navigate between system
- and user units and choose to list only running services or all units.
- .
- ## Quick Preview
- .
- ![screenshot_list](https://raw.githubusercontent.com/matheus-git/systemd-manager-tui/main/assets/systemd-manager-tui.gif)
- .
- View
- [screenshots](https://github.com/matheus-git/systemd-manager-tui/blob/main/docs/screenshots.md)
- .
- ## Usage
- .
- ```bash
- systemd-manager-tui
- .
- # With a filter
- systemd-manager-tui -f docker
- .
- # Without watching system and user units for failure notifications
- systemd-manager-tui -n
- # or: systemd-manager-tui --no-notifications
- ```
- .
- ## Install
- .
- After installation, you can create an `alias` to make it easier to use.
- .
- ### Ubuntu (recommended)
- .
-     sudo dpkg -i ./systemd-manager-tui_x.x.x-x_amd64.deb 
- .
- Download the .deb file from
- [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
- .
- ### Fedora (recommended)
- .
-     sudo dnf install ./systemd-manager-tui_x.x.x-x_x86_64.rpm
- .
- Download the .rpm file from
- [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
- .
- ### Building packages
- .
- Build native and cross-compiled binaries, DEBs, and RPMs with:
- .
- ```sh
- ./build.sh
- ```
- .
- The script selects the RPM architecture and binary asset automatically. To
- regenerate packages
- from binaries that already exist under `target/<triple>/release/`, use:
- .
- ```sh
- ./build.sh --rpm-only
- ./build.sh --deb-only
- ./build.sh --packages-only
- ```
- .
- Before packaging, the script rejects stale binaries, verifies the ELF target
- architecture, and
- runs the binary's `--version` command when the target is native or a compatible
- QEMU runner is
- installed.
- .
- To build or package only one architecture, combine an option with `--target`:
- .
- ```sh
- ./build.sh --rpm-only --target aarch64-unknown-linux-musl
- ./build.sh --skip-native --target x86_64-unknown-linux-musl
- ```
- .
- ### Arch linux
- .
-     yay -S systemd-manager-tui
- .
- https://aur.archlinux.org/packages/systemd-manager-tui
- .
- ### NixOS
-     nix run github:matheus-git/systemd-manager-tui
- .
- NixOS with flakes [Read here](docs/flakes.md)
- ### Binary
- .
-     chmod +x systemd-manager-tui
-     ./systemd-manager-tui
- Download binary from
- [Releases](https://github.com/matheus-git/systemd-manager-tui/releases)
- .
- ### Cargo
- .
-     cargo install --locked systemd-manager-tui
- .
- ## Main libraries
- .
- - ratatui - 0.29.0
- - zbus - 5.5.0
- .
- ## Testing
- .
- Run the regular test suite with:
- .
- ```bash
- cargo test
- ```
- .
- The regular suite includes unit, application-flow, and Ratatui rendering tests
- using `TestBackend`, so it does not require an interactive terminal or a
- running systemd instance.
- .
- Real integration tests against the system and user D-Bus buses are available as
- an opt-in suite. Run them on a systemd-based Linux host where the current user
- has an active user manager and both `systemctl` and `systemd-run` are
- available:
- .
- ```bash
- cargo test infrastructure::systemd_service_adapter::tests -- --ignored
- --test-threads=1
- ```
- .
- The integration suite reads real system units and creates an isolated transient
- user service to exercise lifecycle operations. The temporary service is stopped
- and cleaned up automatically. These tests are ignored during a regular `cargo
- test` so environments without systemd, such as many CI containers, continue to
- work.
- .
- ## Contributing
- .
- Contributions are welcome! Please open an issue or submit a pull request for
- any improvements or bug fixes.
- .
- ## 📝 License
- .
- This project is open-source under the MIT License.
-
 Package: ventoy-bin
 Architecture: amd64
 Version: 1.1.18+devjam1
@@ -1777,39 +1457,4 @@ SHA512: ff2542751e5aee54f52cff5b4e556c19debf6b74250745a2dc40c33438fee607304cbb2f
 Homepage: https://github.com/upciti/wheel2deb
 Description: Python wheel to debian package converter
  This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: yserver
-Architecture: amd64
-Version: 1.9.0-1
-Priority: optional
-Section: x11
-Maintainer: Jos Dehaes <jos.dehaes@gmail.com>
-Installed-Size: 10906
-Depends: libc6 (>= 2.39), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.4.2), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 4.2), libinput10 (>= 1.19.1), libudev1 (>= 183), libxkbcommon0 (>= 0.6.1), libxshmfence1, libvulkan1, xauth, xkb-data
-Recommends: mesa-vulkan-drivers, xfonts-base
-Suggests: lightdm
-Filename: pool/main/yserver_1.9.0-1_amd64.deb
-Size: 3149344
-MD5sum: 151cfb5758fc8d9f757194ef76f495c7
-SHA1: b3cfdf0b58c3607bfd79465db67249eb9fb03b9c
-SHA256: dd2141c58cec010ec989c4198d7957f2e3656031a709be88e14ad1cefe2de952
-SHA512: d78a4d08003d2518bca864bb7c5e142c7a8620710f37db7ae771116f44e28b988a579407cfb6cacc63a457475d1939c9261c895e37dc72e2ad7527b6f6debad7
-Homepage: https://github.com/joske/yserver
-Description: modern X11 server written from scratch in Rust (DRM/KMS + Vulkan)
- yserver is a modern X11 server written from scratch in Rust. The goal is not
- to clone Xorg but to provide a practical X11 server that runs real desktop
- environments, window managers and applications on modern Linux while dropping
- legacy baggage (multiple screens, non-TrueColor visuals, indirect GLX, the
- DDX driver ABI, endian-swapped clients, and so on).
- .
- It drives the GPU directly through atomic DRM/KMS and composites with Vulkan.
- There is no seat manager: it opens /dev/dri and /dev/input directly, so the
- user running it needs access to both (see /usr/share/doc/yserver/setup.md).
- It runs full MATE/XFCE/Cinnamon/Plasma desktops and window managers such as
- FVWM3, e16 and wmaker, and implements a broad set of extensions (Composite,
- DAMAGE, DRI3, GLX, Present, RANDR, RENDER, SHAPE, SYNC, XFIXES, XInput, and
- more).
- .
- This package provides the standalone DRM/KMS server (yserver) and starty(1),
- a startx-style launcher for running it from a console.
 
