@@ -115,39 +115,41 @@ Description: The Ultimate Music Player
 
 Package: devjam-archive-keyring-legacy
 Architecture: all
-Version: 1.42-4
+Version: 1.43-1
 Priority: optional
 Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-archive-keyring-legacy_1.42-4_all.deb
-Size: 6980
-MD5sum: ddbeccbb0648ca0a1553dc76af29b529
-SHA1: 72ba7fb9a821201236d859405dfdc5e8a9fd1d97
-SHA256: 0af23d2e95e4d386771d9a4ef7003ed1435ab3f988e804a57a47bdae65da6815
-SHA512: 5f1a1273829f94bf9a09d0072d124f16855c3b92642b158207eb8aa295009312c83268576d1d62c6f2cf7e4ebf34202ea919d1b190a440c37453a8eb2d53f20c
-Description: Signing key for the dev-jam apt repository (legacy)
- OpenPGP key that signs the dev-jam apt repository, installed in
- /etc/apt/trusted.gpg.d for Debian Live images that still use
- sources.list without Signed-By. Use devjam-archive-keyring on other
- systems; this package will be dropped once Debian Live handles
- deb822 .sources files.
+Filename: pool/main/devjam-archive-keyring-legacy_1.43-1_all.deb
+Size: 7320
+MD5sum: 1915df1c027460f424fd9603280de507
+SHA1: 9fb536c07ae2a4c02dd4247a4055346c107fb584
+SHA256: ee0fefb66abbd54306762b346d8e488f0e5dc7d7869554d904999976007872b9
+SHA512: 2b19d60c32dbf9c53e8bcef6bb58331b3a6204a75dc4872ea049aa748203da67d480f8a138fd888baf4141cb333b311bf7a27fd3a2ffbef4958b32c70592ef87
+Description: Signing keys for the dev-jam apt repositories (legacy)
+ OpenPGP keys that sign the dev-jam apt repository and the dev-jam
+ external repository, installed in /etc/apt/trusted.gpg.d for Debian
+ Live images that still use sources.list without Signed-By. Use
+ devjam-archive-keyring on other systems; this package will be dropped
+ once Debian Live handles deb822 .sources files.
 
 Package: devjam-archive-keyring
 Architecture: all
-Version: 1.42-3
+Version: 1.43-1
 Priority: optional
 Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-archive-keyring_1.42-3_all.deb
-Size: 6532
-MD5sum: 14ff1dbd44d05c6249e6e2e98b1b6e32
-SHA1: 24bcd92bf0e99befdfa328a3afcf84d241d14959
-SHA256: 935853895f41909e28ae53c90fa97c5bf830c349954aa1a8c108fab3679c7095
-SHA512: 0d17e60aadf7c7836989f0eb59112c397d057e1ffa88cddaa2988cf267032690fddcb370f4e90f33759d8e30cf2b2e05458e2995bdcd8387bc777389c40aab0c
-Description: Signing key for the dev-jam apt repository
- OpenPGP key that signs the dev-jam apt repository
- (https://dev-jam.github.io/debian/), installed in /usr/share/keyrings
- for use with Signed-By in deb822 .sources files.
+Filename: pool/main/devjam-archive-keyring_1.43-1_all.deb
+Size: 6880
+MD5sum: af64935f0b98a05d792873521a1cce81
+SHA1: 3876213b2e9a4da3b24c6a00cba748c1758b3d36
+SHA256: 2accd2abf0d65d3e6e800dcd2760dce942ae0748b44486aec34be21443353d58
+SHA512: f4ce247640c4634b3d8babae8b897d26899398fcc390d2c7f9bc9a1266101d7626741ce875cc63d57a5304122b555ea1edc50d4f7ac0aabb3d7d4332f79fc1ee
+Description: Signing keys for the dev-jam apt repositories
+ OpenPGP keys that sign the dev-jam apt repository
+ (https://dev-jam.github.io/debian/, dev-jam.asc) and the dev-jam
+ external repository (https://dev-jam.github.io/debian-external/,
+ dev-jam-external.asc), installed in /usr/share/keyrings for use with
+ Signed-By in deb822 .sources files.
 
 Package: devjam-conky-system-monitor
 Architecture: all
@@ -813,19 +815,19 @@ Description: Thunar custom actions collection
 
 Package: devjam-tools
 Architecture: all
-Version: 2.13-1
+Version: 2.14-1
 Priority: optional
 Section: utils
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
 Depends: curl, jq, ca-certificates, pkexec, python3:any, mawk | gawk
 Recommends: sudo, gh, git, sox, flac, wl-clipboard, debian-keyring, devscripts, lintian, equivs, cfourcc, jdupes, fclones, live-build, ffmpeg, imagemagick, mediainfo, mkvtoolnix, rsync, perl, linux-cpupower, dkms, debsecan, genisoimage, csvtool, libevtx-utils, systemd-container
 Suggests: devjam-s-benchmark
-Filename: pool/main/devjam-tools_2.13-1_all.deb
-Size: 66244
-MD5sum: 641e0ffd30b234e8d61d36da836fb1ff
-SHA1: 9dd273f51950fa6f2dcfb184b250c8b3bd3684ce
-SHA256: ce7fa78cb5a294dad576e868e53d7955259e18c41559604e8453a0226624397c
-SHA512: abefb0219586c8db5c04f67130f31c2b4eae4d0bf031c4344fd397e6c8e30e657d0c1c20246d67924779ee815b614bed029503e72d965cab4dbee51da876cecd
+Filename: pool/main/devjam-tools_2.14-1_all.deb
+Size: 66236
+MD5sum: 8e6eb2ca71f7b6f1bdf2630e5497e546
+SHA1: f3d54692a7828d64b13afbc991885933f8210a29
+SHA256: ee3bbb0da1e6f5e454226693013348c8ddc45ea376ff675be194149320ef3469
+SHA512: 89df176878bd583b5a20a77993eb6259488efb7a521d293b42525aa662b5c3d05af424b04b40ad1d76b51a84556a377a4d278ac97fc759bbd7bc78f9cb180134
 Description: Scripts for packaging, audio and video, files and system upkeep
  Command line tools by devjam, grouped by task:
   - packaging and builds: build-deb-package, check-versions, bpo-build,
