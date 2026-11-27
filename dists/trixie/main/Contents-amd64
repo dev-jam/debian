@@ -105,7 +105,6 @@ etc/apt/trusted.gpg.d/artcraft.gpg			    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/coolercontrol-coolercontrol-archive-keyring.gpg misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/cuda-archive-keyring-bsr.gpg	    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/cuerdos.gpg			    misc/devjam-external-keyring-legacy
-etc/apt/trusted.gpg.d/deb-repos.asc			    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/deb.fastforward.debian.net.pgp	    misc/devjam-external-keyring-legacy
 etc/apt/trusted.gpg.d/dev-jam-external.asc		    misc/devjam-archive-keyring-legacy
 etc/apt/trusted.gpg.d/dev-jam.asc			    misc/devjam-archive-keyring-legacy
@@ -2011,7 +2010,6 @@ usr/share/keyrings/artcraft.gpg				    misc/devjam-external-keyring
 usr/share/keyrings/coolercontrol-coolercontrol-archive-keyring.gpg misc/devjam-external-keyring
 usr/share/keyrings/cuda-archive-keyring-bsr.gpg		    misc/devjam-external-keyring
 usr/share/keyrings/cuerdos.gpg				    misc/devjam-external-keyring
-usr/share/keyrings/deb-repos.asc			    misc/devjam-external-keyring
 usr/share/keyrings/deb.fastforward.debian.net.pgp	    misc/devjam-external-keyring
 usr/share/keyrings/dev-jam-external.asc			    misc/devjam-archive-keyring
 usr/share/keyrings/dev-jam.asc				    misc/devjam-archive-keyring

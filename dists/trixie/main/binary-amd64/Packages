@@ -209,16 +209,16 @@ Description: Kernel hardening sysctl settings for desktops
 
 Package: devjam-external-keyring-legacy
 Architecture: all
-Version: 1.4-1
+Version: 1.5-1
 Priority: optional
 Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-external-keyring-legacy_1.4-1_all.deb
-Size: 43884
-MD5sum: 45666213717214356fe9b907df95cc53
-SHA1: 7aa50fd9f8bc33c3a23f2860625851e96f81163b
-SHA256: 5a5bd970dc48ea195b7c30e1aa3b75ab9a95562f8c8d6874ca18edcbba7e18be
-SHA512: 152092d27546e595cc14c6193fe85157f96a055f61b276af5026c9af0bff394bd6273935e6adfdcb70c850869e29644eee30e1fd5d33fe006a64983926189d76
+Filename: pool/main/devjam-external-keyring-legacy_1.5-1_all.deb
+Size: 43556
+MD5sum: 32faba66505297dc01767bfccebfbfd7
+SHA1: 516a27ce42b3a70120b916acdbd4ea508953ecfe
+SHA256: fcbd7015b6ce6e1d9210a57cc449f3b680e21c66741589ee61c9e36050190d7e
+SHA512: e3f4c63beed8469e0bcc5fe19413b31d08f383d02b336e50410a02974698ff80b552e669fe64debc9886921b27cc2cffb0926def59a7fb41293912ad740bd29f
 Description: OpenPGP keys for external apt repositories (legacy)
  Signing keys of third-party apt repositories, installed in
  /etc/apt/trusted.gpg.d for Debian Live images that still use
@@ -228,16 +228,16 @@ Description: OpenPGP keys for external apt repositories (legacy)
 
 Package: devjam-external-keyring
 Architecture: all
-Version: 1.5-1
+Version: 1.6-1
 Priority: optional
 Section: misc
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Filename: pool/main/devjam-external-keyring_1.5-1_all.deb
-Size: 48740
-MD5sum: 46e6929dd4891efcda1d3148270e0f77
-SHA1: 68fdbe0ad9ee7048b06e79abce9c669a4a7a4ddf
-SHA256: 7348a8f5bc802fab1db59e59313374b7e2fc0879d635f51e8529175b92a5face
-SHA512: fb2fd2a466154dd7fd713d27d0c41bb4a310cb58c30690445971dba10073745148b5afd3d50fca9c43e3b1cf2b986e4fce2fa42bcc2d1ed006773092d70dd7ff
+Filename: pool/main/devjam-external-keyring_1.6-1_all.deb
+Size: 48412
+MD5sum: 60657c2e7ef69da5e21fa992b86e9c91
+SHA1: 4bd2a8783617353aa71b19b0423349eeebed557c
+SHA256: 27bc0bbf1b1365f451ac3030ff0bde467ecb6b6cac3beb3716239172031edf18
+SHA512: c1890259b3b7980ed94f26221708e57dd1de9c2932b4c86f29b4e4d478ef55ae4748d69db51b27846f38cdd575461314890f33ba36e182fc00dcbd47c1a65783
 Description: OpenPGP keys for external apt repositories
  Signing keys of third-party apt repositories used on dev-jam systems,
  such as Signal, Syncthing, OnlyOffice, Nextcloud Office, XanMod,
