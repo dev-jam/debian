@@ -509,21 +509,29 @@ Description: Play and Record Sound with Python - documentation
 
 Package: python3-alsaaudio
 Architecture: amd64
-Version: 0:0.11.0-2~w2d0
+Version: 0.11.0-2+devjam1
+Built-Using: alabaster (= 0.7.16-0.1), sphinx (= 8.1.3-5)
 Priority: optional
 Section: python
+Source: pyalsaaudio
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 212
-Depends: python3 (<< 3.14), python3 (>= 3.13~), python3:any
-Filename: pool/science/python3-alsaaudio_0.11.0-2~w2d0_amd64.deb
-Size: 59940
-MD5sum: ceaa5233a7bfe74e772212421170530b
-SHA1: ecab75358d87b274b81ce9abc8011274ebfd4928
-SHA256: 7b5d64f3c6fff57af175f5ffb3f23486970b1e5a398e059f68e0cc9208132408
-SHA512: 211c01ddad6e7f72c8141419b7cb67cfbc402aa9ff2ae5d61215fdf796cb0e47a060edef65bdd2efcbbb57fdb71cb25a340c6f43ac64396d62f77cb419767074
-Homepage: http://larsimmisch.github.io/pyalsaaudio/
-Description: ALSA bindings
- This package was automatically generated from the upstream wheel by wheel2deb.
+Installed-Size: 370
+Depends: python3 (<< 3.14), python3 (>= 3.13~), libasound2t64 (>= 1.0.29), libc6 (>= 2.4), libjs-sphinxdoc (>= 8.1)
+Filename: pool/science/python3-alsaaudio_0.11.0-2+devjam1_amd64.deb
+Size: 69616
+MD5sum: cd46c98be9d9570c2c44273283ab20b5
+SHA1: cc06c457ef6579ce044c82a1956daad688c080e9
+SHA256: e112a784f3e64404d1c9146f83208b92318ff4e53aefd8c8eb814c8277f4e0e5
+SHA512: e4f15d1312b04966f671ee76331cbf74e8a378e208cb7638b8857f2bcc963fbd7166b4691a26e050df52ec3a18925c88a8dc6860dd474ecc5b6c3c7047a56778
+Homepage: https://larsimmisch.github.io/pyalsaaudio/
+Description: ALSA bindings for Python 3
+ This package contains wrappers for accessing the ALSA API from Python.
+ Access to PCM devices and Mixer is supported. Access to MIDI sequencers
+ is not supported yet.
+ .
+ This package provides the alsaaudio module for Python 3, with its HTML
+ documentation and the example programs mixertest.py, playbacktest.py and
+ recordtest.py.
 
 Package: python3-bioread
 Architecture: all
