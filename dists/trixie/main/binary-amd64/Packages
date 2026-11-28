@@ -1240,41 +1240,6 @@ Homepage: http://www.phoronix-test-suite.com/
 Description: An Automated, Open-Source Testing Framework
  The Phoronix Test Suite is the most comprehensive testing and benchmarking platform available for the Linux operating system. This software is designed to effectively carry out both qualitative and quantitative benchmarks in a clean, reproducible, and easy-to-use manner.  The Phoronix Test Suite consists of a lightweight processing core (pts-core) with each benchmark consisting of an XML-based profile with related resource scripts. The process from the benchmark installation, to the actual benchmarking, to the parsing of important hardware and software components is heavily automated and completely repeatable, asking users only for confirmation of actions.  The Phoronix Test Suite integrates with OpenBenchmarking.org for managing of test profiles and suites, optional collaborative results sharing and comparisons, and other cloud-based functionality.
 
-Package: python3-betteradbsync
-Architecture: all
-Version: 0:1.4.0-2~w2d0
-Priority: optional
-Section: python
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 135
-Depends: python3:any
-Filename: pool/main/python3-betteradbsync_1.4.0-2~w2d0_all.deb
-Size: 19052
-MD5sum: 01d59c53b8d92d8198834af43f1db3df
-SHA1: 900fe240a3d7a198740d8af2c483be19e07a3260
-SHA256: 51bb81141a71e158bec5c6485538e9ad7fdb3e14e960b2316bd0c81411697364
-SHA512: 3fe41ca966585a90d1cd47fa3f1d39ce379e8ea0bd8657f0983c173f36b763d89a91604e9df35b4e79b2afbd9fb85228671bb1946294b5d83a42c88e28fda8d2
-Description: Better version of adb-sync for Python3
- This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: python3-dirsync
-Architecture: all
-Version: 0:2.2.6-2~w2d0
-Priority: optional
-Section: python
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 62
-Depends: python3:any
-Filename: pool/main/python3-dirsync_2.2.6-2~w2d0_all.deb
-Size: 11304
-MD5sum: 46912c4851c447b50a2526d1a21741bb
-SHA1: 04815180cf92ae5f7cc0abe9187735c77c901c9e
-SHA256: 30bd25d32627778f1c94c619ddeb34624b3e313e68795631dad3f6a6448dbb85
-SHA512: 9d7324635a549b5b64d2b06fc41353e7cd0235046ee70b76d5009c0b32db465ed9b4a44814e59fb9e5bda65171db18dfb1da8947c1277abc5335b72b67cb5843
-Homepage: https://github.com/tkhyn/dirsync/
-Description: Advanced directory tree synchronisation tool
- This package was automatically generated from the upstream wheel by wheel2deb.
-
 Package: python3-dr14-tmeter
 Architecture: all
 Version: 2.0.1-1
@@ -1309,42 +1274,6 @@ SHA1: e0e47b4cea91a25623e5d7842d7d83668108eba1
 SHA256: 37c68ea2e9c8644f48b5262e04b2f582e9b483de7d9f0da58c1df1764466329f
 SHA512: a2030d4cd6dfc035b19f4f47b461c3236acac93d1035702b3cf3fef61cc6fdc55efddfc47f007e8235e4f625b0d2951fbd130c76c11604c20bc83f31a4210ceb
 Description: The free-forever Python GUI framework.
- This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: python3-ps-mem
-Architecture: all
-Version: 0:3.14-2~w2d0
-Priority: optional
-Section: python
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 99
-Depends: python3:any
-Filename: pool/main/python3-ps-mem_3.14-2~w2d0_all.deb
-Size: 19724
-MD5sum: c230cdbb977fb731a49af8fd2f553f10
-SHA1: 1f6babe6f8ca3248b97c1f8b9e5ae777b74f026d
-SHA256: 4a8925b76c313ac6f930f26182effd4efffcbe1d488f01c6ef33dd423e7bc6b9
-SHA512: 713873859e5e3f3d4b36acfa72093cc4816085db6ebe219af25d7bd10076183f5abfdf386ab59fb217fbdb153505888f717701feac2cfb5ad0c7152e4e788f34
-Homepage: http://github.com/pixelb/ps_mem
-Description: A utility to report core memory usage per program
- This package was automatically generated from the upstream wheel by wheel2deb.
-
-Package: python3-repolib
-Architecture: all
-Version: 0:1.5.1-2~w2d0
-Priority: optional
-Section: python
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 227
-Depends: python3:any
-Filename: pool/main/python3-repolib_1.5.1-2~w2d0_all.deb
-Size: 40376
-MD5sum: 660cb4121e05b01f7f3c3ac78e3ea8ab
-SHA1: 2e55a1a9643db0e33a04c7f7c03e782d130b69f5
-SHA256: 619b3a327134be3895ab832886b1a32a2b2c144fd2ea9202b38fecccdd697ce8
-SHA512: f56ad20df98f5ca40986740be542f160cee0e1adf8b6721fcfa7aee8300c8c31e39369566f5641273d4eae800bbab2688818fe3fc7093a601ad2917ff5b916fe
-Homepage: https://github.com/pop-os/repolib
-Description: Easily manage software sources
  This package was automatically generated from the upstream wheel by wheel2deb.
 
 Package: python3-rtcqs
@@ -1439,22 +1368,4 @@ Description: A New Bootable USB Solution
  need to format the disk over and over, you just need to copy
  the ISO/WIM/IMG/VHD(x)/EFI files to the USB drive
  and boot them directly.
-
-Package: wheel2deb
-Architecture: all
-Version: 0:0.9.5+bsr-1~w2d0
-Priority: optional
-Section: python
-Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 88
-Depends: python3 (>= 3.10~), python3-attr (>= 20.1), python3-colorama, python3-dirsync, python3-jinja2 (<< 4), python3-jinja2 (>= 3), python3-packaging, python3-pkginfo, python3-rich, python3-typer (>= 0.6.1), python3-wheel, python3-yaml, python3:any
-Filename: pool/main/wheel2deb_0.9.5+bsr-1~w2d0_all.deb
-Size: 18876
-MD5sum: c9fb663b32b96114c5e86127fbb9e074
-SHA1: 1b0dbd6413e73750d5a8b23ca58275a74b0ad700
-SHA256: 36799b74a0996c13c1cd420d421df092c150b76c42e55846f3d4224cba45b45a
-SHA512: ff2542751e5aee54f52cff5b4e556c19debf6b74250745a2dc40c33438fee607304cbb2f7eaac1d8a42aa3a002b22f45c51f47a46c4db709836ce95cb9e9f17b
-Homepage: https://github.com/upciti/wheel2deb
-Description: Python wheel to debian package converter
- This package was automatically generated from the upstream wheel by wheel2deb.
 

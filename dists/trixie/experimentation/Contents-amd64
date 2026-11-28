@@ -7114,8 +7114,8 @@ usr/lib/python3/dist-packages/opensesame_extensions/sigmund/sigmund/example_item
 usr/lib/python3/dist-packages/opensesame_extensions/sigmund/sigmund/sigmund.png python/python3-opensesame-extension-sigmund
 usr/lib/python3/dist-packages/opensesame_extensions/sigmund/sigmund/sigmund.py python/python3-opensesame-extension-sigmund
 usr/lib/python3/dist-packages/opensesame_extensions/sigmund/sigmund/sigmund_widget.py python/python3-opensesame-extension-sigmund
+usr/lib/python3/dist-packages/opensesame_eyelink_coregraphics-2.2.592.0.dist-info/INSTALLER python/python3-opensesame-eyelink-coregraphics
 usr/lib/python3/dist-packages/opensesame_eyelink_coregraphics-2.2.592.0.dist-info/METADATA python/python3-opensesame-eyelink-coregraphics
-usr/lib/python3/dist-packages/opensesame_eyelink_coregraphics-2.2.592.0.dist-info/RECORD python/python3-opensesame-eyelink-coregraphics
 usr/lib/python3/dist-packages/opensesame_eyelink_coregraphics-2.2.592.0.dist-info/WHEEL python/python3-opensesame-eyelink-coregraphics
 usr/lib/python3/dist-packages/opensesame_eyelink_coregraphics-2.2.592.0.dist-info/licenses/LICENSE python/python3-opensesame-eyelink-coregraphics
 usr/lib/python3/dist-packages/opensesame_plugin_audio_low_latency-14.1.0.dist-info/INSTALLER python/python3-opensesame-plugin-audio-low-latency
@@ -7124,8 +7124,8 @@ usr/lib/python3/dist-packages/opensesame_plugin_audio_low_latency-14.1.0.dist-in
 usr/lib/python3/dist-packages/opensesame_plugin_experiment_manager-4.0.6.dist-info/INSTALLER python/python3-opensesame-plugin-experiment-manager
 usr/lib/python3/dist-packages/opensesame_plugin_experiment_manager-4.0.6.dist-info/METADATA python/python3-opensesame-plugin-experiment-manager
 usr/lib/python3/dist-packages/opensesame_plugin_experiment_manager-4.0.6.dist-info/WHEEL python/python3-opensesame-plugin-experiment-manager
+usr/lib/python3/dist-packages/opensesame_plugin_eyelink-2.2.592.0.dist-info/INSTALLER python/python3-opensesame-plugin-eyelink
 usr/lib/python3/dist-packages/opensesame_plugin_eyelink-2.2.592.0.dist-info/METADATA python/python3-opensesame-plugin-eyelink
-usr/lib/python3/dist-packages/opensesame_plugin_eyelink-2.2.592.0.dist-info/RECORD python/python3-opensesame-plugin-eyelink
 usr/lib/python3/dist-packages/opensesame_plugin_eyelink-2.2.592.0.dist-info/WHEEL python/python3-opensesame-plugin-eyelink
 usr/lib/python3/dist-packages/opensesame_plugin_eyelink-2.2.592.0.dist-info/licenses/LICENSE python/python3-opensesame-plugin-eyelink
 usr/lib/python3/dist-packages/opensesame_plugin_media_player_mpy-0.2.3.dist-info/INSTALLER python/python3-opensesame-plugin-media-player-mpy
@@ -9015,8 +9015,8 @@ usr/lib/python3/dist-packages/psychtoolbox/demos/hidtest_pythonic.py python/pyth
 usr/lib/python3/dist-packages/psychtoolbox/demos/ppatest_oldschool.py python/python3-psychtoolbox
 usr/lib/python3/dist-packages/psychtoolbox/demos/ppatest_pythonic.py python/python3-psychtoolbox
 usr/lib/python3/dist-packages/psychtoolbox/hid.py	    python/python3-psychtoolbox
+usr/lib/python3/dist-packages/pygame_eyelink_coregraphics-2.2.596.0.dist-info/INSTALLER python/python3-pygame-eyelink-coregraphics
 usr/lib/python3/dist-packages/pygame_eyelink_coregraphics-2.2.596.0.dist-info/METADATA python/python3-pygame-eyelink-coregraphics
-usr/lib/python3/dist-packages/pygame_eyelink_coregraphics-2.2.596.0.dist-info/RECORD python/python3-pygame-eyelink-coregraphics
 usr/lib/python3/dist-packages/pygame_eyelink_coregraphics-2.2.596.0.dist-info/WHEEL python/python3-pygame-eyelink-coregraphics
 usr/lib/python3/dist-packages/pyqt_code_editor-1.2.0.dist-info/INSTALLER python/python3-pyqt-code-editor
 usr/lib/python3/dist-packages/pyqt_code_editor-1.2.0.dist-info/METADATA python/python3-pyqt-code-editor
@@ -9354,6 +9354,7 @@ usr/share/doc/python3-psychopy-titta-eyetracking/examples/titta_demo.psyexp pyth
 usr/share/doc/python3-psychtoolbox/changelog.Debian.gz	    python/python3-psychtoolbox
 usr/share/doc/python3-psychtoolbox/copyright		    python/python3-psychtoolbox
 usr/share/doc/python3-pygame-eyelink-coregraphics/changelog.Debian.gz python/python3-pygame-eyelink-coregraphics
+usr/share/doc/python3-pygame-eyelink-coregraphics/copyright python/python3-pygame-eyelink-coregraphics
 usr/share/doc/python3-pyqt-code-editor/changelog.Debian.gz  python/python3-pyqt-code-editor
 usr/share/doc/python3-pyqt-code-editor/copyright	    python/python3-pyqt-code-editor
 usr/share/doc/python3-pyqt-code-editor/readme.md	    python/python3-pyqt-code-editor
@@ -9388,7 +9389,10 @@ usr/share/lintian/overrides/python3-expyriment		    python/python3-expyriment
 usr/share/lintian/overrides/python3-fastnumbers		    python/python3-fastnumbers
 usr/share/lintian/overrides/python3-ffpyplayer		    python/python3-ffpyplayer
 usr/share/lintian/overrides/python3-opensesame		    science/python3-opensesame
+usr/share/lintian/overrides/python3-opensesame-eyelink-coregraphics python/python3-opensesame-eyelink-coregraphics
+usr/share/lintian/overrides/python3-opensesame-plugin-eyelink python/python3-opensesame-plugin-eyelink
 usr/share/lintian/overrides/python3-psychtoolbox	    python/python3-psychtoolbox
+usr/share/lintian/overrides/python3-pygame-eyelink-coregraphics python/python3-pygame-eyelink-coregraphics
 usr/share/lintian/overrides/python3-pyqt-code-editor	    python/python3-pyqt-code-editor
 usr/share/lintian/overrides/python3-tree-sitter		    python/python3-tree-sitter
 usr/share/lintian/overrides/python3-tree-sitter-html	    python/python3-tree-sitter-html
