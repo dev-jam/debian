@@ -1261,37 +1261,42 @@ Description: Compute the DR14 value of the given audio files
 
 Package: python3-freesimplegui
 Architecture: all
-Version: 0:5.3.0.post1-1~w2d0
+Version: 5.3.0.post1-1+devjam1
 Priority: optional
 Section: python
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 2146
-Depends: python3 (>= 3.7~), python3:any
-Filename: pool/main/python3-freesimplegui_5.3.0.post1-1~w2d0_all.deb
-Size: 609228
-MD5sum: 19bc50465b36a796cf0c027de1eec1f0
-SHA1: e0e47b4cea91a25623e5d7842d7d83668108eba1
-SHA256: 37c68ea2e9c8644f48b5262e04b2f582e9b483de7d9f0da58c1df1764466329f
-SHA512: a2030d4cd6dfc035b19f4f47b461c3236acac93d1035702b3cf3fef61cc6fdc55efddfc47f007e8235e4f625b0d2951fbd130c76c11604c20bc83f31a4210ceb
-Description: The free-forever Python GUI framework.
- This package was automatically generated from the upstream wheel by wheel2deb.
+Installed-Size: 2107
+Depends: python3:any
+Filename: pool/main/python3-freesimplegui_5.3.0.post1-1+devjam1_all.deb
+Size: 608060
+MD5sum: bd3f15ae4efa40caa7a74350061fa856
+SHA1: 85c211ff84594ff87f3520d3c4852527801e6bae
+SHA256: 39214a94b9ed772a5dbaa0f6d30c14ae2ce8559d7fbadd6c2c04d615340f7d28
+SHA512: 29a1cb003608b73b99e60cbd7e59bbd37ce40929061ee9ab1b3dcffa5f9cfeee2a7a995be0a4f5b95d18e00123bdde5c0f415064dd59e64deeef753e751a7bbb
+Homepage: https://github.com/spyoungtech/FreeSimpleGui
+Description: Free-forever Python GUI framework
+ Repackaged from the upstream wheel
+ freesimplegui-5.3.0.post1-py3-none-any.whl (FreeSimpleGUI 5.3.0.post1)
+ for Debian trixie.
 
 Package: python3-rtcqs
 Architecture: all
-Version: 0:0.6.7-2~w2d0
+Version: 0.6.7-2+devjam1
 Priority: optional
 Section: python
 Maintainer: Bob Rosbag <debian@bobrosbag.nl>
-Installed-Size: 79
-Depends: python3-freesimplegui, python3:any
-Filename: pool/main/python3-rtcqs_0.6.7-2~w2d0_all.deb
-Size: 23700
-MD5sum: a684dded542c36497639662532b669e0
-SHA1: 002ba7467bad4d20365235975f7a842c647f75a4
-SHA256: 027316dbb06c6a7dcd81f1143d657fe1f59f0a7c4969339b019eae14ed728cb0
-SHA512: 92970a6b9ccbb7158627d63e930cf7feebb662fa1348a9c474b187a8bd26ef326306d337ac665e05116c64661975e6990d6ddac557b2f9dc00aae3566d3453b8
+Installed-Size: 53
+Depends: python3 (>= 3.6~), python3:any, python3-freesimplegui
+Filename: pool/main/python3-rtcqs_0.6.7-2+devjam1_all.deb
+Size: 23608
+MD5sum: dff14b8394835310e870aef1e1ad1617
+SHA1: 618dd1cd1d69a325d00fb7c6ab454689da19fd9d
+SHA256: 8e51aa83fcc786f3ee81d81b12cbd02b0864746d6c3a57e66978aeea3f42eaf0
+SHA512: 033ccb338d1b1b3bd879c3dbe62a8bec815bb14ab1bab09310ab12b57e63fcf20e6a3b4fb62278e2f0576638d7ccac80750f9b5c132a25c3a5720846a7ca67c6
+Homepage: https://codeberg.org/rtcqs/rtcqs
 Description: Linux audio performance analyzer
- This package was automatically generated from the upstream wheel by wheel2deb.
+ Repackaged from the upstream wheel rtcqs-0.6.7-py3-none-any.whl (rtcqs
+ 0.6.7) for Debian trixie.
 
 Package: rtirq
 Architecture: all

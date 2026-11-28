@@ -1278,6 +1278,10 @@ usr/bin/extract-microvideo				    utils/devjam-tools
 usr/bin/fclones						    utils/fclones
 usr/bin/fclones-gui					    fclones-gui
 usr/bin/fsghelp						    python/python3-freesimplegui
+usr/bin/fsgissue					    python/python3-freesimplegui
+usr/bin/fsgmain						    python/python3-freesimplegui
+usr/bin/fsgsettings					    python/python3-freesimplegui
+usr/bin/fsgver						    python/python3-freesimplegui
 usr/bin/grafito						    web/grafito
 usr/bin/kim_album					    kde/kde-servicemenu-kim5
 usr/bin/kim_compress					    kde/kde-servicemenu-kim5
@@ -1310,6 +1314,7 @@ usr/bin/pipewire-restart				    sound/devjam-pipewire-scripts
 usr/bin/plasma-restart					    utils/devjam-tools
 usr/bin/reimage-kdialog					    kde/kde-servicemenu-reimage
 usr/bin/rtcqs						    python/python3-rtcqs
+usr/bin/rtcqs_gui					    python/python3-rtcqs
 usr/bin/s-benchmark-copy				    utils/devjam-s-benchmark
 usr/bin/sbuild-local					    utils/devjam-tools
 usr/bin/smart-menu					    utils/devjam-tools
@@ -1477,14 +1482,14 @@ usr/lib/python3/dist-packages/dr14tmeter/table.py	    python/python3-dr14-tmeter
 usr/lib/python3/dist-packages/dr14tmeter/tagger.py	    python/python3-dr14-tmeter
 usr/lib/python3/dist-packages/dr14tmeter/wav_write.py	    python/python3-dr14-tmeter
 usr/lib/python3/dist-packages/dr14tmeter/write_dr.py	    python/python3-dr14-tmeter
+usr/lib/python3/dist-packages/freesimplegui-5.3.0.post1.dist-info/INSTALLER python/python3-freesimplegui
 usr/lib/python3/dist-packages/freesimplegui-5.3.0.post1.dist-info/METADATA python/python3-freesimplegui
-usr/lib/python3/dist-packages/freesimplegui-5.3.0.post1.dist-info/RECORD python/python3-freesimplegui
 usr/lib/python3/dist-packages/freesimplegui-5.3.0.post1.dist-info/WHEEL python/python3-freesimplegui
 usr/lib/python3/dist-packages/freesimplegui-5.3.0.post1.dist-info/entry_points.txt python/python3-freesimplegui
 usr/lib/python3/dist-packages/freesimplegui-5.3.0.post1.dist-info/licenses/NOTICE python/python3-freesimplegui
 usr/lib/python3/dist-packages/freesimplegui-5.3.0.post1.dist-info/top_level.txt python/python3-freesimplegui
+usr/lib/python3/dist-packages/rtcqs-0.6.7.dist-info/INSTALLER python/python3-rtcqs
 usr/lib/python3/dist-packages/rtcqs-0.6.7.dist-info/METADATA python/python3-rtcqs
-usr/lib/python3/dist-packages/rtcqs-0.6.7.dist-info/RECORD  python/python3-rtcqs
 usr/lib/python3/dist-packages/rtcqs-0.6.7.dist-info/WHEEL   python/python3-rtcqs
 usr/lib/python3/dist-packages/rtcqs-0.6.7.dist-info/entry_points.txt python/python3-rtcqs
 usr/lib/python3/dist-packages/rtcqs-0.6.7.dist-info/licenses/LICENSE python/python3-rtcqs
@@ -1861,6 +1866,7 @@ usr/share/doc/phoronix-test-suite/test-profile-creation.md  Utilities/phoronix-t
 usr/share/doc/python3-dr14-tmeter/changelog.Debian.gz	    python/python3-dr14-tmeter
 usr/share/doc/python3-dr14-tmeter/copyright		    python/python3-dr14-tmeter
 usr/share/doc/python3-freesimplegui/changelog.Debian.gz	    python/python3-freesimplegui
+usr/share/doc/python3-freesimplegui/copyright		    python/python3-freesimplegui
 usr/share/doc/python3-rtcqs/changelog.Debian.gz		    python/python3-rtcqs
 usr/share/doc/python3-rtcqs/copyright			    python/python3-rtcqs
 usr/share/doc/rtirq/LICENSE.gz				    misc/rtirq
@@ -1996,6 +2002,8 @@ usr/share/lintian/overrides/devjam-tools		    utils/devjam-tools
 usr/share/lintian/overrides/devjam-x11-monitor-config	    x11/devjam-x11-monitor-config
 usr/share/lintian/overrides/fclones-gui-launcher	    utils/fclones-gui-launcher
 usr/share/lintian/overrides/live-build			    misc/live-build
+usr/share/lintian/overrides/python3-freesimplegui	    python/python3-freesimplegui
+usr/share/lintian/overrides/python3-rtcqs		    python/python3-rtcqs
 usr/share/lintian/overrides/rtirq			    misc/rtirq
 usr/share/live/build/VERSION				    misc/live-build
 usr/share/live/build/bin/Packages			    misc/live-build
